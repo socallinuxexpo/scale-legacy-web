@@ -24,7 +24,7 @@ margin-top: 30px;
 </head>
 <body>
 <?php if ( $ipv6yes )  { ?>
-<div>We see you're on IPv6. <img src="http://www.socallinuxexpo.org/scale9x/sites/all/themes/scale3/smiley%20face.jpg"><br /><br />You'll be redirected shortly. Or, <a href="/scale10x/">click here</a>.</div>
+<div>We see you're on IPv6. <img src="/scale9x/sites/all/themes/scale3/smiley%20face.jpg"><br /><br />You'll be redirected shortly. Or, <a href="/scale10x/">click here</a>.</div>
 <?php } ?>
 </body>
 </html>
