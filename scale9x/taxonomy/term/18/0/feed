@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org/scale9x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 9x - 2011 Southern California Linux Expo - Program Track C</title>
+ <link>https://www.socallinuxexpo.org/scale9x/taxonomy/term/18/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Scalable Virtualization with Ganeti</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/scalable-virtualization-ganeti</link>
+ <description>&lt;p&gt;Ganeti is an open source project which offers many solutions to simplify a clustered virtual machine environment. This session will walk through Ganeti covering its basic design goals/features, installation architecture, and production implementation.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                System Administrator        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Ganeti is a clustered virtual server management software tool built on top of existing virtualization technologies (such as Xen or KVM). This talk will discuss a case at the Oregon State University Open Source Lab (OSUOSL) where we had scaling, performance, and reliability issues with our existing VM infrastructure. We will also cover overall design, features, and basic operations of Ganeti.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Whether you need a simple scalable development virtual machine environment or need to deploy a large cloud production environment, you need a tool that is easy to use, deploy, and maintain. Ganeti is a clustered virtual server management software tool built on top of existing virtualization technologies such as Xen or KVM. It is similar to libvirt in many aspects, but different in others such as its built-in cluster support using DRBD.  The focus will be on a use case at the Oregon State University Open Source Lab (OSUOSL) where we were faced with scaling, performance, and reliability issues with our existing VM infrastructure. I’ll cover the overall design and features of Ganeti along with the basics of installing it. Additionally I’ll walk through some of the basic operations you may encounter (deployment, failover, expansion, hardware failures, etc). I&#039;ll also cover some tools that we are using to help manage our clusters.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/lance-albertson&quot;&gt;Lance Albertson&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/hqvxgv&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/hqvxgv&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/18_00-LanceAlbertson-ganeti.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                6:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Century AB        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/scalable-virtualization-ganeti#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/business">Business</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/educational">Educational</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/program-track">Program Track A</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/program-track-b">Program Track B</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/program-track-c">Program Track C</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2687 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+</channel>
+</rss>

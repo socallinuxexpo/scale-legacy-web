@@ -1,0 +1,34 @@
+SCALE 3X Signs Open Source Speakers
+
+The Southern California Linux Expo has signed these notable Open Source
+people to speak at SCALE 3x, the third annual So Cal Linux Expo:
+
+John "Maddog" Hall of Linux International
+
+Jeff Waugh, head of the GNOME Release Team and former president of the
+Sydney Linux User's Group
+
+Larry McVoy, founder of BitMover, Inc.
+
+Randy Dunlap, of OSDL.
+
+Kevin Foreman, General Manager of the Helix Initiative at RealNetworks.
+
+SCALE 3X will be held February 12th and 13th, 2005, at the Los Angeles
+Convention Center.
+
+The Linux Expo of Southern California was established in 2001. Our
+mission is to evangelize the advantages of Open Source software. Open
+Source software is any software that meets the litmus test of the OSI
+(Open Source Initiative). Examples of OSS are Linux, the various BSD
+operating systems, and applications such as OpenOffice.org and Mozilla.
+
+Our target audiences are both current and potential users of OSS. Those
+users can be individual computer users, educational institutions, or
+businesses.
+
+For additional information, see http://socallinuxexpo.com, or email
+info@socallinuxexpo.com.
+
+SCALE - bringing businesses, academic institutions and the Linux
+community together in a way that no other conference does! 

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 10x - 2012 Southern California Linux Expo - ScaleU</title>
+ <link>https://www.socallinuxexpo.org/taxonomy/term/15</link>
+ <description>The SCALE University training program continues for SCALE 10x. The classes give a more intense and personal learning experience than a 45-minute seminar.
+We are offering half-day classes for system administrators of all skill and experience levels. The SCALE University Pass  ($300) includes a full day of training (two classes of your choice) and full access to all three days of SCALE. To register, select the &quot; Full Access Pass&quot; and then the &quot;SCALE University Pass&quot; which will include a $60 discount on your total charge.
+The SCALE University classes will be held on Friday, Janury 20th, 2012. 
+</description>
+ <language>en</language>
+<item>
+ <title>LPI Exam Cram - LPI-102</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/lpi-exam-cram-lpi-102</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/15&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;ScaleU&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Ross Brunson of LPI will host two half day exam cram sessions for  LPI-101 and LPI-102 -- exams necessary for LPIC-1 certification.  These sessions will assist exam candidates in preparing for the LPIC-1  exams.  Exam cram sessions include information on exam structure,  question types, and how to use practical experience and one&#039;s knowledge  of Linux to determine the correct answers to exam questions.  Participants in these exam cram sessions will also gain important tips, tricks and techniques in order to successfully complete and pass their  LPI exams.  Ross is an experienced presenter on this subject and welcomes all questions during his examcram sessions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note: This class is part of the SCALE University Program and includes an additional fee. Please remember to select the &quot;SCALE University&quot; addon at registration.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 21 Dec 2011 11:22:15 +0000</pubDate>
+ <dc:creator>RossBrunson</dc:creator>
+ <guid isPermaLink="false">391 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/lpi-exam-cram-lpi-102#comments</comments>
+</item>
+<item>
+ <title>LPI Exam Cram - LPI-101</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/lpi-exam-cram-lpi-101</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/15&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;ScaleU&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Ross Brunson of LPI will host two half day exam cram sessions for  LPI-101 and LPI-102 -- exams necessary for LPIC-1 certification.  These sessions will assist exam candidates in preparing for the LPIC-1 exams.  Exam cram sessions include information on exam structure,  question types, and how to use practical experience and one&#039;s knowledge  of Linux to determine the correct answers to exam questions. Participants in these exam cram sessions will also gain important tips, tricks and techniques in order to successfully complete and pass their  LPI exams.  Ross is an experienced presenter on this subject and welcomes all questions during his examcram sessions. &lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;Note: This class is part of the SCALE University Program and includes an additional fee. Please remember to select the &quot;SCALE University&quot; addon at registration.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 21 Dec 2011 11:20:56 +0000</pubDate>
+ <dc:creator>RossBrunson</dc:creator>
+ <guid isPermaLink="false">390 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/lpi-exam-cram-lpi-101#comments</comments>
+</item>
+<item>
+ <title>Puppet Master Training</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/puppet-master-training</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/15&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;ScaleU&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;A compressed version of Puppet Labs 3 day Puppet Master training, this course is ideal for those who want a Puppet jumpstart. Newer members at an organization already using Puppet, or experienced sysadmins wanting to bring Puppet into their team will get everything they need to hit the ground running.&lt;/p&gt;
+&lt;p&gt;Topics covered include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Configuring Puppet and Puppetmaster&lt;/li&gt;
+&lt;li&gt;Resource Types and the Resource Abstration Layer&lt;/li&gt;
+&lt;li&gt;Virtual Resources, Exported Resources and Stored Configs&lt;/li&gt;
+&lt;li&gt;Meta-parameters, Dependencies and Events&lt;/li&gt;
+&lt;li&gt;Classes, Modules and Definitions&lt;/li&gt;
+&lt;li&gt;Tags and Environments&lt;/li&gt;
+&lt;li&gt;Puppet Language Patterns and Best Practices&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;strong&gt;Pre-requisites:&lt;/strong&gt;
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Attendees should have at least the equivalent experience of a junior Unix/Linux administrator.&lt;/li&gt;
+&lt;li&gt;Each student should bring a WiFi enabled laptop with VMWare installed to participate in the labs.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;strong&gt;Note: This class is part of the SCALE University Program and includes an additional fee. Please remember to select the &quot;SCALE University&quot; addon at registration.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 19 Dec 2011 05:07:18 +0000</pubDate>
+ <dc:creator>ccaum</dc:creator>
+ <guid isPermaLink="false">380 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/puppet-master-training#comments</comments>
+</item>
+<item>
+ <title>Time Management for System Administrators</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/time-management-system-administrators</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/15&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;ScaleU&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Based on Tom Limoncelli&#039;s life-saving book, this course will cover Tom&#039;s Cycle System. These time management tips and practices can greatly increase the efficiency of any single sysadmin, and when applied in a group their effects can be a quantum shift in productivity. They also give the sysadmin practitioner greater peace of mind and more power and control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note: This class is part of the SCALE University Program and requires an additional fee. Please remember to select the &quot;SCALE University&quot; addon at registration.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 09 Dec 2011 11:56:57 +0000</pubDate>
+ <dc:creator>atsaloli</dc:creator>
+ <guid isPermaLink="false">355 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/time-management-system-administrators#comments</comments>
+</item>
+<item>
+ <title>Technical Resume Writing</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/technical-resume-writing</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/15&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;ScaleU&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Technical Resume Writing covers the high points of overhauling your resume to receive better responses from the HR &quot;gatekeepers&quot; as well as potential IT managers and colleagues. Topics covered will include: &quot;career objective&quot; versus &quot;professional summary&quot;/&quot;profile&quot;, improving the 30 second response to your resume, adding quantitative information to your resume, the type of resume to use, tailoring resumes to specific job listings, and improving the visual design of your resume. Real-world examples of before and after resumes help demonstrate how to adapt your own experiences. The principles taught apply to social networking profiles in addition to paper and on-line resumes. Bring your resume and be ready to ask specific questions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note: This class is part of the SCALE University Program and requires an additional fee. Please remember to select the &quot;SCALE University&quot; addon at registration.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 09 Dec 2011 11:55:20 +0000</pubDate>
+ <dc:creator>NadineMiller</dc:creator>
+ <guid isPermaLink="false">354 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/technical-resume-writing#comments</comments>
+</item>
+<item>
+ <title>CANCELLED - Deep Packet Inspection Using Wireshark</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/cancelled-deep-packet-inspection-using-wireshark</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/5&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Intermediate&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/15&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;ScaleU&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt; Sometimes  tools like PING and Traceroute aren’t enough to isolate the cause of network problems.&lt;/p&gt;
+&lt;p&gt;This class will take a hands-on approach to learning how to use the Wireshark protocol analyzer to analyze network traffic. Numerous examples will be used throughout the day to walk the attendees though the process of filtering out those packets that are working well and drilling down to those that are at the root of the problem.&lt;/p&gt;
+&lt;p&gt;Attendees will be provided with a CD containing open source network troubleshooting tools, as well as the trace files used in the class. Laptops are required&lt;/p&gt;
+&lt;p&gt; Course Outline:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt; Installing and Configuring Wireshark&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt; Using Display Filters&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt; Using Capture Filters&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt; Isolating the cause of slow data transfers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt; Running Wireshark from the command-line&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt; Building a capture to disk appliance&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; Who Should Attend:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;p&gt; Network Administrators&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt; Network Analysts&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt; Server Administrators&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt; Desktop Administrators&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt; Network Managers&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note: This class is part of the SCALE University Program and requires an additional fee. Please remember to select the &quot;SCALE University&quot; addon at registration.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-presentation-file field-type-file field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Presentation Slides:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span class=&quot;file&quot;&gt;&lt;img class=&quot;file-icon&quot; alt=&quot;&quot; title=&quot;application/pdf&quot; src=&quot;/modules/file/icons/application-pdf.png&quot; /&gt; &lt;a href=&quot;https://www.socallinuxexpo.org/sites/default/files/presentations/Bokor-Wireshark-2012-SCALE.pdf&quot; type=&quot;application/pdf; length=2382450&quot;&gt;Bokor-Wireshark-2012-SCALE.pdf&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 09 Dec 2011 11:51:50 +0000</pubDate>
+ <dc:creator>PaulBokor</dc:creator>
+ <guid isPermaLink="false">353 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/cancelled-deep-packet-inspection-using-wireshark#comments</comments>
+</item>
+<item>
+ <title>NASes for the Masses</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/nases-masses</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/5&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Intermediate&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/15&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;ScaleU&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;We will start with an examination of the pros and cons of different base operating systems as well as off-the-shelf NAS servers (both hardware and software). We will look at the more popular RAID levels and the impacts of software vs. hardware RAID implementations, data reliability, and rebuild time. We&#039;ll spend some time exploring ZFS. Attention will be paid to backups and some of the more common protocols used for accessing data from a NAS server. &lt;/p&gt;
+&lt;p&gt;In the later part of the class we will use a ready-made software implementation of a file server to delve into the potential issues involved in setup and maintenance of the server. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note: This class is part of the SCALE University Program and requires an additional fee. Please remember to select the &quot;SCALE University&quot; addon at registration.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 09 Dec 2011 11:31:47 +0000</pubDate>
+ <dc:creator>leedamon</dc:creator>
+ <guid isPermaLink="false">352 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/nases-masses#comments</comments>
+</item>
+</channel>
+</rss>

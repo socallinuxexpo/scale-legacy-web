@@ -1,0 +1,40 @@
+So Cal Linux Expo Early Registration Ending
+
+Los Angeles, CA December 28, 2004
+
+If you're interested in Linux and Open source Software, the Southern
+California Linux Expo is for you. There are seminars by well-known
+speakers, tutorials for beginners, and both vendor booths and non-
+commercial booths.
+
+If you think you'd like to attend SCALE, don't delay; early registration
+with discount admission ends December 31st!
+These speakers have been added to the roster:
+
+Ted Gould - Inkscape
+Jefferey Bianchine - author of Mastering phpMyAdmin for Effective MySQL
+Management
+
+These sponsors are newly signed with the Linux Expo:
+Barracuda Networks - Basic Sponsor
+Petta Technology - Basic Sponsor
+ObjectWeb - Media Sponsor
+New Avenue Systems - Basic Sponsor
+LinuxLookup.com - Media Sponsor
+21st Century Software - Basic Sponsor
+
+Do you have a GPG or PGP security key? You can expand your web of trust
+at the SCALE 3X Key Signing party.  If you'd like to participate, you
+should bring at least one legible copy of your GPG / PGP key
+fingerprint. A picture ID is recommended, but not required. If you plan
+to participate, send your public key to keysigning@socallinuxexpo.org.
+
+SCALE 3X will be held February 12th and 13th, 2005, at the Los Angeles
+Convention Center.
+
+The Linux Expo of Southern California was established in 2001. Our
+mission is to evangelize the advantages of Open Source software.
+
+For more information on speakers and sponsors, see
+http://socallinuxexpo.com, or email info@socallinuxexpo.com.
+

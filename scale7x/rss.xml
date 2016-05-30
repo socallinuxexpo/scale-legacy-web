@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.socallinuxexpo.org/scale7x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Southern California Linux Expo</title>
+ <link>http://www.socallinuxexpo.org/scale7x</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>                 Welcome To SCALE 7x!</title>
+ <link>http://www.socallinuxexpo.org/scale7x/conference-info/welcome</link>
+ <description>&lt;h2 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Expo Schedule Overview&lt;/span&gt;&lt;br /&gt;&lt;/h2&gt;
+&lt;h3 style=&quot;text-align: center;&quot;&gt;February 20th&lt;/h3&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a target=&quot;_self&quot; href=&quot;http://www.dohcs.org/&quot;&gt;DOHCS&lt;/a&gt;, &lt;a target=&quot;_self&quot; href=&quot;/conference-info/open-source-software-in-education&quot;&gt;OSSIE&lt;/a&gt;,  &lt;a target=&quot;_self&quot; href=&quot;/conference-info/scale-7x-women-in-open-source&quot;&gt;WIOS&lt;/a&gt;, &lt;a target=&quot;_self&quot; href=&quot;/conference-info/scale-u&quot;&gt;SCALE University&lt;/a&gt;, &lt;a target=&quot;_self&quot; href=&quot;http://blog.zenoss.com/2009/01/25/zenoss-community-day-february-20th/&quot;&gt;ZENOSS Community Day&lt;/a&gt;, &lt;a target=&quot;_blank&quot; href=&quot;http://fedoraproject.org/wiki/FedoraEvents/FAD/FAD_SCaLE&quot;&gt;Fedora Activity Day&lt;/a&gt;, and &lt;a target=&quot;_blank&quot; href=&quot;http://svn-summit.open.collab.net/&quot;&gt;Subversion Community Day&lt;/a&gt;&lt;/p&gt;
+&lt;h3 style=&quot;text-align: center;&quot;&gt;February 21st&lt;/h3&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a target=&quot;_self&quot; href=&quot;https://register.bsdcertification.org/register/events/scale-2009&quot;&gt;BSD Certification Exams&lt;/a&gt;; &lt;a target=&quot;_self&quot; href=&quot;  https://wiki.ubuntu.com/CaliforniaTeam/Projects/Scale7x/BugJam&quot;&gt;Ubuntu Bug Jam&lt;/a&gt;; &lt;a target=&quot;_self&quot; href=&quot;/conference-info/exhibitors&quot;&gt;Expo floor&lt;/a&gt; and &lt;a target=&quot;_self&quot; href=&quot;/conference-info/schedules&quot;&gt;Conference Sessions&lt;/a&gt;&lt;/p&gt;
+&lt;h3 style=&quot;text-align: center;&quot;&gt;February 22nd&lt;/h3&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a target=&quot;_self&quot; href=&quot;  https://wiki.ubuntu.com/CaliforniaTeam/Projects/Scale7x/BugJam&quot;&gt;Ubuntu Bug Jam&lt;/a&gt;;&lt;a target=&quot;_self&quot; href=&quot;/conference-info/exhibitors&quot;&gt; Expo floor&lt;/a&gt; and &lt;a target=&quot;_self&quot; href=&quot;/conference-info/schedules&quot;&gt;Conference Sessions&lt;/a&gt;&lt;/p&gt;
+</description>
+ <pubDate>Tue, 13 Jan 2009 04:57:49 +0000</pubDate>
+ <dc:creator>matt</dc:creator>
+ <guid isPermaLink="false">264 at http://www.socallinuxexpo.org/scale7x</guid>
+</item>
+</channel>
+</rss>

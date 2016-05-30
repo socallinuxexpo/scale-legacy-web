@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org/scale9x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 9x - 2011 Southern California Linux Expo - OSSIE</title>
+ <link>https://www.socallinuxexpo.org/scale9x/taxonomy/term/12/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Linux case in Public Fundamental Schools and in a Private College in Brazil</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/linux-case-public-fundamental-schools-and-private-college-brazil</link>
+ <description>&lt;p&gt;An overview about how public schools and an private college in Brazil are facing and working with Linux from the fundamental education to the high technology degree.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/open-source-software-education&quot;&gt;OSSIE&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;An overview about how public schools and a private college in Brazil are facing and working with Linux. Guided by the Federal Educational Government Program - Linux Educacional, public schools work with Linux to help support free software culture and its benefits to the fundamental education. A private college uses and develops opensource in IT and Social Communications courses.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;An overview about how public schools and an private college in Brazil are facing and working with Linux from the fundamental education to the high technology degree. Public schools working with Linux guided by the Federal Educational Governament Program - Linux Educacional - helping to support free software culture and benefits to the fundamental education and a case about a Private College that&#039;s support the use and develop opensource in IT courses and Social Comunications such as Journalism, Publicity, Public Relations, Digital Media and TV &amp;amp; Radio. Case showing TV programs and Newspaper using free software tools.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/izabel-valverde&quot;&gt;Izabel Valverde&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/carlos-ribeiro&quot;&gt;Carlos Ribeiro&lt;/a&gt;&lt;br /&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/15_00-Izabel-Carlor-Linux-Brazil.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                3:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles C        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/linux-case-public-fundamental-schools-and-private-college-brazil#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ossie">OSSIE</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2790 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Moodle GIFT Question Format</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/moodle-gift-question-format</link>
+ <description>&lt;p&gt;Moodle supports many import/export formats for test and quiz questions. The GIFT format is an easy to use text markup that allows the instruc tor to concentrate on the questions rather than the tool.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/open-source-software-education&quot;&gt;OSSIE&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;The talk will give examples and live imports of GIFT formatted questions. Supported question types include automagic grading for types such as MCSA, MCMA, TF, short answer, matching, fill in and numerical. It also supports essay questions. Categories, comments, question names, question feedback, multiple answers and weighted answers are all supported.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;The talk will give examples and live imports of GIFT formatted questions. Supported question types include automagic grading for types such as MCSA, MCMA, TF, short answer, matching, fill in and numerical. It also supports essay questions.  Categories, comments, question names, question feedback, multiple answers and weighted answers are all supported.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/der-hans&quot;&gt;der. hans&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/18_00-der.Hans-Moodle_gIFT_Question_Format.odp&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                6:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles C        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/moodle-gift-question-format#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ossie">OSSIE</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2792 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>OLPC and Sugar Invite You To Come Play With Us!</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/olpc-and-sugar-invite-you-come-play-us</link>
+ <description>&lt;p&gt;Find out how you can be a part of this exciting worldwind opensource educational project.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/open-source-software-education&quot;&gt;OSSIE&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;One of the most fun and interesting Open Source success stories is OLPC&#039;s XO computer and Sugar software.  Volunteers from all over contribute to bring new and exciting ways to learn to children.  Find the latest OLPC and Sugar Labs news, and how you can get involved.  Look at some Contributors Program project success stories and see how you may borrow XO computers to contribute to the OLPC community. Come play with us!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;One of the most fun and interesting open source success stories is that of OLPC&#039;s XO computer and the associated Sugar software.  Hundreds of volunteers of all ages, from countries all over the globe are contributing their talents and expertise to help bring new and exciting ways to learn to over a million children worldwide.   Come find out the latest OLPC and Sugar Labs news, and how you can get involved in this exciting project. Whether you are a developer who wants to code, a hacker who wants to try to break (test) new programs, or a hardware geek who wants to find neat ways to connect new and wonderful things to the XO computer, there is a place for you. Teachers and students, parents and children, are also needed to provide feedback and suggestions for new ways to use the Sugar software.  For starters, we will take a look at some of the favorite Activities (programs) included in the latest software releases and explain how you and your friends and family can get it free to run and test on your own computers   Then we will look at some of the many Contributors Program project success stories, including hardware and software projects and small deployments around the world. We will explain how you may be able to borrow XO computers to develop your own project that will contribute to the greater OLPC community. Come play with us!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/caryl-bigenho&quot;&gt;Caryl Bigenho&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/11_30-CarylBigenho-OLPC_and_Sugar.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                11:30am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles C        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/olpc-and-sugar-invite-you-come-play-us#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ossie">OSSIE</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2793 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>A Reflection on Classroom Robotics with Linux</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/reflection-classroom-robotics-linux</link>
+ <description>&lt;p&gt;Experiences with Open Source at Los Angeles Charter Schools&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/open-source-software-education&quot;&gt;OSSIE&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Eugene and John met at Academia Avance Charter High School. Eugene was a systems programmer. John was teaching algebra and assigned the task of implementing a robotics program. They collaborated, pooling experiences and expertise. School administration promoted Open Source in the classroom, and was supportive of this collaboration. This is a report of that project: what worked, what didn&#039;t, and where to go next.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Eugene and John met at Academia Avance Charter High School. Eugene was a systems programmer. John was teaching algebra and assigned the task of implementing a robotics program. They collaborated, pooling experiences and expertise. School administration promoted Open Source in the classroom, and was supportive of this collaboration. This is a report of that project: what worked, what didn&#039;t, and where to go next.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/eugene-clement&quot;&gt;Eugene Clement&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/john-wise&quot;&gt;John Wise&lt;/a&gt;&lt;br /&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/13_30-Eugene-John-Classroom-reflection.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                1:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles C        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/reflection-classroom-robotics-linux#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ossie">OSSIE</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2831 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Introduction to Etoys and Squeak</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/introduction-etoys-and-squeak</link>
+ <description>&lt;p&gt;Open Source Visual Learning Tools&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/open-source-software-education&quot;&gt;OSSIE&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Etoys is a visual tool for teaching children powerful ideas. It can be used to create active essays, do simulations, program games etc. Etoys is free software written in Squeak Smalltalk and has a world-wide community. Its most notable deployment is on OLPC XO laptops under Sugar as well as Gnome, but Etoys runs identically on all major computing platforms, including Mac OS X and Windows.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Etoys is a visual tool for teaching children powerful ideas. It can be used to create active essays, do simulations, program games etc. Etoys is free software written in Squeak Smalltalk and has a world-wide community. Its most notable deployment is on OLPC XO laptops under Sugar as well as Gnome, but Etoys runs identically on all major computing platforms, including Mac OS X and Windows.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/bert-freudenberg&quot;&gt;Bert Freudenberg&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                4:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles C        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/introduction-etoys-and-squeak#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ossie">OSSIE</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2892 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Open Technologies in the Education Enterprise</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/open-technologies-education-enterprise</link>
+ <description>&lt;p&gt;The most disruptive technologies of the 21st Century&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/open-source-software-education&quot;&gt;OSSIE&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Open-source software, open standards, and open content have been described as &quot;the most disruptive technologies of the 21st century.&quot; While open technologies are fast making inroads into education, most of the discussion has focused on cost. The mentality of &quot;doing the same for less&quot; has sadly overlooked the true benefit of open technologies: value. The potential of open technologies is not merely cost savings but a fundamental transformation of the way education technology leaders drive innovation.   From infrastructure to classroom applications, this session will demonstrate tangible benefits and real world examples of open solutions in action on a large scale. Discover the value of open technologies, as well as their impact on ed-tech innovation from the perspective of a large Southern California school district with a well-established open technologies program.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Open-source software, open standards, and open content have been described as &quot;the most disruptive technologies of the 21st century.&quot; While open technologies are fast making inroads into education, most of the discussion has focused on cost. The mentality of &quot;doing the same for less&quot; has sadly overlooked the true benefit of open technologies: value. The potential of open technologies is not merely cost savings but a fundamental transformation of the way education technology leaders drive innovation.   From infrastructure to classroom applications, this session will demonstrate tangible benefits and real world examples of open solutions in action on a large scale. Discover the value of open technologies, as well as their impact on ed-tech innovation from the perspective of a large Southern California school district with a well-established open technologies program.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/jim-klein&quot;&gt;Jim Klein&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/10_00-Jim-Klein-Open-Tech.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                10:00am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles C        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/open-technologies-education-enterprise#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ossie">OSSIE</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2908 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+</channel>
+</rss>

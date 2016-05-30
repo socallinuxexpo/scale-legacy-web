@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 10x - 2012 Southern California Linux Expo - Sponsored</title>
+ <link>https://www.socallinuxexpo.org/scale10x/topic/sponsored</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>LPI and BSDA Certification Exams</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/lpi-and-bsda-certification-exams</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/sponsored&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Sponsored&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;LPI and BSDA will be offering certification exams at SCALE 10x. For more information and to register for exams click the links bellow.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.socallinuxexpo.org/scale10x/events/bsda-certification-exams&quot;&gt;BSDA Exams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.socallinuxexpo.org/scale10x/events/lpi-exam-certification&quot;&gt;LPI Exams&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 19 Dec 2011 11:42:17 +0000</pubDate>
+ <dc:creator>ron</dc:creator>
+ <guid isPermaLink="false">385 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/lpi-and-bsda-certification-exams#comments</comments>
+</item>
+<item>
+ <title>Build A Cloud Day</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/build-cloud-day</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/sponsored&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Sponsored&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://cloudstack.org/about-cloudstack/cloudstack-events/viewevent/31-build-an-open-source-cloud-day-los-angeles.html&quot;&gt;Build a Cloud Day&lt;/a&gt;  will be dedicated to teaching users how to build and manage a cloud computing environment using free and open source software. The program is designed to expose attendees to the concepts and best practices around deploying cloud computing infrastructure.&lt;/p&gt;
+&lt;p&gt;Attendees should expect to learn how to deploy a cloud computing environment using CloudStack and other cloud infrastructure tools including those from Red Hat, Gluster, Puppet Labs and Opscode that automate server and network configuration for building highly available cloud computing environments.&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&quot;http://cloudstack.org/about-cloudstack/cloudstack-events/viewevent/31-build-an-open-source-cloud-day-los-angeles.html&quot;&gt;register&lt;/a&gt; for this event on the &lt;a href=&quot;http://cloudstack.org/about-cloudstack/cloudstack-events/viewevent/31-build-an-open-source-cloud-day-los-angeles.html&quot;&gt;CloudStack site &lt;/a&gt;so we can get an accurate headcount for food and beverages.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 21 Dec 2011 11:30:51 +0000</pubDate>
+ <dc:creator>mrhinkle</dc:creator>
+ <guid isPermaLink="false">392 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/build-cloud-day#comments</comments>
+</item>
+<item>
+ <title>juju Charm School</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/juju-charm-school</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/5&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Intermediate&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/sponsored&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Sponsored&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;juju Charm School is an event where a juju expert is available to answer questions about writing your own juju charms. The intended audience are people who deploy software and want to contribute charms to the wider devops community to make deploying in the public and private cloud easy. Though not required, we recommend that you have juju installed and configured if you want to get deep into the event.&lt;/p&gt;
+&lt;p&gt;Attendees are more than welcome to:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Ask questions about juju and charms&lt;/li&gt;
+&lt;li&gt;Ask for help modifying existing scripts and make charms out of them&lt;/li&gt;
+&lt;li&gt;Ask for peer review on existing charms you might be working on.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;strong&gt;Sponsored by Canonical:&lt;/strong&gt;&lt;strong&gt;&lt;a href=&quot;http://www.canonical.com&quot;&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 19 Dec 2011 09:04:37 +0000</pubDate>
+ <dc:creator>jorge</dc:creator>
+ <guid isPermaLink="false">382 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/juju-charm-school#comments</comments>
+</item>
+</channel>
+</rss>

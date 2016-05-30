@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Guest Post: PGP Keysigning at SCALE 9x | SCALE 9x - 2011 Southern California Linux Expo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/all/themes/scaleA/images/9x_favicon.png" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="../sites/socallinuxexpo.org.scale9x/files/css/css_8663af63fcc6d3c328985a10a85ea7f6.css" />
+<link type="text/css" rel="stylesheet" media="print" href="../sites/socallinuxexpo.org.scale9x/files/css/css_03589a02fcd8599891acab802cdc2686.css" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/scale9x/sites/all/themes/zen/zen/ie.css?J" />
+<![endif]-->
+  <script type="text/javascript" src="../sites/socallinuxexpo.org.scale9x/files/js/js_df53f38a7c43698827be244a3df4dd3e.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/scale9x/", "beautytips": { ".beautytips": { "fill": "#8cadcb", "strokeWidth": 0, "strokeStyle": "#8cadcb", "width": "100px", "padding": "20px", "cornerRadius": 12, "spikeGirth": 25, "spikeLength": 50, "shadowBlur": 15, "shadow": true, "cssStyles": { "color": "white", "fontSize": "12px" }, "cssSelect": ".beautytips", "list": [ "fill", "strokeWidth", "strokeStyle", "width", "padding", "cornerRadius", "spikeGirth", "spikeLength", "shadowBlur", "shadow", "cssStyles" ] } }, "dhtmlMenu": { "slide": "slide", "siblings": 0, "relativity": 0, "children": 0, "clone": 0, "doubleclick": 0 } });
+//--><!]]>
+</script>
+</head>
+<body class="not-front not-logged-in node-type-blog one-sidebar sidebar-left page-blog-guest-post-pgp-keysigning-scale-9x section-blog">
+
+  <div id="page"><div id="page-inner">
+
+    <a name="top" id="navigation-top"></a>
+          <div id="skip-to-nav"><a href="2824.html#navigation">Skip to Navigation</a></div>
+    
+                      <div id="search-box">
+              <form action="2824.html"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-2728ff6d30f63eb7ca9de5b0bfb87b23" value="form-2728ff6d30f63eb7ca9de5b0bfb87b23"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+            </div> <!-- /#search-box -->
+          
+    <div id="header"><div id="header-inner" class="clear-block">
+
+              <div id="logo-title">
+
+                      <div id="logo"><a href="../index.html" title="Home" rel="home"><img src="../sites/all/themes/scaleA/images/scale_header_logo.png" alt="Home" id="logo-image" /></a></div>
+          
+          
+          
+        </div> <!-- /#logo-title -->
+      
+      
+    </div></div> <!-- /#header-inner, /#header -->
+
+    <div id="main"><div id="main-inner" class="clear-block with-navbar">
+
+      <div id="content"><div id="content-inner">
+
+        
+        
+                  <div id="content-header">
+                                      <h1 class="title">Guest Post: PGP Keysigning at SCALE 9x</h1>
+                                                          </div> <!-- /#content-header -->
+        
+        <div id="content-area">
+          <div id="node-2824" class="node node-type-blog"><div class="node-inner">
+
+  
+  
+  
+      <div class="meta">
+              <div class="submitted">
+          Submitted by ilan on Jan 27, 2011        </div>
+      
+          </div>
+  
+  <div class="content">
+    <div class="field field-type-filefield field-field-blog-image">
+    <div class="field-items">
+            <div class="field-item odd">
+                <img src="../sites/socallinuxexpo.org.scale9x/files/imagecache/blog_image/scale8x_keysigningparty_0.JPG" alt="" title=""  class="imagecache imagecache-blog_image imagecache-default imagecache-blog_image_default" width="200" height="205" />        </div>
+        </div>
+</div>
+<div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; margin: 8px;">
+<p><span style="font-size: 14px; line-height: 18px; font-family: 'Trebuchet MS','Bitstream Vera Sans',sans-serif;"> </span></p>
+<p style="margin-top: 1em; margin-right: 0px; margin-bottom: 1em; margin-left: 0px;"><strong>From our guest blogger Phil Dibowitz (SCALE Co-Founder and Tech Committee Chair Emeritus):</strong></p>
+<p style="padding-left: 30px;">Last year <a href="http://phildev.net/">I</a> - along with a few others - put some thought into how to&nbsp;<a href="http://www.socallinuxexpo.org/scale8x/blog/pgp-keysigning-scale-8x.html">make the PGP keysigning experience better</a>. After 8 years of parties, I felt there was room for improvement.</p>
+<p style="padding-left: 30px;">The first thing we did was get rid of RSVPs by allowing people to submit fingerprints with their <a href="../../reg7/index.html">registration</a>. Then we printed that fingerprint on their badge for easy verification for anyone who couldn't make it to the event itself.</p>
+<p style="padding-left: 30px;">The results were obvious: the largest SCALE keysigning party by more than triple our previous record. The event had to move to the hallway for the conga line, ran two hours, and caught the attention countless people who didn't sign up but wanted to know how they could be there next time.</p>
+<p style="padding-left: 30px;">It wasn't perfect though. Many people have two keys - one for work and one for personal use - and could not submit them. Also, more than a quarter of attendees had missed a few characters when copy-and-pasting their fingerprints during registration. So this year we've added format-checking on the fingerprints as well as made it possibly to register two keys!</p>
+<p style="padding-left: 30px;">I'm proud to once again be hosting the <a href="http://www.socallinuxexpo.org/scale9x/special-events/pgp-keysigning-party">SCALE 9x PGP Keysigning Party</a>! I hope this year is even bigger and better than last year. See you there!</p>
+</div>
+<div id="disqus_thread"></div><noscript><div class="disqus-noscript"><a href="http://southerncalifornialinuxexpo.disqus.com/?url=https%3A%2F%2Fwww.socallinuxexpo.org%2Fscale9x%2Fnode%2F2824">View the discussion thread.</a></div></noscript>  </div>
+
+  <ul class="links inline"><li class="comment_forbidden first last"></li>
+</ul>
+</div></div> <!-- /node-inner, /node -->
+        </div>
+
+        
+        
+      </div></div> <!-- /#content-inner, /#content -->
+
+              <div id="navbar"><div id="navbar-inner" class="clear-block region region-navbar">
+
+          <a name="navigation" id="navigation"></a>
+
+                      <div id="primary">
+              <ul class="links"><li class="menu-114 first"><a href="../index.html" title="">Home</a></li>
+<li class="menu-3770"><a href="../special-events.1.html" title="Events taking place within SCALE">Special Events</a></li>
+<li class="menu-4973"><a href="../schedule.html" title="">Schedule</a></li>
+<li class="menu-846 last"><a href="../blog.1.html" title="">Blog</a></li>
+</ul>            </div> <!-- /#primary -->
+          
+          
+        </div></div> <!-- /#navbar-inner, /#navbar -->
+      
+              <div id="secondary_navbar"><div id="secondary_navbar-inner" class="clear-block region region-secondary_navbar">
+
+          <!--<a name="navigation" id="navigation"></a> -->
+
+          
+          
+        </div></div> <!-- /#navbar-inner, /#navbar -->
+      
+              <div id="sidebar-left"><div id="sidebar-left-inner" class="region region-left">
+          <div id="block-views-special_events-block_1" class="block block-views region-odd odd region-count-1 count-1"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-special-events view-id-special_events view-display-id-block_1 view-dom-id-1">
+        <div class="view-header">
+      <h2><i>check out these other special events at SCALE</i></h2>
+    </div>
+  
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/ubucon.html">UbuCon</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/scale-9x-birds-feather.html">SCALE 9x Birds of a Feather</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/upscale.html">UpSCALE</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/splunk-training.html">Splunk Training</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/pgp-keysigning-party.html">PGP Keysigning Party</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/lpi-testing.html">LPI Testing</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/open-source-software-education.html">Open Source Software In Education</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/build-open-source-cloud-day.html">Build an Open Source Cloud Day</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/opensuse-day.html">openSUSE Day</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-10 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/foss-mentoring.html">FOSS Mentoring</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-11 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/devops-day-los-angeles.html">DevOps Day Los Angeles</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-12 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/los-angeles-postgresql-day.html">Los Angeles PostgreSQL Day</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-13 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/scale-university.html">SCALE University</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-14 views-row-even views-row-last">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/fedora-activity-day.html">Fedora Activity Day</a></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> 
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+        </div></div> <!-- /#sidebar-left-inner, /#sidebar-left -->
+      
+      
+    </div></div> <!-- /#main-inner, /#main -->
+
+          <div id="footer"><div id="footer-inner" class="region region-footer">
+
+        
+        <div id="block-menu-menu-tertiary-links" class="block block-menu region-odd even region-count-1 count-2"><div class="block-inner">
+
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first dhtml-menu "><a href="../about-scale.html" title="" id="dhtml_menu-748">About SCALE</a></li>
+<li class="leaf  dhtml-menu "><a href="../media.1.html" title="" id="dhtml_menu-3738">Media</a></li>
+<li class="leaf  dhtml-menu "><a href="../past-events.html" title="" id="dhtml_menu-3128">Past Events</a></li>
+<li class="leaf  dhtml-menu "><a href="../policies.html" title="A page where SCALE&#039;s legal disclaimers are kept." id="dhtml_menu-5336">Terms and Conditions</a></li>
+<li class="leaf last dhtml-menu "><a href="../committees.html" title="Contact information for the Linux Expo Committees" id="dhtml_menu-919">The SCALE Committees</a></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-1" class="block block-block region-even odd region-count-2 count-3"><div class="block-inner">
+
+  
+  <div class="content">
+    <p>Copyright 2002-2011 Linux Expo of Southern California. All Rights Reserved.</p>
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+
+      </div></div> <!-- /#footer-inner, /#footer -->
+    
+  </div></div> <!-- /#page-inner, /#page -->
+
+  
+  <script type="text/javascript">var disqus_url = "https://www.socallinuxexpo.org/scale9x/node/2824";var disqus_title = "Guest Post: PGP Keysigning at SCALE 9x";var disqus_message = "     From our guest blogger Phil Dibowitz (SCALE Co-Founder and Tech Committee Chair Emeritus):";var disqus_identifier = "node/2824";</script><script type='text/javascript' src='http://disqus.com/forums/southerncalifornialinuxexpo/embed.js'></script>
+</body>
+</html>

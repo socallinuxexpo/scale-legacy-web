@@ -1,0 +1,476 @@
+body {
+  background: #8cadcb;
+  font-family: "Trebuchet MS", "Bitstream Vera Sans", sans-serif;
+}
+
+#main-inner {
+  background: #FFF;
+}
+
+/* reset left margin of primary navigation */
+#primary {
+  margin-left: 0;
+  float: left;
+}
+
+/* Primary and Secondary Menus */
+/* round corner tabs (primary) */
+#navbar {
+  background: #FFF;
+  overflow: visible;
+}
+
+#navbar-inner {
+  background: #8cadcb;
+  height: 24px;
+}
+
+#navbar ul.links {
+  background: #8cadcb;
+}
+
+#navbar #primary ul.links li {
+  background: #bccfe1;
+  margin-right: 2px;
+  padding: 4px 20px 2px 20px;
+}
+
+#navbar #primary ul.links li.active ,
+#navbar #primary ul.links li.active-trail {
+  background: #FFF;
+}
+
+#navbar #primary ul.links li a {
+  text-decoration: none;
+}
+
+/* secondary links */
+#secondary {
+  clear: left;
+  margin: .5em 1em 1.5em 1em;
+  font-size: .9em;
+}
+
+#secondary li {
+  padding: 0 .5em 0 0;
+}
+
+#secondary a {
+  text-decoration: none;
+}
+  #secondary li a.active /* The active item in a Drupal menu */
+  {
+    color: #000;
+    font-style: italic;
+  }
+
+#secondary ul.links {
+  margin: 0;
+  padding: 0;
+}
+
+#secondary ul.links li + li {
+  padding: 0 .2em 0 .5em;
+  border-left: 1px solid #BBB;
+}
+
+/* breadbcrumbs */
+.breadcrumb {
+  display: none;
+}
+
+/* Layout */
+/* sidebar left */
+#content-inner {
+  margin: 0 30px 40px;
+}
+
+#sidebar-left-inner {
+  margin: 24px 10px 0 20px;
+  color: #666;
+}
+
+#sidebar-right-inner{
+  margin: 24px 0 0 20px;
+}
+
+/* content */
+  .with-navbar #content
+  {
+    margin-top: 4.6em; /* Set this to the same value as the
+navbar height above. */
+  }
+
+/* left sidebar */
+  .with-navbar #sidebar-left,
+  .with-navbar #sidebar-right
+  {
+    margin-top: 2.8em;
+  }
+
+/* images */
+div.field-field-page-image {
+  float: right;
+  margin: 0 0 1em 2em;
+}
+
+/* links */
+a:link, a:visited {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #000;
+}
+
+#content-area a:visited {
+  color: rgb(51, 102, 208);
+  text-decoration: none;
+}
+
+#content-area a:link {
+  color: rgb(51, 102, 208);
+  text-decoration: underline;
+}
+
+/* search box */
+#search-box {
+  float: right;
+  clear: right;
+  margin-right: -40px;
+}
+
+/* RG style for sponsor blocks on sponsor page */
+div#block-views-silver_sponsors-block_1,
+div#block-views-reception_sponsors-block_1,
+div#block-views-raffle_sponsors-block_1,
+div#block-views-media_sponsors-block_1 {
+  clear: right;
+}
+
+/* RG style for sponsor page */
+body.page-sponsors #content div.views-field-field-exhibitor-logo-fid img {
+	float: right;
+	margin: 1em 1em 1em 2em ;
+}
+
+body.page-exhibitors div#block-views-exhibitors-block_1 {
+  border-top: 1px solid #000;
+  margin-top: 10px;
+}
+
+body.page-sponsors div.view-display-id-block_1 div.views-field-title { 
+  font-size: 1.2em;
+  /*font-size: .9em;*/
+  margin: 0 30px 10px 0;
+}
+
+body.page-sponsors div.block-views div.views-row + div.views-row {
+  clear: right;
+  margin-top: 2em;
+}
+
+body.section-sponsors div.region-content_bottom div.block-views {
+  margin-top: 2em;
+}
+
+/* sponsor front blocks */
+div.view-gold-sponsors-front div.views-row + div.views-row ,
+div.view-silver-sponsors-front div.views-row + div.views-row ,
+div.view-platinum-sponsors-front div.views-row + div.views-row ,
+div.view-diamond-sponsors-front div.views-row + div.views-row ,
+div.view-media-sponsors-front div.views-row + div.views-row ,
+div.view-reception-sponsors-front div.views-row + div.views-row ,
+div.view-ISP-sponsors-front div.views-row + div.views-row ,
+div.view-network-sponsors-front div.views-row + div.views-row ,
+div.view-raffle-sponsors-front div.views-row + div.views-row ,
+div.view-travel-sponsors-front div.views-row + div.views-row ,
+div.view-speaker-track-sponsors-front div.views-row + div.views-row ,
+div.view-try-it-lab-sponsors-front div.views-row + div.views-row ,
+div.view-wireless-sponsors-front div.views-row + div.views-row {
+  margin-top: 1em;
+}
+
+div.view-gold-sponsors-front  ,
+div.view-silver-sponsors-front  ,
+div.view-platinum-sponsors-front  ,
+div.view-diamond-sponsors-front  ,
+div.view-media-sponsors-front  ,
+div.view-reception-sponsors-front  ,
+div.view-ISP-sponsors-front  ,
+div.view-network-sponsors-front  ,
+div.view-raffle-sponsors-front  ,
+div.view-travel-sponsors-front  ,
+div.view-speaker-track-sponsors-front ,
+div.view-try-it-lab-sponsors-front ,
+div.view-wireless-sponsors-front  {
+  margin-bottom: 2em;
+  color: #888;
+}
+
+/* RG style for sponsor logos on other pages */
+div.node-type-exhibitor div.field-field-exhibitor-logo,
+div.node-type-dotorg div.field-field-dotorg-logo {
+  float: right;
+  margin-left: 1em;
+}
+
+/* RG logo stack block */
+#block-views-logo_stack-block_1 .views-row {
+  margin: 2em 0;
+}
+
+/* RG style for images in blog posts and teasers */
+img.imagecache-blog_image,
+img.imagecache-blog_teaser {
+  float: right;
+  clear: right;
+  margin: 0 0 1em 1em;
+}
+
+/* RG style for blog teasers */
+div.view-id-blog div.node-teaser {
+  margin-bottom: 1.5em;
+}
+
+/* RG style for special events page */
+body.section-special-events div.content h3 {
+  clear: left;
+  margin-top: 1em;
+}
+
+body.section-special-events div.content img {
+  float: left;
+  margin: .5em 1em .5em 0;
+}
+
+/* RG logos on exhibitors page */
+div.view-exhibitors span.views-field-field-exhibitor-logo-fid {
+  margin: 0 10px 0 0;
+}
+
+div#block-views-exhibitors-block_1 div.views-field-title {
+  font-size: .9em;
+  margin: 0 30px 10px 0;
+}
+
+/* RG images in page bodies */
+div.field-field-page-image {
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+/* RG flyer & banner page */
+div.view-promo-items div.views-row {
+  margin-bottom: 1.5em;
+}
+
+/* RG News block */
+div.view-front-page-news div.views-field-title {
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+#block-views-front_page_news-block_1 .item-list ul {
+  list-style: none;
+  margin-top: 0;
+}
+
+#block-views-front_page_news-block_1 ul li:first-child:before {
+  content: "new!";
+  color: red;
+  font-size: .8em;
+  position: relative;
+  bottom: -1.6em;
+  left: -2.5em;
+}
+
+/* RG speakers list page */
+div.view-speakers div.views-row {
+  margin: 1em 0;
+  max-width: 40em;
+}
+
+div.view-speakers div.views-row-odd {
+  background-color: #EEE;
+  padding: 1em;
+}
+
+div.view-speakers div.views-row-even {
+  background-color: transparent;
+  padding: 1em;
+}
+
+div.view-speakers .views-field-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: .3em;
+}
+
+.views-field-field-speaker-job-title-value ,
+.views-field-field-speaker-org-value {
+  font-style: italic;
+  font-size: .9em;
+}
+
+/* RG speaker pages */
+.node-type-speaker .field-field-speaker-job-title,
+.node-type-speaker .field-field-speaker-org {
+  font-style: italic;
+  font-size: .9em;
+}
+
+div.node-type-speaker div.content {
+  max-width: 40em;
+}
+
+.node-type-speaker .field-field-speaker-link {
+  margin-bottom: 1em;
+}
+
+/* RG presentation list page */
+div.view-presentations div.views-row {
+  margin: 1em 0;
+  max-width: 40em;
+}
+
+div.view-presentations div.views-row-odd {
+  background-color: #EEE;
+  padding: 1em;
+}
+
+div.view-presentations div.views-row-even {
+  background-color: transparent;
+  padding: 1em;
+}
+
+div.view-presentations .views-field-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: .3em;
+}
+
+#content-area div.views-field-tid, #content-area div.views-field-tid-1 {
+  font-size: .8em;
+  font-style: italic;
+  display: inline;
+  margin-right: 2em;
+  /*text-transform: lowercase;*/
+}
+
+#content-area div.views-field-tid a, #content-area div.views-field-tid-1 a {
+  text-decoration: none;
+}
+
+#content-area div.views-field-tid a {
+  text-decoration: none;
+  margin-right: .5em;
+}
+
+div.view-presentations .views-field-field-presentation-speaker-id-value {
+  margin-top: 1em;
+}
+
+
+/* RG presentation pages */
+.node-type-presentation #main .content {
+  max-width: 40em;
+}
+
+.node-type-presentation .meta {
+  font-size: .8em;
+  font-style: italic;
+}
+
+#content-area .node-type-presentation .meta a {
+  text-decoration: none;
+}
+
+.field-field-presentation-speaker-id {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.field-field-presentation-url,
+.field-field-presentation-audio {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-right: 1em;
+  font-size: 1em;
+  display: inline;
+}
+
+.field-field-presentation-url div,
+.field-field-presentation-audio div{
+  display: inline;
+}
+
+fieldset.group-presentation-downloads {
+  border: 1px solid rgb(187,187,187);
+}
+
+/* RG taxonomy pages */
+body.section-category .node-type-presentation {
+  margin: 2em 0;
+}
+
+/* RG put taxonomy links all on same line */
+.taxonomy_vid_1, .taxonomy_vid_2 {
+  display: inline;
+  margin-right: 2em;
+}
+
+/* RG presentation mini block */
+#block-views-presentation_mini-block_1 {
+  font-family: sans-serif;
+  font-size: .8em;
+  line-height: 1.2em;
+  padding-right: 1em;
+}
+
+#block-views-presentation_mini-block_1 .views-row {
+  margin: 1em 0;
+}
+
+/* tertiary menu */
+  div#footer ul {
+	text-align: center;
+  }
+
+  div#footer ul.menu li {
+	display: inline;
+	margin: 0 10px;
+  }
+
+  div#footer ul.menu li a {
+	font-size: .9em;
+	color: #fff;
+  }
+
+/* closure region */
+  #closure-blocks div.content p {
+  font-size: .75em;
+  color: #ddd;
+  text-align: center;
+  }
+
+/* logo */
+#logo {
+  margin-right: 0;
+}
+
+/* registration button */
+div.views-field-field-image-fid img {
+  display: block;
+  margin: 0 auto 2em;
+}
+
+/* speaker images on individual speaker pages */
+.field-field-speaker-photo-urls {
+    float: right;
+      margin: 1em 0 1em 1em;
+}

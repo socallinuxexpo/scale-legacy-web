@@ -1,0 +1,46 @@
+2007 Southern CAlifornia Linux Expo (SCALE)
+Call For Papers
+
+The USC, Simi/Conejo, and UCLA Linux User Groups are proud to announce the
+5th Annual Southern California Linux Expo scheduled for February 10-11, 2007 at
+theWestin Hotel near the Los Angeles International Airport.
+We invite you to share your work on Linux and Open Source projects with the rest
+of the community as well as exchange ideas with some of the leading experts in these
+fields. Details about SCALE 5X as well as archives for the last few years can be found
+at http://www.socallinuxexpo.com.
+Topics of interest include, but are not limited to:
+Linux Core
+- Linux Kernel Enhancements
+- Linux in the Infrastructure - Tools and Appliances
+- Linux for Embedded Systems
+- Linux Virtualization
+User Experience
+- Linux Desktop Environments
+- Productivity Applications for Linux
+- Linux Multimedia
+- Linux Games
+- Linux Security
+- Linux Deployments and Experiences: War Stories
+Other Open Source Projects
+- LAMP
+- Voice over IP (VoIP)
+- Administration techniques for specific distributions
+- Open source Licensing
+- Government policies with Open Source
+
+The proposals should be submitted in form of a 1-page extended abstract comprising:
+1. Title for the talk
+2. Name, Affiliation, Bio, a passport size picture (optional) and contact email address
+of the Presenter
+3. What will be covered? A bulleted list or a brief description of the main points to
+be presented should be submitted. Please include enough detail that will enable
+the committee to evaluate the proposal.
+4. Any specific requirements needed for the presentation other than an overhead
+projector and a microphone.
+Submission formats in txt and pdf will be accepted. Presentations are allotted a time
+slot of about 45 minutes. All proposals are to be sent to kapadia@socallinuxexpo.com.
+Important Dates
+21 July, 2006: CFP Opens
+30 Nov, 2006: (Extend Deadline) Last date for abstracts/proposals
+20 Dec, 2006: Last date for notification of acceptance
+10 Feb, 2007: Conference starts

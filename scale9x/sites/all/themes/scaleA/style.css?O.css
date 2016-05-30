@@ -1,0 +1,1035 @@
+body {
+  background: #8cadcb url(images/blue_capsules3.png) repeat-x fixed;
+  font-family: "Trebuchet MS", "Bitstream Vera Sans", sans-serif;
+  /*font-family: Georgia, "Bitstream Vera", sans-serif;*/
+  font-size: 13px;
+}
+
+h2 {
+  max-width: 26em;
+}
+
+p {
+  max-width: 40em;
+}
+
+#page {
+  font-size: 1em;
+}
+
+#main-inner {
+  background: #FFF;
+  margin-top: 50px;
+  padding-bottom: 1.5em;
+  border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+}
+
+/* reset left margin of primary navigation */
+#primary {
+  margin-left: 0;
+  float: left;
+}
+
+/* Primary and Secondary Menus */
+/* round corner tabs (primary) */
+#navbar {
+  /*overflow: visible;*/
+  height: 34px;
+  position: relative;
+  top: -40px;
+}
+
+#navbar-inner {
+  background: #8cadcb;
+}
+
+#navbar ul.links {
+  background: #8cadcb;
+  font-size: .9em;
+}
+
+#navbar #primary ul.links li {
+  background: #bccfe1;
+  margin-right: 2px;
+  padding: 4px 20px 14px 20px;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+}
+
+#navbar #primary ul.links ,
+#navbar #primary ul.links li.active-trail {
+  background: #FFF;
+}
+
+#navbar #primary ul.links li a {
+  text-decoration: none;
+}
+
+/* secondary links */
+#secondary_navbar {
+  background-color: #FFF;
+  border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  position: relative;
+  top: -50px;
+  padding-top: .5em;
+}
+
+#secondary {
+  clear: left;
+  margin: .5em 1em 1.5em 1em;
+  /*font-size: .9em;*/
+}
+
+#secondary li {
+  padding: 0 .5em 0 0;
+}
+
+#secondary a {
+  text-decoration: none;
+}
+
+#secondary li a.active /* The active item in a Drupal menu */
+{
+  color: #000;
+  font-style: italic;
+}
+
+#secondary ul.links {
+  margin: 0;
+  padding: 0;
+}
+
+#secondary ul.links li + li {
+  padding: 0 .2em 0 .5em;
+  border-left: 1px solid #BBB;
+}
+
+/* Layout */
+/* region borders */
+/* sidebar left */
+/*
+#sidebar-left {
+  height: 100%;
+  border-right: 2px dotted #8cadcb;
+}
+*/
+
+#content, .no-sidebars #content {
+  /*border-left: 4px dotted #8cadcb;*/
+  padding-bottom: 2em;
+}
+
+#content-inner {
+  margin: 10px 30px 40px;
+}
+
+#sidebar-left-inner {
+  margin: 34px 10px 0 20px;
+  color: #666;
+}
+
+#sidebar-right-inner{
+  margin: 24px 24px 0 20px;
+}
+
+/* content */
+  .with-navbar #content
+  {
+    margin-top: 2.6em; /* Set this to the same value as the
+navbar height above. */
+  }
+
+/* left sidebar */
+  .with-navbar #sidebar-left,
+  .with-navbar #sidebar-right
+  {
+    margin-top: 0.8em;
+  }
+
+/* images */
+div.field-field-page-image {
+  float: right;
+  margin: 0 0 1em 2em;
+}
+
+/* links */
+a:link, a:visited {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #000;
+}
+
+#content-area a:visited {
+  color: rgb(51, 102, 208);
+  text-decoration: none;
+}
+
+#content-area a:link, .view-content a:link {
+  color: #5690c4;
+}
+
+/* search box */
+#search-box {
+  float: right;
+  clear: right;
+  margin-right: -40px;
+}
+
+/* RG style for sponsor blocks on sponsor page */
+
+#content div.view-sponsors .attachment {
+  margin-right: 150px;
+}
+
+#content div.view-sponsors div.views-field-title {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+#content-area .view-id-sponsors + .view-id-sponsors {
+  margin-top: 2em;
+}
+
+#content div.view-sponsors .view-header h3 {
+  background: #BCCFE1;
+  color: #FFF;
+  padding: .5em .5em .5em 1em;
+  border-top-left-radius: 1em;
+  /*-moz-border-top-left-radius: 1em;*/
+  -moz-border-radius: 1em 0 0 0;
+}
+
+#content div.view-sponsors div.views-row + div.views-row {
+  clear: right;
+  margin-top: 2.5em;
+  padding-top: 2.5em;
+  border-top: 3px dotted #8cadcb;
+}
+
+
+/* RG style for sponsor page */
+body.page-sponsors #content div.views-field-field-exhibitor-logo-fid img {
+	float: right;
+	margin: 1em 1em 1em 2em ;
+}
+
+body.page-exhibitors div#block-views-exhibitors-block_1 {
+  border-top: 1px solid #000;
+  margin-top: 10px;
+}
+
+body.section-sponsors div.region-content_bottom div.block-views {
+  margin-top: 2em;
+}
+
+.views-field-field-sponsored-event-nid {
+  margin-top: 1em;
+}
+
+.field-field-sponsored-event .field-label-inline-first {
+  font-weight: normal;
+}
+
+/*
+.node-type-exhibitor .content div {
+  margin-bottom: 1em;
+}
+*/
+
+/* blocks */
+div.block {
+  margin-bottom: 2em;
+}
+
+/* sponsor front blocks */
+.view-sponsors-front {
+  color: #888;
+}
+
+.view-sponsors-front .views-row + .views-row {
+  margin-top: 1em;
+}
+
+/* RG style for sponsor logos on other pages */
+div.node-type-exhibitor div.field-field-exhibitor-logo,
+div.node-type-dotorg div.field-field-dotorg-logo {
+  float: right;
+  margin-left: 1em;
+}
+
+/* RG logo stack block */
+#block-views-logo_stack-block_1 .views-row {
+  margin: 2em 0;
+}
+
+/* blog text styles */
+div.views-row + div.views-row .node-type-blog {
+  border-top: 3px dotted #8cadcb;
+  padding-top: 1em;
+}
+
+.node-type-blog p:first-line {
+  font-size: 1.2em;
+  line-height: 1.1em;
+  font-weight: bolder;
+}
+
+.node-type-blog p + p:first-line {
+  text-transform: none;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+/* RG style for images in blog posts and teasers */
+img.imagecache-blog_image,
+img.imagecache-blog_teaser {
+  float: right;
+  clear: right;
+  margin: 0 0 1em 1em;
+}
+
+/* RG style for blog teasers */
+div.view-id-blog div.node-teaser {
+  margin-bottom: 1.5em;
+}
+
+.node-type-blog .content img { /* failsafe image size limit for images in blog nodes */
+  max-width: 700px;
+}
+
+/* RG style for special events page */
+/* logos on exhibitors page */
+.view-exhibitors table {
+  margin-left: -10px;
+}
+
+.view-exhibitors td {
+  padding: 0 10px;
+}
+
+.view-sponsor-special-event .views-row,
+.view-sponsor-special-event .views-row * {
+  display: inline;
+}
+
+.view-sponsor-special-event .views-row {
+  margin-right: 2em;
+}
+
+/* images in page bodies */
+div.field-field-page-image {
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+/* flyer & banner page */
+.view-promo-item-page .item-list ul li {
+  list-style: none inside;
+}
+
+.view-promo-item-page .views-row {
+  margin-bottom: 2.5em;
+}
+
+.view-promo-item-page .views-row > div {
+  margin: .75em 0;
+}
+
+.view-promo-item-page .views-field-title {
+  font-size: 1.2em;
+}
+
+.view-promo-item-page .views-row .views-field-field-embed-code-value {
+  border: 1px solid #444;
+  background-color: #EEE;
+  padding: 1.5em;
+}
+
+.view-promo-item-page .views-row .views-field-field-embed-code-value code {
+  font-size: .9em;
+}
+
+.view-promo-item-page img.imagefield-field_promo_file {
+  max-width: 100%;
+}
+
+/* News block */
+div.view-front-page-news div.views-field-title {
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+#block-views-front_page_news-block_1 .item-list ul {
+  list-style: none;
+  margin-top: 0;
+}
+
+#block-views-front_page_news-block_1 ul li:first-child {
+  list-style-image: url(images/new2.png);
+}
+
+/*
+#block-views-front_page_news-block_1 ul li:first-child:before {
+  content: "new!";
+  color: red;
+  position: relative;
+  bottom: -1.3em;
+  left: -2.5em;
+}
+*/
+
+/* RG speakers list page */
+div.view-speakers div.views-row {
+  margin: 1em 0;
+  max-width: 40em;
+}
+
+div.view-speakers div.views-row-odd {
+  background-color: #EEE;
+  padding: 1em;
+}
+
+div.view-speakers div.views-row-even {
+  background-color: transparent;
+  padding: 1em;
+}
+
+div.view-speakers .views-field-title {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: .3em;
+  line-height: 1.1em;
+}
+
+.views-field-field-speaker-job-title-value ,
+.views-field-field-speaker-org-value {
+  font-style: italic;
+  /*font-size: .9em;*/
+}
+
+/* RG speaker pages */
+.node-type-speaker .field-field-speaker-job-title,
+.node-type-speaker .field-field-speaker-org {
+  font-style: italic;
+  /*font-size: .9em;*/
+}
+
+div.node-type-speaker div.content {
+  max-width: 40em;
+}
+
+.node-type-speaker .field-field-speaker-link {
+  margin-bottom: 1em;
+}
+
+.field-field-speaker-photo-urls img {
+  max-width: 200px;
+}
+
+/* RG presentation list page */
+div.view-presentations div.views-row {
+  margin: 1em 0;
+  max-width: 40em;
+}
+
+div.view-presentations div.views-row-odd {
+  background-color: #EEE;
+  padding: 1em;
+}
+
+div.view-presentations div.views-row-even {
+  background-color: transparent;
+  padding: 1em;
+}
+
+div.view-presentations .views-field-title {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: .3em;
+  line-height: 1.1em;
+}
+
+#content-area div.views-field-tid, #content-area div.views-field-tid-1 {
+  font-size: .9em;
+  font-style: italic;
+  display: inline;
+  margin-right: 2em;
+  /*text-transform: lowercase;*/
+}
+
+#content-area div.views-field-tid a, #content-area div.views-field-tid-1 a {
+  text-decoration: none;
+}
+
+#content-area div.views-field-tid a {
+  text-decoration: none;
+  margin-right: .5em;
+}
+
+div.view-presentations .views-field-field-presentation-speaker-id-value {
+  margin-top: 1em;
+}
+
+
+/* RG presentation pages */
+.node-type-presentation #main .content {
+  max-width: 40em;
+}
+
+.node-type-presentation .meta {
+  font-size: .9em;
+  font-style: italic;
+}
+
+#content-area .node-type-presentation .meta a {
+  text-decoration: none;
+}
+
+.field-field-presentation-speaker-id {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.field-field-presentation-url,
+.field-field-presentation-audio {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-right: 1em;
+  font-size: 1em;
+  display: inline;
+}
+
+.field-field-presentation-url div,
+.field-field-presentation-audio div{
+  display: inline;
+}
+
+fieldset.group-presentation-downloads {
+  border: 1px solid rgb(187,187,187);
+  max-width: 40em;
+}
+
+/* RG taxonomy pages */
+body.section-category .node-type-presentation {
+  margin: 2em 0;
+}
+
+/* RG put taxonomy links all on same line */
+.taxonomy_vid_1, .taxonomy_vid_2 {
+  display: inline;
+  margin-right: 2em;
+}
+
+/* RG presentation mini block */
+#block-views-presentation_mini-block_1 {
+  font-family: sans-serif;
+  /*font-size: .8em;*/
+  line-height: 1.2em;
+  padding-right: 1em;
+}
+
+#block-views-presentation_mini-block_1 .views-row {
+  margin: 1em 0;
+}
+
+/* tertiary menu */
+  div#footer ul {
+	text-align: center;
+  }
+
+  div#footer ul.menu li {
+	display: inline;
+	margin: 0 10px;
+  }
+
+  div#footer ul.menu li a {
+	/*font-size: .9em;*/
+	color: #fff;
+  }
+
+/* footer region */
+/* copyright notice */
+  #block-block-1 div.content p {
+  /*font-size: .75em;*/
+  color: #ddd;
+  text-align: center;
+  max-width: none;
+  }
+
+/* logo */
+#logo {
+  margin-right: 0;
+}
+
+/* registration button */
+div.views-field-field-image-fid img {
+  display: block;
+  margin: 0 auto 2em;
+}
+
+/* speaker images on individual speaker pages */
+.field-field-speaker-photo-urls {
+    float: right;
+      margin: 1em 0 1em 1em;
+}
+
+/* pager styles */
+.view-content {
+  clear: left;
+}
+
+.item-list ul.pager li {
+  margin: 0 0 0 -2px;
+  padding: .3em .5em;
+}
+
+ul.pager {
+  /* float: left; */
+  color: #FFF;
+  font-size: .9em;
+  padding-left: 0;
+  margin: 2em 0;
+}
+
+.item-list .pager {
+  text-align: left;
+}
+
+ul.pager li {
+  background-color: #8cadcb;
+}
+
+ul.pager li.pager-current {
+  background-color: #a3c9ec;
+}
+
+#content-area ul.pager a:link, 
+#content-area ul.pager a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+ul.pager a:link, 
+ul.pager a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#content-area ul.pager a:hover {
+  color: #000;
+}
+
+ul.pager li.first {
+  border-radius: 2em 0 0 2em;
+  -moz-border-radius: 2em 0 0 2em;
+}
+
+ul.pager li.last {
+  border-radius: 0 2em 2em 0;
+  -moz-border-radius: 0 2em 2em 0;
+}
+
+/* submitted styles */
+.submitted {
+  font-size: .9em;
+  color: #666;
+  font-style: italic;
+}
+
+/* feed icons */
+.feed-icons {
+  float: right;
+}
+
+/* block fieldset */
+.block-inner fieldset {
+  border: 1px solid #CCC;
+}
+
+/* media page */
+.view-press td {
+  padding: 0 1em;
+}
+
+/* yelp */
+table.yelp {
+  float: left;
+  width: 50%;
+  height: 105px;
+}
+
+table.yelp img {
+  margin-right: 5px;
+}
+
+/* special events page */
+#content div.view-special-events {
+  margin-top: 2.5em;
+}
+
+#content div.view-special-events div.views-field-title {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+#content div.view-special-events div.views-field-field-logo-fid {
+  float: right;
+  margin-left: 2em;
+}
+
+#content div.view-special-events div.views-row + div.views-row {
+  clear: right;
+  margin-top: 2.5em;
+  padding-top: 2.5em;
+  border-top: 3px dotted #8cadcb;
+}
+
+#content .node-type-special-event .field-field-logo {
+  float: right;
+  margin-left: 2em;
+}
+
+/* special events block in content area */
+#content #block-views-special_events-block_2 div.view-special-events {
+  margin-top: inherit;
+}
+
+#content #block-views-special_events-block_2 div.views-field-title {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+#content #block-views-special_events-block_2 div.views-row + div.views-row {
+  border: none;
+  margin: inherit;
+  padding: inherit;
+}
+
+#block-views-special_events-block_2 div.views-field-field-when-value, #block-views-special_events-block_2 div.views-field-title {
+  display: inline;
+}
+
+/*
+div.node-teaser {
+  clear: right;
+  margin-top: 2.5em;
+  padding-top: 2.5em;
+  border-top: 3px dotted #8cadcb;
+}
+*/
+
+/* poll */
+.poll .title {
+  margin-bottom: 1em;
+}
+
+.poll .text {
+  font-size: .85em;
+}
+
+.poll .percent {
+  font-size: .85em;
+}
+
+.poll .bar {
+  border-radius: .5em;
+  -moz-border-radius: .5em;
+}
+
+.poll .foreground {
+  border-radius: .5em;
+  -moz-border-radius: .5em;
+}
+
+/* media page tables */
+.view-media .views-table {
+  width: 100%;
+}
+
+.view-media .view-footer {
+  margin-top: 2em;
+}
+
+/* presentations schedules */
+/* needed to eliminate horiz. scroll bars in chrome, safari */
+.schedule-fieldset table {
+  width: 99%;
+}
+
+
+.view-id-schedule tr {
+  border: none;
+}
+
+.view-id-schedule th {
+  vertical-align: bottom;
+  padding: 0 .5em .2em .5em;
+}
+
+.view-id-schedule .time {
+  vertical-align: top;
+  text-align: right;
+  padding: .5em .5em 0 0;
+  background: #FFF;
+}
+
+.view-id-schedule .schedule-cell {
+  vertical-align: top;
+  padding: .5em;
+  border: 1px solid #FFF;
+}
+
+/* track colors */
+/* keynote */
+.track-key {
+  background-color: #F2EE9D;
+}
+
+/* developer */
+.track-dev {
+  background-color: #ADF;
+  /*background-color: #9EF;*/
+}
+
+/* beginner */
+.track-beg {
+  background-color: #DF7;
+  /*background-color: #CF6;*/
+}
+
+/* general */
+.track-tra {
+  background-color: #CCC;
+}
+
+/* system administrator */
+.track-sys {
+  background-color: #FD6;
+  /*background-color: #FC0;*/
+}
+
+/* ossie */
+.track-oss {
+  background-color: #F2A852;
+}
+
+/* devops */
+.track-ops {
+  background-color: #CC9;
+}
+
+/* foss mentoring */
+.track-fsm {
+  background-color: #CC3;
+}
+
+/* scale u */
+.track-scu {
+  background-color: #CCF;
+}
+
+/* postgresql */
+.track-pgd {
+  background-color: #C2D3F2;
+}
+
+/* fedora */
+.track-fad {
+  background-color: #A2BFF2;
+}
+
+/* open cloud */
+.track-clo {
+  background-color: #B3FFED;
+}
+
+/* opensuse */
+.track-osd {
+  background-color: #9C9;
+}
+
+/* sponsored */
+.track-spo {
+  background-color: #EEE;
+}
+
+/* ubucon */
+.track-ubu {
+  background-color: #9CD;
+}
+
+/* keynote row */
+table.saturday tbody tr.slot-1000,
+table.sunday tr.slot-1000 {
+  background-color: #F2EE9D; 
+}
+
+/* fix extra keynote cells to NOT show */
+table.saturday tr.slot-1000 .bel-air {
+  background-color: #EEE;
+}
+
+/* expo block outs */
+table.saturday tr.slot-900 .expo,
+table.saturday tr.slot-1800 .expo,
+table.saturday tr.slot-1900 .expo,
+table.saturday tr.slot-1930 .expo,
+table.sunday tr.slot-1600 .expo,
+table.sunday tr.slot-1630 .expo {
+  background-color: #FFF !important
+}
+
+
+/* breaks and lunch */
+.view-id-schedule tr.slot-1100 td.la-jolla,
+.view-id-schedule tr.slot-1230 td.la-jolla,
+.view-id-schedule tr.slot-1430 td.la-jolla,
+.view-id-schedule tr.slot-1600 td.la-jolla, 
+.view-id-schedule tr.slot-1730 td.la-jolla {
+  /*border-left: 1px solid #FFF;*/
+}
+
+.view-id-schedule tr.slot-1100 td.schedule-cell,
+.view-id-schedule tr.slot-1230 td.schedule-cell,
+.view-id-schedule tr.slot-1430 td.schedule-cell,
+.view-id-schedule tr.slot-1600 td.schedule-cell, 
+.view-id-schedule tr.slot-1730 td.schedule-cell {
+  /*border-right: none;
+  border-left: none;*/
+  background-color: #EEE;
+}
+
+.view-id-schedule tr.slot-1100 td.expo,
+.view-id-schedule tr.slot-1230 td.expo,
+.view-id-schedule tr.slot-1430 td.expo,
+.view-id-schedule tr.slot-1600 td.expo,
+.view-id-schedule tr.slot-1730 td.expo {
+  /*border: 1px solid #FFF;*/
+}
+
+/* expo */
+.view-id-schedule tr td.expo {
+  border-top: none;
+  border-bottom: none;
+}
+
+.view-id-schedule tr.odd td.expo, 
+.view-id-schedule tr.even td.expo {
+  border-left: 1px solid #FFF;
+}
+
+.view-id-schedule tbody tr td.los-angeles-c {
+}
+
+/* blank out slots for expo */
+tr.slot-1800 td.expo, 
+tr.slot-1900 td.expo {
+  background-color: #FFF;
+}
+
+/* all day events */
+td.expo {
+  background-color: #BBB !important
+}
+
+/* cloud all day */
+.friday .carmel {
+  background-color: #B3FFED;
+}
+
+/* fedora all day */
+.friday .century-b {
+  background-color: #A2BFF2;
+}
+
+/* opensuse all day */
+.friday .century-c {
+  background-color: #9C9;
+}
+
+/* scale-u all day */
+.friday .los-angeles-b,
+.friday .los-angeles-c {
+  background-color: #CCF;
+}
+
+/* ubucon all day */
+.friday .los-angeles-a {
+  background-color: #9CD;
+}
+
+/* splunk all day */
+/*
+.saturday .bel-air {
+  background-color: #CCF;
+}
+*/
+
+/* legend */
+.legend-cell {
+  padding: .5em 1em;
+}
+
+.legend {
+  margin-left: 41px;
+  margin-bottom: 1em;
+}
+
+/* schedule speakers */
+.speaker {
+  font-weight: bold;
+}
+
+.view-id-schedule td.schedule-cell a:hover {
+  color: black !important
+}
+
+.schedule-fieldset legend {
+  margin-left: 1.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.schedule-fieldset {
+  border: 1px dashed #999;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+.views-field-field-stream-url {
+  margin-top: 1em;
+}
+
+/* session links page */
+/* rows */
+.view-session-links .views-row {
+  border-bottom: 1px solid black;
+  padding: .5em 0 ;
+}
+
+.view-session-links .views-row .views-field-title a {
+  font-size: 1.2em;
+}
+
+/* session links button */
+.session-links-button {
+  margin: 4em auto;
+}
+
+.session-links-button a {
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  background-color: #8CADCB;
+  color: white;
+  padding: 2em 4em;
+  margin: 2em auto;
+  text-align: center;
+}

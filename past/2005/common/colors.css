@@ -1,0 +1,72 @@
+body
+{
+	background-color: #fff;	/* border/edge of the layout color */
+}
+#pageFrame, #masthead, #footer, #banner
+{	
+	background-color: #fff;	/* major background color */
+}
+#pageFrame
+{
+	background: #fff
+}
+#masthead
+{
+	background-color: #fff;
+	color: #000;
+}
+#footer, #banner
+{
+	background-color: #000;
+	color: #fff;
+}
+#footer, #banner
+{
+	border-bottom: solid 1px #997; /* IE 6 has the footer flow over the pageFrame's 
+									  bottom border. if this border is added, IE draws
+									  the pageFrame border as exptected */
+}
+
+#innerContentColumn a
+{
+	color: #060;
+}
+#innerContentColumn a:visited
+{
+	color: #090;
+}
+#innerContentColumn a:hover
+{
+	color: #090;
+}
+
+#hnav ul li a
+{
+	background-color: #000;
+	color: #fff;
+}
+#hnav ul li a:visited
+{
+	background-color: #000;
+	color: #fff;
+}
+#hnav ul li a:hover/* hide from IE 5.0 */
+{
+	background-color: #3c6;
+	color: #000;
+}
+#vnav ul li a
+{
+	background-color: #3c6;
+	color: #000;
+}
+#vnav ul li a:visited
+{
+	background-color: #3c6;
+	color: #000;
+}
+#vnav ul li a:hover
+{
+	background-color: #000;
+	color: #fff;
+}

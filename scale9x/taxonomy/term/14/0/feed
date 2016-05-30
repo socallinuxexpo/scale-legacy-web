@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org/scale9x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 9x - 2011 Southern California Linux Expo - Developers Track</title>
+ <link>https://www.socallinuxexpo.org/scale9x/taxonomy/term/14/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Decentralized Collaboration with Open Source Tools: Technical and Cultural Implementation</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/decentralized-collaboration-open-source-tools-technical-and-cultural-implementation</link>
+ <description>&lt;p&gt;A collection of simple open source communication tools can coordinate thousands of decentralized contributions.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/category/beginners-track&quot;&gt;Beginner&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;The Unix design philosophy of modularity - simple parts that do one thing well - applies to communication as well as code workflows. We&#039;ll give a live demonstration of how a collection of simple Open Source communication tools are used by the Fedora Project to coordinate thousands of contributions to a complex, fast-moving and large-scale technical project in a decentralized manner.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;This talk is a live version of a recurring Fedora Classroom session taught both online and in-person at classrooms as part of the first-day curriculum for POSSE (Professors&#039; Open Source Summer Experience, a week-long cultural immersion workshop for university faculty looking to get their students involved in open source communities).  The Unix design philosophy of modularity - simple parts that each do one thing well, connected by clean interfaces - applies to communication workflows as well as code ones. We&#039;ll give a live demonstration of how a collection of simple open source communication tools are used by the Fedora Project to coordinate thousands of technical and nontechnical contributions on a technically complex, rapidly moving, large-scale Linux distribution - all in a decentralized manner. Although each tool by itself is simple to learn and use, the magic comes in the interactions between these tools and the communication culture it makes possible in the communities that fluently use it.  We&#039;ll go through both technology usage and cultural norms, with publicly available slides and resources for full tutorials and setup instructions for each tool available to all attendees by the start of the presentaion. We&#039;ll also explain how this ecosystem of tools can be deployed in your internal infrastructure and applied to communications within a school or industry team.   Tools covered: * IRC: synchronous communication * supybot / IRC bots: synchronous context-bridging * etherpad: synchronous text editing * mediawiki: asynchronous text editing, documentation * ticket trackers: asynchronous task-tracking * blog planets: asynchronous context-providance * Classrooms: structures for synchronous community teaching&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/robyn-bergeron&quot;&gt;Robyn Bergeron&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://swarm.conferencebywire.com/web/guest/my-conferences-page/?parameterAutoLoginLogin=scaleuserla@yahoo.com&amp;amp;parameterAutoLoginPassword=scaleuser&amp;amp;sesid=463&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://swarm.conferencebywire.com/web/guest/my-conferences-page/?parameterAutoLo...&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/RobynBergeron-Decentralized.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Sunday, February 27th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                3:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/decentralized-collaboration-open-source-tools-technical-and-cultural-implementation#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/beginner">Beginner</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/business">Business</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/community">Community</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2653 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Writing GIMP scripts and plug-ins</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/writing-gimp-scripts-and-plug-ins</link>
+ <description>&lt;p&gt;Learn to write GIMP scripts in Python and Script-Fu&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/category/developers-track&quot;&gt;Developer&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Much of the power of GIMP comes from its wide variety of plug-ins. In this tutorial, you&#039;ll learn to write your own GIMP plug-ins in two languages: Python and Script-fu. Python is rapidly becoming the language of choice for GIMP plug-ins due to its flexibility and clean API. Script-fu isn&#039;t as powerful as Python, but it has the advantages of being GIMP&#039;s native language.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Much of the power of GIMP, the GNU Image Manipulation program, comes from its plug-in architecture. Most of the functions you use in GIMP, including everything in the Filters menu, are plug-ins or scripts.  Wouldn&#039;t it be great to be able to write some scripts and plug-ins of your own?  In this tutorial, you&#039;ll learn to write GIMP plug-ins and scripts in two languages: Python and Script-fu.  Python is rapidly becoming the language of choice for writing GIMP plug-ins on Linux because of its flexibility, power and clean API.  You&#039;ll see how easy it is to create a simple Python plug-in or modify an existing one.  You&#039;ll also learn how to use GIMP&#039;s built-in developer documentation as well as where to find documentation online.  And you&#039;ll see how you can use Python and PyGTK to create interactive plug-ins with custom user interfaces, and how to access image pixels directly.  Script-fu isn&#039;t as powerful as Python, but it has a few other advantages. As GIMP&#039;s native language, you can count on users having it already, so your script-fu scripts will be useful to any GIMP user on any platform.  And learning how to use it is easy, since there are at least a hundred helpful script-fu examples already installed on your machine.  Script-fu is a variant of Scheme, but you don&#039;t need to be fluent in Scheme or Lisp to write Script-fu.  With a few basics of Lisp syntax and knowing how to use GIMP&#039;s built-in help, you&#039;re all ready to write simple scripts you can share with the world.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/akkana-peck&quot;&gt;Akkana Peck&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/eKqwJu&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/eKqwJu&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/15_00-AkkanaPeck-gimp-scripting-slides.tar.gz&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Sunday, February 27th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                3:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Carmel        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/writing-gimp-scripts-and-plug-ins#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2656 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Status of the Linux Slab Allocators</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/status-linux-slab-allocators</link>
+ <description>&lt;p&gt;This talk compares and contrasts the three Linux slab allocators by comparing them with every benchmark on many machine types and then suggests which is best for various workloads.  It also examines future work and what slab allocation may soon look like.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/category/developers-track&quot;&gt;Developer&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Linux has 3 different slab allocators: SLAB, SLUB, and SLOB. The chosen allocator&#039;s performance translates to the kernel&#039;s performance as a whole and impacts every subsystem. This talk highlights the slab allocators’ characteristics and presents data on which allocator is superior for different workloads by exhaustively comparing them with every benchmark on different machine types.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Users who compile a Linux kernel have the option to select between three different slab allocators with little to  no guidance on which one to use.  SLAB, the long-standing favorite of distros that has withstood the test of time,  is a complex allocator that performs well on a variety of workloads.  SLUB, the kernel&#039;s default, has a much  simpler design and superior debugging features yet has significant regressions on some benchmarks.  And sitting in  the background is SLOB for embedded devices and machines which require a very small kernel footprint.  The slab allocator is used by the kernel to allocate memory for itself.  Thus, the chosen allocator&#039;s performance  translates to the kernel&#039;s performance as a whole and impacts each and every subsystem.  SLAB, SLUB, and SLOB each  have their own strengths and weaknesses and can cause significant regressions depending on the workload.  This talk aims to shed light on those strengths and weaknesses and presents data on which allocator is superior in a variety of different circumstances.  This is done by exhaustively comparing the allocators with every major kernel benchmark on several different machine types and memory capacities.  Using that data, generalized conclusions  can be drawn on the current state of the slab allocators and which one to use depending on the type of workload  the kernel will be encountering and what this means for desktop users.  In addition to surveying the allocators already merged in Linux, this talk also takes a look at future work by  examining recent development in the area: SLUB with queuing, SLQB, and SLAM.  The talk culminates in answering  the popular question: will we ever have a single slab allocator for Linux and what might that look like?  This talk is aimed at everyone interested in kernel development since the interface and performance of slab  allocation is used by each and every subsystem.  No specialized knowledge of the subsystem&#039;s internals is required.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/david-rientjes&quot;&gt;David Rientjes&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/gxjCLZ&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/gxjCLZ&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/16_30-DavidRientjes-Status_of_the_Linux_Slab_Allocators.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                4:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/status-linux-slab-allocators#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2658 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Automated Deployment of and to OpenStack with Chef</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/automated-deployment-and-openstack-chef</link>
+ <description>&lt;p&gt;Deploying OpenStack is a non-trivial effort. This talk will outline how Chef is used to automate deploying OpenStack to your infrastructure and then be able to deploy with Chef to the virtual private servers on that infrastructure.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/category/developers-track&quot;&gt;Developer&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;OpenStack is a collection of open source technologies for delivering a massively scalable cloud operating system. This talk will outline how Chef (an open source systems integration framework) is used to automate deploying OpenStack and to provide the ability to deploy with Chef to the virtual private servers running on that infrastructure.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Chef is an open source systems integration framework for automating the deployment of your entire infrastructure. OpenStack is a collection of open source technologies for delivering a massively scalable cloud operating system. Deploying OpenStack is a non-trivial effort, this talk will outline how Chef was used to automate deploying OpenStack Compute and Object Storage and then have the ability to deploy with Chef to the virtual private servers running on that infrastructure.  Founded by Rackspace Hosting and NASA, OpenStack has grown to be a global software community of developers, technologists, researchers and corporations collaborating on a standard and massively scalable open source cloud operating system. Developed by Opscode and a vibrant open source community, Chef is being used to automate and deploy large (and small) infrastructures all over the world. Both projects are freely available under the Apache 2.0 license so that anyone can run it, build on it, or submit changes back to the projects. A number of different companies collaborated on automating OpenStack deployments, including Rackspace, Opscode and Cloudscaling.  The seeds for development for this collaborative project were sown at the OpenStack Design Summit in November 2010, where over 250 attendees from all over the world came together to plan future releases. Recognizing the need to make development and deployment of OpenStack easier, we started gathering requirements and documentation to automate the process. OpenStack is now deployable with Chef and is now a supported platform for automatically deploying cloud instances with Chef.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/matt-ray&quot;&gt;Matt Ray&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/fxXNI1&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/fxXNI1&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/18_00-MattRay-OpenStackWithChef.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                6:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Carmel        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/automated-deployment-and-openstack-chef#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2659 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Linux On The Go: Beyond the Laptop</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/linux-go-beyond-laptop</link>
+ <description>&lt;p&gt;A look into differences of Linux on mobile devices&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/category/developers-track&quot;&gt;Developer&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Linux is rapidly filling the needs of the mobile and energy aware world. While in the realm of embedded Linux, tablets, phones, and other mobile devices are seen as hybrids between desktop and embedded. This session will discuss the additional considerations that developers need to be aware of when migrating to mobile, along with why Linux is uniquely suited for this use.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;For a long time, Linux can be divided into two camps - an embedded Linux camp and a desktop/laptop camp. The desktop/laptop camp is predominately stock x86 based hardware dominated by other operating systems and the embedded Linux camp is a mix of custom hardware and standard hardware using an array of different processors.  Typically, embedded is targeted toward a specific application and desktop/laptop is general purpose computing.  In recent times, Linux has been finding its way into a hybrid between desktop/laptop and embedded. This new area consists mostly of mobile devices that is different from a laptop. Android phones and tablets, e-book readers, netbooks, and the coming MeeGo devices are some examples. In this session, we&#039;ll look at what these devices have in common and how Linux has the foundation for them. Like its embedded cousin, such a device requires software/hardware to work in synergy to yeild a device that can also perform general purpose computing. To accomplish this, there are both hardware and software considerations.  Opensource developers familiar with development for the desktop will need to adapt designs to meet the challenges imposed by the mobility aspect. Depending on which part of the software, these adaptations can range from simple changes that can feed back into the same peice of code all the way to having to accomodate a new port. On one end, there is the Linux kernel code base that is shared by desktop and embedded users. At the other extreme is Android which requires developers to do a new port. Often, work to port a software project to a mobile platform will have benefits to the desktop versions such as speed and energy improvements along with bug fixes.  Unlike desktop/laptops, mobile devices tends to be much less homogenous. As such, often basic user interfaces will have to be tuned for each or class of device. Some pieces will be agnostic to the tuning while others will need to be tweaked.   This session touches on issues that both systems developers and individual project developers should be aware of in this new mobile world. Even if developers are not immediately working on a mobile related products, consideration should be weighed to minimize obstacles to future mobile usage of the project. Often times, these same considerations are demanded by embedded users.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/hunyue-yau&quot;&gt;Hunyue Yau&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/gQjyZK&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/gQjyZK&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/13_30-HunyueYau-SCALEX_LinuxOTG_BeyondLaptop.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                1:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Carmel        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/linux-go-beyond-laptop#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/beginner">Beginner</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2663 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Intro to Python</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/intro-python</link>
+ <description>&lt;p&gt;A basic introduction to Python scripting.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/category/beginners-track&quot;&gt;Beginner&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Python is still building up steam as the programming language of the future, and is especially good for systems work. This talk will simply be a demonstrative introduction to the language and its uses. We will cover how to get a script running, interactive python, basic object types, functions and classes. We&#039;ll also take a look at how to obtain modules, and cover a few basic ones.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Scripting Basics 	What Makes Python Special? 	Magic - shebang 	Where is Python? 	Comments 	Execution Debugging 	Python -d 	Python Interactive Shell 	IPython 	help() 	dir() 	pdb Objects and Methods 	Bools 	Strs 	Ints 	Lists 	Tuples 	Dicts 	What Are Iterators? Functions 	Also Objects 	Code Segregation 	Using a main() Function Classes 	Also Objects 	Writing a Class 	Instantiating a Class Modules 	Also Objects 	Importing Modules 	Installing Modules Some Cool Modules 	sys 	os 	re 	time 	socket 	httplib 	subprocess 	json Other Resources&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/andrew-vandever&quot;&gt;Andrew Vandever&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/ebRb45&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/ebRb45&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/15_00-AndrewVandever-IntroToPython.odp&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                3:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/intro-python#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/beginner">Beginner</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/beginners-track">Beginners Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/educational">Educational</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/try-it-lab">Try It Lab</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2666 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Redis: Data Cheeseburgers</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/redis-data-cheeseburgers</link>
+ <description>&lt;p&gt;Learn about Redis and how you can use it with your applications.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/category/developers-track&quot;&gt;Developer&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Explaining Redis is tough.  It’s easy to say “a data structures server” or “memcached on steroids” or something more jargon filled.  It’s not exactly a key value store, it’s definitely not a relational or document-oriented database. Usually as programmers we have to bend our data into a table or document to save it, but with Redis we can persist data as we conceptually visualize it. You may have heard that Redis is super fast, is being used for everything from analytics to job queues, and even on large sites such as Craigslist.  Learn about the basics of Redis and we&#039;ll cover some use cases so you can see how to integrate with your applications.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Explaining Redis is tough, it’s easy to say “a data structures server” or “memcached on steroids” or something more jargon filled. It’s not exactly a key value store, it’s definitely not a relational or document-oriented database. Usually as programmers we have to bend our data into a table or document to save it, but with Redis we can persist data as we conceptually visualize it. You may have heard that Redis is super fast, is being used for everything from analytics to job queues, and even on large sites such as Craigslist. Learn about the basics of Redis and we&#039;ll cover some use cases so you can see how to integrate with your applications. Tasty!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/nick-quaranto&quot;&gt;Nick Quaranto&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/eszIGS&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/eszIGS&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/Nick-cheeseburger.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Sunday, February 27th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                4:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/redis-data-cheeseburgers#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/beginner">Beginner</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/educational">Educational</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2669 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Byobu: GNU Screen for Human Beings</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/byobu-gnu-screen-human-beings</link>
+ <description>&lt;p&gt;Unleash the power of your command line environment through this innovative, intuitive take on GNU Screen&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                System Administrator        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;UNIX and Linux sys admins have been using the GNU Screen utility for 25 years. While expert Screen users swear of its importance in their toolbox, the learning curve for new users can be quite steep. Enter &#039;Byobu&#039;, an innovative, intuitive approach to GNU Screen. The author of Byobu will introduce the basic flow of operation and also showcase the advanced features of Byobu and GNU Screen.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;UNIX and Linux sys admins have been using the GNU Screen utility for 25 years. While expert Screen users swear of its importance in their toolbox, the learning curve for new users can be quite steep. Enter &#039;Byobu&#039;, an innovative, intuitive approach to GNU Screen. The author of Byobu will introduce the basic flow of operation and also showcase the advanced features of Byobu and GNU Screen.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/dustin-kirkland&quot;&gt;Dustin Kirkland&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/f9uJvp&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/f9uJvp&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/11_30-DustinKirkland-Byobu.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                11:30am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/byobu-gnu-screen-human-beings#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/beginner">Beginner</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2679 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Membase</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/membase</link>
+ <description>&lt;p&gt;Membase: the Open Source simple, fast, elastic NoSQL database for interactive web applications.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/category/developers-track&quot;&gt;Developer&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;The kind of apps we build have evolved. Mobile apps. Facebook apps. Responses are needed in milliseconds. Techniques for storing and getting data are starting to evolve too. The category even has a name: NoSQL. Which one should you choose though? This session will cover Membase, the memcached-protocol-compatible database behind several games at Zynga and the Open Source project at membase.org.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;The kinds of apps we build have evolved.  Mobile apps.  Facebook apps.  Responses are needed in milliseconds. Techniques for storing and getting that data are starting to evolve too. The category even has a name: NoSQL. Which one should you choose though?  Your site really runs on memcached, occasionally accessing a SQL database. You need SQL for some types of data access, or you fear the effort involved in breaking free from some of that legacy mapping code.  Other types of data access could be serviced by something like memcached, but you would need the same speed, it would need to be compatible with current production applications and your application data has to survive the seemingly hostile environment from your cloud computing provider. You want to know that it will never make your application wait for data; you need to know that it’s been deployed for something other than batch-based workloads.  Membase is a simple, fast, elastic key-value database. Building upon the memcached engine interface, it is memcapable, meaning it is completely compatible with existing memcached clients and applications. The functionality from the Membase project allows for persistence, replication of data, lots of statistics on data use and even streaming data for iterating over every item in the store.  The founding sponsors of membase, Membase, Inc., Zynga and NHN launched a new project at membase.org under an Apache 2.0 license. Learn how to get it, about the deployments behind some of the largest sites and how you can get involved in the project.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/matt-ingenthron&quot;&gt;Matt Ingenthron&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/exOzmt&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/exOzmt&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/MattIngenthron-Membase.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                3:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Carmel        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/membase#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/beginner">Beginner</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/community">Community</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/general">General</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2773 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Behind the Scenes of Google Project Hosting</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/behind-scenes-google-project-hosting</link>
+ <description>&lt;p&gt;An inside look at how Google Project Hosting works, what it does, and why&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/presentationcategory/general&quot;&gt;General&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Thousands of open source developers host their projects on code.google.com.  This talk quickly tours the features of Google Project Hosting with concrete examples of how project members are making the most of them.  From there, we go behind the scenes to present the rationale for design decisions, and highlights of our architecture and implementation.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Thousands of open source developers host their projects on code.google.com.  This talk quickly tours features of Google Project Hosting with concrete examples of how project members are making the most of them.    The feature tour highlights power-user tips that many current users may not know about.  The examples of how GPH is used highlights best practices, and some unusual and ingenious usage.  From there, we go behind the scenes to present the rationale for design decisions, and highlights of our architecture and implementation.  Many of the key design decisions revolve around the shifting balance of power between project owners users that the visit projects.  The architecture seeks to be both scalable and reliable as well as still hackable.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/jason-robbins&quot;&gt;Jason Robbins&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/nathan-ingersoll&quot;&gt;Nathan Ingersoll&lt;/a&gt;&lt;br /&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/e6TZ4z&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/e6TZ4z&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/18_00-JasonRobbins-Behind_the_Scenes_of_Google_Project_Hosting.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                6:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/behind-scenes-google-project-hosting#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2811 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+</channel>
+</rss>

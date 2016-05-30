@@ -1,0 +1,58 @@
+2006 Southern CAlifornia Linux Expo
+
+The USC, Simi/Conejo, and UCLA Linux User Groups are proud to announce
+the 4th annual Southern California Linux Expo scheduled for February
+11-12, 2006 at the Radisson Hotel near the Los Angeles International
+Airport. Building on the tremendous success of last three years' SCALE,
+we will continue to promote Linux and the Open Source Software
+community. 
+
+We invite you to share your work on Linux and Open Source projects with
+the rest of the community as well as exchange ideas with some of the
+leading experts in these field. Details about SCALE 4X as well as
+archives for the last three years can be found at
+http://www.socallinuxexpo.com. 
+
+All proposals are to be sent to kapadia=at=socallinuxexpo.com.
+
+Topics of interest include, but are not limited to:
+
+* Linux kernel
+* Linux Networking
+* Linux for embedded systems
+* Linux for Desktops
+* LAMP
+* Multimedia in Linux
+* Security in Linux
+* VoIP
+* Wireless tools in Linux
+* Linux Games
+* GIMP & other graphics software
+* Administration techniques for specific distributions
+* Custom Configurations
+* Linux Deployments and experiences: Case studies
+* Open source Licensing
+* Government policies with Open Source
+* Other open source projects
+
+The proposals should comprise a 1-page (maximum) description containing
+the following:
+
+1] Title for the talk.
+2] Name, Affiliation, Bio, a passport size picture (optional) and
+contact email address of the Presenter.
+3] What will be covered? A bulleted list of the main points of the
+presentation will be ideal. Please include enough detail as will be
+necessary.
+4] Any specific requirements needed for the presentation other than an
+overhead projector and a microphone.
+
+Presentations are alloted a time slot of about 45 minutes.
+
+Important Dates:
+
+20 Jun, 2005: CFP Opens
+03 Dec, 2005: Last date for abstracts/proposals
+20 Dec, 2005: Last date for notification of acceptance
+11 Feb, 2006: Conference starts
+

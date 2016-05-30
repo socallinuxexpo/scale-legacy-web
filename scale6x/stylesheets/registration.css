@@ -1,0 +1,47 @@
+#column_2 span{
+	display: block;
+	margin:  15px 0;
+	}
+
+#pricing{
+	background: url("../images/registration/pricing_background.gif") no-repeat;
+	padding:    15px 15px 5px 15px;
+	}
+
+	#pricing li{
+		background: #E5F5FA;
+		color:      #00A0C6;
+		float:      left;
+		font:       bold 14px Sans-Serif;
+		margin:     0 0 0 1px;
+		padding:    10px 0 0 0;
+		text-align: center;
+		width:      151px;
+		}
+
+		#pricing li span{
+			color:     #000;
+			font-size: 16px;
+			}
+
+	#pricing span{
+		margin:  0;
+		padding: 10px 0;
+		}
+
+	#pricing ul{ margin: 0; }
+
+#pricing_wrapper{ background: url("../images/registration/pricing_wrapper_background.gif") no-repeat 0 100%; }
+
+#status{
+	background:  #EBFFD6 url("../images/registration/status_background.gif") no-repeat 10px 50%;
+	font-weight: bold;
+	padding:     5px 10px 5px 25px;
+	}
+
+	#status em{
+		color:      #00A0C6;
+		font-style: normal;
+		}
+
+	#status span{ margin: 0; }

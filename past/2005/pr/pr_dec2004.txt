@@ -1,0 +1,44 @@
+SoCal Linux Expo Adds more Speakers, Sponsors and Groups
+
+Los Angeles, CA December 14, 2004
+
+Many new speakers have been added to the SCALE 3X lineup:
+
+Norm McEntire - Servin Corporation
+Paul Von Stamwitz - AMCC
+Daryll Strauss - Digital Ordnance
+Cecil Watson
+Ted Gould - Inkscape
+John Ousterhout - Electric Cloud, Inc.
+Gideon Romm - Symbio Technologies
+Kim Brand - Computer Experts, Inc.
+David Uhlman - Uversa Inc
+Sumitra Srinivasan - Georgia State University
+
+These sponsors are newly signed with the Linux Expo:
+
+TOLIS Group - basic sponsor
+LinuxQuestions.org - media sponsor
+Yosemite Technologies - registration sponsor
+
+The following LUGs or non-profit groups have signed up to man a booth at
+SCALE 3X:
+
+Debian, FreeBSD, NetBSD, Free Software Foundation, Gentoo, GNOME, KDE,
+KnoppMyth, LAMPSIG, Linux Astronomy, Linux Terminal Server Project,
+LinuxChix of LA, Santa Barbara Linux Users Group, Socal Wireless Users
+Group, and Wikimedia Foundation.
+
+If your LUG, or other non-profit Open Source organization would like to
+be represented at SCALE 3X, please contact gareth@socallinuxexpo.org for
+a booth. Don't delay; booths are being assigned to LUGs and other ORGs
+steadily.
+
+SCALE 3X will be held February 12th and 13th, 2005, at the Los Angeles
+Convention Center.
+
+The Linux Expo of Southern California was established in 2001. Our
+mission is to evangelize the advantages of Open Source software.
+
+For more information on speakers and sponsors, see
+http://socallinuxexpo.com, or email info@socallinuxexpo.com.

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org/scale9x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 9x - 2011 Southern California Linux Expo - ScaleU</title>
+ <link>https://www.socallinuxexpo.org/scale9x/taxonomy/term/11/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Introduction to Automating System Administration with Cfengine</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/introduction-automating-system-administration-cfengine</link>
+ <description>&lt;p&gt;An introduction to Cfengine, the open source configuration management tool with the longest track record, a large user base, and cutting edge features.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/scale-university&quot;&gt;SCALE U&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Modern system administration automates configuration managementby  using state of the art tools. This is an introduction to Cfengine, the open source configuration management tool with the longest track record, a large user base, and cutting edge features. System administrators will gain an understanding of Cfengine 3, including its syntax and benefits, and will be able to start using it immediately.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Modern system administration automates configuration management using state of the art tools.  Here is an introduction to Cfengine, the open source configuration management tool with the longest track record, a large user base, and cutting edge features.&lt;/p&gt;
+&lt;p&gt;System administrators will take back to work an understanding of Cfengine 3 including it&#039;s syntax and benefits, and will be able to start using it.&lt;/p&gt;
+&lt;p&gt;Topics include:&lt;br /&gt;
+  * Moving from ad hoc administration to automation&lt;br /&gt;
+  * The importance of convergence and self-healing&lt;br /&gt;
+  * The Promise model&lt;br /&gt;
+  * Data types&lt;br /&gt;
+  * Quickstart configuration&lt;br /&gt;
+  * Example configurations and demos&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/aleksey-tsalolikhin&quot;&gt;Aleksey Tsalolikhin&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                9:00am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles C        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/introduction-automating-system-administration-cfengine#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/scaleu">ScaleU</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2609 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Application Acceleration from a Data Storage Perspective</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/application-acceleration-data-storage-perspective</link>
+ <description>&lt;p&gt;New Advances In Caching and Solid State Storage&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/scale-university&quot;&gt;SCALE U&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Data storage, one element of application delivery, is often a bottleneck. There are technologies that can optimize storage performance. I review innovations and explain how optimization technologies can  be added to infrastructure: * I/O Patterns * SLC / MLC / DRAM * Solid state * SQL &amp;amp; Exchange acceleration * FS acceleration * SAN array dynamic tiered storage * Application QoS * Caching appliances * Solid state storage&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Data storage is just one element in the application delivery ecosystem, but it turns out that it is often the critical performance bottleneck. A number of new technologies have recently come to market that optimize storage performance.  This session reviews several of these innovations and explains how performance-optimization technologies can be easily integrated into the existing storage infrastructure.  Topics Include: *         Understanding disk I/O patterns *         SLC flash versus MLC flash versus DRAM *         Packaging options for solid state storage *         SQL database acceleration *         MS Exchange acceleration *         File system tiering acceleration *         Dynamic tiered storage in a SAN array *         Application-Level QoS *         3rd party caching appliances *         Solid state storage and deduplication&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/sam-eckhouse&quot;&gt;Sam Eckhouse&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                1:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles C        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/application-acceleration-data-storage-perspective#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/scaleu">ScaleU</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2621 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Security Best Practices and Tools for Linux</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/security-best-practices-and-tools-linux</link>
+ <description>&lt;p&gt;Learn essential security concepts and how to apply them on Linux.  security&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/scale-university&quot;&gt;SCALE U&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;This class will offer an explanation of important IT security concepts and practical examples of system hardening, access control, privilege management, intrusion detection, and more. Beginners will learn how to think about security and how to use some important tools. Experienced attendees will receive a refresher on risk-based security management while learning about some of the latest advances in Linux security tools.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;This class will offer an explanation of important IT security concepts and practical examples of system hardening, access control, privilege management, intrusion detection, configuration/change management, firewalls, vulnerability management, and sensor/log monitoring. Beginners will learn how to start thinking about security and how to use some important tools that are available to them. Attendees with more experience will receive a refresher on risk-based security management while learning of some of the latest advances in Linux security tools.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/matt-disney&quot;&gt;Matt  Disney&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                9:00am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles B        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/security-best-practices-and-tools-linux#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/scaleu">ScaleU</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2622 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>BackupPC</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/backuppc</link>
+ <description>&lt;p&gt;Enterprise, Cross Platform Backups for Everyone&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/scale-university&quot;&gt;SCALE U&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Need a reliable backup solution? Have Windows, Mac, Unix, or Linux machines? If so, BackupPC can solve your problem.&lt;br /&gt;
+We cover configuration; home, small business, enterprise; and performance and troubleshooting tips.  In the end you will be able to set up a BackupPC server that can scale to several thousand machines.  No prior experience with BackupPC required, but a basic knowledge of Unix shell is helpful.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Do you need a reliable backup solution and cannot afford to pay thousands for one?  Do you have Windows, Mac, Unix, or Linux machines to backup?  Do you need a solution that supports long term archives, include/exclude lists, has a nice GUI interface, and can support 1 or thousands of machines?  If so, than BackupPC is for you.&lt;/p&gt;
+&lt;p&gt;This class will cover how BackupPC can solve your home or business Backup problem.  We will cover configuration; home, small business, and enterprise scenarios; and performance and troubleshooting Tips.  At the end of the class you will be able to set up a BackupPC server for your location that can scale from a few up to several thousand machines.  No prior experience with BackupPC is required, but a basic knowledge of Unix shell commands is helpful.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/ski-kacoroski&quot;&gt;Ski Kacoroski&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                1:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles B        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/backuppc#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/scaleu">ScaleU</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2628 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+</channel>
+</rss>

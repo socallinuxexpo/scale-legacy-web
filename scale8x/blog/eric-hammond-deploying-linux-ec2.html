@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+
+<!-- Mirrored from www.socallinuxexpo.org/scale8x/blog/eric-hammond-deploying-linux-ec2 by HTTrack Website Copier/3.x [XR&CO'2008], Fri, 18 Jun 2010 00:23:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Eric Hammond on Deploying Linux on EC2 | SCALE 8x - 2010 Southern California Linux Expo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/socallinuxexpo.org.scale8x/files/scale2_favicon_0.png" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="../modules/node/node92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/system/defaults92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/system/system92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/system/system-menus92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/user/user92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/cck/theme/content-module92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/ctools/css/ctools92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/date/date92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/dhtml_menu/dhtml_menu92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/filefield/filefield92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/cck/modules/fieldgroup/fieldgroup92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/views/css/views92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/html-elements92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/tabs92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/messages92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/block-editing92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/wireframes92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/layout92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/scale392eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/style92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="print" href="../sites/all/themes/scale3/print92eb.css?b" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/scale8x/sites/all/themes/zen/zen/ie.css?b" />
+<![endif]-->
+  <script type="text/javascript" src="../misc/jquery92eb.js?b"></script>
+<script type="text/javascript" src="../misc/drupal92eb.js?b"></script>
+<script type="text/javascript" src="../sites/all/modules/dhtml_menu/dhtml_menu92eb.js?b"></script>
+<script type="text/javascript" src="../sites/all/modules/rounded_corners/jquery.corner92eb.js?b"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/scale8x/", "dhtmlMenu": { "slide": "slide", "siblings": 0, "relativity": 0, "children": 0, "clone": 0, "doubleclick": 0 } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$(function(){ // shorthand for $(document).ready() 
+$("#primary li").corner("round top 7px");
+ });
+//--><!]]>
+</script>
+</head>
+<body class="not-front not-logged-in node-type-blog no-sidebars page-blog-eric-hammond-deploying-linux-ec2 section-blog">
+
+  <div id="page"><div id="page-inner">
+
+    <a name="top" id="navigation-top"></a>
+          <div id="skip-to-nav"><a href="#navigation">Skip to Navigation</a></div>
+    
+                      <div id="search-box">
+              <form action="http://www.socallinuxexpo.org/scale8x/blog/eric-hammond-deploying-linux-ec2"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-fc835874bcddabf3f05e678ce9753776" value="form-fc835874bcddabf3f05e678ce9753776"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+            </div> <!-- /#search-box -->
+          
+    <div id="header"><div id="header-inner" class="clear-block">
+
+              <div id="logo-title">
+
+                      <div id="logo"><a href="../index.html" title="Home" rel="home"><img src="../sites/socallinuxexpo.org.scale8x/files/scale3_logo.png" alt="Home" id="logo-image" /></a></div>
+          
+          
+          
+        </div> <!-- /#logo-title -->
+      
+      
+    </div></div> <!-- /#header-inner, /#header -->
+
+    <div id="main"><div id="main-inner" class="clear-block with-navbar">
+
+      <div id="content"><div id="content-inner">
+
+        
+        
+                  <div id="content-header">
+            <div class="breadcrumb"><a href="../index.html">Home</a> › </div>                          <h1 class="title">Eric Hammond on Deploying Linux on EC2</h1>
+                                                          </div> <!-- /#content-header -->
+        
+        <div id="content-area">
+          <div id="node-2502" class="node node-type-blog"><div class="node-inner">
+
+  
+  
+  
+      <div class="meta">
+              <div class="submitted">
+          Submitted by orv on Thu, 02/18/2010 - 23:16        </div>
+      
+          </div>
+  
+  <div class="content">
+    <div class="field field-type-filefield field-field-blog-image">
+    <div class="field-items">
+            <div class="field-item odd">
+                <img src="../sites/socallinuxexpo.org.scale8x/files/imagecache/blog_image/scale-eric-hammond-featured.jpg" alt="" title=""  class="imagecache imagecache-blog_image imagecache-default imagecache-blog_image_default" width="200" height="113" />        </div>
+        </div>
+</div>
+<p>By SCALE Guest Blogger Matthew Sacks, <a href="http://www.thebitsource.com/">The Bitsource</a></p>
+<p>Eric Hammond is an expert in the practical aspects of running  <a href="http://alestic.com/">Ubuntu on Amazon EC2</a>.  Since 2007, Eric has supported this platform creating public Amazon Machine Images (AMI's), publishing articles, guiding users in public forums, and occasional private consulting.</p>
+<p>Eric has built and led successful technology for a number of early stage Internet startups in the Los Angeles area including Citysearch.com, Stamps.com, Rent.com, ThisNext.com, and his current startup, <a href="http://www.campusexplorer.com/">CampusExplorer.com</a>,  which runs in Ubuntu on Amazon EC2.</p>
+<p>Eric is leading an  <a href="amazon-ec2-try-it-lab-preparation-required.html">EC2 beginners workshop</a> in the  <a href="../category/category/try-it-lab.html">Try It Lab</a> at the Southern California Linux Expo (SCALE), February 19-21, in Los Angeles, CA. Eric spoke with me and gives some insights into his upcoming training lab.   <strong></strong></p>
+<p><strong>Q: Why is EC2 an ideal platform for running Linux servers?</strong></p>
+<p><strong>Eric Hammond:</strong> Though no single platform is ideal for all server situations, Amazon AWS and EC2 certainly deliver many benefits for a large segment of existing applications and open up the potential for new applications which may not have been previously possible or reasonable to consider.</p>
+<p>Amazon AWS/EC2 provides on demand, self service, pay as you go, computing infrastructure.  You don't have to plan ahead for how much hardware you might need.  You don't have to keep paying for hardware after you no longer need it.  You don't have to talk to any humans to provision the hardware.  You don't have to maintain the system or network hardware.</p>
+<p>If hardware fails, you simply throw it away and switch to new hardware with no additional cost.  We just did this with our production database server.  While we were at it, we brought the new server up in a newer data center (availability zone).  How many startups can control these levels of resources using command line programs on a laptop?</p>
+<p>EC2 eliminates many of the mundane chores and concerns which exist in so many other infrastructure environments.  Amazon has built out solid hardware, software technology, processes, and staff to take care of an entire layer of your technology architecture so that you can focus on what is really unique and pertinent to your business.</p>
+<p>EC2 has changed how I personally approach problems.  One example is that instead of working in serial, sequential steps, I try to think in parallel.  If I am working with a big set of data and don't know which of three possible architectures is going to get me the answer the fastest, I'll fire up a number of EC2 servers and try multiple approaches in parallel.  When one of them is the clear winner, the other servers can be discarded without a second thought.</p>
+<p>The coolest thing about Amazon EC2 for beginners is that it's easy and cheap to take it for a spin.  You don't have to make a big decision and commit a lot up front just to try it out.  There's nothing quite like the actual experience of typing a command or clicking a button and having one or a dozen high powered servers at your fingertips in under a minute.</p>
+<p>In the EC2 beginners workshop at SCALE, we will help participants take this first step in experiencing how to run an EC2 server, use it a bit, and shut it down--all for about a dime.</p>
+<p><strong>Q: Do you recommend using pre-built images for deploying Linux-based EC2 instances?</strong></p>
+<p><strong>Eric Hammond:</strong> Short answer: Yes.  Long answer: It depends on a number of factors including how long it takes to configure a new server for your application, your level of trust in the persons or companies who built the public images, your level of Linux experience, and more.</p>
+<p>Beginners are going to want to start with a public image published by a trusted individual or company.  I recommend the official Ubuntu AMIs published by Canonical or the ones I publish myself.  The Ubuntu 9.10 Karmic AMIs are the most up-to-date and run with consistent, modern kernels.  When Ubuntu releases 10.4 Lucid in April, it will be immediately available for use on Amazon EC2 at the same time it is available for download.  Other Linux distributions on EC2 tend to only be available in older releases or run with older/incompatible kernels, though there are still a lot of companies building EC2 applications with Debian, CentOS, Fedora, and more.</p>
+<p>After running a public AMI and configuring the server, the next step many folks take is to  <a href="http://alestic.com/2009/06/ec2-ami-bundle">re-bundle the running server</a>,  saving it as a private AMI to be run later.  This is ok, but can create maintenance headaches when you realize you need to switch between architectures or upgrade to a new base image.</p>
+<p>Many experienced users run public AMIs and have the servers install the desired software and configuration automatically on startup.  This is the method I recommend to keep in mind as an end goal, even if you don't get there right away.</p>
+<p>Some advanced users  <a href="http://alestic.com/2010/01/ec2-ebs-boot-ubuntu">build an AMI from scratch</a>,  which has benefits of knowing exactly what is going into the image and being able to reproduce the process when you need to update the AMIs.</p>
+<p><strong>Q: Do many Linux users find EC2 as an ideal platform for learning Linux?</strong></p>
+<p><strong>Eric Hammond:</strong> It's difficult to get a comprehensive view of who is using EC2 and for what purposes.  There are hundreds of thousands of AWS customers and each person has their own level of experience, involvement, and reasons for using Linux and EC2.</p>
+<p>However, based on some of the questions I've seen in communities like the <a href="http://ec2forum.notlong.com/">EC2 Forum</a> and the  <a href="http://groups.google.com/group/ec2ubuntu/">ec2ubuntu Google group</a>, I believe that there is a significant number of users new to Linux getting their early experience with Linux on EC2, even though they're needing to learn two major technologies at the same time instead of just one.</p>
+<p>Reasons for this might include the fact that you don't have to replace any operating system on your existing desktops or server hardware in order to try Linux on EC2; simply rent a system by the hour and try it out with a web browser and an ssh client.  Plus, it's cheap; you can fool around with Linux on EC2 for most of a workday and end up paying under a dollar.</p>
+<p>One of the benefits of EC2 is that each server starts out fresh; if you mess one up you can terminate it and start a new one, repeating until you get it just right.  This can be handy even to more experienced Linux users who are experimenting with new software configurations.</p>
+<p>Not only is it possible to try out Linux in the server environment on EC2, but users can also run a Linux desktop on EC2 and interact with it through their own Windows, Mac, (or Linux) computer as if it were local.  This can be an alternative to "live CDs" like those provided by Ubuntu, and some users end up keeping their desktop persistent on EC2 so that they can log in to it from anywhere or share it with a user across the globe.</p>
+<p><strong>Q: Are there specific considerations a user must take when deploying  Linux to EC2? </strong></p>
+<p><strong>Eric Hammond:</strong> I would recommend a slow, gradual approach to EC2 deployments.  As long as the need is not urgent, take your time, learn about EC2 and the other services in AWS, start running tests with your applications and figure out what works and what approaches need to be adapted.</p>
+<p>Amazon has published a lot of documentation from the high architectural level, addressing concerns like security and reliability, down to the low command line options and API spec levels for developers.  Read all you can and then don't hesitate to ask questions.  The communities I mentioned earlier are great resources with lots of helpful folks who have gone through the same learning experiences you are about to enjoy.   <strong></strong></p>
+<p><strong>Q: Will users need to bring their own laptop to take your tutorial at SCALE?</strong></p>
+<p><strong>Eric Hammond:</strong> A number of Internet connected Ubuntu workstations will be provided in the Try It Lab for use by workshop participants.  If there is extra room and the wifi is working well, then folks are also welcome to bring in laptops and follow along.</p>
+<p>There is some preparation required for participation in the EC2 lab: Each participant needs to  <a href="amazon-ec2-try-it-lab-preparation-required.html">sign up for an AWS account</a> well in advance of the SCALE event so that Amazon has enough time to authorize the account.</p>
+<p>There is no commitment or cost for creating the account, so go ahead and take the steps if you are even thinking that you might like to participate in the introductory EC2 workshop.   <strong></strong></p>
+<p><strong>More Resources:</strong> Follow Eric on Twitter: <a href="http://twitter.com/esh">http://twitter.com/esh</a></p>
+<p>Eric's technical blog: <a href="http://alestic.com/">http://alestic.com/</a></p>
+<p>Amazon EC2: <a href="http://aws.amazon.com/ec2/">http://aws.amazon.com/ec2/</a></p>
+<div id="disqus_thread"></div><noscript><div class="disqus-noscript"><a href="http://southerncalifornialinuxexpo.disqus.com/?url=http%3A%2F%2Fwww.socallinuxexpo.org%2Fscale8x%2Fnode%2F2502">View the discussion thread.</a></div></noscript>  </div>
+
+  <ul class="links inline"><li class="comment_forbidden first last"></li>
+</ul>
+</div></div> <!-- /node-inner, /node -->
+        </div>
+
+        
+        
+      </div></div> <!-- /#content-inner, /#content -->
+
+              <div id="navbar"><div id="navbar-inner" class="clear-block region region-navbar">
+
+          <a name="navigation" id="navigation"></a>
+
+                      <div id="primary">
+              <ul class="links"><li class="menu-114 first"><a href="../index.html" title="">Home</a></li>
+<li class="menu-415"><a href="../conference-info.html" title="Dates, schedule, special events and more">Conference Info</a></li>
+<li class="menu-418"><a href="../conference-schedule-feb-19-2010.html" title="">Schedule</a></li>
+<li class="menu-419"><a href="../special-events.html" title="">Special Events</a></li>
+<li class="menu-929"><a href="https://www.socallinuxexpo.org/reg7/" title="">Registration</a></li>
+<li class="menu-846 last"><a href="../blog.html" title="">Blog</a></li>
+</ul>            </div> <!-- /#primary -->
+          
+          
+        </div></div> <!-- /#navbar-inner, /#navbar -->
+      
+              <div id="secondary_navbar"><div id="secondary_navbar-inner" class="clear-block region region-secondary_navbar">
+
+          
+          
+        </div></div> <!-- /#navbar-inner, /#navbar -->
+      
+      
+      
+    </div></div> <!-- /#main-inner, /#main -->
+
+          <div id="footer"><div id="footer-inner" class="region region-footer">
+
+        
+        <div id="block-menu-menu-tertiary-links" class="block block-menu region-odd odd region-count-1 count-1"><div class="block-inner">
+
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first dhtml-menu "><a href="../about.html" title="" id="dhtml_menu-748">About SCALE</a></li>
+<li class="leaf  dhtml-menu "><a href="../committees.html" title="Contact information for the Linux Expo" id="dhtml_menu-919">Contact us!</a></li>
+<li class="leaf  dhtml-menu "><a href="../media-links.html" title="SCALE Press Releases and media articles about SCALE" id="dhtml_menu-1754">Media</a></li>
+<li class="leaf last dhtml-menu "><a href="../past-events.html" title="" id="dhtml_menu-749">Past Events</a></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+
+      </div></div> <!-- /#footer-inner, /#footer -->
+    
+  </div></div> <!-- /#page-inner, /#page -->
+
+      <div id="closure-blocks" class="region region-closure"><div id="block-block-1" class="block block-block region-odd even region-count-1 count-2"><div class="block-inner">
+
+  
+  <div class="content">
+    <p>Copyright 2002-2010 Linux Expo of Southern California. All Rights Reserved.</p>
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+  
+  <script type="text/javascript">var disqus_url = "eric-hammond-deploying-linux-ec2.html";var disqus_title = "Eric Hammond on Deploying Linux on EC2";var disqus_message = "By SCALE Guest Blogger Matthew Sacks, The BitsourceEric Hammond is an expert in the practical aspects of running  Ubuntu on Amazon EC2.  Since 2007, Eric has supported this platform creating public Amazon Machine Images (AMI\x26#039;s), publishing articles, guiding users in public forums, and occasional private consulting.";var disqus_identifier = "node/2502";</script><script type='text/javascript' src='http://disqus.com/forums/southerncalifornialinuxexpo/embed.js'></script>
+</body>
+
+<!-- Mirrored from www.socallinuxexpo.org/scale8x/blog/eric-hammond-deploying-linux-ec2 by HTTrack Website Copier/3.x [XR&CO'2008], Fri, 18 Jun 2010 00:23:08 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 10x - 2012 Southern California Linux Expo - Youth</title>
+ <link>https://www.socallinuxexpo.org/scale10x/topic/youth</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Tux Paint Demo</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/tux-paint-demo</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/youth&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Youth&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Tux Paint is free and open source software for drawing pictures and creating works of art.  Quoting the developers, Tux Paint &quot;combines an easy-to-use interface, fun sound effects, and an encouraging cartoon mascot who guides children as they use the program&quot;.  It is geared toward preschool and elementary school children but kids of all ages find it fun to use!&lt;/p&gt;
+&lt;p&gt;In this brief presentation, Katia will discuss and demonstrate some of the interesting features of Tux Paint such as:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The simple, entertaining interface featuring sounds effects and a cartoon version of Tux offering help and tips&lt;/li&gt;
+&lt;li&gt;The drawing tools available including paint brushes, stamps, shapes, text and more &lt;/li&gt;
+&lt;li&gt;&quot;Magic&quot; effects that can transform and enhance simple drawings &lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-presentation-file field-type-file field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Presentation Slides:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span class=&quot;file&quot;&gt;&lt;img class=&quot;file-icon&quot; alt=&quot;&quot; title=&quot;application/pdf&quot; src=&quot;/modules/file/icons/application-pdf.png&quot; /&gt; &lt;a href=&quot;https://www.socallinuxexpo.org/sites/default/files/presentations/The%20Magical%20World%20of%20Tux%20Paint.pdf&quot; type=&quot;application/pdf; length=565772&quot;&gt;The Magical World of Tux Paint.pdf&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 04 Jan 2012 05:26:58 +0000</pubDate>
+ <dc:creator>katia</dc:creator>
+ <guid isPermaLink="false">466 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/tux-paint-demo#comments</comments>
+</item>
+<item>
+ <title>SCALE TNG Open Demonstrations</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/scale-tng-open-demonstrations</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/youth&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Youth&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;SCALE TNG Demonstrations&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 04 Jan 2012 05:03:09 +0000</pubDate>
+ <dc:creator>ron</dc:creator>
+ <guid isPermaLink="false">465 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/scale-tng-open-demonstrations#comments</comments>
+</item>
+<item>
+ <title>SCALE TNG Exhibitor Floor Tour</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/scale-tng-exhibitor-floor-tour</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/youth&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Youth&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;SCALE TNG Exhibitor Floor Tour&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 09 Jan 2012 00:19:16 +0000</pubDate>
+ <dc:creator>gareth</dc:creator>
+ <guid isPermaLink="false">481 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/scale-tng-exhibitor-floor-tour#comments</comments>
+</item>
+<item>
+ <title>Getting involved in open source at a young age</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/getting-involved-open-source-young-age</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/youth&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Youth&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;When someone is of a young age, they have many opportunities to contribute to open source projects that you or them might not think of. Young Kids and teens have many chances to participate in open source community, collaboration and development  and this presentation will discuss practical examples of them, as well as the obstacles that younger individuals might run into in an open source community when working with individuals who are older then them.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 04 Jan 2012 08:30:41 +0000</pubDate>
+ <dc:creator>Philip Ballew</dc:creator>
+ <guid isPermaLink="false">469 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/getting-involved-open-source-young-age#comments</comments>
+</item>
+<item>
+ <title>Overview of Google Summer of Code</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/overview-google-summer-code</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/youth&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Youth&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Overview of Google Summer of Code&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 04 Jan 2012 04:51:50 +0000</pubDate>
+ <dc:creator>Cat Allman</dc:creator>
+ <guid isPermaLink="false">464 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/overview-google-summer-code#comments</comments>
+</item>
+<item>
+ <title>Ultimate Boredom 2.0</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/ultimate-boredom-20</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/youth&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Youth&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;A presentation between Mirano (Mimi) Cafiero, Malakai and Saskia Wade to share some things they&#039;ve done with various FOSS programs and what kind of programs they like to use. These include Openshot, GIMP, TuxPaint and some other programs geared toward graphics, and how they can be used by young people.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 14 Nov 2011 21:08:44 +0000</pubDate>
+ <dc:creator>The Miminator</dc:creator>
+ <guid isPermaLink="false">189 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/ultimate-boredom-20#comments</comments>
+</item>
+</channel>
+</rss>

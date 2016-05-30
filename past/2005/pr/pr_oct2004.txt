@@ -1,0 +1,35 @@
+SoCal Linux Expo Continues to fill out Expo Lineup
+
+The Southern California Linux Expo continues to sign distinguished
+speakers for SCALE 3x, the third annual So Cal Linux Expo. Here are the
+most recent additions:
+
+Kevin Bedell - LinuxWorld Magazine
+Jason Schultz - Electronic Frontier Foundation
+Marc Hamilton - Sun Microsystems
+harles Coble - EMIC Networks
+Paul Von Stamwitz - 3ware
+Tim Jones - TOLIS Group
+
+The Expo has also signed the following sponsors:
+
+IBM
+EMIC Networks
+McGraw Hill/Osborne Media
+Addison-Wesley
+socalTECH.com
+ITtoolbox
+
+Additionally, KnoppMyth and Debian are the first two non-profits to sign
+up for booths.
+
+SCALE 3X will be held February 12th and 13th, 2005, at the Los Angeles
+Convention Center.
+
+The Linux Expo of Southern California was established in 2001. Our
+mission is to evangelize the advantages of Open Source software.
+Examples of OSS are Linux, the various BSD operating systems, and
+applications such as the OpenOffice suite and the Firefox browser.
+
+For more information on speakers and sponsors, see
+http://socallinuxexpo.com, or email info@socallinuxexpo.com.

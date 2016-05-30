@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org/scale9x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 9x - 2011 Southern California Linux Expo - DevOps</title>
+ <link>https://www.socallinuxexpo.org/scale9x/taxonomy/term/23/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>DevOps: State of the Union</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/devops-state-union</link>
+ <description>&lt;p&gt;Learn what experts think about where we are in DevOps and where we need to go next!&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/devops-day-los-angeles&quot;&gt;DevOps&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Julian Simpson (@builddoctor) summarizes devops as &quot;a rejection of conflict between two groups who attempt to achieve conflicting goals, and an attempt to be good at whatever pigeonhole you’re in.&quot;  In this talk, you will hear expert opinions on how far along we are today, where we&#039;re going next, and examples of tools and ideas you can employ to make the devops goal a reality.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Julian Simpson (@builddoctor) summarizes devops as &quot;a rejection of conflict between two groups who attempt to achieve conflicting goals, and an attempt to be good at whatever pigeonhole you’re in.&quot;  Our first talk will elaborate on this through expert opinions on how far along we are today,  and where we&#039;re going next.  You&#039;ll hear examples of tools and ideas you can employ to make the devops goal a reality.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/adrian-cole&quot;&gt;Adrian Cole&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/eIZoh0&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/eIZoh0&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/0945-Adrian_Cole-DevOps_State_of_the_Union.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                9:00am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/devops-state-union#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/devops">DevOps</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2777 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Panel: Open Source Configuration Management Tools</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/panel-open-source-configuration-management-tools</link>
+ <description>&lt;p&gt;A panel discussion with the creators of today&#039;s leading configuration management systems.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/devops-day-los-angeles&quot;&gt;DevOps&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;In the past few years, a number of tools have become available which offer the ability to automate infrastructures and workloads.  This panel will offer attendees an opportunity to meet with the creators of CFEngine, Puppet, Chef, and bcfg2.&lt;/p&gt;
+&lt;p&gt;Panelists will include:&lt;br /&gt;
+* Adam Jacob (OpsCode / Chef)&lt;br /&gt;
+* Nigel Daniels (Puppet Labs / Puppet)&lt;br /&gt;
+* Mark Burgess (CFEngine)&lt;br /&gt;
+* Narayan Desai (BCFG2)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Configuration management has become a key component in the DevOps tool chain.  In the past few years, a number of tools have become available which offer today&#039;s DevOps engineers with powerful ability to automate their infrastructures and workloads.  This panel will offer attendees an opportunity to meet with the creators of CFEngine, Puppet, Chef, and bcfg2.&lt;/p&gt;
+&lt;p&gt;Panelists will include:&lt;br /&gt;
+* Adam Jacob (OpsCode / Chef)&lt;br /&gt;
+* Nigel Kersten (Puppet Labs / Puppet)&lt;br /&gt;
+* Mark Burgess (CFEngine)&lt;br /&gt;
+* Narayan Desai (BCFG2)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/nigel-kersten&quot;&gt;Nigel Kersten&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/mark-burgess&quot;&gt;Mark Burgess&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/narayan-desai&quot;&gt;Narayan Desai&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/adam-jacob&quot;&gt;Adam Jacob&lt;/a&gt;&lt;br /&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/gCcpKm&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/gCcpKm&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                4:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/panel-open-source-configuration-management-tools#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/devops">DevOps</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2798 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Can Agile and Lean practices help DevOps teams?</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/can-agile-and-lean-practices-help-devops-teams</link>
+ <description>&lt;p&gt;A Panel Discussion on Lean Project Management and DevOps&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/devops-day-los-angeles&quot;&gt;DevOps&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Developing high speed, quality software is critical.  &quot;Agile&quot; and &quot;Lean&quot; are important frameworks to address this, focusing on speed and delivery to customers.  This discussion explores: - Agile / Lean thinking - Workflow / collaboration processes - Agile / Lean in team operations - Which toolkit offers the most benefit?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Developing high speed, quality software is critical.  &quot;Agile&quot; and &quot;Lean&quot; are important frameworks to address this, focusing on speed and delivery to customers.  This discussion explores: - Agile / Lean thinking - Workflow / collaboration processes - Agile / Lean in team operations - Which toolkit offers the most benefit?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/pascal-pinck&quot;&gt;Pascal Pinck&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/christophe-louvion&quot;&gt;Christophe Louvion&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/sri-parthasarathy&quot;&gt;Sri Parthasarathy&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/bachan-anand&quot;&gt;Bachan Anand&lt;/a&gt;&lt;br /&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://swarm.conferencebywire.com/web/guest/my-conferences-page/?parameterAutoLoginLogin=scaleuserla@yahoo.com&amp;amp;parameterAutoLoginPassword=scaleuser&amp;amp;data=bS9CVWl5cW9wQmEwREJrbmtVVDF6TVcxbkR1M3NWZFoxdzNKc0FIeEUvZz0=&amp;amp;sesid=413&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://swarm.conferencebywire.com/web/guest/my-conferences-page/?parameterAutoLo...&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                3:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/can-agile-and-lean-practices-help-devops-teams#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/devops">DevOps</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2835 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>DevOps Cafe</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/devops-cafe</link>
+ <description>&lt;p&gt;An Introduction to DevOps&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/devops-day-los-angeles&quot;&gt;DevOps&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Are you new to the DevOps movement? Unsure of what it is and how it applies to your organization? John Willis and Damon Edwards of the DevOps Cafe Podcast will show you the ropes, and bring you up to speed on why organizations around the globe are adopting DevOps methodologies for improved efficiency and reliability.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Are you new to the DevOps movement? Unsure of what it is and how it applies to your organization? John Willis and Damon Edwards of the DevOps Cafe Podcast will show you the ropes, and bring you up to speed on why organizations around the globe are adopting DevOps methodologies for improved efficiency and reliability.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/john-willis&quot;&gt;John Willis&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/damon-edwards&quot;&gt;Damon Edwards&lt;/a&gt;&lt;br /&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/f6J1aM&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/f6J1aM&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/DevOpsDayLA2011_WillisEdwards.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                9:00am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/devops-cafe#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/devops">DevOps</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2865 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Herding Cat5</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/herding-cat5</link>
+ <description>&lt;p&gt;Keeping the infrastructure maintainable&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/devops-day-los-angeles&quot;&gt;DevOps&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Most DevOps organizations have systems configuration management in place, but not many have begun to automate their network. In this session Edmunds will present on how their DevOps organization has started to automate network configuration with an open-source framework that exposes content routing and load balancer management to web applications.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Most DevOps organizations have systems configuration management in place, but not many have begun to automate their network. In this session Edmunds will present on how their DevOps organization has started to automate network configuration with an open-source framework that exposes content routing and load balancer management to web applications.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/david-trott&quot;&gt;David Trott&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/hoMRL5&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/hoMRL5&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/DavidTrott-HerdingCat5.pptx&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                10:00am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/herding-cat5#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/devops">DevOps</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2879 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Signal From Noise</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/signal-noise</link>
+ <description>&lt;p&gt;Monitoring the DevOps Way&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/devops-day-los-angeles&quot;&gt;DevOps&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Today&#039;s operations environments can generate a huge volume of raw data. It&#039;s getting more challenging (especially as our systems scale out) to manage just storing all that information, let alone turn it into something comprehensible.  When large-scale system issues surface, every second can matter when you&#039;re searching for a resolution. Even more importantly, the right information can make the difference between an issue happening or not happening in the first place!  Thankfully, Open Source can help!   This talk will cover, using examples from production life at Media Temple operations,  * Some proven patterns that help with      * Reducing the amount of data that gets generated in the first place      * Storing, visualizing and exploring that data      * Making that data quickly accessible and comprehensible  * A survey of both established and emerging Open Source tools available in this area&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Today&#039;s operations environments can generate a huge volume of raw data. It&#039;s getting more challenging (especially as our systems scale out) to manage just storing all that information, let alone turn it into something comprehensible.  When large-scale system issues surface, every second can matter when you&#039;re searching for a resolution. Even more importantly, the right information can make the difference between an issue happening or not happening in the first place!  Thankfully, Open Source can help!   This talk will cover, using examples from production life at Media Temple operations,  * Some proven patterns that help with      * Reducing the amount of data that gets generated in the first place      * Storing, visualizing and exploring that data      * Making that data quickly accessible and comprehensible  * A survey of both established and emerging Open Source tools available in this area&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/joshua-barratt&quot;&gt;Joshua Barratt&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/glIOEn&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/glIOEn&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/1415-Josh_Barratt-Signal_From_Noise.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                1:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/signal-noise#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/devops">DevOps</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2887 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Panel: DevOps Success Stories</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/panel-devops-success-stories</link>
+ <description>&lt;p&gt;Local enterprises discuss their experiences with DevOps&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/devops-day-los-angeles&quot;&gt;DevOps&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;A panel discussing the successes and failures of DevOps implementations by local technology organizations.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;A panel discussing the successes and failures of DevOps implementations by local technology organizations.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/john-willis&quot;&gt;John Willis&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/eIZoh0&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/eIZoh0&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                1:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/panel-devops-success-stories#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/devops">DevOps</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2915 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Quality Assurance in a DevOps World</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/quality-assurance-devops-world</link>
+ <description>&lt;p&gt;Enabling Success&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/devops-day-los-angeles&quot;&gt;DevOps&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;If DevOps indeed is a cultural paradigm of trust within the development and operations functions of a software service organization then there are a few derived requirements essential to enabling such a thing.  Testing is the most important requirement of them all.  Quality assurance, regardless of it being its own entity or not, is the &quot;greased skid&quot; that enables successful DevOps.  Quality assurance, in automated form, is the proof that is foundational to the trust that enables confidence in both sides.  So, it is imperative that both development and operations shops take a more active role in how quality assurance is defined and executed.  This may be as much of a culture shift as development and operations collaborating - but, this talk will discuss the why&#039;s and how&#039;s of such a thing.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;If DevOps indeed is a cultural paradigm of trust within the development and operations functions of a software service organization then there are a few derived requirements essential to enabling such a thing.  Testing is the most important requirement of them all.  Quality assurance, regardless of it being its own entity or not, is the &quot;greased skid&quot; that enables successful DevOps.  Quality assurance, in automated form, is the proof that is foundational to the trust that enables confidence in both sides.  So, it is imperative that both development and operations shops take a more active role in how quality assurance is defined and executed.  This may be as much of a culture shift as development and operations collaborating - but, this talk will discuss the why&#039;s and how&#039;s of such a thing.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/kit-plummer&quot;&gt;Kit Plummer&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/1600-Kit_Plumber-Quality_Assurance_in_a_DevOps_World.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                4:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/quality-assurance-devops-world#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/devops">DevOps</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2924 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Cloud is not just for greenfield Applications</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/cloud-not-just-greenfield-applications</link>
+ <description>&lt;p&gt;Migrate your existing applications to the cloud&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/devops-day-los-angeles&quot;&gt;DevOps&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Developers and architects looking to build new applications in the cloud can simply design the components, processes and workflow for their solution, employ the APIs of the cloud of their choice, and leverage the latest cloud-based best practices for design, development, testing and deployment. In choosing to deploy their solutions in a cloud, they can take immediate advantage of instant scalability and elasticity, isolated processes, reduced operational effort, on-demand provisioning and automation.    At the same time, many businesses are looking for better ways to migrate their existing applications to a cloud-based infrastructure so that they, too, can enjoy the same advantages seen with greenfield application development.    In this session, Jinesh Varia will discuss a practical strategy to migrate your existing applications to the cloud. He will discuss a phase-driven approach to cloud migration and share stories of several enterprise customers who have successfully migrated to AWS cloud including Amazon.com internal corporate IT applications. The session will be filled with lessons learned, tips and some hidden insights that have not been publicly disclosed yet.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Developers and architects looking to build new applications in the cloud can simply design the components, processes and workflow for their solution, employ the APIs of the cloud of their choice, and leverage the latest cloud-based best practices for design, development, testing and deployment. In choosing to deploy their solutions in a cloud, they can take immediate advantage of instant scalability and elasticity, isolated processes, reduced operational effort, on-demand provisioning and automation.    At the same time, many businesses are looking for better ways to migrate their existing applications to a cloud-based infrastructure so that they, too, can enjoy the same advantages seen with greenfield application development.    In this session, Jinesh Varia will discuss a practical strategy to migrate your existing applications to the cloud. He will discuss a phase-driven approach to cloud migration and share stories of several enterprise customers who have successfully migrated to AWS cloud including Amazon.com internal corporate IT applications. The session will be filled with lessons learned, tips and some hidden insights that have not been publicly disclosed yet.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/jinesh-varia&quot;&gt;Jinesh Varia&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/hdcvvk&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/hdcvvk&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/building-powerful-web-applications-in-the-aws-cloud-a-love-story-jinesh-varia&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                11:30am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/cloud-not-just-greenfield-applications#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/devops">DevOps</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2950 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+</channel>
+</rss>

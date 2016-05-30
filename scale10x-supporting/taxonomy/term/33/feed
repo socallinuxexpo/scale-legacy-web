@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 10x - 2012 Southern California Linux Expo - UpSCALE</title>
+ <link>https://www.socallinuxexpo.org/scale10x/topic/upscale</link>
+ <description>The UpSCALE talks are held in the style of the Ignite presentations made popular by various O&#039;Reilly sponsored events. Participants are given five minutes to speak on a subject accompanied by 20 automatically-advanced slides, making this a fast paced, fun event for participants and audience....
+</description>
+ <language>en</language>
+<item>
+ <title>UpSCALE</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/upscale</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/upscale&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;UpSCALE&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The &lt;a href=&quot;https://www.socallinuxexpo.org/scale10x/events/upscale&quot;&gt;UpSCALE&lt;/a&gt; talks are held in the style of the Ignite presentations made popular by various O&#039;Reilly sponsored events. Participants are given five minutes to speak on a subject accompanied by 20 automatically-advanced slides, making this a fast paced, fun event for participants and audience....&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 21 Dec 2011 12:02:12 +0000</pubDate>
+ <dc:creator>ron</dc:creator>
+ <guid isPermaLink="false">393 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/upscale#comments</comments>
+</item>
+<item>
+ <title>Weakest Geek</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/weakest-geek</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/upscale&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;UpSCALE&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Come see members of the free &amp;amp; open source community face off against each, determining who has the greatest knowledge of geek culture.&lt;/p&gt;
+&lt;p&gt;Contestant line up for Weakest Geek is mostly finalized, as it stands  right now they are:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Selena Decklemann&lt;/li&gt;
+&lt;li&gt;Robyn Bergeron&lt;/li&gt;
+&lt;li&gt;Amber Graner&lt;/li&gt;
+&lt;li&gt;Kyle Rankin&lt;/li&gt;
+&lt;li&gt;Tom &quot;Spot&quot; Callaway&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 13 Jan 2012 04:55:23 +0000</pubDate>
+ <dc:creator>gareth</dc:creator>
+ <guid isPermaLink="false">500 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/weakest-geek#comments</comments>
+</item>
+</channel>
+</rss>

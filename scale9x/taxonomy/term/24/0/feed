@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org/scale9x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 9x - 2011 Southern California Linux Expo - PostgreSQL Day</title>
+ <link>https://www.socallinuxexpo.org/scale9x/taxonomy/term/24/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Postgresql Advanced Commands and Queries</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/postgresql-advanced-commands-and-queries</link>
+ <description>&lt;p&gt;Postgresql Advanced Commands and Queries&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/los-angeles-postgresql-day&quot;&gt;PostgreSQL Day&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Postgresql Advanced Commands and Queries&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Postgresql Advanced Commands and Queries&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/deepak-murthy&quot;&gt;Deepak Murthy&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                1:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Century A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/postgresql-advanced-commands-and-queries#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/postgresql-day">PostgreSQL Day</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2880 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>10 Easy Ways to Destroy Performance</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/10-easy-ways-destroy-performance</link>
+ <description>&lt;p&gt;10 Easy Ways to Destroy Performance&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/los-angeles-postgresql-day&quot;&gt;PostgreSQL Day&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Like any sharp implement, the power and flexibility of PostgreSQL can be dangerous if mishandled. Drawing on real-life queries from real-life clients (names and schemas changed to protect the innocent), we&#039;ll talk about 10 easy query and configuration techniques you can use to destroy your PostgreSQL performance... or, if you really want to, improve it, too.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Like any sharp implement, the power and flexibility of PostgreSQL can be dangerous if mishandled. Drawing on real-life queries from real-life clients (names and schemas changed to protect the innocent), we&#039;ll talk about 10 easy query and configuration techniques you can use to destroy your PostgreSQL performance... or, if you really want to, improve it, too.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/christophe-pettus&quot;&gt;Christophe Pettus&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/Christophe-Pettrus-10-ways-to-kill-performance.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                3:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Century A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/10-easy-ways-destroy-performance#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/postgresql-day">PostgreSQL Day</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2881 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Securing PostgreSQL from External Attack</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/securing-postgresql-external-attack</link>
+ <description>&lt;p&gt;Securing PostgreSQL from External Attack&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/los-angeles-postgresql-day&quot;&gt;PostgreSQL Day&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;This talk explores the much-anticipated Postgres 9.0 features of hot standby and streaming replication. It explains how these features work, how to configure them, and their current limitations. It includes a hands-on demonstration that can be done either by the instructor or by students.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;This talk explores the much-anticipated Postgres 9.0 features of hot standby and streaming replication. It explains how these features work, how to configure them, and their current limitations. It includes a hands-on demonstration that can be done either by the instructor or by students.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/bruce-momjian&quot;&gt;Bruce Momjian&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/Bruce-Momjian-Securing.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                4:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Century A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/securing-postgresql-external-attack#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/postgresql-day">PostgreSQL Day</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2882 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Advanced Analytics with PL/R</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/advanced-analytics-plr</link>
+ <description>&lt;p&gt;An introduction to advanced analytics from within PostgreSQL using R&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/los-angeles-postgresql-day&quot;&gt;PostgreSQL Day&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;R is the leading free software environment for advanced mathematical and statistical computing and graphics. PL/R is a PostgreSQL extension that allows the use of R from within PostgreSQL for advanced analytics in a simple, efficient, and controlled manner. This presentation will introduce the audience to PL/R, starting with installation on various OS&#039;s, and taking them through basic, and a few more advanced, examples of its power.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;R is the leading free software environment for advanced mathematical and statistical computing and graphics. PL/R is a PostgreSQL extension that allows the use of R from within PostgreSQL for advanced analytics in a simple, efficient, and controlled manner. This presentation will introduce the audience to PL/R, starting with installation on various OS&#039;s, and taking them through basic, and a few more advanced, examples of its power.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/joseph-conway&quot;&gt;Joseph Conway&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/JoeConway-PLR.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                10:00am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Century A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/advanced-analytics-plr#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/postgresql-day">PostgreSQL Day</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2891 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Using PostgreSQL in City Government</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/using-postgresql-city-government</link>
+ <description>&lt;p&gt;How the City of Garden Grove takes advatage of PostgreSQL&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/los-angeles-postgresql-day&quot;&gt;PostgreSQL Day&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Local governments deliver important services to residents, businesses, and visitors: Water, sewer, roads, land use, police, fire, environmental compliance, are some of services that cities routinely provide. Garden Grove, a full service city of over 172,000 residents in Orange County has taken advantage of Open Source since 1995. PostgreSQL increasingly helps solve the City’s business needs.  The talk will cover how cities generate lots of varied and interesting data and outline how PostgreSQL is used in Garden Grove developed Ruby on Rails applications as well as a number of commercially available applications. Ruby on Rails tends to treat databases as “bit buckets” but the framework can be easily integrate many of Postgres’ powerful features if handled correctly. City developed applications include police records management, utility billing, and parks and recreation management.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Local governments deliver important services to residents, businesses, and visitors: Water, sewer, roads, land use, police, fire, environmental compliance, are some of services that cities routinely provide. Garden Grove, a full service city of over 172,000 residents in Orange County has taken advantage of Open Source since 1995. PostgreSQL increasingly helps solve the City’s business needs.  The talk will cover how cities generate lots of varied and interesting data and outline how PostgreSQL is used in Garden Grove developed Ruby on Rails applications as well as a number of commercially available applications. Ruby on Rails tends to treat databases as “bit buckets” but the framework can be easily integrate many of Postgres’ powerful features if handled correctly. City developed applications include police records management, utility billing, and parks and recreation management.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/noel-proffitt&quot;&gt;Noel Proffitt&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/Noel-Proffitt-Use_of_PostgreSQL_in_Municipal_Government.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                9:00am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Century A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/using-postgresql-city-government#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/postgresql-day">PostgreSQL Day</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2893 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>PostGIS Case Study - CA Public Utility Commission</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/postgis-case-study-ca-public-utility-commission</link>
+ <description>&lt;p&gt;PostGIS Case Study - CA Public Utility Commission&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/los-angeles-postgresql-day&quot;&gt;PostgreSQL Day&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;The California Public Utility Commission recently funded a project to process a very large energy efficiency dataset.  Various free &amp;amp; open source projects including PostgreSQL were utilized.  This talk will detail the reasoning behind the decision to use the FLOSS software as well as any issues that came up.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;The California Public Utility Commission recently funded a project to process a very large energy efficiency dataset.  Various free &amp;amp; open source projects including PostgreSQL were utilized.  This talk will detail the reasoning behind the decision to use the FLOSS software as well as any issues that came up.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/jennifer-scheuerell&quot;&gt;Jennifer Scheuerell&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/JenniferScheuerell-SCALE9xPgDays.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                11:30am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Century A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/postgis-case-study-ca-public-utility-commission#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/postgresql-day">PostgreSQL Day</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2899 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+</channel>
+</rss>

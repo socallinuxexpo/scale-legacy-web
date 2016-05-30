@@ -1,0 +1,62 @@
+SCALE Bulks Up With More Exhibitors
+
+FOR IMMEDIATE RELEASE
+Los Angeles, CA
+November 9, 2005
+
+If you're interested in Linux and Open source Software, the Southern California Linux Expo is for you. SCALE has seminars by well-known speakers, tutorials for beginners, and both vendor booths and non-commercial booths.
+
+These stellar speakers have been added to the program for SCALE4x:
+
+Matt Asay, VP of Business Development, Alfresco - "Open Source: The Highest Stage of Technology Capitalism or, The Next Decade of Software"
+
+David Schachter, Sleepycat Software Storage - "Management in the LAMP Stack"
+
+Janinne Brunyee, Senior Director, Solutions Marketing RealNetworks, Inc - "Leveraging Desktop Audio and Video to Drive Your Organization's Corporate Communications"
+
+Glen Martin, Director of Product Management, SpikeSource, Inc. - "An Overview of the Participatory Testing System"
+
+Jono Bacon, Freelance Writer and Consultant - "Building the Next Generation Linux Desktop"
+
+Si Chen, OpenSource Strategies - "Bringing Open Source to Enterprise Software: Opportunities and Challenge"
+
+Kevin McElligott, iTech Developers - "phpWebSite: Open Source CM"
+
+If you or your company are interested in sponsoring SCALE or exhibiting your product at SCALE, contact ilan@socallinuxexpo.org (phone 818-442-1865).
+
+Qualifying non-profits organizations may obtain booth space at SCALE for free. If your non-profit organization is interested in exhibiting, contact gareth@socallinuxexpo.org.
+
+The following non-profit organizations have already signed on to SCALE4x:
+
+NetBSD
+Debian
+KDE
+Ubuntu
+Fedora Core
+CinePaint
+Knoppmyth
+CACert
+Linux Astronomy
+Open Source Exchange Replacement Project
+LTSP
+X.Org
+
+SCALE 4X will be held February 11th and 12th, 2006, at the Radisson Los Angeles International. For more information or to register for SCALE, see http://socallinuxexpo.org.
+
+Media Contact:
+Orv Beach
+Public Relations Chair
+Southern California Linux Expo
+info@socallinuxexpo.org
+
+Sponsor and Commercial Exhibitor Contact:
+Ilan Rabinovitch
+Conference Chair 
+Southern California Linux Expo
+ilan@socallinuxexpo.org
+818-442-1865
+
+Non-profit and Open-Source Exhibitor Contact:
+Gareth Greenaway
+Community Relations and Facilities Chair
+gareth@socallinuxexpo.org

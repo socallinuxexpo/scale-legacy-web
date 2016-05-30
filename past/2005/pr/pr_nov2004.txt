@@ -1,0 +1,42 @@
+SoCal Linux Expo Registration Opens!
+
+SCALE 3X is open for business! The Expo is now accepting early
+registrations at http://socallinuxexpo.com/order/.
+
+A full pass (expo floor and seminars is $50 until January 1, 2005, and
+$65 thereafter, a student pass is $25 until January 1, 2005, and $32.50
+thereafter, and an expo-floor-only pass is $10.
+
+We've added these speakers recently:
+
+Jon Walker, Versora - http://www.versora.com/
+Glenn Flinchbaugh, Wind River Systems - http://www.windriver.com/
+Walt Pennington and Darya Mazandarany, Pennington Firms -
+http://www.pennfirm.com/
+
+And these sponsors are newly signed with the Linux Expo:
+
+Media Sponsor: Computer User Magazine - http://www.computeruser.com
+Media Sponsor: Linux Journal - http://www.linuxjournal.com
+ISP Sponsor: Linkline Communications -
+http://www.linkline.com
+
+There will also be a GPG key signing event.  It will take place at the
+end of the first day of the Expo.  If you'd like to participate, you
+should  bring at least one legible copy of a fingerprint.  A picture ID
+is recommended, but not required.  If you plan to participate, send your
+public key to keysigning@socallinuxexpo.org.
+
+If your LUG or other non-profit Open Source organization would like to
+demo something related to Open Source software at SCALE 3X, please
+contact gareth@socallinuxexpo.org for a booth. Don't delay; booths are
+being assigned to LUGs and other ORGs steadily.
+
+SCALE 3X will be held February 12th and 13th, 2005, at the Los Angeles
+Convention Center.  The Linux Expo of Southern California was
+established in 2001. Our mission is to evangelize the advantages of Open
+Source software.
+
+For more information, see http://socallinuxexpo.com, or email
+info@socallinuxexpo.com.
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 10x - 2012 Southern California Linux Expo - Ubucon</title>
+ <link>https://www.socallinuxexpo.org/scale10x/topic/ubucon</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>The Power User&#039;s Guide to Unity</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/power-users-guide-unity</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Beginner&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/taxonomy/term/5&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Intermediate&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/ubucon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Ubucon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Unity is the new desktop for Ubuntu, and like all new things there are tips and tricks on how to use it that can be useful for getting things accomplished. Join me as I explore using this desktop with an eye on power user techniques and show you all the nooks and crannies of Unity.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 17 Jan 2012 17:54:40 +0000</pubDate>
+ <dc:creator>jorge</dc:creator>
+ <guid isPermaLink="false">514 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/power-users-guide-unity#comments</comments>
+</item>
+<item>
+ <title>Customizing Unity</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/customizing-unity-0</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/ubucon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Ubucon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Unity is the new desktop environment for Ubuntu, having first premiered in version 11.04 and significantly enhanced with version 11.10.&lt;/p&gt;
+&lt;p&gt;While Unity offers many usability affordances, some Ubuntu users prefer to customize it for their specific workflows.&lt;/p&gt;
+&lt;p&gt;Linux is famous for its customizability, and Unity is no exception if you know which tools to look for.&lt;/p&gt;
+&lt;p&gt;This presentation will use software included with Ubuntu 11.10 and available through the Ubuntu Software Center to show you how to customize the Unity interface.&lt;/p&gt;
+&lt;p&gt;We&amp;#039;ll start with a brief introduction to Unity for newcomers to 11.10, and will explore the options in the System Settings as a starting point for tailoring it to your tastes.&lt;/p&gt;
+&lt;p&gt;Then we&amp;#039;ll get CompizConfig from the Ubuntu Software Center to take that customization further.   Not all CompizConfig settings are compatible with Unity, and we&amp;#039;ll cover the settings you can safely change and note the ones you&amp;#039;ll want to avoid so you can tweak with confidence.&lt;/p&gt;
+&lt;p&gt;For the more adventurous we&amp;#039;ll also take a look at dconf and other tools available in the Ubuntu Software Center for even greater control over many aspects of the appearance and behavior of Unity.&lt;/p&gt;
+&lt;p&gt;By the time we&amp;#039;re done both beginners and advanced users should have a good understanding of the power and flexibility of Unity and the tools and techniques that can be used to tailor it for their workflow preferences.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 10 Jan 2012 17:25:46 +0000</pubDate>
+ <dc:creator>rg4w</dc:creator>
+ <guid isPermaLink="false">491 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/customizing-unity-0#comments</comments>
+</item>
+<item>
+ <title>Meet the Cloud</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/meet-cloud</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/ubucon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Ubucon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Overview of cloud offerings for your Ubuntu desktop and server starting with SaaS offerings from Google, Mint and SalesForce, moving on to PaaS offerings like AppEngine and Heroku, finally a more in depth look at IaaS at AWS (EC2), RackSpace, and GoGrid as well as building your own cloud using Eucalyptus and KVM.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 09 Jan 2012 06:38:54 +0000</pubDate>
+ <dc:creator>ralferix</dc:creator>
+ <guid isPermaLink="false">483 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/meet-cloud#comments</comments>
+</item>
+<item>
+ <title>Ubucon Introductions and Lightning Talks</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/ubucon-introductions-and-lightning-talks</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/ubucon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Ubucon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&quot;Past attendees know how inspirational SCALE is, and the Ubucon tradition is at the heart of SCALE&#039;s friendly and encouraging atmosphere. This session starts off with people introducing themselves and sharing their Ubuntu experiences. Then the floor opens up for 3 minute lightning talks on each speaker&#039;s favoriteUbuntu subject. &lt;/p&gt;
+&lt;p&gt;No prior speaking experience or advance signups are required- just come share your excitement and passion about your special Ubuntu topic!&quot;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 05 Jan 2012 21:24:31 +0000</pubDate>
+ <dc:creator>nhaines</dc:creator>
+ <guid isPermaLink="false">476 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/ubucon-introductions-and-lightning-talks#comments</comments>
+</item>
+<item>
+ <title>Open Question and Answer Session</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/open-question-and-answer-session</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/4&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Everyone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/ubucon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Ubucon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Returning to Ubucon as Master of Ceremonies, Nathan Haines will keep things running smoothly and host an open question and answer session where you can ask your burning questions about Ubuntu, or simply do your best to stump him.  Because Ubucon is a community conference, bring your thinking caps and your best questions, because attendees are welcome to help answer the questions he can&#039;t.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 03 Jan 2012 16:50:22 +0000</pubDate>
+ <dc:creator>nhaines</dc:creator>
+ <guid isPermaLink="false">458 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/open-question-and-answer-session#comments</comments>
+</item>
+<item>
+ <title>Getting involved with Ubuntu</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/getting-involved-ubuntu</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Beginner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/ubucon&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Ubucon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Interested in getting involved with Ubuntu but not sure where to start? This talk will provide an overview of popular involvement avenues including development, documentation, artwork, promotion and evangelism to get you pointed in the right direction and will be open to specific involvement questions from the audience. It will also cover general tips for getting the most out of your involvement in the Ubuntu community.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-presentation-file field-type-file field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Presentation Slides:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;span class=&quot;file&quot;&gt;&lt;img class=&quot;file-icon&quot; alt=&quot;&quot; title=&quot;application/pdf&quot; src=&quot;/modules/file/icons/application-pdf.png&quot; /&gt; &lt;a href=&quot;https://www.socallinuxexpo.org/sites/default/files/presentations/Getting_Involved_with_Ubuntu-SCALE10x_Ubucon.pdf&quot; type=&quot;application/pdf; length=42341&quot;&gt;Getting_Involved_with_Ubuntu-SCALE10x_Ubucon.pdf&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 03 Jan 2012 00:39:07 +0000</pubDate>
+ <dc:creator>pleia2</dc:creator>
+ <guid isPermaLink="false">453 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/getting-involved-ubuntu#comments</comments>
+</item>
+</channel>
+</rss>

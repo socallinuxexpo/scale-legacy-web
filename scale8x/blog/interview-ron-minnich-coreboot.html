@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+
+<!-- Mirrored from www.socallinuxexpo.org/scale8x/blog/interview-ron-minnich-coreboot by HTTrack Website Copier/3.x [XR&CO'2008], Fri, 18 Jun 2010 00:28:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Interview with Ron Minnich Of Coreboot | SCALE 8x - 2010 Southern California Linux Expo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/socallinuxexpo.org.scale8x/files/scale2_favicon_0.png" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="../modules/node/node92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/system/defaults92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/system/system92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/system/system-menus92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/user/user92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/cck/theme/content-module92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/ctools/css/ctools92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/date/date92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/dhtml_menu/dhtml_menu92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/filefield/filefield92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/cck/modules/fieldgroup/fieldgroup92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/views/css/views92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/html-elements92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/tabs92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/messages92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/block-editing92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/wireframes92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/layout92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/scale392eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/style92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="print" href="../sites/all/themes/scale3/print92eb.css?b" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/scale8x/sites/all/themes/zen/zen/ie.css?b" />
+<![endif]-->
+  <script type="text/javascript" src="../misc/jquery92eb.js?b"></script>
+<script type="text/javascript" src="../misc/drupal92eb.js?b"></script>
+<script type="text/javascript" src="../sites/all/modules/dhtml_menu/dhtml_menu92eb.js?b"></script>
+<script type="text/javascript" src="../sites/all/modules/rounded_corners/jquery.corner92eb.js?b"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/scale8x/", "dhtmlMenu": { "slide": "slide", "siblings": 0, "relativity": 0, "children": 0, "clone": 0, "doubleclick": 0 } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$(function(){ // shorthand for $(document).ready() 
+$("#primary li").corner("round top 7px");
+ });
+//--><!]]>
+</script>
+</head>
+<body class="not-front not-logged-in node-type-blog no-sidebars page-blog-interview-ron-minnich-coreboot section-blog">
+
+  <div id="page"><div id="page-inner">
+
+    <a name="top" id="navigation-top"></a>
+          <div id="skip-to-nav"><a href="#navigation">Skip to Navigation</a></div>
+    
+                      <div id="search-box">
+              <form action="http://www.socallinuxexpo.org/scale8x/blog/interview-ron-minnich-coreboot"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-0eab2face980ae8055a9af710efdb65d" value="form-0eab2face980ae8055a9af710efdb65d"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+            </div> <!-- /#search-box -->
+          
+    <div id="header"><div id="header-inner" class="clear-block">
+
+              <div id="logo-title">
+
+                      <div id="logo"><a href="../index.html" title="Home" rel="home"><img src="../sites/socallinuxexpo.org.scale8x/files/scale3_logo.png" alt="Home" id="logo-image" /></a></div>
+          
+          
+          
+        </div> <!-- /#logo-title -->
+      
+      
+    </div></div> <!-- /#header-inner, /#header -->
+
+    <div id="main"><div id="main-inner" class="clear-block with-navbar">
+
+      <div id="content"><div id="content-inner">
+
+        
+        
+                  <div id="content-header">
+            <div class="breadcrumb"><a href="../index.html">Home</a> › </div>                          <h1 class="title">Interview with Ron Minnich Of Coreboot</h1>
+                                                          </div> <!-- /#content-header -->
+        
+        <div id="content-area">
+          <div id="node-19" class="node sticky node-type-blog"><div class="node-inner">
+
+  
+  
+  
+      <div class="meta">
+              <div class="submitted">
+          Submitted by orv on Wed, 11/11/2009 - 04:23        </div>
+      
+          </div>
+  
+  <div class="content">
+    <div class="field field-type-filefield field-field-blog-image">
+    <div class="field-items">
+            <div class="field-item odd">
+                <img src="../sites/socallinuxexpo.org.scale8x/files/imagecache/blog_image/Coreboot_full_web.png" alt="" title=""  class="imagecache imagecache-blog_image imagecache-default imagecache-blog_image_default" width="200" height="154" />        </div>
+              <div class="field-item even">
+                <img src="../sites/socallinuxexpo.org.scale8x/files/imagecache/blog_image/Ron_Minnich_2.png" alt="" title=""  class="imagecache imagecache-blog_image imagecache-default imagecache-blog_image_default" width="200" height="177" />        </div>
+        </div>
+</div>
+<p>SCALE: Tell us something about yourself.</p>
+<p>Ron Minnich: I work at Sandia National Labs in  High Performance Computing, an area I have worked in for 21 years. I  built my first cluster in 1990, and my first PC cluster in 1994. I've  been doing Linux kernel work off and on since 1996, including the  first version of v9fs for 2.0.36 in 1998 (v9fs is the Plan 9 file  system brought to the Linux kernel). I built my first 1024-node Linux  cluster in 2002 -- which at the time was pretty large, and now is  small.</p>
+<p>SCALE: How did you come  to be involved with Open Source Software?</p>
+<p>RM: My first involvement with Open Source  was in the 1970s with the original Software Tools. I guess in some  ways I've been involved with Open Source for as long as I've been  working with computers. Since that time I've used and contributed to  many different projects.</p>
+<p>SCALE: How about with  LinuxBios / Coreboot?</p>
+<p>RM: I started the project in 1999, so, as hard as it is  to believe, ten years.</p>
+<p>SCALE: What are your responsibilities? &nbsp;Have they evolved over time?</p>
+<p class="moz-text-plain">RM:&nbsp; In the  early days, I wrote all the code. That situation has changed a lot,  and nowadays I find myself writing very little code, but acting more  to occasionally try to steer the project in ways that make sense. For  example, we needed to move to<br />a new filesystem-like ROM format  developed by AMD, and at some point it became important to force that  change through. Most recently, three of us made the changeover to  using Linux Kernel config tools for building coreboot. What we really  did is create proof-of-concepts for 5 or 10 boards, and the coreboot  community jumped in and did the rest for the remaining 150 or so  boards -- it was quite amazing to watch all the fine work people did!</p>
+<p>In  many ways, I am happy to see that a lot of really good ideas and changes  come from other people -- for instance, our new PCI setup code, the  new flash tools, our new logo, the recent <a title="Coreboot Article" href="http://www.linuxjournal.com/article/10447">cover story</a> in Linux  Journal, or a very important new technology called SerialIce, developed  by Core Systems GMBH (see: <a class="moz-txt-link-freetext" href="http://www.coreboot.org/SerialICE">http://www.coreboot.org/SerialICE</a>).  It's important that the project be distributed over many people,  rather than having one person be a "single point of failure". I am  glad to say that in most cases the new good ideas and work come from  others on the team, not me.</p>
+<p class="moz-text-plain">SCALE: What are some recent successes of the Coreboot project?</p>
+<p class="moz-text-plain">RM: SerialIce is a huge success. It  allows us to use qemu and gdb to run the BIOS and observe the I/O and  memory activity, so we can find all the important little chipset  details that the documentation leaves out.</p>
+<p>But, one of the  biggest successes won't be announced until Christmas, so we'll have  to wait :-)</p>
+<p class="moz-text-plain">SCALE: How do the motherboard vendors view the Coreboot project?</p>
+<p class="moz-text-plain">RM: The motherboard vendors we talk to  like it. We have frequent requests to do a port. There are many  motherboard vendors out there using Coreboot, invisible to many  people, on routers and kiosks and other embedded systems. The only  bad news is that those vendors are under intense and continuing  pressure from a few chipset vendors to move from Coreboot to a  proprietary, closed-source alternative.</p>
+<p>In the end, open source  wins. I think that if the x86 market continues to move to closed  systems, and keeps trying to force people to use closed-source  BIOSes, then the users will move to open systems like ARM and MIPS,  which have very nice open source BIOS solutions such as U-Boot.</p>
+<p class="moz-text-plain">SCALE: How about the BIOS vendors?</p>
+<p class="moz-text-plain">RM: Just as the proprietary OS vendors  did not like to see Linux grow, so do the BIOS vendors dislike the  idea of an open source BIOS. I think in the long run, however, open  source will win.</p>
+<p class="moz-text-plain">SCALE: Any contacts with systems integrators or PC houses?</p>
+<p class="moz-text-plain">RM: Many, over the years. Some have come  and gone, and some have been constant friends.</p>
+<p class="moz-text-plain">SCALE: Where do you see the project going in the near future?&nbsp; Any long term plans?</p>
+<p class="moz-text-plain">RM: Near term, we see various governments  becoming very interested in open source BIOS systems, due to concerns  about cybersecurity. BIOSes such as EFI are now little operating  systems, and the surface area for exploits is enormous; there is  justifiable concern about the security of such closed-source,  proprietary BIOSes, given the kind of exploits we have seen  publicized in the last few years in conferences such as Black Hat.  There should be some very interesting announcements in December along  these lines.</p>
+<p>Longer term, we expect the slow but inexorable  growth in platform<br />support that we have seen in the last 10 years. It  seems to take about 10-15 years for an open source technology to  really take off. That always seems too long, but that's been my  observation. But I am hearing more and more enthusiasm for the  concept of open platforms, down to the BIOS level; conversely, I am  hearing more and more concerns about the cybersecurity issues that  come with closed-source BIOSes.</p>
+<p class="moz-text-plain">SCALE: Thanks for taking the time to talk to us, Ron!</p>
+<p class="moz-text-plain">RM: Thanks</p>
+<p>&nbsp;</p>
+<div id="disqus_thread"></div><noscript><div class="disqus-noscript"><a href="http://southerncalifornialinuxexpo.disqus.com/?url=http%3A%2F%2Fwww.socallinuxexpo.org%2Fscale8x%2Fnode%2F19">View the discussion thread.</a></div></noscript>  </div>
+
+  
+</div></div> <!-- /node-inner, /node -->
+        </div>
+
+        
+        
+      </div></div> <!-- /#content-inner, /#content -->
+
+              <div id="navbar"><div id="navbar-inner" class="clear-block region region-navbar">
+
+          <a name="navigation" id="navigation"></a>
+
+                      <div id="primary">
+              <ul class="links"><li class="menu-114 first"><a href="../index.html" title="">Home</a></li>
+<li class="menu-415"><a href="../conference-info.html" title="Dates, schedule, special events and more">Conference Info</a></li>
+<li class="menu-418"><a href="../conference-schedule-feb-19-2010.html" title="">Schedule</a></li>
+<li class="menu-419"><a href="../special-events.html" title="">Special Events</a></li>
+<li class="menu-929"><a href="https://www.socallinuxexpo.org/reg7/" title="">Registration</a></li>
+<li class="menu-846 last"><a href="../blog.html" title="">Blog</a></li>
+</ul>            </div> <!-- /#primary -->
+          
+          
+        </div></div> <!-- /#navbar-inner, /#navbar -->
+      
+              <div id="secondary_navbar"><div id="secondary_navbar-inner" class="clear-block region region-secondary_navbar">
+
+          
+          
+        </div></div> <!-- /#navbar-inner, /#navbar -->
+      
+      
+      
+    </div></div> <!-- /#main-inner, /#main -->
+
+          <div id="footer"><div id="footer-inner" class="region region-footer">
+
+        
+        <div id="block-menu-menu-tertiary-links" class="block block-menu region-odd odd region-count-1 count-1"><div class="block-inner">
+
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first dhtml-menu "><a href="../about.html" title="" id="dhtml_menu-748">About SCALE</a></li>
+<li class="leaf  dhtml-menu "><a href="../committees.html" title="Contact information for the Linux Expo" id="dhtml_menu-919">Contact us!</a></li>
+<li class="leaf  dhtml-menu "><a href="../media-links.html" title="SCALE Press Releases and media articles about SCALE" id="dhtml_menu-1754">Media</a></li>
+<li class="leaf last dhtml-menu "><a href="../past-events.html" title="" id="dhtml_menu-749">Past Events</a></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+
+      </div></div> <!-- /#footer-inner, /#footer -->
+    
+  </div></div> <!-- /#page-inner, /#page -->
+
+      <div id="closure-blocks" class="region region-closure"><div id="block-block-1" class="block block-block region-odd even region-count-1 count-2"><div class="block-inner">
+
+  
+  <div class="content">
+    <p>Copyright 2002-2010 Linux Expo of Southern California. All Rights Reserved.</p>
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+  
+  <script type="text/javascript">var disqus_url = "interview-ron-minnich-coreboot.html";var disqus_title = "Interview with Ron Minnich Of Coreboot";var disqus_message = "SCALE: Tell us something about yourself.  Ron Minnich: I work at Sandia National Labs in  High Performance Computing, an area I have worked in for 21 years. I  built my first cluster in 1990, and my first PC cluster in 1994. I\x26#039;ve  been doing Linux kernel work off and on since 1996, including the  first version of v9fs for 2.0.36 in 1998 (v9fs is the Plan 9 file  system brought to the Linux kernel). I built my first 1024-node Linux  cluster in 2002 -- which at the time was pretty large, and now is  small.  SCALE: How did you come  to be involved with Open Source Software?";var disqus_identifier = "node/19";</script><script type='text/javascript' src='http://disqus.com/forums/southerncalifornialinuxexpo/embed.js'></script>
+</body>
+
+<!-- Mirrored from www.socallinuxexpo.org/scale8x/blog/interview-ron-minnich-coreboot by HTTrack Website Copier/3.x [XR&CO'2008], Fri, 18 Jun 2010 00:28:50 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>

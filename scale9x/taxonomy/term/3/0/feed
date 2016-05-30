@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org/scale9x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 9x - 2011 Southern California Linux Expo - Advanced</title>
+ <link>https://www.socallinuxexpo.org/scale9x/taxonomy/term/3/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Automated Deployment of and to OpenStack with Chef</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/automated-deployment-and-openstack-chef</link>
+ <description>&lt;p&gt;Deploying OpenStack is a non-trivial effort. This talk will outline how Chef is used to automate deploying OpenStack to your infrastructure and then be able to deploy with Chef to the virtual private servers on that infrastructure.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/category/developers-track&quot;&gt;Developer&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;OpenStack is a collection of open source technologies for delivering a massively scalable cloud operating system. This talk will outline how Chef (an open source systems integration framework) is used to automate deploying OpenStack and to provide the ability to deploy with Chef to the virtual private servers running on that infrastructure.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Chef is an open source systems integration framework for automating the deployment of your entire infrastructure. OpenStack is a collection of open source technologies for delivering a massively scalable cloud operating system. Deploying OpenStack is a non-trivial effort, this talk will outline how Chef was used to automate deploying OpenStack Compute and Object Storage and then have the ability to deploy with Chef to the virtual private servers running on that infrastructure.  Founded by Rackspace Hosting and NASA, OpenStack has grown to be a global software community of developers, technologists, researchers and corporations collaborating on a standard and massively scalable open source cloud operating system. Developed by Opscode and a vibrant open source community, Chef is being used to automate and deploy large (and small) infrastructures all over the world. Both projects are freely available under the Apache 2.0 license so that anyone can run it, build on it, or submit changes back to the projects. A number of different companies collaborated on automating OpenStack deployments, including Rackspace, Opscode and Cloudscaling.  The seeds for development for this collaborative project were sown at the OpenStack Design Summit in November 2010, where over 250 attendees from all over the world came together to plan future releases. Recognizing the need to make development and deployment of OpenStack easier, we started gathering requirements and documentation to automate the process. OpenStack is now deployable with Chef and is now a supported platform for automatically deploying cloud instances with Chef.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/matt-ray&quot;&gt;Matt Ray&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/fxXNI1&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/fxXNI1&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/18_00-MattRay-OpenStackWithChef.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                6:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Carmel        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/automated-deployment-and-openstack-chef#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2659 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Tunneling With SSH</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/tunneling-ssh</link>
+ <description>&lt;p&gt;Use SSH to create secure tunnels across untrusted networks and hosts. Learn tunneling basics, tunneling GUI applications, tunneling into a machine behind a firewall, SOCKS proxy and other scenerios. The talk is an expansion of my LinuxJournal article.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/category/beginners-track&quot;&gt;Beginner&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Need to connect to an intranet? Need to connect back to your home network? Need a VPN, but want more control over what gets forwarded? Use SSH tunnels to create specific, secure connections.  This presentation will include an SSH tunneling primer and more complex examples, including forwarding web traffic, forwarding mail, and, of course, forwarding SSH connections.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Need to connect to an intranet? Need to connect back to your home network? Need a VPN, but want more control over what gets forwarded? Use SSH tunnels to create specific, secure connections. SSH, the original VPN.  The presentation will include an SSH tunneling primer and more complex examples including forwarding web traffic, forwarding mail, and, of course, forwarding SSH connections.  Use reverse connections to get into a home network that doesn&#039;t allow inbound SSH traffic. Securely connect across someone else&#039;s machine. Use SOCKS to forward arbitrary services.  Learn to create and use SSH keys and to use them to limit what command can be run when SSH connects. Learn how you can sometimes run commands via SSH even though your server is thrashing too hard to allow logins.  If you&#039;re a GNU/Linux system administrator and you don&#039;t know how to do all these things please read at least ssh(1), ssh-agent(1), ssh-keygen(1) and sshd(8) and also attend this talk.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/der-hans&quot;&gt;der. hans&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/fzI61d&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/fzI61d&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/16_30-der.Hans-Tunneling_With_SSH.odp&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Sunday, February 27th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                4:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Carmel        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/tunneling-ssh#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2668 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Multimedia at the Command Line</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/multimedia-command-line</link>
+ <description>&lt;p&gt;Survey of command line tools available in any console for handling multimedia from the raw console&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/presentationcategory/general&quot;&gt;General&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;We frequently think of multimedia on Linux as being a collection of X applications, but there is much that can be done from almost any console.  This presentation will survey multimedia tools usable at a Linux console, giving examples and tips along the way.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;We frequently think of multimedia on Linux as being a collection of X applications, but there is much that can be done from almost any console. These tools can be used for many reasons, varying from usability/accessability issues, problems that fall through the cracks or are corner cases of GUI front ends and tools, squeezing performance out of low end, light weight or embedded  equipment, or just getting more feel for what&#039;s going on. This presentation will survey multimedia tools usable at a raw Linux console, giving examples and tips along the way. If time permits, we&#039;ll go over some use cases I&#039;ve encountered.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/dallas-legan&quot;&gt;Dallas Legan&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/elPueK&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/elPueK&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/multimedia.outline_.txt&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                11:30am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Century CD        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/multimedia-command-line#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/general">General</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2673 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Large-Scale Systems Management with OpenNMS</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/large-scale-systems-management-opennms</link>
+ <description>&lt;p&gt;Large-scale systems management presents challenges that most tools just don&#039;t handle gracefully. Learn how OpenNMS, a 100% FLOSS platform designed to manage tens of thousands of nodes from a single instance, can help make the job suck less.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                System Administrator        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;This talk covers the system management capabilities of OpenNMS, a 100% Free Software framework for network, system, and application management that was designed from the outset to manage tens of thousands of nodes from a single instance.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Plenty of Free Software tools exist for managing and monitoring Linux and similar systems, but the choices begin to narrow as the number of servers grows. Many platforms hit a performance wall or become unwieldy to configure beyond a few hundred nodes; they simply were not designed to scale beyond this point. Other platforms scale better but reserve the best features for those who pay for an &quot;enterprise&quot; version. This talk covers the system management capabilities of OpenNMS, a 100% Free Software framework for network, system, and application management that was designed from the outset to manage tens of thousands of nodes from a single instance.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/jeff-gehlbach&quot;&gt;Jeff Gehlbach&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/eEyMUy&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/eEyMUy&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/Gehlbach-SCaLE9x_small_screen.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                3:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/large-scale-systems-management-opennms#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2674 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>OS-Level Virtualization : FreeBSD Jails</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/os-level-virtualization-freebsd-jails</link>
+ <description>&lt;p&gt;This presentation will outline the implementation, security concepts, maintenance and use of Operating System Level Virtualization with FreeBSD Jails.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                System Administrator        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;FreeBSD Jails offer a very lightweight method of segregating and securing services such as email, DNS, web servers and more.  This presentation outlines the use of OS-level virtualization with FreeBSD Jails to segregate and secure services and users.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;This presentation outlines the use of OS-Level Virtualization with FreeBSD Jails to segregate and secure services and users. FreeBSD Jails offer a very lightweight method of segregating and securing services such as email, DNS, web servers and more. Jails also offer a simple way to offer secure shell access to (un)trusted users.  In this presentation I would like to outline and demonstrate the installation, configuration and maintenance of FreeBSD Jails, as well as offer any participants the chance to attack the jails for hands-on experience.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/christer-edwards&quot;&gt;Christer Edwards&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/hyDsZc&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/hyDsZc&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Sunday, February 27th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                11:30am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Century AB        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/os-level-virtualization-freebsd-jails#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2676 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Byobu: GNU Screen for Human Beings</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/byobu-gnu-screen-human-beings</link>
+ <description>&lt;p&gt;Unleash the power of your command line environment through this innovative, intuitive take on GNU Screen&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                System Administrator        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;UNIX and Linux sys admins have been using the GNU Screen utility for 25 years. While expert Screen users swear of its importance in their toolbox, the learning curve for new users can be quite steep. Enter &#039;Byobu&#039;, an innovative, intuitive approach to GNU Screen. The author of Byobu will introduce the basic flow of operation and also showcase the advanced features of Byobu and GNU Screen.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;UNIX and Linux sys admins have been using the GNU Screen utility for 25 years. While expert Screen users swear of its importance in their toolbox, the learning curve for new users can be quite steep. Enter &#039;Byobu&#039;, an innovative, intuitive approach to GNU Screen. The author of Byobu will introduce the basic flow of operation and also showcase the advanced features of Byobu and GNU Screen.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/dustin-kirkland&quot;&gt;Dustin Kirkland&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/f9uJvp&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/f9uJvp&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/11_30-DustinKirkland-Byobu.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                11:30am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Los Angeles A        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/byobu-gnu-screen-human-beings#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/beginner">Beginner</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2679 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Bond, Ethernet Bond</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/bond-ethernet-bond</link>
+ <description>&lt;p&gt;If someone unplugs your network cable, do you expect your server to talk, or do you expect it to die?&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/presentationcategory/general&quot;&gt;General&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;A server used in production should have every possible level of fault tolerance. Ethernet bonding allows you to create redundant NICs on a server so that you can lose a NIC, a ethernet cable, or a switch, without downtime. In this talk Kyle will introduce “ethernet bonding”, discuss the different bonding modes, and describe how to set up bonding on Red Hat and Debian-based systems.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;When a server is used in production, you want every possible level of fault tolerance. Ethernet bonding allows you to create redundant NICs on a server so that you can lose a NIC, a ethernet cable, or even potentially a switch, without downtime.  In this talk Kyle will introduce the concept of ethernet bonding, discuss the different bonding modes, and describe how to set up bonding on Red Hat and Debian-based systems.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/kyle-rankin&quot;&gt;Kyle Rankin&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/e8YJrS&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/e8YJrS&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://greenfly.org/talks/misc/bond.html&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Sunday, February 27th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                11:30am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/bond-ethernet-bond#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/general">General</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2683 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Scalable Virtualization with Ganeti</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/scalable-virtualization-ganeti</link>
+ <description>&lt;p&gt;Ganeti is an open source project which offers many solutions to simplify a clustered virtual machine environment. This session will walk through Ganeti covering its basic design goals/features, installation architecture, and production implementation.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                System Administrator        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Ganeti is a clustered virtual server management software tool built on top of existing virtualization technologies (such as Xen or KVM). This talk will discuss a case at the Oregon State University Open Source Lab (OSUOSL) where we had scaling, performance, and reliability issues with our existing VM infrastructure. We will also cover overall design, features, and basic operations of Ganeti.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Whether you need a simple scalable development virtual machine environment or need to deploy a large cloud production environment, you need a tool that is easy to use, deploy, and maintain. Ganeti is a clustered virtual server management software tool built on top of existing virtualization technologies such as Xen or KVM. It is similar to libvirt in many aspects, but different in others such as its built-in cluster support using DRBD.  The focus will be on a use case at the Oregon State University Open Source Lab (OSUOSL) where we were faced with scaling, performance, and reliability issues with our existing VM infrastructure. I’ll cover the overall design and features of Ganeti along with the basics of installing it. Additionally I’ll walk through some of the basic operations you may encounter (deployment, failover, expansion, hardware failures, etc). I&#039;ll also cover some tools that we are using to help manage our clusters.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/lance-albertson&quot;&gt;Lance Albertson&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/hqvxgv&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/hqvxgv&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/18_00-LanceAlbertson-ganeti.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                6:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Century AB        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/scalable-virtualization-ganeti#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/business">Business</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/educational">Educational</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/program-track">Program Track A</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/program-track-b">Program Track B</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/program-track-c">Program Track C</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2687 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>CEPH: Petabyte Scale Storage for Large- and Small-scale Deployments</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/ceph-petabyte-scale-storage-large-and-small-scale-deployments</link>
+ <description>&lt;p&gt;Explanation and case studies of the CEPH distributed file system for system administrators&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                System Administrator        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;As size and performance requirements of storage systems increase, system designers look to new architectures to facilitate scalability. This talk is about CEPH, an open source distributed file system capable of managing many petabytes of storage with ease. The architecture leverages device intelligence to provide a reliable, scalable, and high-performance service in a dynamic cluster environment.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;As the size and performance requirements of storage systems have increased, ?le system designers have looked to new architectures to facilitate system scalability. This talk will describe a deployable and highly scalable solution to the current feature-limited selection of file storage systems. Ceph is an open source distributed file system capable of managing many petabytes of storage with ease. The architecture leverages device intelligence to provide a reliable, scalable, and high-performance ?le service in a dynamic cluster environment.   Ceph’s architecture consists of two main components: An object storage layer, and a distributed file system that is constructed on top of this object store. The object store provides a generic, scalable cloud storage platform (much like Amazon S3) with support for snapshots and distributed computation. The distributed file system similarly provides advanced features like per-directory granularity snapshots, and a recursive accounting feature that provides a convenient view of how much data is stored beneath any directory in the system.  In addition to a standard file system interface with support in the mainline Linux kernel, we have also built interfaces to integrate directly with Hadoop and Hypertable distributed computation and database systems.  A distributed block device also provides shared reliable storage for virtual machine instances in a cloud environment (much like Amazon EBS), with support in Qemu/KVM and the Linux kernel. The project is licensed under the LGPL/GPL, and aims to play nice with the larger open source cloud, data processing and storage ecosystems.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/sage-weil&quot;&gt;Sage Weil&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/g29X02&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/g29X02&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/16_30-SageWeil-CEPH.odp&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Sunday, February 27th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                4:30pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                Century AB        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/ceph-petabyte-scale-storage-large-and-small-scale-deployments#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/general">General</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/technology">Technology</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2689 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Herding Cat5</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/herding-cat5</link>
+ <description>&lt;p&gt;Keeping the infrastructure maintainable&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/devops-day-los-angeles&quot;&gt;DevOps&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Most DevOps organizations have systems configuration management in place, but not many have begun to automate their network. In this session Edmunds will present on how their DevOps organization has started to automate network configuration with an open-source framework that exposes content routing and load balancer management to web applications.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Most DevOps organizations have systems configuration management in place, but not many have begun to automate their network. In this session Edmunds will present on how their DevOps organization has started to automate network configuration with an open-source framework that exposes content routing and load balancer management to web applications.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/david-trott&quot;&gt;David Trott&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/hoMRL5&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/hoMRL5&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/DavidTrott-HerdingCat5.pptx&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                10:00am        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/herding-cat5#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/devops">DevOps</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2879 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+</channel>
+</rss>

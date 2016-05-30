@@ -1,0 +1,18 @@
+SCALE4x Announces Speaker List
+
+The Southern California Linux Expo has signed a distinguished list of speakers for SCALE 4x, the fourth annual SoCal Linux Expo. The following speakers have already confirmed their participation:
+
+
+Chris Dibona - Open Source Programs Manager, Google, Inc.
+Bernard Soriano - CIO, California Department of Motor Vehicles
+Kevin McElligott - iTech Developers(iTD)
+David Uhlman - CEO, Uversa Inc.
+SCALE is pleased to announce that IBM will again sponsor the Expo - as a Platinum Sponsor for 4x.
+
+Additional sponsors, supporters and participants will be announced in the near future.
+
+SCALE 4x will be held on February 11-12, 2006 at the Los Angeles Airport Radisson.
+
+The Linux Expo of Southern California was established in 2001. Our mission is to act as an advocate on behalf of Open Source software to businesses, academic institutions and the Linux community.
+
+To learn more about sponsoring SCALE, to submit a paper, or to get additional information about our speakers and sponsors, see http://socallinuxexpo.com, or contact info@socallinuxexpo.org

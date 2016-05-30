@@ -1,0 +1,35 @@
+Sophos to Join SCALE 3x - A Premier Linux and Open Source Conference
+
+FOR IMMEDIATE RELEASE
+Los Angeles, CA
+January 8, 2005
+
+The Southern California Linux expo has announced that Sophos has signed on as one of the latest sponsors of SCALE 3x, the Third Annual Southern California Linux Expo.  SCALE 3x has been called  " .. one of the few good grass-root level technical conferences for Linux" by Linux Kernel Developer Robert Love.
+
+Sophos is a world leading computer security specialist, developing anti-virus, anti-spam and email policy enforcement software for businesses of all sizes. The company's products are sold and supported in more than 150 countries and protect more than 25 million users. For more information on Sophos, see: http://www.sophos.com or visit them at booth #37 at the Southern California Linux Expo.
+
+Sponsors at this year's Southern California Linux Expo include: IBM, Novell, Yosemite Technologies, EMIC Networks, Linkline Communications, TOLIS Group, New Avenue Systems, Barracuda Networks, 21st Century Software, Petta Technology, PyX Technology, ObjectWeb Consortium, and more.  For a complete list of exhibitors and sponsors see: http://www.socallinuxexpo.org/exhibitions.php
+
+SCALE 3x will have multiple conference tracks with discussions lead by leaders of the open source and Linux community.  Featured luminaries this year include: John "maddog" Hall (Linux International), Kevin Foreman (Real Networks), Marc Hamilton (Sun Microsystems), Paul Von Stamwitz (AMCC/3Ware), Larry McVoy (BitKeeper), Louie Mamakos (Vonage) and Glenn Flinchbaugh (Wind River Systems).  
+
+SCALE 3x will be held at the Los Angeles conference center on February 12th and 13th, 2005.  Registration for sponsorship and attendance is still open.  Full conference passes are available at $65 (50% discount available for students).  Exhibit hall passes can be obtained at no cost with the promotional code "free".  More information on speakers, sponsors, and exhibitors is available online at www.socallinuxexpo.org
+
+About The Southern California Linux Expo (SCALE 3x):
+
+The Linux Expo of Southern California, Inc is a non-profit organization  currently comprised, but not limited to, members of the USCLUG,  UCLALUG, and SCLUG.  The mission of SCALE is outreach - our goal is to evangelize the  advantages of Open Source software. Open Source software is any software that meets the litmus test of the OSI (Open Source Initiative). 
+
+Media, Press and Interviews Contact:
+Orv Beach
+Publicity Chair
+orv@socallinuxexpo.org
+
+Sponsorship and Exhibitor Contact:
+Ilan Rabinovitch
+Conference Chair
+818-442-1685 Voice
+ilan@socallinuxexpo.org email
+
+Speaker Contact:
+Shyam Kapadia
+Speaker and Seminar Chair
+kapadia@socallinuxexpo.org

@@ -1,0 +1,663 @@
+
+
+
+
+zgv screen shot, this was *NOT* made in X:
+http://www.lafn.org/~aw585/phantom.pages.pnm
+
+
+http://www.debian-multimedia.org
+
+Linux Multimedia Hacks
+http://oreilly.com/catalog/9780596100766
+
+
+I) video / images
+   A) SVGAlib
+             svncviewer   - apparently not compatable with 'fbdev' chipset
+             /etc/vga/*   especially libvga.config
+   B) Frame Buffer
+     some key files:
+             /dev/fb[0-...
+             /etc/fb.modes
+     general tools: 
+             fbset
+                 alias fbbasic='fbset  640x480-100'
+                   verify you can adjust resolution with this
+             fbgrab
+             fbcat
+             Xvfb
+     specific tools:
+             fbgetty
+             fbtv
+             directvnc - broken
+   C) proprietary, special purpose card drivers / libraries:
+         mplayer specific:
+             aa      AAlib
+             caca    libcaca
+             sdl     SDL YUV/RGB/BGR renderer (SDL v1.1.7+ only!)
+             ggi     General Graphics Interface (GGI) output
+             mga     Matrox G200/G4x0/G550 overlay (/dev/mga_vid)
+             tdfxfb  3Dfx Banshee/Voodoo3/Voodoo5
+             s3fb    S3 Virge over fbdev
+             dga     DGA ( Direct Graphic Access V2.0 )
+             dxr3    DXR3/H+ video out
+             v4l2    V4L2 MPEG Video Decoder Output
+             zr      Zoran ZR360[56]7/ZR36060 Driver 
+             zr2     Zoran ZR360[56]7/ZR36060 Driver
+             dfbmga  DirectFB / Matrox G200/G400/G450/G550
+             cvidix  console VIDIX
+             mpegpes MPEG-PES to DVB card
+             yuv4mpeg        yuv4mpeg output for mjpegtools
+             gif89a  animated GIF output
+             png     PNG file
+             jpeg    JPEG file
+             tga     Targa output
+             pnm     PPM/PGM/PGMYUV file
+             md5sum  md5sum of each frame
+             null    Null video output
+             ....
+             bl      Blinkenlights UDP protocol
+             wii     Nintendo Wii/GameCube specific video output driver.
+
+
+II) still images
+   1) fbi   (Frame Buffer Imageviewer)
+         direct support:
+             PhotoCD
+             jpeg
+             ppm
+             gif
+             tiff
+             xwd
+             bmp
+             png
+         "For other formats fbi tries to use ImageMagick's convert.":
+             svg
+             svgz
+   2) zgv
+         Notable for directory with thumbnails, see teaser image above.
+         direct support
+             GIF
+             JPEG
+             PNG
+             PBM/PGM/PPM
+             BMP
+             TGA (Targa).
+             PCX
+             mrf
+             PRF
+             XBM
+             XPM
+             TIFF
+             Photo-CD
+             Xv
+          Notably lacking:
+             xwd
+             svg
+             svgz
+             animated gifs seems busted
+          http://isthereanotherquestion.blogspot.com/2009/11/zgving-again.html
+              May need, in /etc/vga/libvga.config:
+    chipset FBDEV           # Use kernel fbdev, instead of direct hardware.
+              coupled with '-j' switch
+              to run in frame buffer
+           extensive on the fly lite-weight image processing capabilities, etc.
+           -T, --show-tagged     - show names of tagged files on exit
+           -s, --show-dimensions - show x/y offset and width/height of image
+                                   displayed on exit
+
+
+   3) seejpeg, etc.
+
+   4) pnm etc.
+   5) ImageMagick: convert,  etc.
+
+III) still cameras 
+   gphoto2
+     switches:
+       alias gphoto2='gphoto2  --camera '\''Digital camera, CD302N'\''  '
+       alias gpget='gphoto2  --get-all-files'
+       alias gplist='gphoto2  --list-files'
+
+     special purpose shell mode
+        alias gpshell='gphoto2  --shell'
+
+IV)  pdf files
+     pdfmenu   - see my blog http://isthereanotherquestion.blogspot.com
+     Notable points:
+       pdftk
+       bmv
+       gs (of course)
+       fbgs
+
+V)  sound
+       key files:  /dev/dsp*  /dev/mixer*
+    alsamixer
+      curses based, probably best for semi-graphical setting, one-of's
+    aumix
+      good for snapshots of state, resetting to known state, CL adjustments
+      
+      example: usbscreset:
+--
+#!/bin/bash
+
+
+
+#  crw-rw---- 1 root audio 14, 16 Aug  7 16:00 /dev/mixer1
+
+#  alias aumix1='aumix -d /dev/mixer1 '  ;
+
+#  aumix1  -f /home/dallas/bin/mixer1.rc  -L
+[ -e /dev/mixer1 ]    \
+   &&  exec aumix -d /dev/mixer1   -f /home/dallas/bin/mixer1.rc  -L
+
+
+echo  "USB mixer missing"  ;  exit
+
+
+--
+/home/dallas/bin/mixer1.rc:
+pcm:83:83:P
+mic:83:83:R
+--
+
+
+    amixer - cryptic
+   
+    cdcd - special shell or via switches, dac weakness
+    workbone, etc.
+    mplayer  cdda://....
+    misc. special pupose mp3/wav players - problems vrs. mplayer 
+
+    editing, conversion, effects
+    mplayer 
+       'edl'    - Edit Decision List
+          http://www.mplayerhq.hu/DOCS/HTML-single/en/MPlayer.html#edl
+                 -edlout <filename>
+                 -edl    <filename>
+                 format:
+                 <start secs>  <end secs>  [0 (4 skip) | 1 (4 mute) ]
+
+       Capture audio as a wav:
+
+          mplayer -ao pcm:fast:file=somefile.wav -vc null -vo null \
+                      -chapter 46-46  dvd://1   (or somefile.mpg or http://url)
+
+       Capture ac3 output:
+
+          mplayer  -dumpaudio -dumpfile somefile.ac3    dvd://...
+
+
+          ac3 - most DVD's, TR:~2x.mp3 in size
+
+       -af karaoke
+
+    ffmpeg for stripping audio out of video, conversions
+
+    pacpl (LJ  august 2010, p. 76 Tech Tips)   (I haven't used this)
+
+    sox
+      apt-get  install sox  libsox-fmt-all
+      sox
+      libsox1a
+      libsox-fmt-base
+      libsox-fmt-all    
+      libsox-fmt-ffmpeg
+      libsox-fmt-mp3  <- try to avoid use
+      libsox-fmt-ao
+      libsox-fmt-alsa
+      libsox-fmt-oss
+      libsox-fmt-pulse
+
+      sox  -SV track17a.cdda.wav   -t wav track17.cdda.wav  trim 0 190
+
+
+function wavtrim ()
+{
+   #    wavtrim  infile outfile   start  finish volume
+   sox -SV ${1} -t wav ${2} trim ${3}  $(( ${4} - ${3} ))  vol ${5:-1.0} ;
+}
+
+       sox -V4 gb.1.128.{0{1..9},{10..24}}.wav  -t wavpcm  -s - | lame     -q 2 -V4  - gb.mp3
+
+    #  Note  -t wavpcm  == "Don't take wav file header to literally/seriously"
+
+    ecasound   - I've never used
+    lame
+    mp3splt
+    mp3wrap
+    normalize
+    oggdec:
+      oggdec -Rb 16  -o - SCALE3x-DaryllStraus.ogg  | lame  -xrs 44.1 - ds.mp3
+    shntool package:  wav, flac and other non-loessy formats
+   
+     capture
+
+       arecord
+          alias linerip='arecord -vvvc 2 -f dat  '  ;
+
+       ffmpeg  
+         from ffmpeg man page:
+           ffmpeg -f oss -i /dev/dsp -f video4linux2 -i /dev/video0 /tmp/out.mpg
+         personal experience: 
+           ffmpeg  -f alsa -ac 2 -i hw:0,0  -f mp3  test.mp3
+           ffmpeg  -f alsa -ac 1 -t 99:60:00  -i hw:1,0  -f mp3  test.mp3
+
+VI)  CDs
+     1) ripping  
+            cdparanoia
+                alias cdrrip='cdparanoia  -v  -B'
+            icedax  - part of cdrecord/wodim cluster of tools
+            cdfs    - example of deep thinking about use of file systems
+          
+     2) copying, etc cdrdao
+            alias cdrcp='cdrdao copy --keepimage  -n -v 2 '
+            alias cdrwrite='cdrdao write --keepimage  -n -v 2 '
+
+     3) attacking cdrdao .bin files
+         cueconvert  - convert between .cue / .toc formats
+         toc2cue
+         bchunk - break up cdrdao .cue/.bin to wav files
+                    bchunk -vws  aaa.bin  aaa.cue  aaa.tag.
+         CDemu  - virtual CD player
+         mplayer patch to play .bin/.cue files
+           or: 
+         dd conv=swab  if=somefile.bin  |  mplayer -demuxer rawaudio   -
+         
+     
+VII)   video viewing
+      1) mplayer
+              -dvd-device some/dir/
+               mplayer  -vo help
+                /etc/mplayer/*    , mplayer.conf
+      2) fbxine
+                atp-get install xine-console
+                  aaxine, fbxine etc.
+      3) vlc-nox
+      4) ffplay
+               ffmpeg test program
+      5) gnash
+
+VIII) video conversion
+      1) mencoder
+           mencoder  -forceidx  -o outfile.avi -oac copy  -ovc copy dvd://1  
+      2) ffmpeg
+      3) transcode
+      4) tovid
+      etc.
+
+IX) container files / formats
+      1) Matroska
+             apt-get install  mkvtoolnix
+             mkvmerge
+             mkvextract
+
+X) case examples
+
+    1) capture of video stream to .mp3   (accesabilty issue)
+      
+--
+#!/bin/bash
+
+
+
+
+YOURFIFO="/tmp/${RANDOM}.fifo"  ;
+while    [ -e "${YOURFIFO}" ]
+do
+  YOURFIFO="/tmp/${RANDOM}.fifo"  ;
+done  ;
+
+
+mkfifo "${YOURFIFO}"  ;
+
+#  ( lame --quiet  -q 2 -V 4 "${YOURFIFO}" "${2}" ; rm -f  "${YOURFIFO}" )  &
+
+( sox -q "${YOURFIFO}"   -t wavpcm  -s -  | \
+   lame --quiet  -q 2 -V 4 - "${2}" ; rm -f  "${YOURFIFO}" )  &
+
+
+mplayer -nocache  -ao pcm:fast:file="${YOURFIFO}" -vc null -vo null  "${1}"  ;
+--
+           
+    2) remerging chapters to form an (S)VCD
+                TR: 1.5 hours B&W / SVCD
+
+           reason
+           mencoder like above direct merge failed due to wav problems
+           mkvextract mkv -> ( .avi, .ac3 )
+           mencoder ( 1.avi, 2.avi ....) -> joined.avi
+           mplayer .ac3 -> wav for each .wav
+           sox -V4 gb.1.128.{0{1..9},{10..24}}.wav  -t wavpcm  -s joined.wav
+           ffmpeg  along the lines of  example from man page:
+
+ffmpeg -i test1.avi -i test2.avi -vcodec copy -acodec copy -vcodec copy -acodec copy test12.avi -newvideo -newaudio
+    
+    probably:
+    ffmpeg -i joined.avi -i joined.wav -vcodec copy \
+         -acodec copy unified.avi  -newaudio
+ 
+             
+    3) reading the text 'images' on a DVD
+           You know, the guys master thesis included in the DVD......
+                (for some reason, seldom in a .pdf....)
+       identify the 'title', 
+       dvdbackup -t X -o ./
+                 OR   (first may loose some 'text'/images, this didn't:)
+       dvdbackup -T X -o ./
+       \mplayer -vo  jpeg    some.VOB
+       zgv
+
+    4) DVD burner unsupported by cdrdao
+              problem - burned fine, problems reading
+                     verified bad with method above to play .bin
+                     aparently no developement on cdrdao
+              
+--
+#!/bin/bash
+
+
+VERSION='$Id: help.template.sh,v 1.3 2009/12/30 08:41:00 dallas Exp dallas $'  ;
+USAGE="${0##*/}  [ -h | -v ]  [-d] [--keepimage] <tag>"  ;
+
+source ~/bin/security.pack  ;
+
+# Help subsystem #######################################
+
+function help_message ()
+{
+  cat <<HELP_MESSAGE  ;
+
+  ${USAGE}
+
+  <tag>             file label
+  -h                Help
+  -v                Version
+  -d                Debug
+
+HELP_MESSAGE
+
+  exit  ;
+} ;
+
+KEEPIMAGE=''  ;
+
+case  ${1}  in
+
+[-/][hH?]* | --[hH]* )
+  help_message  ;
+  ;;
+
+[-/][vV]* | --[vV]* )
+  echo ${VERSION#\$Id\: }  ;
+  exit  ;
+  ;;
+
+[-/][dD]* | --[dD]* )
+  SCRIPTDEBUG='1'  ;
+  shift  1  ;
+  ;;
+
+--keepimage )
+  KEEPIMAGE='1'  ;
+  shift  1  ;
+  ;;
+
+* )
+  :  ;
+  ;;
+
+esac  ;
+
+
+# End of Help Subsystem ##############################
+
+
+set -e  ;
+
+
+
+TAG=${1:?"You need a tag."}  ;
+
+
+cd /mnt/hda7/images/  ;
+
+
+cdparanoia -vp 1-  ${TAG}.bin
+cdrdao read-toc  --datafile ${TAG}.bin   -v 100    ${TAG}.toc
+
+sudo /usr/bin/eject /dev/hdc  ;
+read -p 'Insert blank cd and press any key.'   trash  ;
+sudo /usr/bin/eject -t /dev/hdc  ;
+
+cdrdao write  -v 1000  ${TAG}.toc
+
+[ 'q' == "q${KEEPIMAGE}" ] && rm -f  ${TAG}.*
+--
+
+
+
+    5) configuring analog video capture card by hand
+
+To get the capture card state:
+--
+#!/bin/bash
+
+
+
+echo 'v4l-info:'
+v4l-info
+
+echo 'v4l2-ctl  --all:'
+v4l2-ctl  --all
+
+
+echo  'v4l2-ctl -D:'
+v4l2-ctl -D
+#  v4l2-ctl
+
+echo  'v4l2-ctl -l:'
+#  -l, --list-ctrls   display all controls and their values [VIDIOC_QUERYCTRL]
+v4l2-ctl -l
+
+echo  'v4l2-ctl -L:'
+#  -L, --list-ctrls-menus
+v4l2-ctl -L
+
+echo  'v4l2-ctl -N:'
+#   -N, --list-outputs display video outputs [VIDIOC_ENUMOUTPUT]
+v4l2-ctl -N
+
+echo  'v4l2-ctl -n:'
+#   -n, --list-inputs  display video inputs [VIDIOC_ENUMINPUT]
+v4l2-ctl -n
+
+echo  'v4l2-ctl --list-standard:'
+#   --list-standards   display supported video standards [VIDIOC_ENUMSTD]
+v4l2-ctl --list-standard
+
+echo  'v4l2-ctl --list-formats:'
+#   --list-formats     display supported video formats [VIDIOC_ENUM_FMT]
+#                      --list-formats, or the fourcc value as a string
+v4l2-ctl --list-formats
+
+echo  'v4l2-ctl --list-devices:'
+#   --list-devices     list all v4l devices
+#                      --list-formats, or the fourcc value as a string
+#                      <mode> is a comma separated list of:
+#                      <markers> is a colon separated list of:
+v4l2-ctl --list-devices
+
+echo  'v4l2-ctl --list-audio-outputs:'
+#   --list-audio-outputs
+v4l2-ctl --list-audio-outputs
+
+echo  'v4l2-ctl --list-audio-inputs:'
+#   --list-audio-inputs
+v4l2-ctl --list-audio-inputs
+
+--
+
+vcrplay:
+--
+#!/bin/bash
+
+
+
+VERSION='$Id: help.template.sh,v 1.3 2009/12/30 08:41:00 dallas Exp dallas $'  ;
+USAGE="${0##*/}  [ -h | -v ]  [-d] [-r]"  ;
+
+source ~/bin/security.pack  ;
+
+# Help subsystem #######################################
+
+function help_message ()
+{
+  cat <<HELP_MESSAGE  ;
+
+  ${USAGE}
+
+  -h                Help
+  -v                Version
+  -d                Debug
+  -r                "Rough going" expected
+
+HELP_MESSAGE
+
+  exit  ;
+} ;
+
+
+
+
+
+case  ${1}  in
+
+[-/][hH?]* | --[hH]* )
+  help_message  ;
+  ;;
+
+[-/][vV]* | --[vV]* )
+  echo ${VERSION#\$Id\: }  ;
+  exit  ;
+  ;;
+
+[-/][dD]* | --[dD]* )
+  SCRIPTDEBUG='1'  ;
+  shift  1  ;
+  ;;
+
+
+*@* )
+  :  ;
+  ;;
+
+* )
+  : help_message
+  ;;
+
+esac  ;
+
+shopt -s expand_aliases
+
+alias MPLAYER='/usr/bin/mplayer -msglevel all=4   -ni '
+
+
+
+function  vcrset  ()
+{
+
+   sudo mplayer tv://     \
+      -tv norm=NTSC:device=/dev/video0:chanlist=us-bcast:input=0:channel=3  ;
+   
+   ivtv-ctl   --set-audio-mute 0  ;
+   v4l2-ctl --set-ctrl=mute=0   ;
+
+}
+
+
+
+while getopts ':r'  opt                                     
+do                                                             
+  # leading  ':' or OPTERR=0 turns off weird error message     
+  #  for invalid options                                       
+                                                               
+  case  $opt  in                                               
+  r )
+  alias MPLAYER=\
+'/usr/bin/mplayer -msglevel all=4  -framedrop  -cache 24576 -ni  -vf spp,scale  '
+
+# '/usr/bin/mplayer -msglevel all=4  -framedrop  -nocache -ni  -vf spp,scale  '
+  ;;
+  * ) 
+  :
+  ;;
+  esac                                                         
+done                                                           
+                                                               
+shift  $(( $OPTIND  -  1 ))                                    
+#  --  a piece of boilerplate to sweep options out of the way  
+#      typically leaving file names                           
+
+fbset 640x480-60  ;
+
+sudo /sbin/modprobe   -r   ivtv  ;
+sudo /sbin/modprobe        ivtv  ;
+
+until  [ -e /dev/video0 ]
+do 
+  :
+done  ;
+
+for i in {1..3}
+do
+  vcrset  ;
+done  ;
+
+
+until  [ -e /dev/video0 ]
+do 
+  :
+done  ;
+
+#  sudo   /usr/bin/mplayer -msglevel all=4  \
+#    -tv norm=NTSC:device=/dev/video0:chanlist=us-bcast:input=0:channel=3  \
+
+#   /usr/bin/mplayer -msglevel all=4    \
+
+#  /usr/bin/mplayer -msglevel all=4  -framedrop  -nocache -ni  -vf spp,scale  \
+
+#  alias MPLAYER  ;  exit  ;
+
+MPLAYER   \
+     -tv norm=NTSC:device=/dev/video0:chanlist=us-bcast:input=0:channel=3  \
+      /dev/video0  ;
+
+fbset 640x480-60  ;
+
+--
+
+
+
+    6) ripping with subtitles the fast and easy way
+
+
+              mencoder  ....   \
+                        -sid ${subtitletrack}  \
+                        -vobsubout ${filevob}   \
+                        -vobsuboutindex ${subtitletrack}" 
+                             (or -vobsuboutid ...)
+                        (generating ....idx  ....sub files)
+
+
+        to play:
+             mplayer  -sub ${filevob}  ....
+
+          but better is to merge all into an .mkv file:
+
+              mkvmerge  -v -o  ${finalfile}  ${file}  ${fileidx}  
+
+              and play ${finalfile}
+
+

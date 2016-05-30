@@ -1,0 +1,223 @@
+h2{
+	color: #00A0C6;
+	font:  bold 14px Tahoma, Sans-Serif;
+	}
+
+#greeting{ padding: 15px 0; }
+
+	#greeting h2{
+		color: #FFF;
+		font:  bold 28px/1.2em Tahoma, Sans-Serif;
+		}
+
+	#greeting h3{
+		color: #86E3FE;
+		font:  bold 14px/1.2em Tahoma, Sans-Serif;
+		}
+
+#news{
+	background: url("../images/index/news/background.gif") no-repeat 0 100%;
+	padding:    15px 20px;
+	}
+
+	#news li{
+		background:   url("../images/index/news/li_background.gif") no-repeat 0 50%;
+		margin:       10px 0;
+		padding-left: 10px;
+		}
+
+		#news li a{ font-weight: bold; }
+
+	#news span{
+		display:    block;
+		text-align: right;
+		}
+
+	#news ul{
+		clear:           both;
+		list-style-type: none;
+		}
+
+#news_wrapper{
+	background: #DFFFE7 url("../images/index/news_wrapper_background.gif") no-repeat;
+	margin-top: 12px;
+	}
+
+#rsvp{
+	background:    url("../images/index/rsvp_background.gif");
+	height:        217px;
+	padding:       0 20px;
+	}
+
+	#rsvp a{ font-weight: bold; }
+
+		#rsvp a img{
+			display: block;
+			margin:  35px auto 0 auto;
+			}
+
+	#rsvp em{
+		color:      #A6E200;
+		font-style: normal;
+		}
+
+	#rsvp h2{
+		color:      #FFF;
+		float:      left;
+		font:       bold 36px/1.2em Sans-Serif;
+		margin:     10px 0;
+		text-align: center;
+		width:      180px;
+		}
+
+		#rsvp h2 span{ font: bold 24px/1.25em Sans-Serif; }
+
+	#rsvp span{
+		color:      #FFF;
+		display:    block;
+		text-align: center;
+		}
+
+#section_1{
+	margin: 0 auto;
+	width:  730px;
+	}
+
+	#section_1 p{ color: #FFF; }
+
+	#section_1 .column_1{ width: 460px; }
+
+		#section_1 .column_1 .column_1,
+		#section_1 .column_1 .column_2{
+			margin: 0;
+			font:  13px/1.1em Tahoma, Sans-Serif;
+			width:  205px;
+			}
+
+	#section_1 .column_1,
+	#section_1 .column_2{ margin: 25px 0 30px 0; }
+
+	#section_1 .column_2{ width: 220px; }
+
+#section_1_wrapper{
+	background: #013038 url("../images/index/section_1_wrapper_background.gif") repeat-x 0 100%;
+	margin-bottom: 7px;
+	}
+
+#section_2{
+	margin: 0 auto;
+	width:  730px;
+	}
+
+	#section_2 h2{ line-height: 34px; }
+
+		#section_2 h2 a{ font-size: 11px; }
+
+#section_2_wrapper{ background: url("../images/index/section_2_wrapper_background.gif") repeat-x; }
+
+#section_3{
+	margin: 15px auto 20px auto;
+	width:  730px;
+	}
+
+	#section_3 .column_1{ width: 490px; }
+
+	#section_3 .column_2{ width: 220px; }
+
+#speakers{ list-style-type: none; }
+
+	#speakers a{ font-weight: bold; }
+
+	#speakers li{
+		float:  left;
+		margin: 15px 20px 15px 0;
+		width:  230px;
+		}
+
+	#speakers span{ width: 103px; }
+
+	#speakers strong{
+		display:    block;
+		margin-top: 1em;
+		}
+
+#contributors{ list-style-type: none; }
+
+	/*#contributors img{ vertical-align: bottom; }*/
+
+	#contributors li{
+		float:  left;
+		margin: 0 5px 5px 0;
+		}
+
+		#contributors li.size_1{
+			background: url("../images/index/contributors/size_1_background.gif");
+			width:      125px;
+			}
+
+		#contributors li.size_1,
+		#contributors li.size_2,
+		#contributors li.size_3{ height: 69px; }
+
+		#contributors li.size_2{
+			background: url("../images/index/contributors/size_2_background.gif");
+			width:      130px;
+			}
+
+		#contributors li.size_3{
+			background: url("../images/index/contributors/size_3_background.gif");
+			width:      220px;
+			}
+
+		#contributors li.size_4{
+			background: url("../images/index/contributors/size_4_background.gif");
+			height:     135px;
+			width:      485px;
+			}
+		#contributors li.size_5{
+			height: 69px;
+			background: url("../images/index/contributors/size_5_background.gif");
+			width:      350px;
+			}
+		#contributors li.size_6{
+			background: url("../images/index/contributors/size_4_background.gif");
+			height:     135px;
+			width:      485px;
+			}
+		#contributors li.size_7{
+			background: url("../images/index/contributors/size_7_background.gif");
+			height:     109px;
+			width:      485px;
+			margin-bottom: 4px !important;
+			}
+
+	#contributors strong{
+		color:   #02718B;
+		display: block;
+		margin:  5px 5px 0 10px;
+		}
+
+	#contributors ul{
+		list-style-type: none;
+		margin:          0 auto;
+		}
+
+		#contributors ul li{ margin: 1px; }
+
+#subscriptions{
+	background: url("../images/index/subscriptions_background.gif");
+	height:     283px;
+	padding:    0 20px;
+	}
+
+	#subscriptions h2{
+		float:      left;
+		margin-top: 20px;
+		padding:    0 5px;
+		}
+
+	#subscriptions span{
+		clear:   both;
+		display: block;
+		padding: 10px 5px 5px 5px;
+		}

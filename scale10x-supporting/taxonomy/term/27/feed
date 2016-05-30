@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 10x - 2012 Southern California Linux Expo - Beginner Tutorials</title>
+ <link>https://www.socallinuxexpo.org/scale10x/topic/beginner-tutorials</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Linux Beginner Training - Day 2</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/linux-beginner-training-day-2</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Beginner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/beginner-tutorials&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Beginner Tutorials&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;SCALE is proud to present their first ever &lt;a href=&quot;https://www.socallinuxexpo.org/scale10x/events/linux-beginner-training-scale-10x&quot;&gt;Linux Beginner training class!&lt;/a&gt;   It&#039;s an intensive, two-day training class the same weekend as the Linux Expo, co-located with the Expo at the LAX Hilton.&lt;/p&gt;
+&lt;p&gt;Presented by volunteer trainers and presenters, students will come away with the ability to install and maintain a Linux operating system.  &lt;/p&gt;
+&lt;p&gt;Cost of the class is 25 dollars, which includes a bootable USB thumb drive, handouts, and a pass to the Linux Expo floor.  &lt;strong&gt;Note: Access to other  Saturday &amp;amp; Sunday tracks is not included because the training class will occupy all of both Saturday and Sunday). &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Attendees are expected to bring a computer suitable for installing Linux.   Laptops are encouraged but desktops are acceptable also.  Installations will be Linux-only; dual-booting is beyond the scope of this class.  So bring a computer you can dedicate to Linux.&lt;/p&gt;
+&lt;p&gt;For more information see the online &lt;a href=&quot;https://www.socallinuxexpo.org/scale10x/events/linux-beginner-training-scale-10x&quot;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Sat, 24 Dec 2011 07:29:57 +0000</pubDate>
+ <dc:creator>ron</dc:creator>
+ <guid isPermaLink="false">411 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/linux-beginner-training-day-2#comments</comments>
+</item>
+<item>
+ <title>Linux Beginner Training - Day 1</title>
+ <link>https://www.socallinuxexpo.org/scale10x/presentations/linux-beginner-training-day-1</link>
+ <description>&lt;div class=&quot;field field-name-field-audience field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Audience:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/2&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Beginner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-categories field-type-taxonomy-term-reference field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Categories:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/scale10x/topic/beginner-tutorials&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot;&gt;Beginner Tutorials&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-long-abstract field-type-text-long field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;SCALE is proud to present their first ever &lt;a href=&quot;https://www.socallinuxexpo.org/scale10x/events/linux-beginner-training-scale-10x&quot;&gt;Linux Beginner training class!&lt;/a&gt;   It&#039;s an intensive, two-day training class the same weekend as the Linux Expo, co-located with the Expo at the LAX Hilton.&lt;/p&gt;
+&lt;p&gt;Presented by volunteer trainers and presenters, students will come away with the ability to install and maintain a Linux operating system.  &lt;/p&gt;
+&lt;p&gt;Cost of the class is 25 dollars, which includes a bootable USB thumb drive, handouts, and a pass to the Linux Expo floor.  &lt;strong&gt;Note: Access to other  Saturday &amp;amp; Sunday tracks is not included because the training class will occupy all of both Saturday and Sunday). &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Attendees are expected to bring a computer suitable for installing Linux.   Laptops are encouraged but desktops are acceptable also.  Installations will be Linux-only; dual-booting is beyond the scope of this class.  So bring a computer you can dedicate to Linux.&lt;/p&gt;
+&lt;p&gt;For more information see the online &lt;a href=&quot;https://www.socallinuxexpo.org/scale10x/events/linux-beginner-training-scale-10x&quot;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Sat, 24 Dec 2011 07:27:21 +0000</pubDate>
+ <dc:creator>ron</dc:creator>
+ <guid isPermaLink="false">410 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/scale10x/presentations/linux-beginner-training-day-1#comments</comments>
+</item>
+</channel>
+</rss>

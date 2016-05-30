@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.socallinuxexpo.org/scale10x/socallinuxexpo.org/scale10x/events/scale-university" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>SCALE 10x - 2012 Southern California Linux Expo</title>
+    <link>https://www.socallinuxexpo.org/scale10x/socallinuxexpo.org/scale10x/events/scale-university</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Yet Another Linux Beginner&#039;s Class!</title>
+    <link>https://www.socallinuxexpo.org/blog/yet-another-linux-beginners-class</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;span class=&quot;text_exposed_show&quot;&gt;The Southern California Linux Expo is proud to present their second Linux Beginner training class!   It&#039;s an intensive, one-day training class to be held   Saturday, March 3rd, at the LAX Hilton, from 10 a.m. to 5 p.m.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Presented by volunteer trainers and presenters, students will come away with the ability to install and maintain a Linux operating system.  &lt;/p&gt;
+&lt;p&gt;Attendees are expected to bring a computer suitable for installing Linux.   Laptops are encouraged but desktops are acceptable also.  &lt;/p&gt;
+&lt;p&gt;Minimum hardware requirements for Linux installation: *&lt;/p&gt;
+&lt;p&gt;CPU:  1.8 GHz&lt;/p&gt;
+&lt;p&gt;Disc Space:  Five Gigabytes for OS installation; we recommend 10-20 Gigabytes of additional space for data.&lt;/p&gt;
+&lt;p&gt;RAM: 1 Gigabyte&lt;/p&gt;
+&lt;p&gt;Network interface:  Wired: mandatory;  Wireless: optional&lt;/p&gt;
+&lt;p&gt;Speakers: optional&lt;/p&gt;
+&lt;p&gt;Cost of the class is 25 dollars.  &lt;/p&gt;
+&lt;p&gt;To register for the class, go to &lt;a href=&quot;https://reg.socallinuxexpo.org/reg6/&quot;&gt;https://reg.socallinuxexpo.org/reg6/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;* for a good beginning Linux experience.  More is better, of course.&lt;/p&gt;
+&lt;p&gt;Questions?  email &lt;a href=&quot;mailto:info@socallinuxexpo.org&quot;&gt;info@socallinuxexpo.org&lt;/a&gt; for more info.&lt;/p&gt;
+&lt;p&gt;If you know of anyone who might be interested in taking this class, please pass this along. There are only 32 slots and they are filling fast, so don&#039;t delay!&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 27 Feb 2012 02:45:25 +0000</pubDate>
+ <dc:creator>orv</dc:creator>
+ <guid isPermaLink="false">556 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/blog/yet-another-linux-beginners-class#comments</comments>
+  </item>
+  <item>
+    <title>Interview - Chris Nolan and nVentory</title>
+    <link>https://www.socallinuxexpo.org/blog/interview-chris-nolan-and-nventory</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;SCALE team member Gerald Fontejon met with &lt;a href=&quot;https://www.socallinuxexpo.org/scale10x/speakers/christopher/nolan&quot;&gt;Chris Nolan &lt;/a&gt;(eHarmony) to discuss DevOps and the nVentory project. Chris Nolan and his colleagues will be presenting on nVentory at &lt;a href=&quot;http://www.socallinuxexpo.org/scale10x/events/devops-day-la&quot;&gt;DevOps Day Los Angeles&lt;/a&gt; on Friday January 20th.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SCALE:&lt;/strong&gt;From looking at who is presenting the topic &quot;nVentory - Your Infrastructure&#039;s Source of Truth&quot;, we have a Director, System Administrator, and Developer presenting - how does each role play a part with the implementation, management, and daily-use of nVentory?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chris:&lt;/strong&gt; I initially implemented nVentory shortly I after I started at eHarmony 18 months ago. There was no easy way to track all of our servers and it was frustrating coming in new and not knowing what was in our datacenters. Ongoing I have become more of an evangelist of nVentory, both internally to eHarmony and externally to the internet community.&lt;/p&gt;
+&lt;p&gt;Darren, as the engineer, works on features and bugs for nVentory. He is an active developer and sends a majority of his work back to the community, allowing others to share in our new features and tools.&lt;/p&gt;
+&lt;p&gt;Jeff, as a SysAdmin, is a big consumer and user of the information stored in nVentory.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SCALE:&lt;/strong&gt; Also could you describe your environment at eHarmony in which you guys use nVentory?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chris:&lt;/strong&gt; Our environment is a mix of physical and virtual machines, or nodes, with hundreds of applications and data stores. We use it to manager our thousands of nodes (both physical and virtual) and layer metadata on top of the nodes and nodegroups to manage apps, monitoring, release, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SCALE:&lt;/strong&gt; It does give you some flexibility with the tool having Darren Dao adding new features to fit your team&#039;s needs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chris:&lt;/strong&gt; Definitely. Having the developer of a tool in house is great; especially someone as gifted as Darren.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SCALE:&lt;/strong&gt; Are the other tools that are comparable with nVentory?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chris:&lt;/strong&gt; For tools that do just what nVentory does there are not a whole lot of open source options out there. Puppet and Chef have a &quot;server&quot; concept that allows you to query information about your hosts, but neither track - storage, VIPs, network ports, etc. like nVentory does. There are enterprise solutions but nobody likes shelling out wheelbarrows of cash and working with stuffy consultants. :)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SCALE:&lt;/strong&gt; Would you be able to use another tool like openLDAP to be the &quot;Source of Truth&quot; within your environment by injecting/adding new fields to accommodate your informational needs?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chris:&lt;/strong&gt; LDAP doesn&#039;t offer an API or an elegant CLI to extract information. It also doesn&#039;t have all the fields or an easy way to layer metadata on top of the nodes it may be tracking.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SCALE:&lt;/strong&gt; I noticed from poking around LinkedIn, all the members possibly met at ATT Interactive, and had some experience with nVentory in the ATT environment. From your experience as a team of implementing nVentory within eHarmony, what were the major challenges?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chris:&lt;/strong&gt; Jeff, Darren and I actually met at a startup that did out of home advertising on digital billboards and TV screens.&lt;/p&gt;
+&lt;p&gt;Though I wouldn&#039;t call it a major challenge, the long haul has been getting people to use it. Sometimes people have to ask a few times about what node is handling service X or what port node Z is plugged into. When you keep telling folks to use nVentory and get the data there, they eventually get it and are more productive in the end. It also results in fewer shoulder taps for the Sysadmins, which is always a good thing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SCALE:&lt;/strong&gt; Agreed. Always good to provide users the necessary tools to find information on the given infrastructure. And having the information accessible by everyone outside the SysAdmin team is awesome. Researching the benefits of a &quot;Source of Truth&quot; concept, and nVentory - I&#039;m thinking the number of its implementations will grow. However not many companies have thousands of nodes in their datacenter. What number of nodes would you say is the threshold to make a tech dept. invest some man hours on its &#039;source of truth&#039; utility implementation? And given your experience with nVentory, what would be some of the crucial steps in order to implement nVentory. The datacenter environment touches multiple teams (netops, sysadmins, security, appops), so I would assume there has to be a lot of coordination.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chris:&lt;/strong&gt; I think this question can be asked of all sorts of &quot;devops&quot; tools. When is the best time to implement configuration management? When should I start using Jenkins or a similar Continuous Integration tool? When should I start doing test driven development? And finally, how large should my infrastructure be before I start using nVentory?&lt;/p&gt;
+&lt;p&gt;If you are only managing 1-10 hosts and don&#039;t expect to scale that then you probably don&#039;t have any problems that devops (and nVentory) address. If you have 10+ hosts and you expect to scale that as you grow then you should implement nVentory now (as well as the surrounding tools and practices I mention above).&lt;/p&gt;
+&lt;p&gt;Coordination between groups is important. For example, a lot of our tools make decisions based on rack location. This, unfortunately, is not automatable and requires that DCOps be onboard to manually enter the information. When people see the benefits of using nVentory they are happy to oblige and do what is necessary to make the data useful and valuable to the company.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SCALE:&lt;/strong&gt; What do you mean by, &quot;a lot of our tools make decisions based on rack location?&quot; I&#039;m unclear on this. And also a couple of the devops tools you mentioned, such as CM and CI are cloud ready - meaning these tools could work within a company&#039;s an EC2 or RackSpace environment. Is nVentory capable of supporting a hybrid physical/virtual datacenter(s)?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chris:&lt;/strong&gt; Let me clarify that statement. A lot of our tools use rack location in their configuration and deployment decision making.&lt;/p&gt;
+&lt;p&gt;One example is our custom private cloud. When a multi-node requests (a single service needing multiple services for load balancing and redundancy) the system decides where to place the VMs to ensure they are on different hypervisors in different racks.&lt;/p&gt;
+&lt;p&gt;nVentory is capable of supporting hybrid environments. The considerations would be around networking and encrypted tunnels between sites and providers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SCALE:&lt;/strong&gt; Well, thank you Chris for the interview and a glimpse of eHarmony&#039;s utilization of nVentory. I look forward to checking out your discussion. For anyone that is planning on attending your team&#039;s presentation - you have homework to prepare them for your guys&#039; talk? Or will the discussion be relatively self-explanatory?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chris:&lt;/strong&gt; It&#039;s been fun, Gerald. People should think about the foundation tools they use to manage their infrastructure and come ready with questions. Our talk will be self-explanatory with examples of how we integrate our tools and infrastructure management together using nVentory.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 19 Jan 2012 07:34:26 +0000</pubDate>
+ <dc:creator>ilan</dc:creator>
+ <guid isPermaLink="false">522 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/blog/interview-chris-nolan-and-nventory#comments</comments>
+  </item>
+  <item>
+    <title>Speaker Q-and-A: Mark Burgess</title>
+    <link>https://www.socallinuxexpo.org/blog/speaker-q-and-mark-burgess</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;[Blogger&#039;s Note: SCALE 10X will be asking some of the speakers to weigh in on their presentations for the expo. This is the Q-and-A for Mark Burgess, who will give a talk on “3 Myths and 3 Challenges to Bring System Administration out of the Dark Ages” on Friday.]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Q: Could you please introduce yourself and tell us a little about your background?&lt;/p&gt;
+&lt;p&gt;A: Well, let&#039;s see. I&#039;m the founder, CTO and original author of CFEngine. I also used to be Professor of Network and System Administration at Oslo University College, but now I&#039;m full time at the CFEngine company. I have a Ph.D in Theoretical Physics and I&#039;ve been working on system administration as a researcher and sort of activist for nearly 20 years. I&#039;ve written a number of text books for universities and dozens of scientific papers on the subject and I&#039;m still pretty engaged in thinking about the future of IT technology. I like to get my hands dirty with practical issues, even though I&#039;m a theorist. Theory is no good unless it is an accurate model of reality.&lt;/p&gt;
+&lt;p&gt;Q: You&#039;re giving a talk at SCALE 10X on “3 Myths and 3 Challenges to Bring System Administration out of the Dark Ages.” Without tipping your hand on the actual talk, can you give us an idea of what we might expect?&lt;/p&gt;
+&lt;p&gt;A: The talk is really about the future of system administration or IT management. I suppose what I&#039;m doing is pointing out that system administration need to move on from some old-fashioned practices and explain why. Although it is not directly about CFEngine, a lot of these ideas have really come out of the years of research and lessons learned from making CFEngine 3. I&#039;ll be saying why we need to start looking at this kind of third generation technology to handle what&#039;s coming in the next ten years. I hope the talk will be a bit entertaining and will poke fun at the mirror in a humourous way.&lt;/p&gt;
+&lt;p&gt;Q: According to your bio, you have a very extensive background on System Administration, in both the academic and private sector. How has System Administration changed over the years, and are the challenges different than they were in years past?&lt;/p&gt;
+&lt;p&gt;A: That&#039;s quite a difficult question to answer. I feel that system administration itself has not changed very much in spirit. We cling to a lot of old ideas in a majority of institutions. The tools and technologies have changed a lot though -- and have especially been enhanced by Free/Open Source Software. The GNU project was a kind of Berlin wall moment for software -- opening up the borders of software creativity from the old monolithic software vendors to a freedom of ideas and the ultimately to a new commerce. That&#039;s now reaching maturity. This was always to be expected, but it&#039;s a subversive trend. That freedom drives commercial growth, which in turn drives demand for IT, and the size of installations -- so obviously datacentres are hundreds of times bigger than they were in the past. Scale and complexity are growing all the time and will soon become unmanageable without an attention to proper modelling. People are being forced to adopt modern methods, sometimes kicking and screaming.&lt;/p&gt;
+&lt;p&gt;Q: So what is the future system administrator?&lt;/p&gt;
+&lt;p&gt;A: System administration is engineering, even today, So the sysadmin of the future will be a fully fledged infrastructure engineer, equipped with proper tools and analytical skills. He or she will watch over an infrastructure that is more smoothly hidden from view. I don&#039;t like this expression &quot;infrastructure is code&quot; used by some DevOps commentators. I believe infrastructure should be more akin to documentation than code -- i.e. something that&#039;s there to be used without having to perform surgery on it to make a change. I think that is a difference between CFEngine 3 and other tools for configuration management, for instance, at least in edge cases. Future engineers will also have to deal with far greater numbers of devices at every scale from mobile phones to small embedded devices, up to mainframes and cloud installations. There might be less diversity in operating system, but a great focus on the application layer -- so ultimately greater complexity. I believe we&#039;re moving increasingly into what Alvin Toffler called the Third Wave of society -- away from the industrial era and all its monolithic mass production methods, towards a society driven by individual freedoms and diversity. Hallelujah! (laughs) That makes for an exciting challenge for the IT infrastructure engineer. In particular, it means that knowledge management will be a core competence, and there will be a more optimal division of labour between Man and Machine. We&#039;re also going to have to reconsider what we mean by security.&lt;/p&gt;
+&lt;p&gt;Q: Is this your first visit to SCALE? If so, what are your expectations? If not, can you give us your impressions of the event?&lt;/p&gt;
+&lt;p&gt;A: I attended SCALE 9x last year and gave a talk on the future of configuration management. SCALE is a pretty friendly event, with smart, likeable people. I&#039;m looking forward to coming back this year.&lt;/p&gt;
+&lt;p&gt;Q: Is there anything else you&#039;d like to add?&lt;/p&gt;
+&lt;p&gt;A. Apart from small and preferably prime numbers, no thank you, (laughs). I&#039;ll just wish everyone an amazing event and look forward to participating.&lt;/p&gt;
+&lt;p&gt;Thank you for taking part in this brief SCALE 10X interview.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 19 Jan 2012 03:07:03 +0000</pubDate>
+ <dc:creator>larry</dc:creator>
+ <guid isPermaLink="false">521 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/blog/speaker-q-and-mark-burgess#comments</comments>
+  </item>
+  <item>
+    <title>About that Training Class...</title>
+    <link>https://www.socallinuxexpo.org/blog/about-training-class</link>
+    <description>&lt;div class=&quot;field field-name-field-blog-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://www.socallinuxexpo.org/sites/default/files/blog_images/Computer%20Training.jpg&quot; width=&quot;288&quot; height=&quot;254&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;At SCALE, in spite of having a lot of content for developers and sysadmins, we&#039;ve always had a soft spot in our collective hearts for the newbie.   Sadly, we&#039;ve not been able to muster a lot of material oriented towards the raw beginner in Linux and Open Source. &lt;/p&gt;
+&lt;p&gt;Not until the 10th SCALE, that is.  This weekend SCALE will hold its first ever Linux Beginner&#039;s Training class.   It&#039;s a two-day 12-hour course on how to install and administer a basic Linux workstation.   The students will learn how to install Linux, configure printing and networking, how to install and update packages, and more.  They&#039;ll also get an introduction to the Open Source community: what it is, how it works, and how they&#039;ve become a member, without having to sign up or pay fees!   The instructors, trainers and proctors are volunteers from the IT industry and the Open Source community.&lt;/p&gt;
+&lt;p&gt;We allocated a large room for the class, enough for 40 students.    However, apparently there&#039;s quite a demand for Linux introductory training, as the 40 slots filled up almost instantly, and we have, at this time, almost 20 on a waiting list.&lt;/p&gt;
+&lt;p&gt;We at SCALE are contemplating a follow-on class to cover the waiting list, but if you run a training outfit in SoCal, here&#039;s an opportunity for you: there&#039;s a demand for basic, entry-level Linux and Open Source education.  If you offer it, apparently they will come in droves.&lt;/p&gt;
+&lt;p&gt;While the beginner&#039;s class is full, we strongly encourage those new to Linux to attend the Expo.   There are a number of sessions that will help expose you to the Open Source software culture and help you &quot;talk the talk&quot;, and the Expo floor has one hundred booths stuffed with people who would love to chat with you about Linux!   (See the list of &lt;a href=&quot;http://www.socallinuxexpo.org/scale10x/exhibitors&quot;&gt;exhibitors&lt;/a&gt; for details.)&lt;/p&gt;
+&lt;p&gt;Hope to see you at SCALE!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 18 Jan 2012 03:06:17 +0000</pubDate>
+ <dc:creator>orv</dc:creator>
+ <guid isPermaLink="false">516 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/blog/about-training-class#comments</comments>
+  </item>
+  <item>
+    <title>Securing Communications at SCALE 10X</title>
+    <link>https://www.socallinuxexpo.org/blog/securing-communications-scale-10x</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The annual SCALE PGP Keysigning Party continues to grow: we already have &lt;strong&gt;over 70 people signed up&lt;/strong&gt;! Are you one of them? Whether you&#039;re a PGP newbie or a crypto veteran, if you&#039;re interested in securing your communications we&#039;ve got you covered.&lt;/p&gt;
+&lt;p&gt;If you are interested in being able to verify or encrypt email but don&#039;t know anything about PGP, that&#039;s OK; we can get you started. Head over to the &lt;a href=&quot;http://www.socallinuxexpo.org/scale10x/events/pgp-keysigning-party&quot;&gt;event page&lt;/a&gt; and it&#039;ll explain the few steps you need to do before you show up.  We&#039;ll explain everything else at the party.  Note that the explanations happen first, so please be especially prompt if you&#039;re a PGP newbie.&lt;/p&gt;
+&lt;p&gt;We will once again be in the lower lobby,  but this time we&#039;ll have ample signs to ensure that everyone finds it.  With 71 people already signed up and the number growing this is a great opportunity to significantly expand your web-of-trust!&lt;/p&gt;
+&lt;p&gt;If you&#039;ve already registered for SCALE but didn&#039;t sign up for the party, see the &lt;a href=&quot;http://www.socallinuxexpo.org/scale10x/events/pgp-keysigning-party&quot;&gt;event page&lt;/a&gt; for how to send me your keys manually.&lt;/p&gt;
+&lt;p&gt;I&#039;m excited to be hosting this again and I can&#039;t wait to see you all on Saturday night!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 17 Jan 2012 02:23:06 +0000</pubDate>
+ <dc:creator>phil</dc:creator>
+ <guid isPermaLink="false">513 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/blog/securing-communications-scale-10x#comments</comments>
+  </item>
+  <item>
+    <title>Interview - Cory Fields - XBMC</title>
+    <link>https://www.socallinuxexpo.org/blog/interview-cory-fields-xbmc</link>
+    <description>&lt;div class=&quot;field field-name-field-blog-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://www.socallinuxexpo.org/sites/default/files/blog_images/xbmc.png&quot; width=&quot;400&quot; height=&quot;98&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;SCALE had a chance to sit down with Cory Fields, a member of the XBMC community, to chat about XBMC and the future of the project.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: How did you first get involved with the free &amp;amp; open source community?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: I first began using Linux as a Windows sysadmin around 8 years ago, in order to rescue broken systems. I dual-booted for a while as I learned the ropes, and finally removed my Windows hard-drive about a year later. Later, one of the businesses that I supported erupted in chaos when they added a few devices to their domain and hit their client-license quota, causing temporary lock-outs. The problem could have been avoided, but I decided at that point that FLOSS software is almost always the only reasonable choice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: How did you get involved with the XBMC project? &lt;strong&gt;A&lt;/strong&gt;: Many years ago I wrote an event-client for XBMC that allowed the Wii controller to be used as a remote. I had been in contact with many of the devs, and I was asked to join on to help with QA. 
+&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;:  What is your primary role within the community?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: I am the Business Relations Manager. I attend most of the shows, helping to find sponsorships and other helpful allegiances. I&#039;m also the gatekeeper for our primary contact email boxes, where I filter out the noise and pass people along to the team as needed. In addition, I am the lead sysadmin for xbmc.org and its kin, though lately I&#039;ve been deep in the code helping with optimizing for low-power devices.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Are XBMC forks such as Boxee a good thing?
+&lt;/p&gt;&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: Yes and no, of course. Forks can help cater to new markets, or spread the word where marketing may be lacking. They can also allow for the addition of features that a non-profit organization and group of volunteers could not offer. On the flip-side, forks can mark a significant philosophical change in direction and attitude, especially when driven by commercial goals. Often, lofty ambitions to cross-pollinate are lost in the name of meeting a deadline, so well intentioned plans to avoid duplicating work often fall short.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: What exciting things are on the horizon for XBMC? &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: The great thing about XBMC is that you will receive a different answer depending on which dev or which user you ask. It takes on many faces. Personally, I see 2012 as the year of XBMC on embedded devices. I hope to see a widely-available hackable hardware configuration selling for sub $100 that is capable of showing XBMC in its full glory. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Do you think we will ever see support for services like Netflix &amp;amp; Amazon Video On Demand for XBMC?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: This is a very complicated issue, as I&#039;m sure Boxee would say. An official means of streaming from Netflix or Amazon is unlikely until a suitable unlicensed API is created to allow it. And that unlicensed API is unlikely to surface any time soon, as the content producers demand a secure path from the provider all the way to the screen. This may be possible in the future, though, as XBMC is ported to more and more SOCs that are able to address some of these concerns.&lt;/p&gt;
+&lt;p&gt;In addition, many providers or aggregators like Netflix often impose strict guidelines over how their content may be offered (down to the background color and fonts used). These restrictions are generally incompatible with spirit of free software, even if they may be technically achievable via embedding an external application into another, or other equally clumsy mechanisms.
+&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: The XB in XBMC used to stand for X-Box...now that the original Xbox is now long officially supported, what does that XB stand for? :)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: Officially, nothing. We originally tried to shoe-horn in some shiny new meaning, or give it a gnu-style recursive acronym, but we were never satisfied with anything that arose. We considered a name-change, but decided that the XBMC branding was too strong to give up. So officially, XBMC is not an acronym. But if you must expand it, fill it in however you&#039;d like :)  Thanks to Cory for taking the time to speak with us!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 16 Jan 2012 03:24:11 +0000</pubDate>
+ <dc:creator>gareth</dc:creator>
+ <guid isPermaLink="false">511 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/blog/interview-cory-fields-xbmc#comments</comments>
+  </item>
+  <item>
+    <title>Speaker Q-and-A: Alison Chaiken</title>
+    <link>https://www.socallinuxexpo.org/blog/speaker-q-and-alison-chaiken</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;[Blogger&#039;s Note: SCALE 10X will be asking the keynoters and some of the speakers to weigh in on their presentations for the expo. This is the Q-and-A for Alison Chaiken, who will be giving a presentation on &quot;Automotive: The Next Frontier for Mobile Linux&quot; at 6 p.m. Saturday.&lt;/em&gt;&lt;em&gt;]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Could you please introduce yourself and tell us a little about your  background?&lt;/p&gt;
+&lt;p class=&quot;moz-txt-citetags&quot;&gt; &lt;strong&gt;A&lt;/strong&gt;: My name is Alison Chaiken. For years I worked on cool technologies in the area of device physics and BioMEMS, but the projects I worked on always ended in cancellation and opportunities were diminishing. I&#039;ve used Unix and Linux for almost 30 years on my personal systems. When the original Bug and Gumstix came out, suddenly I had the epiphany that by I could convert my hobby into a career with more positive impact on the world.&lt;/p&gt;
+&lt;p class=&quot;moz-txt-citetags&quot;&gt;&lt;strong&gt;Q&lt;/strong&gt;: You&#039;re giving a talk at SCALE 10X on &quot;Automotive: The Next Frontier for Mobile Linux.&quot; Without tipping your hand on the actual talk, can you give us an idea of what we might expect?&lt;/p&gt;
+&lt;p class=&quot;moz-txt-citetags&quot;&gt; &lt;strong&gt;A&lt;/strong&gt;: That our current transportation system is unsustainable is no secret. My message is that &lt;strong class=&quot;moz-txt-star&quot;&gt;now&lt;/strong&gt; is the time when the Open Source Community should step up and help address the associated challenges, as the computing revolution is beginning to reach the automotive sector in a very real way. Just since I submitted my SCALE abstract, Toyota, Nissan and BMW gave presentations at the Automotive Linux Summit, and Ford and General Motors announced that they will releasing Linux-based Software Development Kits. While Microsoft Windows Embedded has a significant market share, several cars running Linux are already shipping in volume.&lt;/p&gt;
+&lt;p class=&quot;moz-txt-citetags&quot;&gt;&lt;strong&gt;Q&lt;/strong&gt;: If automotive uses for Linux is fairly new, what can we expect in the future?&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;A&lt;/strong&gt;: As the desktop continues to pale in significance and phones and tablets mature, the battle for dominance will shift to cars, medical devices, home appliances and so forth. Linux can make the difference on these new platforms just as it always has: by giving users choices and access to data. The creativity of our community can help address the tough problems of the transportation sector, and the associated job and investment opportunities are already appearing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Is &quot;automotive Linux&quot; just for motorheads and car hackers?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: Absolutely not. Even if you hate cars and don&#039;t own one, you might want to consider as you enter the crosswalk whether the car approaching the traffic light is infected with malware or if the driver is busy updating his Facebook status. Transportation systems impact all of us no matter how we use them. Car companies don&#039;t have the expertise to create great smart-transportation applications; it&#039;s up to us!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Is this your first visit to SCALE? If so, what are your expectations? If not, can you give us your impressions of the event?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: Last year was my first SCALE and I&#039;m greatly looking forward to returning for many years. SCALE is a wonderful combination of information upload and plain old socializing. I look forward to learning about the latest innovations, to seeing live demos at the Exhibit, and to just hanging out with the peeps.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 13 Jan 2012 18:23:31 +0000</pubDate>
+ <dc:creator>larry</dc:creator>
+ <guid isPermaLink="false">504 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/blog/speaker-q-and-alison-chaiken#comments</comments>
+  </item>
+  <item>
+    <title>Keynote Q-and-A: Greg DeKoenigsberg</title>
+    <link>https://www.socallinuxexpo.org/blog/keynote-q-and-greg-dekoenigsberg</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;[Blogger&#039;s Note: SCALE 10X will be asking the keynoters and some of the speakers to weigh in on their presentations for the expo. This is the Q-and-A for Greg DeKoenigsberg, who will be giving the SCALE 10X keynote on Saturday.]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Could you please introduce yourself and tell us a little about your background?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: My name is Greg DeKoenigsberg; I&#039;m VP of Community for Eucalyptus Systems. Before that, I spent many years with Red Hat, working to build the Fedora community.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: You&#039;re giving a keynote on &quot;Amazon and the Future of the Open Cloud.&quot; Without tipping your hand on the actual talk, can you give us an idea of &amp;gt; what we might expect?&lt;strong&gt;A&lt;/strong&gt;: Sure. Amazon&#039;s explosive growth over the past few years has made AWS a de facto standard for cloud computing -- but is it an &quot;open standard&quot;? What does it mean to build open source products around APIs that are defined and driven by a single company?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: The title of your talk mentions the &quot;open cloud,&quot; creating the assumption that there is more than one type of cloud. For those who may not know, could you briefly explain the difference between the open cloud and ones that may not be open?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: It&#039;s about the user&#039;s ability to be in control of their infrastructure. In the world of cloud service providers, getting locked into using one particular cloud provider&#039;s services, without the ability to move to other infrastructure, is a big risk. It&#039;s important that users understand those risks, and even more important that the open source world provides alternatives.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Is this your first visit to SCALE? If so, what are your expectations? If not, can you give us your impressions of the event?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: It is my first visit to SCALE. From the praises that my friends have colleagues have heaped upon the SCALE experience, I&#039;m expecting chocolate fountains and streets paved with gold. Don&#039;t let me down!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Do you have any other plans around SCALE?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: As a matter of fact, we do. We will be having our first Eucalyptus education session in the Los Angeles area right around SCALE, and we&#039;ve arranged for a discount for SCALE attendees. Just use the &quot;EUCASCALE&quot; discount code when you register &lt;a href=&quot;http://www.eucalyptus.com/services/education/building-and-using-eucalyptus-cloud&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Is there anything else you&#039;d like to add?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: Can&#039;t wait.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 13 Jan 2012 18:05:20 +0000</pubDate>
+ <dc:creator>larry</dc:creator>
+ <guid isPermaLink="false">503 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/blog/keynote-q-and-greg-dekoenigsberg#comments</comments>
+  </item>
+  <item>
+    <title>Keynote Q-and-A: Selena Deckelmann</title>
+    <link>https://www.socallinuxexpo.org/blog/keynote-q-and-selena-deckelmann</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;em&gt;[Blogger&#039;s Note: SCALE 10X will be asking the keynoters and some of the speakers to weigh in on their presentations for the expo. This is the Q-and-A for Selena Deckelmann, who will be giving the SCALE 10X keynote on Sunday.]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: Could you please introduce yourself and tell us a little about your background?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: My name is Selena Deckelmann and I&#039;m founder and COO of &lt;a href=&quot;http://primeradiant.com/&quot; target=&quot;_blank&quot;&gt;Prime Radiant&lt;/a&gt;. We&#039;re working on a &lt;a href=&quot;http://checkmarkable.com/&quot; target=&quot;_blank&quot;&gt;product&lt;/a&gt; that helps organizations document, share and tweak their processes. I contribute to &lt;a href=&quot;http://www.postgresql.org/community/contributors/&quot; target=&quot;_blank&quot;&gt;PostgreSQL&lt;/a&gt;, run &lt;a href=&quot;http://postgresopen.org/&quot; target=&quot;_blank&quot;&gt;conferences&lt;/a&gt;, and keep &lt;a href=&quot;http://blip.tv/aj-/selena-deckelmann-how-to-kill-three-chickens-in-three-years-1805373&quot; target=&quot;_blank&quot;&gt;chickens&lt;/a&gt;. I also&lt;a href=&quot;http://www.chesnok.com/daily/conferences/&quot; target=&quot;_blank&quot;&gt; give a lot of technical talks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: You&#039;re giving a keynote on &quot;Mistakes Were Made.&quot; Without tipping your hand on the actual talk, can you give us an idea of what we might expect?&lt;/p&gt;
+&lt;p class=&quot;gmail_quote&quot;&gt;&lt;strong&gt;A&lt;/strong&gt;: I make mistakes all the time. One thing that I have always loved about open source culture is how we tend to think that if we just tried a little harder, or if we knew just a little bit more, we&#039;d totally be able to fix that. &quot;That&quot; being pretty much anything. There&#039;s an admirable do-it-yourself ethic, well-deserved mistrust of vendors, and -- I think -- a problem. We could do better. Particularly around communicating and recovering from failure. There are some great thinking about handling mistakes and failure from the business world that people working with open source should import, hack and make our own. So, I&#039;m going to talk about what I&#039;ve learned over the years, and tell some great stories about failing from my friends.&lt;/p&gt;
+&lt;p class=&quot;gmail_quote&quot;&gt;&lt;strong&gt;Q&lt;/strong&gt;: You mention in your abstract the role non-technical people play evaluating technical change. Again, without tipping your hand, how do the non-techs play a role?&lt;/p&gt;
+&lt;p class=&quot;gmail_quote&quot;&gt;&lt;strong&gt;A&lt;/strong&gt;: When you roll out a new bit of code, or reboot a server, there might be a whole lot of users affected. When you&#039;re in that situation, and this may seem totally obvious as you read it, you need to tell them. But, you also need to ask them to consider how this change is going to affect them. I&#039;ll just spill the beans and say that I think users need to be part of the planning process for change from the beginning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;gmail_quote&quot;&gt;&lt;strong&gt;Q&lt;/strong&gt;: Is this your first visit to SCALE? If so, what are your expectations? If not, can you give us your impressions of the event?&lt;/p&gt;
+&lt;p class=&quot;gmail_quote&quot;&gt;&lt;strong&gt;A&lt;/strong&gt;: No!  I&#039;ve been to SCALE twice before. I love the mix of attendees, and especially the focus on sysadmins and users of open source software.&lt;/p&gt;
+&lt;p class=&quot;gmail_quote&quot;&gt;&lt;strong&gt;Q&lt;/strong&gt;: Is there anything else you&#039;d like to add?&lt;/p&gt;
+&lt;p class=&quot;gmail_quote&quot;&gt;&lt;strong&gt;A&lt;/strong&gt;. Just looking forward to joining you there!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 13 Jan 2012 17:39:53 +0000</pubDate>
+ <dc:creator>larry</dc:creator>
+ <guid isPermaLink="false">502 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/blog/keynote-q-and-selena-deckelmann#comments</comments>
+  </item>
+  <item>
+    <title>Guest Blog Post: SCALE Exhibit Hall Tours</title>
+    <link>https://www.socallinuxexpo.org/blog/guest-blog-post-scale-exhibit-hall-tours</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;By Guest Blogger: Phillip Banks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We get it. Sometimes there&#039;s just too much to see and do at a convention. The exhibitors have a lot to tell you about their products, services or what they are doing in the community. How on Earth do you squeeze all this into a day?&lt;/p&gt;
+&lt;p&gt;SCALE Tours is your answer. What we do is lead a group of people out onto the showroom floor and make the whole experience a fun, exciting trip through the SCALE world. We stop at select exhibitors and let them briefly walk you through what they&#039;re doing and why you should be interested.  Just a couple minutes around the floor and you&#039;ll be ready to jump right back in for yourself and revisit places you&#039;ve been or some of the exhibitors you past along the way.&lt;/p&gt;
+&lt;p&gt;If you&#039;re bringing family or friends that are new to open source or aren&#039;t very technically savvy feel free to take them on the tour. Our goal is to make it as fun filled and exciting as a tram ride through an amusement park that everyone can enjoy while getting you in and out. Make sure to get a bag at registration because exhibitors love passing out all kinds of gifts to people on the tour.&lt;/p&gt;
+&lt;p&gt;Hope to see you soon on a tour around the expo floor!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 13 Jan 2012 10:08:57 +0000</pubDate>
+ <dc:creator>ilan</dc:creator>
+ <guid isPermaLink="false">501 at https://www.socallinuxexpo.org</guid>
+ <comments>https://www.socallinuxexpo.org/blog/guest-blog-post-scale-exhibit-hall-tours#comments</comments>
+  </item>
+  </channel>
+</rss>

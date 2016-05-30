@@ -1,0 +1,124 @@
+body {
+	background: #FFFFFF;
+	color: #000000 }
+.light {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Times New Roman, Times, serif;
+	}
+a.light:link {
+	background: transparent;
+	color: #660000;
+	font-family: Times New Roman, Times, serif;
+	text-decoration: none }
+a.light:visited {
+	background: transparent;
+	color: #666666;
+	font-family: Times New Roman, Times, serif;
+	text-decoration: none }
+a.light:hover {
+	background: transparent;
+	color: #0000CC;
+	font-family: Times New Roman, Times, serif;
+	text-decoration: underline }
+a.light:active {
+	background: transparent;
+	color: #0000CC;
+	font-family: Times New Roman, Times, serif;
+	text-decoration: underline }
+a:link {
+	background: transparent;
+	color: #660000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none }
+a:visited {
+	background: transparent;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none }
+a:hover {
+	background: transparent;
+	color: #0000CC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: underline }
+a:active {
+	background: transparent;
+	color: #0000CC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: underline }
+a.black:link {
+	background: transparent;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none }
+a.black:visited {
+	background: transparent;
+	color: #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none }
+a.black:hover {
+	background: transparent;
+	color: #CCCC33;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: underline }
+a.black:active {
+	background: transparent;
+	color: #CCCC33;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: underline }
+.colored {
+	background: transparent;
+	color: #660000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none }
+.bgcolored {
+	background: #E79A80;
+	border: thin solid #000000;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 2px }
+.bgblack {
+	background: #000000;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold }
+.bannerl {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left }
+.banner {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center }
+.bgwhite {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Times New Roman, Times, serif }
+.fantasy {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Monotype Corsiva, Cursive, Times New Roman, Times, serif}
+
+/* Leonard's add-ons */
+thead th {
+	background-color: #ccc;
+	color: #900;
+	text-align: left;
+}
+
+.r-claimed {
+  color: green;
+}

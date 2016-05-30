@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org/scale9x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 9x - 2011 Southern California Linux Expo - Try It Lab</title>
+ <link>https://www.socallinuxexpo.org/scale9x/taxonomy/term/20/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Intro to Python</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/intro-python</link>
+ <description>&lt;p&gt;A basic introduction to Python scripting.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;category/category/beginners-track&quot;&gt;Beginner&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Python is still building up steam as the programming language of the future, and is especially good for systems work. This talk will simply be a demonstrative introduction to the language and its uses. We will cover how to get a script running, interactive python, basic object types, functions and classes. We&#039;ll also take a look at how to obtain modules, and cover a few basic ones.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Scripting Basics 	What Makes Python Special? 	Magic - shebang 	Where is Python? 	Comments 	Execution Debugging 	Python -d 	Python Interactive Shell 	IPython 	help() 	dir() 	pdb Objects and Methods 	Bools 	Strs 	Ints 	Lists 	Tuples 	Dicts 	What Are Iterators? Functions 	Also Objects 	Code Segregation 	Using a main() Function Classes 	Also Objects 	Writing a Class 	Instantiating a Class Modules 	Also Objects 	Importing Modules 	Installing Modules Some Cool Modules 	sys 	os 	re 	time 	socket 	httplib 	subprocess 	json Other Resources&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/andrew-vandever&quot;&gt;Andrew Vandever&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/ebRb45&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/ebRb45&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/15_00-AndrewVandever-IntroToPython.odp&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Saturday, February 26th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-time&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Time:&amp;nbsp;&lt;/div&gt;
+                3:00pm        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-room&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Room:&amp;nbsp;&lt;/div&gt;
+                La Jolla        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/intro-python#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/beginner">Beginner</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/beginners-track">Beginners Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/developers-track">Developers Track</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationcategory/educational">Educational</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/try-it-lab">Try It Lab</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2666 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+</channel>
+</rss>

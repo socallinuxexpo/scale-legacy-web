@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Interview with Todd Miller - SUDO Maintainer | SCALE 9x - 2011 Southern California Linux Expo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/all/themes/scaleA/images/9x_favicon.png" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="../sites/socallinuxexpo.org.scale9x/files/css/css_8663af63fcc6d3c328985a10a85ea7f6.css" />
+<link type="text/css" rel="stylesheet" media="print" href="../sites/socallinuxexpo.org.scale9x/files/css/css_03589a02fcd8599891acab802cdc2686.css" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/scale9x/sites/all/themes/zen/zen/ie.css?J" />
+<![endif]-->
+  <script type="text/javascript" src="../sites/socallinuxexpo.org.scale9x/files/js/js_df53f38a7c43698827be244a3df4dd3e.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/scale9x/", "beautytips": { ".beautytips": { "fill": "#8cadcb", "strokeWidth": 0, "strokeStyle": "#8cadcb", "width": "100px", "padding": "20px", "cornerRadius": 12, "spikeGirth": 25, "spikeLength": 50, "shadowBlur": 15, "shadow": true, "cssStyles": { "color": "white", "fontSize": "12px" }, "cssSelect": ".beautytips", "list": [ "fill", "strokeWidth", "strokeStyle", "width", "padding", "cornerRadius", "spikeGirth", "spikeLength", "shadowBlur", "shadow", "cssStyles" ] } }, "dhtmlMenu": { "slide": "slide", "siblings": 0, "relativity": 0, "children": 0, "clone": 0, "doubleclick": 0 } });
+//--><!]]>
+</script>
+</head>
+<body class="not-front not-logged-in node-type-blog one-sidebar sidebar-left page-blog-interview-todd-miller-sudo-maintainer section-blog">
+
+  <div id="page"><div id="page-inner">
+
+    <a name="top" id="navigation-top"></a>
+          <div id="skip-to-nav"><a href="../node/2989.html#navigation">Skip to Navigation</a></div>
+    
+                      <div id="search-box">
+              <form action="../node/2989.html"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-15fcd0a3f9a48e95af5263f0512668f8" value="form-15fcd0a3f9a48e95af5263f0512668f8"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+            </div> <!-- /#search-box -->
+          
+    <div id="header"><div id="header-inner" class="clear-block">
+
+              <div id="logo-title">
+
+                      <div id="logo"><a href="../index.html" title="Home" rel="home"><img src="../sites/all/themes/scaleA/images/scale_header_logo.png" alt="Home" id="logo-image" /></a></div>
+          
+          
+          
+        </div> <!-- /#logo-title -->
+      
+      
+    </div></div> <!-- /#header-inner, /#header -->
+
+    <div id="main"><div id="main-inner" class="clear-block with-navbar">
+
+      <div id="content"><div id="content-inner">
+
+        
+        
+                  <div id="content-header">
+                                      <h1 class="title">Interview with Todd Miller - SUDO Maintainer</h1>
+                                                          </div> <!-- /#content-header -->
+        
+        <div id="content-area">
+          <div id="node-2989" class="node node-type-blog"><div class="node-inner">
+
+  
+  
+  
+      <div class="meta">
+              <div class="submitted">
+          Submitted by ilan on Feb 22, 2011        </div>
+      
+          </div>
+  
+  <div class="content">
+    <p><a href="http://www.socallinuxexpo.org/scale9x/speakers/todd-miller">Todd Miller</a> will be presenting at SCALE later this week on the latest developments in the upcoming SUDO 1.8 release. &nbsp;We took a moment to connect with him &nbsp;to learn about his work at <a href="http://www.socallinuxexpo.org/scale9x/exhibitors/quest-software">Quest Software</a> on the upcoming release, and his presentation "<a href="http://www.socallinuxexpo.org/scale9x/presentations/extending-unix-command-control-sudo-18">Extending Unix Command Control with Sudo 1.8</a>". &nbsp;<a href="http://www.socallinuxexpo.org/scale9x/exhibitors/quest-software">Quest Software</a> will be on our exhibit hall floor as well demonstrating their identify management solutions for Linux. &nbsp;</p>
+<p><strong>SCALE: </strong>For our readers who aren't familiar with you, can you share a little about your background?</p>
+<p><strong>Todd Miller:</strong> I've contributed to various Open Source projects since the early 90s including Sendmail and ISC cron. &nbsp;I've been a member of the OpenBSD project since 1996, focusing primarily on the userland libraries and utilities. &nbsp;In a former life I was an upstream maintainer for the SELinux toolchain. &nbsp;I'm probably best known for maintaining Sudo for the past 18 years.</p>
+<p><strong>SCALE: </strong>What is your current role in the sudo project and how long have you been involved with it?</p>
+<p><strong>Todd Miller:</strong> I've been hacking on sudo since the early 90s. &nbsp;I made my first public release in 1994 and have been de facto project lead ever since.</p>
+<p><strong>SCALE: </strong>For those who are unfamilair with sudo, can you provide us with a quick &nbsp;overview of what it can be used for?</p>
+<p><strong>Todd Miller:</strong> Sudo allows users to run commands as another user, typically root, without having to start a shell as that user. &nbsp;The file that controls which users are allowed to run what commands is called the "sudoers" file. &nbsp;On a multi-user machine (or groups of machines), sudo can be used to delegate sets of privileged commands to system administrators or trusted users. On a single-user &nbsp;workstation, sudo is often configured such that the user can run any command.</p>
+<p><strong>SCALE: </strong>What type of contributions has Quest made to sudo?&nbsp;</p>
+<p><strong>Todd Miller:</strong> &nbsp; Quest has sponsored development of the loadable module support in sudo (see below) as well as much of the I/O logging support. &nbsp;As part of my full-time job, 50% of my time is allocated to working on sudo. &nbsp;This has made it possible to devote more time to some of the important (though less exciting) tasks that sometimes fall by the wayside such as release engineering and packaging, bug triage and the development of unit and regression tests for sudo.</p>
+<p><strong>SCALE: </strong>You will be presenting at SCALE later this week on new developments in &nbsp;the 1.8 release of sudo. What would you say is the killer feature of this new release?</p>
+<p><strong>Todd Miller:</strong> &nbsp;The "killer feature" in sudo 1.8 is dynamically loaded modules. &nbsp;This makes it possible for third parties to write sudo plugins that implement custom security policies and logging of command input and output. &nbsp;There are a number of root access control packages out there, both Open Source and commercial. &nbsp;The plugin support makes it possible for users accustomed to using sudo to continue using it even if they want/need to use different security policy for root access. &nbsp;All that is required is a plugin that can assess the security policy and determine whether the user is allowed to run the command.</p>
+<div id="disqus_thread"></div><noscript><div class="disqus-noscript"><a href="http://southerncalifornialinuxexpo.disqus.com/?url=https%3A%2F%2Fwww.socallinuxexpo.org%2Fscale9x%2Fnode%2F2989">View the discussion thread.</a></div></noscript>  </div>
+
+  <ul class="links inline"><li class="comment_forbidden first last"></li>
+</ul>
+</div></div> <!-- /node-inner, /node -->
+        </div>
+
+        
+        
+      </div></div> <!-- /#content-inner, /#content -->
+
+              <div id="navbar"><div id="navbar-inner" class="clear-block region region-navbar">
+
+          <a name="navigation" id="navigation"></a>
+
+                      <div id="primary">
+              <ul class="links"><li class="menu-114 first"><a href="../index.html" title="">Home</a></li>
+<li class="menu-3770"><a href="../special-events.1.html" title="Events taking place within SCALE">Special Events</a></li>
+<li class="menu-4973"><a href="../schedule.html" title="">Schedule</a></li>
+<li class="menu-846 last"><a href="../blog.1.html" title="">Blog</a></li>
+</ul>            </div> <!-- /#primary -->
+          
+          
+        </div></div> <!-- /#navbar-inner, /#navbar -->
+      
+              <div id="secondary_navbar"><div id="secondary_navbar-inner" class="clear-block region region-secondary_navbar">
+
+          <!--<a name="navigation" id="navigation"></a> -->
+
+          
+          
+        </div></div> <!-- /#navbar-inner, /#navbar -->
+      
+              <div id="sidebar-left"><div id="sidebar-left-inner" class="region region-left">
+          <div id="block-views-special_events-block_1" class="block block-views region-odd odd region-count-1 count-1"><div class="block-inner">
+
+  
+  <div class="content">
+    <div class="view view-special-events view-id-special_events view-display-id-block_1 view-dom-id-1">
+        <div class="view-header">
+      <h2><i>check out these other special events at SCALE</i></h2>
+    </div>
+  
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/ubucon.html">UbuCon</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/scale-9x-birds-feather.html">SCALE 9x Birds of a Feather</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/upscale.html">UpSCALE</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/splunk-training.html">Splunk Training</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/pgp-keysigning-party.html">PGP Keysigning Party</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/lpi-testing.html">LPI Testing</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/open-source-software-education.html">Open Source Software In Education</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/build-open-source-cloud-day.html">Build an Open Source Cloud Day</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/opensuse-day.html">openSUSE Day</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-10 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/foss-mentoring.html">FOSS Mentoring</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-11 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/devops-day-los-angeles.html">DevOps Day Los Angeles</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-12 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/los-angeles-postgresql-day.html">Los Angeles PostgreSQL Day</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-13 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/scale-university.html">SCALE University</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-14 views-row-even views-row-last">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="../special-events/fedora-activity-day.html">Fedora Activity Day</a></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> 
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+        </div></div> <!-- /#sidebar-left-inner, /#sidebar-left -->
+      
+      
+    </div></div> <!-- /#main-inner, /#main -->
+
+          <div id="footer"><div id="footer-inner" class="region region-footer">
+
+        
+        <div id="block-menu-menu-tertiary-links" class="block block-menu region-odd even region-count-1 count-2"><div class="block-inner">
+
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first dhtml-menu "><a href="../about-scale.html" title="" id="dhtml_menu-748">About SCALE</a></li>
+<li class="leaf  dhtml-menu "><a href="../media.1.html" title="" id="dhtml_menu-3738">Media</a></li>
+<li class="leaf  dhtml-menu "><a href="../past-events.html" title="" id="dhtml_menu-3128">Past Events</a></li>
+<li class="leaf  dhtml-menu "><a href="../policies.html" title="A page where SCALE&#039;s legal disclaimers are kept." id="dhtml_menu-5336">Terms and Conditions</a></li>
+<li class="leaf last dhtml-menu "><a href="../committees.html" title="Contact information for the Linux Expo Committees" id="dhtml_menu-919">The SCALE Committees</a></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+<div id="block-block-1" class="block block-block region-even odd region-count-2 count-3"><div class="block-inner">
+
+  
+  <div class="content">
+    <p>Copyright 2002-2011 Linux Expo of Southern California. All Rights Reserved.</p>
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+
+      </div></div> <!-- /#footer-inner, /#footer -->
+    
+  </div></div> <!-- /#page-inner, /#page -->
+
+  
+  <script type="text/javascript">var disqus_url = "https://www.socallinuxexpo.org/scale9x/node/2989";var disqus_title = "Interview with Todd Miller - SUDO Maintainer";var disqus_message = "Todd Miller will be presenting at SCALE later this week on the latest developments in the upcoming SUDO 1.8 release. \x26amp;nbsp;We took a moment to connect with him \x26amp;nbsp;to learn about his work at Quest Software on the upcoming release, and his presentation \x26quot;Extending Unix Command Control with Sudo 1.8\x26quot;.";var disqus_identifier = "node/2989";</script><script type='text/javascript' src='http://disqus.com/forums/southerncalifornialinuxexpo/embed.js'></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+/*
+	NS4 doesn't do well with added colors because of the extra padding added inside each
+	block element. So colors are imported. This theme file will, thus, contain mostly
+	font stuff.
+ */
+@import "colors.css";
+
+/*** Left Column ***/
+#innerLeftColumn p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	line-height: 140%;
+}
+#innerLeftColumn h3
+{
+	color: #000;
+	margin: 2em 0 0 0;
+}
+
+/*** Content ***/
+#innerContentColumn
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#innerContentColumn h3
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#innerContentColumn a
+{
+	text-decoration: none;
+}
+#innerContentColumn a:hover
+{
+	text-decoration: underline;
+}
+
+/*** Masthead ***/
+#masthead h1
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*** Footer ***/
+#innerFooter
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+/*** Horizontal Navigation Area ***/
+#hnav
+{
+	font-family: verdana, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 70%;
+}
+
+/*** Vertical Navigation Area ***/
+#vnav
+{
+	font-family: verdana, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 70%;
+	line-height: 180%; /* Mozilla suffers from a rounding problem, 
+						  this value may have to be tweaked if you 
+						  change the font family or size 
+						*/
+}
+
+.fantasy
+{
+	font-size: 150%;
+	font-family: Monotype Corsiva, Cursive, Times New Roman, Times, serif;
+	margin: 0 3em 0 3em;
+	text-align: center;
+}
+
+.centerbold
+{
+	font-size: 120%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.lgraybg
+{
+	background-color: #ccc;
+}
+
+.dgraybg
+{
+	background-color: #999;
+}
+

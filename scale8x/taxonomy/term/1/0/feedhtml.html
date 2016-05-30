@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.socallinuxexpo.org/scale8x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 8x - 2010 Southern California Linux Expo - Everyone</title>
+ <link>http://www.socallinuxexpo.org/scale8x/taxonomy/term/1/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Communication Privacy for a Free Society</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/communication-privacy-free-society</link>
+ <description>&lt;p&gt;Secure free as in freedom and free as in cost real-time communications for everyone&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                The GNU Telephony Secure Calling initiative was originally formed to make passive voice communication intercept a thing of the past. While it is true that technological means for mass communication intercept has grown with incremental improvements in communication technology, the means to apply and use encryption techniques to counter these abuses and offer communication privacy on a large scale using free software have also become possible. In particular, I will be talking about how the GNU ZRTP stack (and our related ZRTP4J used in SIP communicator), ZRTP enabled clients such as Twinkle, and GNU SIP Witch can be used to create and deploy network scalable secure VoIP solutions for individuals, private organizations, and even national governments.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Last September we presented the technological aspect of the secure calling project at LinuxCon 2009. This was an important milestone in presenting the technological aspect of how this project will offer the means for anyone to create and deploy network scalable and secure VoIP/collaboration solution to enable privacy without the need for a central service provider or proprietary software to achieve these goals.  Our overall vision is to facilitate both solutions that are privately built, such as for organizations that wish to have secure communication as a foundation, and especially which can be autonomously assembled over the public Internet as a full public alternative to Skype using only free software and that depends purely on existing DNS for user lookup, rather than a service provider, and eliminates the use of source secret clients which can of course be compromised.&lt;/p&gt;
+&lt;p&gt;Background of architecture:&lt;/p&gt;
+&lt;p&gt;A SIP user agent is a front-end application which supports a standard set of protocols to enable registering with a directory service (SIP registrar) and a routing server to establish calls by sip uri&#039;s.  Some user agents can also directly connect if you know each parties IP address, though some  will not allow that because in the SIP standard a UA is supposed to only accept calls received by it&#039;s published &quot;contact&quot; uri that was sent to a registrar, and not just any arbitrary client calling it directly without looking that up first (such as by ip address).&lt;/p&gt;
+&lt;p&gt;Some use this behavior as a security means, by having the UA generate a UUID or some other kind of token for the contact uri to publish with a registrar, so that unless the call resolved through the registrar it is using there would be no way to directly know what uri the agent will respond to.  Most UA&#039;s use&lt;br /&gt;
+it as a means to separate which &quot;identity&quot; it is receiving a call as, since a UA can register itself with multiple registrars which may represent different service providers, and each one would have a different and unique contact uri.&lt;/p&gt;
+&lt;p&gt;Many VoIP providers offer themselves as a &quot;backend&quot; service for SIP.  This means your UA is tethered to said provider, and your call peering goes through them. That looks like a standard telephone service simply conducted on TCP/IP rather than something new.  It also is very convenient from a regulatory and intercept regime since all call control and routing happens at their end.&lt;/p&gt;
+&lt;p&gt;One can run a local asterisk server as a backend SIP registrar and routing service, but it (and bayonne) makes several assumptions.  First, the call must connect to the server before the destination is even determined.  This means all audio is established through the server first, and then hopped across the server to the final destination, converted as necessary.  In one sense it is convenient, but since the audio session is established with and must be decoded by the server first, it obviously cannot pass encrypted audio end-to-end.  It also means that said server has to have all supported codecs that will be used, including proprietary or patent encumbered ones if calls are supported with them.  It means the call capacity is compute-bound, and induces latency.  Finally, in the case of Asterisk, it was never designed for arbitrary uri routing, but rather for resolving things that are purely telephone numbers in form.&lt;/p&gt;
+&lt;p&gt;Skype actually is a kind of user agent that includes/integrates code for specific routing and network connection logic, but also depends on the Skype backend to find users.  It is of course also proprietary, and the protocols it uses are undocumented and proprietary as well.&lt;/p&gt;
+&lt;p&gt;SIP Witch operates by keeping the network routing layer separate from the user agent rather than merging them like the Skype application does, hence any standard&#039;s compliant SIP client can be used with it.  It also peers calls by URI using DNS lookup.  It also does destination routing, so the final destination is determined first, and the calling user agent is then directed to connect itself with the final destination&#039;s IP address directly, rather than the asterisk/bayonne model where user agent is directed to connect with the server and without the need of a central directory service.  This means all media connections are established peer-to-peer, and this can support an end-to-end encrypted media channel like ZRTP.  It also means all codecs are negotiated between the endpoints, which also means&lt;br /&gt;
+conducting calls does not require having patent licensed codecs, though the ua&#039;s may have and certainly use them if they choose.  That is the user&#039;s decision and circumstances of course, but at least is not something that is burdened or otherwise forced on the software used for conveyance as well.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/david-sugar&quot;&gt;David Sugar&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scalemedia/scale/simple_cfp/20100227-182252/David_Sugar.odp&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Saturday/Track%20A/talk%20%235%20(David%20Sugar).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/communication-privacy-free-society#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2286 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Ready or Not, IPv6 is Here: Preparing Your Linux Networks for IPv6</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/ready-or-not-ipv6-here-preparing-your-linux-networks-ipv6</link>
+ <description>&lt;p&gt;In this educational session, John Curran, President and CEO of ARIN will discuss how Linux IT professionals can prepare for IPv6, the benefits of adopting now, and the available resources to help communicate the value of IPv6 to their organizations.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                With less than 10% of IPv4 address space remaining, it is extremely urgent that all organizations adopt IPv6 – the next generation of IP technology – before time runs out and the global Internet community is fragmented.
+ 
+Some Linux IT professionals have been slow to adopt IPv6, and have yet to fully understand the benefits and ease of the deployment. With fewer resources on the Web regarding IPv6 and Linux, it is important for attendees to learn why IPv6 is necessary. 
+ 
+In this session, John Curran, President and CEO of the American Registry for Internet Numbers (ARIN), will discuss how attendees need to prepare for IPv4 depletion challenges, key considerations for IPv6 adoption, and the benefits of early IPv6 adoption. The session will provide attendees with the information and tools needed to ease their technical and business concerns of adopting IPv6.
+ 
+John will also focus on open-source software implementations of IPv6 and how to make the transition as seamless as possible. He will highlight educational resources available to help Linux IT professionals to better understand and communicate the value of IPv6 to their organizations. 
+ 
+ARIN is the nonprofit corporation that manages the distribution of Internet number resources, including IPv4 and IPv6 addresses and Autonomous System Numbers (ASNs), to Canada, many Caribbean and North Atlantic islands, and the United States.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;With less than 10% of IPv4 address space remaining, it is extremely urgent that all organizations adopt IPv6 – the next generation of IP technology – before time runs out and the global Internet community is fragmented.&lt;/p&gt;
+&lt;p&gt;Some Linux IT professionals have been slow to adopt IPv6, and have yet to fully understand the benefits and ease of the deployment. With fewer resources on the Web regarding IPv6 and Linux, it is important for attendees to learn why IPv6 is necessary. &lt;/p&gt;
+&lt;p&gt;In this session, John Curran, President and CEO of the American Registry for Internet Numbers (ARIN), will discuss how attendees need to prepare for IPv4 depletion challenges, key considerations for IPv6 adoption, and the benefits of early IPv6 adoption. The session will provide attendees with the information and tools needed to ease their technical and business concerns of adopting IPv6.&lt;/p&gt;
+&lt;p&gt;John will also focus on open-source software implementations of IPv6 and how to make the transition as seamless as possible. He will highlight educational resources available to help Linux IT professionals to better understand and communicate the value of IPv6 to their organizations. &lt;/p&gt;
+&lt;p&gt;ARIN is the nonprofit corporation that manages the distribution of Internet number resources, including IPv4 and IPv6 addresses and Autonomous System Numbers (ASNs), to Canada, many Caribbean and North Atlantic islands, and the United States.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/john-curran&quot;&gt;John Curran&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scalemedia/scale/simple_cfp/20100227-182405/John_Curran.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Saturday/Track%20B/talk%20%232%20(John%20Curran).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/ready-or-not-ipv6-here-preparing-your-linux-networks-ipv6#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track-b">Program Track B</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2312 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Introduction to LDAP: Provisioning, Managing, and Integrating</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/introduction-ldap-provisioning-managing-and-integrating</link>
+ <description>&lt;p&gt;Learn how to deploy and manage an enterprise-class LDAP service&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                This introductory class will give you  the tools you need to competently deploy and manage an enterprise-class  LDAP service. We will use extensive demos to cover the structure and  vocabulary of the hierarchical LDAP database; standards and best  practices for provisioning and integration; migration from other  authentication systems, including NIS; integration with the Linux name  service switch; and integration with several popular Open Source  applications, including Apache, Samba, and Postfix.
+
+Particular  emphasis is given to understanding the concepts underlying LDAP, and  translating those concepts into effective integration with client-facing  network services.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;This introductory class will give you the tools you need to competently deploy and manage an enterprise-class LDAP service. We will use extensive demos to cover the structure and vocabulary of the hierarchical LDAP database; standards and best practices for provisioning and integration; migration from other authentication systems, including NIS; integration with the Linux name service switch; and integration with several popular open source applications, including Apache, Samba, and Postfix.&lt;/p&gt;
+&lt;p&gt;Particular emphasis is given to understanding the concepts underlying LDAP, and translating those concepts into effective integration with client-facing network services.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/chris-st-pierre&quot;&gt;Chris St. Pierre&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/introduction-ldap-provisioning-managing-and-integrating#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/scaleu">ScaleU</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2355 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Linux Virtual Server</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/linux-virtual-server</link>
+ <description>&lt;p&gt;Load Balancing on the Cheap&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Hardware Load Balancers can run into the thousands, sometimes tens of thousands, of dollars, but did you know you have a Load Balancer right in your very own Linux box?  LVS (Linux Virtual Server) is a free, easy way to Load Balance across web-servers or any other mass-scalable read-only services on your network, while taking up a very small footprint.  In this lecture, you will learn how to enable and configure the Load Balancer that has been hiding inside your 2.6 kernel all this time...        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Hardware Load Balancers can run into the thousands, sometimes tens of thousands, of dollars, but did you know you have a Load Balancer right in your very own Linux box?  LVS (Linux Virtual Server) is a free, easy way to Load Balance across web-servers or any other mass-scalable read-only services on your network, while taking up a very small footprint.  In this lecture, you will learn how to enable and configure the Load Balancer that has been hiding inside your 2.6 kernel all this time...&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/solomon-chang&quot;&gt;Solomon Chang&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scalemedia/scale/simple_cfp/20100227-190908/Solomon_K._Chang.odp&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Sunday/Track%20C/talk%20%232%20(Solomon%20Chang).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/linux-virtual-server#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track-c">Program Track C</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2448 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Scaling MySQL for the Future</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/scaling-mysql-future</link>
+ <description>&lt;p&gt;Drizzle, Scaling MySQL for the Web&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Ever wondered what would happen if you could rethink a decade worth of design changes? Drizzle is a fork of the MySQL server targeted at web development and cloud computing. We are looking at how to create database for modern multi-core, large memory databases that fit inside of an overall application framework.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Ever wondered what would happen if you could rethink a decade worth of design changes? Drizzle is a fork of the MySQL server targeted at web development and cloud computing. We are looking at how to create database for modern multi-core, large memory databases that fit inside of an overall application framework.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/brian-aker&quot;&gt;Brian Aker&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Saturday/Developers/talk%20%234%20(Brian%20Aker).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/scaling-mysql-future#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/developers-track">Developers Track</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2287 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Application Packaging and Deployment with tpkg</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/application-packaging-and-deployment-tpkg</link>
+ <description>&lt;p&gt;Tpkg, a tool for cross-platform application packaging and large scale deployment.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Tpkg is a tool for packaging and deploying applications.  It is designed to work alongside your operating system&amp;#039;s packaging tool.  I&amp;#039;ll talk about the advantages of separating the packaging of your applications from your base OS.  I&amp;#039;ll talk about some of the unique features of tpkg that make it ideally suited to packaging applications, including file encryption within packages and support for external hooks that can be used to tie into a system configuration management tool.  The process of making and deploying packages in tpkg will be covered.  tpkg handles dependency resolution and automatic dependency installation.  As such installing applications with complex dependency trees is simple and fast.  The deployment features of tpkg allow you to automate the installation, upgrade or removal of packages across a large number of systems.  I&amp;#039;ll also compare tpkg with deployment tools like Capistrano.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Tpkg is a tool for packaging and deploying applications.  It is designed to work alongside your operating system&#039;s packaging tool.  I&#039;ll talk about the advantages of separating the packaging of your applications from your base OS.  Separating the packaging of applications from the base OS system ensures that application packages and their dependencies don&#039;t interfere with the functioning of the base OS.  For example, your OS comes with Perl 5.6.1, but your application needs 5.8.9.  Upgrading the OS copy of Perl may break other applications.  By using tpkg and installing your application and the newer version of Perl in a location reserved for tpkg you avoid any conflicts.  Tpkg is cross platform, so although you may have two or three different operating systems in your environment you can use a common tool to package and deploy your applications on those systems.&lt;/p&gt;
+&lt;p&gt;I&#039;ll talk about some of the unique features of tpkg that make it ideally suited to packaging applications, and distinguish tpkg from OS packaging tools like rpm and dpkg.  Tpkg supports encrypting some or all of the files in the package, so your application package can contain secret files like SSL or SSH keys, database passwords, etc.  Also supported are external hooks that can be used to tie into a system configuration management tool, allowing packages to request accounts and other OS configuration.&lt;/p&gt;
+&lt;p&gt;The process of making and deploying packages in tpkg will be covered.&lt;/p&gt;
+&lt;p&gt;The process of building a package is quite simple.  The package metadata is stored in an XML or YAML configuration file.  Packages can have pre and post install and removal scripts.  Incorporating init scripts and crontabs into packages will be discussed.  cpan2tpkg and gem2tpkg utilities are also available to readily package Perl modules or Ruby gems.&lt;/p&gt;
+&lt;p&gt;Tpkg supports dependencies both on other tpkg packages as well as native packages, and tpkg handles dependency resolution and automatic dependency installation of both tpkg and native dependencies.  As such installing applications with complex dependency trees is simple and fast.  The deployment features of tpkg allow you to automate the installation, upgrade or removal of packages across a large number of systems.  Tpkg handles SSH and sudo prompts that might be encountered in connecting to the target systems when performing a deployment.&lt;/p&gt;
+&lt;p&gt;I&#039;ll also compare tpkg with deployment tools like Capistrano.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/jason-heiss&quot;&gt;Jason Heiss&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scalemedia/scale/simple_cfp/20100227-184518/Jason_Heiss.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/application-packaging-and-deployment-tpkg#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2313 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>The New 1-to-1 : Scalable and Affordable Ubiquitous Computing using Open Source</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/new-1-1-scalable-and-affordable-ubiquitous-computing-using-open-source</link>
+ <description>&lt;p&gt;See a new approach to 1 to 1, managing netbooks, laptops and thin client with Linux&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                In this session, you will see how the concept of &amp;quot;Ubiquitous Computing&amp;quot; could help bring your 1:1 project to life by removing barriers that prevent access to technology. Learn to provide access to the same computing environment no matter the device or the location!
+
+See how you can use Ubuntu Linux Netbook Remix in your netbook 1:1 environment, and see the possibilities available to manage a large number of mobile devices like laptops,  netbooks and thin clients in a flexible and scalable way.         &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;In this session, you will see how the concept of &quot;Ubiquitous Computing&quot; could help bring your 1:1 project to life by removing barriers that prevent access to technology. Learn to provide access to the same computing environment no matter the device or the location!&lt;/p&gt;
+&lt;p&gt;See how you can use Ubuntu Linux Netbook Remix in your netbook 1:1 environment, and see the possibilities available to manage a large number of mobile devices like laptops,  netbooks and thin clients in a flexible and scalable way. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/benoit-st-andre&quot;&gt;Benoit St-Andre&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/new-1-1-scalable-and-affordable-ubiquitous-computing-using-open-source#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/ossie">OSSIE</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2357 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Making the Best First Impression for New Users</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/making-best-first-impression-new-users</link>
+ <description>&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                How many times have you talked to someone about your favorite distribution only to have them walk away uninterested? There are many superb tactics that help us, as users of some of the most powerful operating systems available, showcase and explain our choice in a way that sparks curiosity. Helping people upgrade to a free and open system can be a fun process and  we&amp;#039;ll show you some of our best &amp;quot;entry points&amp;quot;. Come well equipped to share  some of your own!        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;How many times have you talked to someone about your favorite distribution only to have them walk away uninterested? There are many superb tactics that help us, as users of some of the most powerful operating systems available, showcase and explain our choice in a way that sparks curiosity. Helping people upgrade to a free and open system can be a fun process and  we&#039;ll show you some of our best &quot;entry points&quot;. Come well equipped to share  some of your own!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/cathy-malmrose&quot;&gt;Cathy Malmrose&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/making-best-first-impression-new-users#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/try-it-lab">Try It Lab</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2470 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Demystifying GPL Enforcement: Using the Law To Uphold Copyleft</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/demystifying-gpl-enforcement-using-law-uphold-copyleft</link>
+ <description>&lt;p&gt;The GPL enforcement process remains opaque to most FLOSS developers and users.  This talk will explain how GPL enforcement works, what users and companies should do to comply, and what developers should do to help their users comply.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Copyleft licenses are a special class of FLOSS licenses, since they place detailed legal obligations on the redistributors and/or modifiers of the software.  Typically, our community follows these rules voluntarily as part of the software sharing community.  Occasionally, however, companies fail to follow the rules.  The response that upholds the license is typically called &amp;quot;GPL enforcement&amp;quot;.
+
+The GPL enforcement process unfortunately remains somewhat opaque, even to many developers who choose the GPL. The enforcement lawsuits filed by gpl-violations.org and SFLC have startled many developers. This talk, presented by Bradley M. Kuhn, an experienced GPL enforcer, will explain the motivations for enforcement action, teach developers how to educate their users about license obligations and teach businesses how to comply with developers&amp;#039; wishes.  Kuhn will explain in general terms the standard process of GPL enforcement practiced by non-profit entities and individuals in the software freedom world.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Copyleft licenses are a special class of FLOSS licenses, since they place detailed legal obligations on the redistributors and/or modifiers of the software.  Typically, our community follows these rules voluntarily as part of the software sharing community.  Occasionally, however, companies fail to follow the rules.  The response that upholds the license is typically called &quot;GPL enforcement&quot;.&lt;/p&gt;
+&lt;p&gt;The GPL enforcement process unfortunately remains somewhat opaque, even to many developers who choose the GPL. Meanwhile, the enforcement lawsuits filed by gpl-violations.org and SFLC have startled many developers. This talk, presented by Bradley M. Kuhn, an experienced GPL enforcer, will explain the motivations for enforcement action, teach developers how to educate their users about license obligations and teach businesses how to comply with developers&#039; wishes.  Kuhn will explain in general terms the standard process of GPL enforcement practiced by non-profit entities and individuals in the FLOSS world.&lt;/p&gt;
+&lt;p&gt;Those attending the talk can expect to learn:&lt;br /&gt;
+    * how to better educate their users to follow the terms of GPL correctly to avoid compliance problems,&lt;br /&gt;
+    * the mindset that leads other developers and organizations to choose to actively enforce the GPL, and&lt;br /&gt;
+    * the process typically used when a choice to enforce is made.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/bradley-kuhn&quot;&gt;Bradley Kuhn&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Saturday/Track%20A/talk%20%231%20(Bradley%20Kuhn).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/demystifying-gpl-enforcement-using-law-uphold-copyleft#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2288 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Sugar In Your Classroom: How Sweet It Is!</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/sugar-your-classroom-how-sweet-it</link>
+ <description>&lt;p&gt;Participants will learn about Sugar&#039;s  wonderful educational Activities and how to bring them to their own classroom through purchase of XO machines from OLPC (One Laptop Per Child) or using free usb downloads for the intel computers they already have.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Educators and  Developers worldwide are teaming up to bring Sugar&amp;#039;s OS Software to students everywhere.  The programs they create, called Activities, can be run on OLPC&amp;#039;s XO, and, via usb downloads, on PCs, including Macs with Intel processors. 
+
+The list of Activities has grown from a few dozen when the XO first made its public debut in 2007 to over 300 by the end of December 2009. In addition, using other web based resources via Sugar has been made easier.  As the collection of Activities has grown, more programs of interest to older students, and even adults, have been added.
+
+Participants will learn about the latest and greatest Sugar Activities and the simple processes for getting them for  their students. We will look at Sugar on a Stick, buying XO laptops for their school, and the Contributors Program which supplies  a small number of free XO computers to educators and developers who want to contribute programs or other content to the greater OLPC/Sugar Labs community.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Educators and developers worldwide are teaming up to bring Sugar&#039;s OS Software to students everywhere.  The programs they create, called Activities, can be run on One Laptop Per Child (OLCP)&#039;s XO, and, via usb downloads, on PCs and Intel Macs. &lt;/p&gt;
+&lt;p&gt;The list of Activities grew from a few dozen in 2007 to over 300 by December 2009. In addition, using other web based resources via Sugar has been made easier.  As the collection of Activities grew, more programs of interest to older students, and even adults, were added.&lt;/p&gt;
+&lt;p&gt;Participants will learn about the latest and greatest Sugar Activities and the simple processes for getting them. We will look at Sugar on a Stick, buying XO laptops for their school, and the Contributors Program which supplies  a small number of free XO computers to educators and developers who  contribute programs or content to the greater OLPC/Sugar Labs community.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/caryl-bigenho&quot;&gt;Caryl Bigenho&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/sugar-your-classroom-how-sweet-it#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/ossie">OSSIE</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2314 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+</channel>
+</rss>

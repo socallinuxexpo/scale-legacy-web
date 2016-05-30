@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org/scale9x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 9x - 2011 Southern California Linux Expo - UbuCon</title>
+ <link>https://www.socallinuxexpo.org/scale9x/taxonomy/term/25/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Finding Help in Ubuntu</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/finding-help-ubuntu</link>
+ <description>&lt;p&gt;Finding Help in Ubuntu&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;One of the biggest challenges for new users coming to Ubuntu is figuring out where to find help using and doing common (and not so common!) tasks with their new operating system. This talk will cover the primary official and unofficial help resources available for users and best practices for seeking help for optimal results.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;One of the biggest challenges for new users coming to Ubuntu is figuring out where to find help using and doing common (and not so common!) tasks with their new operating system. This talk will cover the primary official and unofficial help resources available for users and best practices for seeking help for optimal results.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/elizabeth-krumbach&quot;&gt;Elizabeth Krumbach&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/fxtZ3p&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/fxtZ3p&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/FindingHelpInUbuntuScale9x.odp&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/finding-help-ubuntu#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ubucon">UbuCon</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2994 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Developing your first Ubuntu app with Quickly</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/developing-your-first-ubuntu-app-quickly</link>
+ <description>&lt;p&gt;Developing your first Ubuntu app with Quickly&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Quickly” is a tool that allows both programming novices and developers alike to quickly make apps in Ubuntu.  In this talk, we will go over the basic elements of Quickly and walk you through making a sample Ubuntu app - from “sudo apt-get install quickly” to publishing your app to your own personal package archive (PPA).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Quickly” is a tool that allows both programming novices and developers alike to quickly make apps in Ubuntu.  In this talk, we will go over the basic elements of Quickly and walk you through making a sample Ubuntu app - from “sudo apt-get install quickly” to publishing your app to your own personal package archive (PPA).&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/jack-deslippe&quot;&gt;Jack Deslippe&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://swarm.conferencebywire.com/web/guest/my-conferences-page/?parameterAutoLoginLogin=scaleuserla@yahoo.com&amp;amp;parameterAutoLoginPassword=scaleuser&amp;amp;data=VTRaVkdhUDJLUk52Z3RtbkQxeGhOVG9JS1lBNnlOSHFQdGlhSlVQNjE3RT0=&amp;amp;sesid=488&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://swarm.conferencebywire.com/web/guest/my-conferences-page/?parameterAutoLo...&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://bit.ly/fZdTic&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/developing-your-first-ubuntu-app-quickly#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ubucon">UbuCon</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2995 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Your Guide to Kubuntu</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/your-guide-kubuntu</link>
+ <description>&lt;p&gt;Your Guide to Kubuntu&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;An introduction into KDE and Kubuntu. How we have grown since the start of  KDE4. Changes since the 10.04LTS release and a sneak peek into 11.04 and the  future of Kubuntu. This will also include a question and answer section.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;An introduction into KDE and Kubuntu. How we have grown since the start of  KDE4. Changes since the 10.04LTS release and a sneak peek into 11.04 and the  future of Kubuntu. This will also include a question and answer section.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/david-wonderly&quot;&gt;David Wonderly&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/fNuasv&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/fNuasv&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scale9x-media/scalemedia/scale/scale9x-media/simple_cfp/presentations/Kubuntu.odp&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/your-guide-kubuntu#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ubucon">UbuCon</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2996 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>UbuCon Questions and Answers</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/ubucon-questions-and-answers</link>
+ <description>&lt;p&gt;UbuCon Questions and Answers&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Returning again as Master of Ceremonies, Nathan Haines will keep things running smoothly and host an open questions and answers session where you can ask your burning questions about Ubuntu, or simply do your best to stump him.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Returning again as Master of Ceremonies, Nathan Haines will keep things running smoothly and host an open questions and answers session where you can ask your burning questions about Ubuntu, or simply do your best to stump him.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/nathan-haines&quot;&gt;Nathan Haines&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/ubucon-questions-and-answers#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ubucon">UbuCon</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2997 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>From OS X to Ubuntu</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/os-x-ubuntu</link>
+ <description>&lt;p&gt;From OS X to Ubuntu&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Mac users are a different breed, and their expectations are high. Fortunately Ubuntu is up to the task.  But the road from OS X to Ubuntu is not without some bumps, and this session aims to help those coming from a Mac background make the ride as smooth as possible.  We&#039;ll start with a brief review of installation options, including running Ubuntu as a VM within your Mac, but we&#039;ll quickly get to the more daunting issues Mac users face, like how to choose among a much wider range of hardware options than you&#039;ve ever known before.  Some Mac users like to get as much of a Mac-like experience from their new Ubuntu system as possible, while others prefer to dive into the Ubuntu way head first.  We&#039;ll cover both, outlining the differences between the two systems and exploring some of the options like Cairo Dock to make your new Ubuntu system feel more familiar as you get started.  The command line is considered exotically geeky to most Mac users, but here we&#039;ll cover some of the basics of using Terminal to show why it&#039;s so very useful and can even be fun.  Perhaps the biggest challenge moving from Mac to Ubuntu is finding the sorts of applications you&#039;ve come to rely on with your Mac, and we&#039;ll find some favorite from the Ubuntu Software Center and elsewhere, noting the strengths and weaknesses relative to their Mac counterparts.  One of the biggest differences advantages Ubuntu offers over Mac is its customization, and we&#039;ll take some time to explore some of the many ways you can personalize your system to work just the way you like, leaving plenty of time for Q&amp;amp;A discussion to help with any specific issues you&#039;ve had in your own transition to Ubuntu.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Mac users are a different breed, and their expectations are high. Fortunately Ubuntu is up to the task.  But the road from OS X to Ubuntu is not without some bumps, and this session aims to help those coming from a Mac background make the ride as smooth as possible.  We&#039;ll start with a brief review of installation options, including running Ubuntu as a VM within your Mac, but we&#039;ll quickly get to the more daunting issues Mac users face, like how to choose among a much wider range of hardware options than you&#039;ve ever known before.  Some Mac users like to get as much of a Mac-like experience from their new Ubuntu system as possible, while others prefer to dive into the Ubuntu way head first.  We&#039;ll cover both, outlining the differences between the two systems and exploring some of the options like Cairo Dock to make your new Ubuntu system feel more familiar as you get started.  The command line is considered exotically geeky to most Mac users, but here we&#039;ll cover some of the basics of using Terminal to show why it&#039;s so very useful and can even be fun.  Perhaps the biggest challenge moving from Mac to Ubuntu is finding the sorts of applications you&#039;ve come to rely on with your Mac, and we&#039;ll find some favorite from the Ubuntu Software Center and elsewhere, noting the strengths and weaknesses relative to their Mac counterparts.  One of the biggest differences advantages Ubuntu offers over Mac is its customization, and we&#039;ll take some time to explore some of the many ways you can personalize your system to work just the way you like, leaving plenty of time for Q&amp;amp;A discussion to help with any specific issues you&#039;ve had in your own transition to Ubuntu.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/richard-gaskin&quot;&gt;Richard Gaskin&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/gLPcXp&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/gLPcXp&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/os-x-ubuntu#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ubucon">UbuCon</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2998 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Getting Involved in Unity</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/getting-involved-unity</link>
+ <description>&lt;p&gt;Getting Involved in Unity&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Unity is an exciting new direction that Ubuntu is taking to revolutionize the Linux desktop.  How can you get involved and become a part of it?  From bugs, to code, to documentation, to helping users make the transition there is an incredible number of opportunities.  Figure out how to get started on a part of the Unity program that best scratches your itch.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Unity is an exciting new direction that Ubuntu is taking to revolutionize the Linux desktop.  How can you get involved and become a part of it?  From bugs, to code, to documentation, to helping users make the transition there is an incredible number of opportunities.  Figure out how to get started on a part of the Unity program that best scratches your itch.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/ted-gould&quot;&gt;Ted Gould&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://bit.ly/eBgDrv&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/eBgDrv&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/getting-involved-unity#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ubucon">UbuCon</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">3000 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Ubuntu for the Desktop</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/ubuntu-desktop</link>
+ <description>&lt;p&gt;Ubuntu for the Desktop&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Installation, usage, updates, applications.  Compare to other OSs.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Installation, usage, updates, applications.  Compare to other OSs.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/ralf-pieper&quot;&gt;Ralf Pieper&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://swarm.conferencebywire.com/web/guest/my-conferences-page/?parameterAutoLoginLogin=scaleuserla@yahoo.com&amp;amp;parameterAutoLoginPassword=scaleuser&amp;amp;data=Z2NxZkdaeC9GblRkUkdyQTZ1Lzl6bnFWQW9VTmhnK2tDN3l4OTdCNmszND0&amp;amp;sesid=487&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://swarm.conferencebywire.com/web/guest/my-conferences-page/?parameterAutoLo...&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/ubuntu-desktop#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/ubucon">UbuCon</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">3001 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+</channel>
+</rss>

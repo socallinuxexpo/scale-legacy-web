@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+
+<!-- Mirrored from www.socallinuxexpo.org/scale8x/blog/open-source-hardware-hacking-pogoplug by HTTrack Website Copier/3.x [XR&CO'2008], Fri, 18 Jun 2010 00:28:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Open Source Hardware Hacking with the PogoPlug | SCALE 8x - 2010 Southern California Linux Expo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/socallinuxexpo.org.scale8x/files/scale2_favicon_0.png" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="../modules/node/node92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/system/defaults92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/system/system92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/system/system-menus92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../modules/user/user92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/cck/theme/content-module92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/ctools/css/ctools92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/date/date92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/dhtml_menu/dhtml_menu92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/filefield/filefield92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/cck/modules/fieldgroup/fieldgroup92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/modules/views/css/views92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/html-elements92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/tabs92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/messages92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/block-editing92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/zen/zen/wireframes92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/layout92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/scale392eb.css?b" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/all/themes/scale3/style92eb.css?b" />
+<link type="text/css" rel="stylesheet" media="print" href="../sites/all/themes/scale3/print92eb.css?b" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/scale8x/sites/all/themes/zen/zen/ie.css?b" />
+<![endif]-->
+  <script type="text/javascript" src="../misc/jquery92eb.js?b"></script>
+<script type="text/javascript" src="../misc/drupal92eb.js?b"></script>
+<script type="text/javascript" src="../sites/all/modules/dhtml_menu/dhtml_menu92eb.js?b"></script>
+<script type="text/javascript" src="../sites/all/modules/rounded_corners/jquery.corner92eb.js?b"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/scale8x/", "dhtmlMenu": { "slide": "slide", "siblings": 0, "relativity": 0, "children": 0, "clone": 0, "doubleclick": 0 } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$(function(){ // shorthand for $(document).ready() 
+$("#primary li").corner("round top 7px");
+ });
+//--><!]]>
+</script>
+</head>
+<body class="not-front not-logged-in node-type-blog no-sidebars page-blog-open-source-hardware-hacking-pogoplug section-blog">
+
+  <div id="page"><div id="page-inner">
+
+    <a name="top" id="navigation-top"></a>
+          <div id="skip-to-nav"><a href="#navigation">Skip to Navigation</a></div>
+    
+                      <div id="search-box">
+              <form action="http://www.socallinuxexpo.org/scale8x/blog/open-source-hardware-hacking-pogoplug"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-aeb4fef35392d617cd0e07c03d070712" value="form-aeb4fef35392d617cd0e07c03d070712"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+            </div> <!-- /#search-box -->
+          
+    <div id="header"><div id="header-inner" class="clear-block">
+
+              <div id="logo-title">
+
+                      <div id="logo"><a href="../index.html" title="Home" rel="home"><img src="../sites/socallinuxexpo.org.scale8x/files/scale3_logo.png" alt="Home" id="logo-image" /></a></div>
+          
+          
+          
+        </div> <!-- /#logo-title -->
+      
+      
+    </div></div> <!-- /#header-inner, /#header -->
+
+    <div id="main"><div id="main-inner" class="clear-block with-navbar">
+
+      <div id="content"><div id="content-inner">
+
+        
+        
+                  <div id="content-header">
+            <div class="breadcrumb"><a href="../index.html">Home</a> › </div>                          <h1 class="title">Open Source Hardware Hacking with the PogoPlug</h1>
+                                                          </div> <!-- /#content-header -->
+        
+        <div id="content-area">
+          <div id="node-2450" class="node node-type-blog"><div class="node-inner">
+
+  
+  
+  
+      <div class="meta">
+              <div class="submitted">
+          Submitted by ilan on Tue, 02/09/2010 - 06:48        </div>
+      
+          </div>
+  
+  <div class="content">
+    <div class="field field-type-filefield field-field-blog-image">
+    <div class="field-items">
+            <div class="field-item odd">
+                <img src="../sites/socallinuxexpo.org.scale8x/files/imagecache/blog_image/sideimage_plug_1.0.png" alt="" title=""  class="imagecache imagecache-blog_image imagecache-default imagecache-blog_image_default" width="200" height="143" />        </div>
+        </div>
+</div>
+<div>
+<p style="margin: 0pt;"><strong><span style="font-family: Cambria;"><span style="font-size: small;">By  Guest Blogger <a href="http://www.thebitsource.com/">Matthew Sacks, The Bitsource</a><br /></span></span></strong></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">Brad  Dietrich, is the CTO and co-founder of <a href="http://cloudengines.com/">Cloud Engines</a>, Inc.&nbsp; Brad  graduated from Carnegie Mellon University with a Bachlors of Science in  Electrical and Computer Engineering, and in Computer Science. He also is  a published author and a contributor to several open source projects. </span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">The <a href="http://www.pogoplug.com/"> PogoPlug</a>&nbsp; is a multimedia-sharing device, which connects up to four  external hard drives and makes them securely accessible from any Web  browser connected to the Internet. The PogoPlug is built using open  source Linux and other open source software and encourages its users to  modify it. It is simple enough for an end-user to use as designed, or  for an experienced software developer to extend and build upon it’s open  source platform and Web API’s.</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">I  spoke with Brad about the PogoPlug and how it’s utilization of open  source technology makes it an effective product for both the consumer  and end user.</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Q:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;"> The PogoPlug is easy to use for end-users, as well as advanced  enough to where software developers can modify the code it runs, why  did you go with an open platform versus a closed platform?</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Brad Dietrich:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;"> Traditional consumer electronics companies  lock down their products such that the enthusiasts and developers cannot  change the firmware that allows them to run.&nbsp; The decisions to do this  are driven for many reasons ranging from concerns about support costs to  mandates from the content publishers.&nbsp; Ultimately we wanted to break  the mold of consumer electronics in more ways than one.&nbsp; We wanted to  create a product that was easy to use for technology neophytes yet  provides enough value for technology enthusiasts.&nbsp; Opening the platform  allowed us to give truly advanced users a reason to be excited by the  Pogoplug above and beyond the core features we provide without  sacrificing the ease of use necessary for the main stream customers.</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Q:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;"> What are some of the open source projects that the PogoPlug  has contributed to?</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Brad Dietrich:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp; All of the open source that we use in the  Pogoplug is published on our site at <a href="http://pogoplug.com/opensource/. " title="http://pogoplug.com/opensource/. ">http://pogoplug.com/opensource/. </a>  We have made improvements and customizations to many of these projects  to allow them to work better for our products needs.&nbsp; All of these  improvements and customizations are published and contributed back to  anyone who finds value in them.</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Q:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;"> Has CloudEngines benefitted by offering the PogoPlug with an  open soruce software platform?</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Brad Dietrich:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp; All new technology products (especially those  from new companies) face an uphill climb to reach main-stream  adoption.&nbsp; Pogoplug was designed to leverage social behaviors and thus  extend the product's success through word-of-mouth and the viral nature  of the media sharing features.&nbsp; We realized that the first users to use  the product could be our biggest allies, and since developers and open  source enthusiasts are a large overlap with technology product early  adopters, it is to our advantage to excite them to enjoy and recommend  the product.</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Q:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;"> The PogoPlug is really modifiable in every way, down to the  Firmware, how can developers start writing and modifying code on the  PogoPlug?</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Brad Dietrich:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;"> The Pogoplug is fundamentally a headless ARM  Linux computer.&nbsp; We provide open root ssh access to the device so users  can start from bash shell prompt and the ability to fully cross compile  and run any binaries they desire.&nbsp; Some of our users have even installed  full versions of Ubuntu Linux distribution for ARM.</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Q:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;"> Cloud Engines hosts user forums that are designed to provide  technical interaction between developers and enthusiasts interested in  getting deeper into the Linux computer that is the Pogoplug at  <a href="http://www.pogoplugged.com/. " title="http://www.pogoplugged.com/. ">http://www.pogoplugged.com/. </a> These forums are monitored by the  engineers and product folks here so we can help steer developers in the  best ways to leverage our platform for their needs.&nbsp; What ever your  technical level is from kernel hacker to casual Linux user, these forums  can aid you in getting started and finding others who are trying to  solve similar development goals.</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Q:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;"> What are the benefits of utilizing open source for the  software stack on the PogoPlug?</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Brad Dietrich:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp; Linux and some of the other core open source  projects we are using allow us to focus on true innovation rather than  reinventing the wheel.&nbsp; The ability to review and modify anything and  everything allows us the flexibility to add real value with our product  without being bound by some other company or individual’s idea of how  the software should be written yet doesn't require us to reinvent things  that work and that can be leveraged.</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">Obviously  there are proprietary solutions that provide solutions for many of the  technology requirements, but as mentioned above, the benefits of using  and contributing to the open source community has tangible value for our  company.&nbsp; </span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Q:</span></strong></span><span style="font-family: Cambria;"><span style="font-size: small;"> What are some features developers have done with the  Webservices API? The Kernel?</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">The  forums are the best place to see some of the things out there, but they  range quite a bit.&nbsp; If there is a Linux package out there, it has  probably been cross-compiled to run on the Pogoplug already.&nbsp; The web  services APIs are being used from mobile media player companies to  individuals who are interested in better ways to access their own  content.&nbsp; The sky truly is the limit.</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><span style="font-size: small;">&nbsp;</span></span></p>
+<p style="margin: 0pt;"><span style="font-family: Cambria;"><strong><span style="font-size: small;">Further Reading</span></strong></span></p>
+<ul>
+<li><a href="http://openpogo.com/"><span style="font-family: Cambria;"><span style="font-size: small;">OpenPogo</span></span></a></li>
+<li><a href="http://www.prlog.org/10278605-pogoplug-as-the-web-server-for-azalearsscom.html">Pogoplug As The Web Server for AzaleaRSS.com</a></li>
+<li><a href="http://www.pogoplugged.com/article/11695/How-To-Import-Pogoplug-RSS-Feeds-into-Boxee/">PogoPlugged: How To Import Pogoplug RSS Feeds into Boxee</a></li>
+</ul>
+</div>
+<div id="disqus_thread"></div><noscript><div class="disqus-noscript"><a href="http://southerncalifornialinuxexpo.disqus.com/?url=http%3A%2F%2Fwww.socallinuxexpo.org%2Fscale8x%2Fnode%2F2450">View the discussion thread.</a></div></noscript>  </div>
+
+  <ul class="links inline"><li class="comment_forbidden first last"></li>
+</ul>
+</div></div> <!-- /node-inner, /node -->
+        </div>
+
+        
+        
+      </div></div> <!-- /#content-inner, /#content -->
+
+              <div id="navbar"><div id="navbar-inner" class="clear-block region region-navbar">
+
+          <a name="navigation" id="navigation"></a>
+
+                      <div id="primary">
+              <ul class="links"><li class="menu-114 first"><a href="../index.html" title="">Home</a></li>
+<li class="menu-415"><a href="../conference-info.html" title="Dates, schedule, special events and more">Conference Info</a></li>
+<li class="menu-418"><a href="../conference-schedule-feb-19-2010.html" title="">Schedule</a></li>
+<li class="menu-419"><a href="../special-events.html" title="">Special Events</a></li>
+<li class="menu-929"><a href="https://www.socallinuxexpo.org/reg7/" title="">Registration</a></li>
+<li class="menu-846 last"><a href="../blog.html" title="">Blog</a></li>
+</ul>            </div> <!-- /#primary -->
+          
+          
+        </div></div> <!-- /#navbar-inner, /#navbar -->
+      
+              <div id="secondary_navbar"><div id="secondary_navbar-inner" class="clear-block region region-secondary_navbar">
+
+          
+          
+        </div></div> <!-- /#navbar-inner, /#navbar -->
+      
+      
+      
+    </div></div> <!-- /#main-inner, /#main -->
+
+          <div id="footer"><div id="footer-inner" class="region region-footer">
+
+        
+        <div id="block-menu-menu-tertiary-links" class="block block-menu region-odd odd region-count-1 count-1"><div class="block-inner">
+
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first dhtml-menu "><a href="../about.html" title="" id="dhtml_menu-748">About SCALE</a></li>
+<li class="leaf  dhtml-menu "><a href="../committees.html" title="Contact information for the Linux Expo" id="dhtml_menu-919">Contact us!</a></li>
+<li class="leaf  dhtml-menu "><a href="../media-links.html" title="SCALE Press Releases and media articles about SCALE" id="dhtml_menu-1754">Media</a></li>
+<li class="leaf last dhtml-menu "><a href="../past-events.html" title="" id="dhtml_menu-749">Past Events</a></li>
+</ul>  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+
+      </div></div> <!-- /#footer-inner, /#footer -->
+    
+  </div></div> <!-- /#page-inner, /#page -->
+
+      <div id="closure-blocks" class="region region-closure"><div id="block-block-1" class="block block-block region-odd even region-count-1 count-2"><div class="block-inner">
+
+  
+  <div class="content">
+    <p>Copyright 2002-2010 Linux Expo of Southern California. All Rights Reserved.</p>
+  </div>
+
+  
+</div></div> <!-- /block-inner, /block -->
+</div>
+  
+  <script type="text/javascript">var disqus_url = "open-source-hardware-hacking-pogoplug.html";var disqus_title = "Open Source Hardware Hacking with the PogoPlug";var disqus_message = "By  Guest Blogger Matthew Sacks, The Bitsource\x26amp;nbsp;";var disqus_identifier = "node/2450";</script><script type='text/javascript' src='http://disqus.com/forums/southerncalifornialinuxexpo/embed.js'></script>
+</body>
+
+<!-- Mirrored from www.socallinuxexpo.org/scale8x/blog/open-source-hardware-hacking-pogoplug by HTTrack Website Copier/3.x [XR&CO'2008], Fri, 18 Jun 2010 00:28:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8"><!-- /Added by HTTrack -->
+</html>

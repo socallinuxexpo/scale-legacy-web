@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.socallinuxexpo.org/scale8x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 8x - 2010 Southern California Linux Expo - Program Track A</title>
+ <link>http://www.socallinuxexpo.org/scale8x/taxonomy/term/19/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Application Packaging and Deployment with tpkg</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/application-packaging-and-deployment-tpkg</link>
+ <description>&lt;p&gt;Tpkg, a tool for cross-platform application packaging and large scale deployment.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Tpkg is a tool for packaging and deploying applications.  It is designed to work alongside your operating system&amp;#039;s packaging tool.  I&amp;#039;ll talk about the advantages of separating the packaging of your applications from your base OS.  I&amp;#039;ll talk about some of the unique features of tpkg that make it ideally suited to packaging applications, including file encryption within packages and support for external hooks that can be used to tie into a system configuration management tool.  The process of making and deploying packages in tpkg will be covered.  tpkg handles dependency resolution and automatic dependency installation.  As such installing applications with complex dependency trees is simple and fast.  The deployment features of tpkg allow you to automate the installation, upgrade or removal of packages across a large number of systems.  I&amp;#039;ll also compare tpkg with deployment tools like Capistrano.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Tpkg is a tool for packaging and deploying applications.  It is designed to work alongside your operating system&#039;s packaging tool.  I&#039;ll talk about the advantages of separating the packaging of your applications from your base OS.  Separating the packaging of applications from the base OS system ensures that application packages and their dependencies don&#039;t interfere with the functioning of the base OS.  For example, your OS comes with Perl 5.6.1, but your application needs 5.8.9.  Upgrading the OS copy of Perl may break other applications.  By using tpkg and installing your application and the newer version of Perl in a location reserved for tpkg you avoid any conflicts.  Tpkg is cross platform, so although you may have two or three different operating systems in your environment you can use a common tool to package and deploy your applications on those systems.&lt;/p&gt;
+&lt;p&gt;I&#039;ll talk about some of the unique features of tpkg that make it ideally suited to packaging applications, and distinguish tpkg from OS packaging tools like rpm and dpkg.  Tpkg supports encrypting some or all of the files in the package, so your application package can contain secret files like SSL or SSH keys, database passwords, etc.  Also supported are external hooks that can be used to tie into a system configuration management tool, allowing packages to request accounts and other OS configuration.&lt;/p&gt;
+&lt;p&gt;The process of making and deploying packages in tpkg will be covered.&lt;/p&gt;
+&lt;p&gt;The process of building a package is quite simple.  The package metadata is stored in an XML or YAML configuration file.  Packages can have pre and post install and removal scripts.  Incorporating init scripts and crontabs into packages will be discussed.  cpan2tpkg and gem2tpkg utilities are also available to readily package Perl modules or Ruby gems.&lt;/p&gt;
+&lt;p&gt;Tpkg supports dependencies both on other tpkg packages as well as native packages, and tpkg handles dependency resolution and automatic dependency installation of both tpkg and native dependencies.  As such installing applications with complex dependency trees is simple and fast.  The deployment features of tpkg allow you to automate the installation, upgrade or removal of packages across a large number of systems.  Tpkg handles SSH and sudo prompts that might be encountered in connecting to the target systems when performing a deployment.&lt;/p&gt;
+&lt;p&gt;I&#039;ll also compare tpkg with deployment tools like Capistrano.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/jason-heiss&quot;&gt;Jason Heiss&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scalemedia/scale/simple_cfp/20100227-184518/Jason_Heiss.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/application-packaging-and-deployment-tpkg#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2313 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Linux Pro Audio</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/linux-pro-audio</link>
+ <description>&lt;p&gt;An overview of Linux Pro Audio past, present and future.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Past: Brief examination of the state of Linux Pro Audio in 2005 discussing available distros, open projects, state of the kernel, and state of real time RT. 
+
+Present: Where Linux Pro Audio is at now including maturing projects, what is happening today. Linux Pro Audio as a serious contender to consider as compared to legacy based platforms and recording studio solutions including bleeding edge developments.
+Topics include Ardour, LV2, VST&amp;#039;s, real time RT, cross platform integration, Linux Pro Audio competing and succeeding in the commercial marketplace and how?
+
+Future: What&amp;#039;s missing in Linux Pro Audio that will give the most compelling argument that the Linux platform provides the most complete audio production solution from roll your own distros to enterprise class products.
+Topics include: More VST&amp;#039;s written in Linux and porting to Linux , Ardour 3.0, ported to Linux application such as Renoise and energy XT, better integration, where Linux finally has a foothold in the market (ie: netbooks), and finally, the &amp;#039;killer app&amp;#039;?
+
+How to&amp;#039;s:
+Hot Rodding your netbook and make it your mobile recording studio.
+
+I will have free copies of our distro on CD for those who attend my session. The distro is an Audio OS called Transmission 3.0.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Past: Brief examination of the state of Linux Pro Audio in 2005 discussing available distros, open projects, state of the kernel, and state of real time RT. &lt;/p&gt;
+&lt;p&gt;Present: Where Linux Pro Audio is at now including maturing projects, what is happening today. Linux Pro Audio as a serious contender to consider as compared to legacy based platforms and recording studio solutions including bleeding edge developments.&lt;br /&gt;
+Topics include Ardour, LV2, VST&#039;s, real time RT, cross platform integration, Linux Pro Audio competing and succeeding in the commercial marketplace and how?&lt;/p&gt;
+&lt;p&gt;Future: What&#039;s missing in Linux Pro Audio that will give the most compelling argument that the Linux platform provides the most complete audio production solution from roll your own distros to enterprise class products.&lt;br /&gt;
+Topics include: More VST&#039;s written in Linux and porting to Linux , Ardour 3.0, ported to Linux application such as Renoise and energy XT, better integration, where Linux finally has a foothold in the market (ie: netbooks), and finally, the &#039;killer app&#039;?&lt;/p&gt;
+&lt;p&gt;How to&#039;s:&lt;br /&gt;
+Hot Rodding your netbook and make it your mobile recording studio.&lt;/p&gt;
+&lt;p&gt;I will have free copies of our distro on CD for those who attend my session. The distro is an Audio OS called Transmission 3.0.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/ronald-stewart&quot;&gt;Ronald Stewart&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scalemedia/scale/simple_cfp/20091217-095735/Screenshots_for__SCALE_.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/linux-pro-audio#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2316 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Linux Virtualization Technologies Compared</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/linux-virtualization-technologies-compared</link>
+ <description>&lt;p&gt;Compares the benefits and tradeoffs of Xen, KVM, OpenVZ and Vservers on Linux&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Linux supports multiple open-source technologies for virtualization, the most
+popular being Xen, KVM, OpenVZ and Vservers. Each has its strengths, weaknesses and tradeoffs, so selecting the right one for your environment is non-trivial.
+
+This talk will cover the capabilities of the four major virtualization types,
+in the areas of resource use, isolation, manageability, flexibility and future support.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Linux supports multiple open-source technologies for virtualization, the most&lt;br /&gt;
+popular being Xen, KVM, OpenVZ and Vservers. Each has its strengths, weaknesses&lt;br /&gt;
+and tradeoffs, so selecting the right one for your environment is non-trivial.&lt;/p&gt;
+&lt;p&gt;This talk will cover the capabilities of the four major virtualization types,&lt;br /&gt;
+in the following areas.&lt;/p&gt;
+&lt;p&gt;Resource use : All methods of virtualization impose an overhead in addition to&lt;br /&gt;
+the cost of processes running within each virtual machine. However, this&lt;br /&gt;
+overhead varies between KVM (the most expensive) and OpenVZ (the cheapest).&lt;/p&gt;
+&lt;p&gt;Isolation : Virtual machines should be ideally isolated from each other and&lt;br /&gt;
+from the host system, and be limited in the amount of CPU, RAM, disk space&lt;br /&gt;
+and network bandwidth they can use. However, in practice the level of isolation&lt;br /&gt;
+depends on the technology used - Xen performs with best, Vservers the worst.&lt;/p&gt;
+&lt;p&gt;Manageability : A good virtualization technology makes it easy to create,&lt;br /&gt;
+manage, move and destroy virtual systems. Each of the four types has its&lt;br /&gt;
+own tools, commands and configuration file format.&lt;/p&gt;
+&lt;p&gt;Flexibility : Some virtualization methods like OpenVZ and Vservers can only&lt;br /&gt;
+run Linux, while others like Xen and KVM can run almost any operating system,&lt;br /&gt;
+if they have the required hardware support.&lt;/p&gt;
+&lt;p&gt;Future support : Each technology is developed by different groups, and not all&lt;br /&gt;
+are as well maintained. KVM is the leader here, as it is now part of the Linux&lt;br /&gt;
+kernel, while Vservers seems to be falling behind.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/jamie-cameron&quot;&gt;Jamie Cameron&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scalemedia/scale/simple_cfp/20100227-184429/Jamie_Cameron.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Saturday/Track%20A/talk%20%233%20(Jamie%20Cameron).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/linux-virtualization-technologies-compared#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2319 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Improving the Open Source Legal System</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/improving-open-source-legal-system</link>
+ <description>&lt;p&gt;In this talk I argue that open source licensing can be conceptualized as a unique international legal system, and I follow this premise by discussing ways in which this system can be improved by making it more legally certain and predictable.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Open source exists in tension with the country-specific system of so-called &amp;quot;intellectual property&amp;quot; law that supposedly underlies it.  In this talk, I will argue that open source can be usefully regarded  as a distinct international system of property rights transfer masquerading as a form of copyright licensing, based not on statutes or court decisions but on norms of code sharing practices that are   rooted in developer custom and tradition.  
+
+Given this premise, we can determine how well  functioning open source is as a legal system,  and think about how it can be improved. In particular, I argue that we should enhance the predictability surrounding open source licensing, by achieving better community understanding, and legitimization, of this tradition-based legal system, and by developing better community-based means of dispute resolution.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Open source exists in tension with the country-specific system of so-called &quot;intellectual property&quot; law that supposedly underlies it.  In this talk, I will argue that open source can be usefully regarded  as a distinct international system of property rights transfer masquerading as a form of copyright licensing, based not on statutes or court decisions but on norms of code sharing practices that are   rooted in developer custom and tradition.  &lt;/p&gt;
+&lt;p&gt;Given this premise, we can determine how well  functioning open source is as a legal system,  and think about how it can be improved. In particular, I argue that we should enhance the predictability surrounding open source licensing, by achieving better community understanding, and legitimization, of this tradition-based legal system, and by developing better community-based means of dispute resolution.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/richard-fontana&quot;&gt;Richard Fontana&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scalemedia/scale/simple_cfp/20100227-182228/Richard_Fontana.pdf&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Sunday/Track%20A/talk%20%234%20(Richard%20Fontana).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/improving-open-source-legal-system#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2332 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Increasing Corporate Participation in Open Source</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/increasing-corporate-participation-open-source</link>
+ <description>&lt;p&gt;Corporations under-participate in open source projects. Improving participation requires changes in company culture, business practices, and software development practices.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Corporations under-participate in open source. Improving participation requires changes in company culture, business practices, and software development practices. We’ll look at each of these three issues, suggest strategies for addressing them, and talk about experience with these issues at the CodePlex Foundation.
+
+We can think about cultural differences by thinking about the tension between control and innovation. Corporations place an emphasis on controlled development, while open source communities place emphasis on innovation. Improved communication comes from each side understanding the values of the other.
+
+Business practices issues center on questions of what to release as open source, why, and how.  Work done on open source licensing helps, but really only address how. Corporations still struggle with what  and why.
+
+Software development practices involve reconciling a structured, rigid software development life cycle with more agile, iterative practices common in open source.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Corporations under-participate in open source projects. Improving participation requires changes in company culture, business practices, and software development practices. In this talk we&#039;ll look at each of these three issues, suggest some strategies for addressing them, and talk about first-hand experience with these issues at the CodePlex Foundation.&lt;/p&gt;
+&lt;p&gt;One approach to thinking about cultural differences is to think about the tension between control and innovation. Corporations often place an emphasis on controlled development, while open source communities place more emphasis on unrestrained innovation. Improved communication will come from each side understanding the values of the other. A mediating organization can play an invaluable role in enabling community and corporations to better communicate their values and the rationale behind them to each other.&lt;/p&gt;
+&lt;p&gt;Business practices issues center around the questions of what to release as open source, why, and how. While much work has been done on open source licensing, this issue really only address the &quot;how&quot;. Corporations still struggle with the &quot;what&quot; and &quot;why&quot;. Corporations assess risk very differently from the way community projects assess risk. A mediating organization can provide a legal and business framework that, on the one hand, reduces risk, and, on the other hand, improves education within corporations about the real risks (or lack of risks) with open source.&lt;/p&gt;
+&lt;p&gt;Software development practices involve reconciling a structured, sometimes rigid software development life cycle with more agile and iterative practices common in open source. For corporations used to dealing with a partner network or a group of ISVs, the amorphous nature of the open source community can be difficult to engage with. A mediating organization provides an entity that both sides can comfortably enage with, simplifying and streamlining the open source engagement process for corproations.&lt;/p&gt;
+&lt;p&gt;While the CodePlex Foundation is a relatively new entry to the group of open source non-profits, it was conceived as the kind of mediating entity that could address these challenges in corporate participation in open source projects. If the Foundation is successful in its mission, corporate participation should increase, to the benefit of both open source businesses and the open source community.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/mark-stone&quot;&gt;Mark Stone&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scalemedia/scale/simple_cfp/20100227-182209/Mark_Stone.tar.gz&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Sunday/Track%20A/talk%20%231%20(Mark%20Stone).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/increasing-corporate-participation-open-source#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2336 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Communication Privacy for a Free Society</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/communication-privacy-free-society</link>
+ <description>&lt;p&gt;Secure free as in freedom and free as in cost real-time communications for everyone&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                The GNU Telephony Secure Calling initiative was originally formed to make passive voice communication intercept a thing of the past. While it is true that technological means for mass communication intercept has grown with incremental improvements in communication technology, the means to apply and use encryption techniques to counter these abuses and offer communication privacy on a large scale using free software have also become possible. In particular, I will be talking about how the GNU ZRTP stack (and our related ZRTP4J used in SIP communicator), ZRTP enabled clients such as Twinkle, and GNU SIP Witch can be used to create and deploy network scalable secure VoIP solutions for individuals, private organizations, and even national governments.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Last September we presented the technological aspect of the secure calling project at LinuxCon 2009. This was an important milestone in presenting the technological aspect of how this project will offer the means for anyone to create and deploy network scalable and secure VoIP/collaboration solution to enable privacy without the need for a central service provider or proprietary software to achieve these goals.  Our overall vision is to facilitate both solutions that are privately built, such as for organizations that wish to have secure communication as a foundation, and especially which can be autonomously assembled over the public Internet as a full public alternative to Skype using only free software and that depends purely on existing DNS for user lookup, rather than a service provider, and eliminates the use of source secret clients which can of course be compromised.&lt;/p&gt;
+&lt;p&gt;Background of architecture:&lt;/p&gt;
+&lt;p&gt;A SIP user agent is a front-end application which supports a standard set of protocols to enable registering with a directory service (SIP registrar) and a routing server to establish calls by sip uri&#039;s.  Some user agents can also directly connect if you know each parties IP address, though some  will not allow that because in the SIP standard a UA is supposed to only accept calls received by it&#039;s published &quot;contact&quot; uri that was sent to a registrar, and not just any arbitrary client calling it directly without looking that up first (such as by ip address).&lt;/p&gt;
+&lt;p&gt;Some use this behavior as a security means, by having the UA generate a UUID or some other kind of token for the contact uri to publish with a registrar, so that unless the call resolved through the registrar it is using there would be no way to directly know what uri the agent will respond to.  Most UA&#039;s use&lt;br /&gt;
+it as a means to separate which &quot;identity&quot; it is receiving a call as, since a UA can register itself with multiple registrars which may represent different service providers, and each one would have a different and unique contact uri.&lt;/p&gt;
+&lt;p&gt;Many VoIP providers offer themselves as a &quot;backend&quot; service for SIP.  This means your UA is tethered to said provider, and your call peering goes through them. That looks like a standard telephone service simply conducted on TCP/IP rather than something new.  It also is very convenient from a regulatory and intercept regime since all call control and routing happens at their end.&lt;/p&gt;
+&lt;p&gt;One can run a local asterisk server as a backend SIP registrar and routing service, but it (and bayonne) makes several assumptions.  First, the call must connect to the server before the destination is even determined.  This means all audio is established through the server first, and then hopped across the server to the final destination, converted as necessary.  In one sense it is convenient, but since the audio session is established with and must be decoded by the server first, it obviously cannot pass encrypted audio end-to-end.  It also means that said server has to have all supported codecs that will be used, including proprietary or patent encumbered ones if calls are supported with them.  It means the call capacity is compute-bound, and induces latency.  Finally, in the case of Asterisk, it was never designed for arbitrary uri routing, but rather for resolving things that are purely telephone numbers in form.&lt;/p&gt;
+&lt;p&gt;Skype actually is a kind of user agent that includes/integrates code for specific routing and network connection logic, but also depends on the Skype backend to find users.  It is of course also proprietary, and the protocols it uses are undocumented and proprietary as well.&lt;/p&gt;
+&lt;p&gt;SIP Witch operates by keeping the network routing layer separate from the user agent rather than merging them like the Skype application does, hence any standard&#039;s compliant SIP client can be used with it.  It also peers calls by URI using DNS lookup.  It also does destination routing, so the final destination is determined first, and the calling user agent is then directed to connect itself with the final destination&#039;s IP address directly, rather than the asterisk/bayonne model where user agent is directed to connect with the server and without the need of a central directory service.  This means all media connections are established peer-to-peer, and this can support an end-to-end encrypted media channel like ZRTP.  It also means all codecs are negotiated between the endpoints, which also means&lt;br /&gt;
+conducting calls does not require having patent licensed codecs, though the ua&#039;s may have and certainly use them if they choose.  That is the user&#039;s decision and circumstances of course, but at least is not something that is burdened or otherwise forced on the software used for conveyance as well.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/david-sugar&quot;&gt;David Sugar&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scalemedia/scale/simple_cfp/20100227-182252/David_Sugar.odp&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Saturday/Track%20A/talk%20%235%20(David%20Sugar).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/communication-privacy-free-society#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2286 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Demystifying GPL Enforcement: Using the Law To Uphold Copyleft</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/demystifying-gpl-enforcement-using-law-uphold-copyleft</link>
+ <description>&lt;p&gt;The GPL enforcement process remains opaque to most FLOSS developers and users.  This talk will explain how GPL enforcement works, what users and companies should do to comply, and what developers should do to help their users comply.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Copyleft licenses are a special class of FLOSS licenses, since they place detailed legal obligations on the redistributors and/or modifiers of the software.  Typically, our community follows these rules voluntarily as part of the software sharing community.  Occasionally, however, companies fail to follow the rules.  The response that upholds the license is typically called &amp;quot;GPL enforcement&amp;quot;.
+
+The GPL enforcement process unfortunately remains somewhat opaque, even to many developers who choose the GPL. The enforcement lawsuits filed by gpl-violations.org and SFLC have startled many developers. This talk, presented by Bradley M. Kuhn, an experienced GPL enforcer, will explain the motivations for enforcement action, teach developers how to educate their users about license obligations and teach businesses how to comply with developers&amp;#039; wishes.  Kuhn will explain in general terms the standard process of GPL enforcement practiced by non-profit entities and individuals in the software freedom world.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Copyleft licenses are a special class of FLOSS licenses, since they place detailed legal obligations on the redistributors and/or modifiers of the software.  Typically, our community follows these rules voluntarily as part of the software sharing community.  Occasionally, however, companies fail to follow the rules.  The response that upholds the license is typically called &quot;GPL enforcement&quot;.&lt;/p&gt;
+&lt;p&gt;The GPL enforcement process unfortunately remains somewhat opaque, even to many developers who choose the GPL. Meanwhile, the enforcement lawsuits filed by gpl-violations.org and SFLC have startled many developers. This talk, presented by Bradley M. Kuhn, an experienced GPL enforcer, will explain the motivations for enforcement action, teach developers how to educate their users about license obligations and teach businesses how to comply with developers&#039; wishes.  Kuhn will explain in general terms the standard process of GPL enforcement practiced by non-profit entities and individuals in the FLOSS world.&lt;/p&gt;
+&lt;p&gt;Those attending the talk can expect to learn:&lt;br /&gt;
+    * how to better educate their users to follow the terms of GPL correctly to avoid compliance problems,&lt;br /&gt;
+    * the mindset that leads other developers and organizations to choose to actively enforce the GPL, and&lt;br /&gt;
+    * the process typically used when a choice to enforce is made.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/bradley-kuhn&quot;&gt;Bradley Kuhn&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Saturday/Track%20A/talk%20%231%20(Bradley%20Kuhn).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/demystifying-gpl-enforcement-using-law-uphold-copyleft#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2288 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Using open source for automated deployment.</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/using-open-source-automated-deployment</link>
+ <description>&lt;p&gt;How to use open source tools to create a completely (or nearly so) automated deployment system.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                Having worked at a couple of very large Linux installations (one of them having four thousand servers across three data centers, and one having about six hundred across two), and having built one of these environments completely from scratch, it becomes obvious very quickly that normal manual deployment processes, such as using a CDROM or other physical boot media, simply do not scale.  Add to that configuration for different server roles and application deployment, it becomes obvious that an automated end-to-end deployment system becomes the only way forward.
+
+This talk will cover creating and end-to-end deployment system with little to no manual intervention, using only open source tools.  The open source tools involved are:
+
+- RT/AT (Asset Tracker)
+
+- nictool/djbdns
+
+- dhcpd (and the pros and cons of using your own integration script)
+
+- PXE/tftpboot
+
+- kickstart
+
+- puppet
+
+- subversion
+
+I will discuss how to turn these tools into a deployment system which will allow you, once configured, to quickly and easily set up as many servers at a time as you have SSH sessions available, and even ways to not have to use SSH sessions and kick the build off programmatically, using expect and other such tools, and to do so using different configuration and application profiles, all controlled from a central information source.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Having worked at a couple of very large Linux installations (one of them having four thousand servers across three data centers, and one having about six hundred across two), and having built one of these environments completely from scratch, it becomes obvious very quickly that normal manual deployment processes, such as using a CDROM or other physical boot media, simply do not scale.  Add to that configuration for different server roles and application deployment, it becomes obvious that an automated end-to-end deployment system becomes the only way forward.&lt;/p&gt;
+&lt;p&gt;This talk will cover creating and end-to-end deployment system with little to no manual intervention, using only open source tools.  The open source tools involved are:&lt;/p&gt;
+&lt;p&gt;- RT/AT (Asset Tracker)&lt;/p&gt;
+&lt;p&gt;- nictool/djbdns&lt;/p&gt;
+&lt;p&gt;- dhcpd (and the pros and cons of using your own integration script)&lt;/p&gt;
+&lt;p&gt;- PXE/tftpboot&lt;/p&gt;
+&lt;p&gt;- kickstart&lt;/p&gt;
+&lt;p&gt;- puppet&lt;/p&gt;
+&lt;p&gt;- subversion&lt;/p&gt;
+&lt;p&gt;I will discuss how to turn these tools into a deployment system which will allow you, once configured, to quickly and easily set up as many servers at a time as you have SSH sessions available, and even ways to not have to use SSH sessions and kick the build off programmatically, using expect and other such tools, and to do so using different configuration and application profiles, all controlled from a central information source.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/russell-miller&quot;&gt;Russell Miller&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-text field-field-presentation-url&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;https://www.socallinuxexpo.org/scalemedia/scale/simple_cfp/20100221-234609/scalepresentation2.odp&quot;&gt;Presentation&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Sunday/Track%20A/talk%20%232%20(Russell%20Miller).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/using-open-source-automated-deployment#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/advanced">Advanced</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2290 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+<item>
+ <title>Scaling Facebook via Open Source</title>
+ <link>http://www.socallinuxexpo.org/scale8x/presentations/scaling-facebook-open-source</link>
+ <description>&lt;p&gt;It&#039;s not possible to scale a site like Facebook simply by sharding your databases, learn why we developed or contributed to a series of open source infrastructure technologies such as Cassandra, Hive, Haystack, memcached, MySQL, PHP, Scribe, and Thrift.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                From the day that Mark Zuckerberg started building Facebook in his Harvard dorm room in 2004 until today, the site has been built on common open source software such as Linux, Apache, MySQL, and PHP.  Now Facebook reaches over 350 million people per month, is the largest PHP site in the world, and has released major pieces of their infrastructure as open source.
+
+It&amp;#039;s not possible to scale a site like Facebook simply by sharding your databases; rather we&amp;#039;ve developed and contributed to a series of open source infrastructure technologies.  Some of these projects include Cassandra, Hive, Haystack, memcached, and Scribe, where each focuses on solving a specific problem with thrift allowing them to communicate across languages.  This talk will give you a better idea of what it takes to scale Facebook, a look into the infrastructure we use to do so, and dive into performance work we&amp;#039;re focused on in order to scale PHP to over 350 billion page views per month.        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;From the day that Mark Zuckerberg started building Facebook in his Harvard dorm room in 2004 until today, the site has been built on common open source software such as Linux, Apache, MySQL, and PHP.  Now Facebook reaches over 350 million people per month, is the largest PHP site in the world, and has released major pieces of their infrastructure as open source.&lt;/p&gt;
+&lt;p&gt;It&#039;s not possible to scale a site like Facebook simply by sharding your databases; rather we&#039;ve developed and contributed to a series of open source infrastructure technologies.  Some of these projects include Cassandra, Hive, Haystack, memcached, and Scribe, where each focuses on solving a specific problem with thrift allowing them to communicate across languages.  This talk will give you a better idea of what it takes to scale Facebook, a look into the infrastructure we use to do so, and dive into performance work we&#039;re focused on in order to scale PHP to over 350 billion page views per month.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale8x/speakers/david-recordon&quot;&gt;David Recordon&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;	
+&lt;div class=&quot;field field-type-text field-field-presentation-audio&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+          &lt;a href=&quot;http://audio.socallinuxexpo.org/Saturday/Track%20A/talk%20%232%20(David%20Recordon).mp3&quot;&gt;Audio&lt;/a&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>http://www.socallinuxexpo.org/scale8x/presentations/scaling-facebook-open-source#comments</comments>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="http://www.socallinuxexpo.org/scale8x/category/category/program-track">Program Track A</category>
+ <pubDate>Fri, 18 Jun 2010 00:00:53 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2307 at http://www.socallinuxexpo.org/scale8x</guid>
+</item>
+</channel>
+</rss>

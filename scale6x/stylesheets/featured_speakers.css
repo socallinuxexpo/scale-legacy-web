@@ -1,0 +1,80 @@
+#column_2 em{
+	color:      #069;
+	font-style: normal;
+	}
+
+.information{ line-height: 15px; }
+
+	.information strong em{
+		color:     #00A0C6;
+		font-size: 12px;
+		}
+
+.return{
+	display:       block;
+	margin-bottom: 25px;
+	text-align:    right;
+	}
+
+	.return a{ font-weight: bold; }
+
+.speaker{ clear: both; }
+
+	.speaker div{
+		float: right;
+		width: 345px;
+		}
+
+	.speaker img{ float: left; }
+
+.speakers{ padding: 0 1px; }
+
+	.speakers a{ font-weight: bold; }
+
+	.speakers em,
+	.speakers strong{ display: block; }
+
+	.speakers li{
+		background: none !important;
+		float:      left;
+		margin:     0 !important;
+		padding:    10px 20px;
+		width:      121px;
+		}
+
+	.speakers ul{ margin: 0 !important; }
+
+.speakers.alternate{ background: #E5F5FA; }
+
+.centerbold {
+	font-size: 120%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.lgraybg {
+	background-color: #eee;
+}
+
+.dgraybg {
+	background-color: #999;
+}
+
+.bluebg {
+	background-color: #92b1d8;
+}
+
+.time {
+	border: 1px solid black;
+	font-size: 10pt;
+}
+
+.talk {
+	border: 1px solid black;
+	font-size: 10pt;
+}
+
+.schedule {
+	width: 15%;
+}
+

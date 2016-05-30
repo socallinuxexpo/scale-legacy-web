@@ -1,0 +1,48 @@
+SCALE 4x Online Registration Now Open
+
+FOR IMMEDIATE RELEASE
+Los Angeles, CA
+December 13, 2005
+
+The Southern California Linux Expo has announced the availability of online ticket sales for SCALE 4x. Early ticket purchases are discounted. Special student pricing is also available.
+SCALE 4x will be held on February 11-12, 2006 at the Los Angeles Airport Radisson.
+
+
+Speakers and sponsors are being added daily, with the list now including:
+
+Commercial Sponsors: IBM, Google, Scalix, LFS Technologies, Centrify and Ticketmaster.
+
+Non-profit - NetBSD, Debian, KDE, Ubuntu, Fedora Core, Cinepaint, Knoppmyth, CACert, Linux Astronomy, Open Source Exchange Replacement Project, LTSP, X.Org, Wikimedia Foundation
+
+Confirmed speakers include:
+
+Chris Dibona - Google
+John Terpstra - Samba
+David Uhlman - Uversa
+Bernard Soriano - California Department of Motor Vehicles
+David Mandelstam - Sangoma
+Aaron Seigo - KDE
+Matt Asay - Alfresco
+Janinne Brunyee - RealNetworks
+David Schachter - Sleepycat Software
+Glen Martin - SpikeSource
+Jono BaconSi Chen - OpenSource Strategies
+Kevin McElligott - iTech Developers
+Robin Rowe- Cinepaint
+Jim Winstead - MySQL
+Alex Perry - PAMurray
+Stephen McDowell - AMD
+Hal Steger - Scalix
+Dan Kegel - Google
+Hans Reiser - The Naming System Venture
+Jan Hichert - Astaro
+
+SCALE 4x will offer expanded floor space, more exhibits and an increased number of tutorial sessions for users at any skill level.
+
+To purchase tickets for SCALE 4x, visit us at http://socallinuxexpo.com/order/order.html .
+
+Join us February 11 & 12, 2006 to learn more about Linux, get the most out of Open Source offerings or to meet like-minded users and companies.
+
+The Linux Expo of Southern California was established in 2001 with a mission to act as an advocate on behalf of Open Source software to businesses, academic institutions and the Linux community.
+
+To learn more about sponsoring SCALE, to submit a paper, or to get additional information about our speakers and sponsors, see http://socallinuxexpo.com, or email info@socallinuxexpo.com.

@@ -1,0 +1,36 @@
+/* Custom CSS */
+
+#block-views-sponsors_gold-block_1 .views-field-title, #block-views-sponsors_silver-block_1 .views-field-title, #block-views-sponsors-block_1 .views-field-title, #block-views-sponsors_raffle-block_1 .views-field-title, #block-views-sponsors_travel-block_1 .views-field-title {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.view-sponsors .views-field-field-logo-fid {
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.view-sponsors .views-field-title {
+	clear: both;
+}
+.view-sponsors .views-content {
+	margin-bottom: 50px;
+}
+#footer {
+	color: #c0c0c0;
+}
+.imagefield-field_logo {
+	float: left;
+	margin-right: 15px;
+}
+.view-speaker-block-front a, .view-exhibitor-block a {
+	text-decoration: none;
+}
+.view-speaker-block-front .views-view-grid .col-2, .view-exhibitor-block .views-view-grid .col-1 {
+	background-color: #EEE;
+	
+}
+.view-speaker-block-front .views-view-grid .col-4, .view-exhibitor-block .views-view-grid .col-3 {
+	background-color: #EEE;
+	
+}

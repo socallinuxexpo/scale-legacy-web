@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.socallinuxexpo.org/scale9x"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SCALE 9x - 2011 Southern California Linux Expo - UpScale</title>
+ <link>https://www.socallinuxexpo.org/scale9x/taxonomy/term/21/0</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Meet the Press</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/meet-press</link>
+ <description>&lt;p&gt;7 tips for dealing with the tech media&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/upscale&quot;&gt;UpSCALE&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;This quick talk provides 7 practical tips for getting your project or product news covered by the press. We&#039;ll look at how to write an eye-catching press release, how to meet journalists, and why you&#039;ll want to maintain a mutually beneficial relationship.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;This quick talk provides 7 practical tips for getting your project or product news covered by the press. We&#039;ll look at how to write an eye-catching press release, how to meet journalists, and why you&#039;ll want to maintain a mutually beneficial relationship.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/rikki-kite&quot;&gt;Rikki Kite&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/meet-press#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/upscale">UpScale</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2747 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>A11y - It&#039;s about YOU!</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/a11y-its-about-you</link>
+ <description>&lt;p&gt;Accessibility is important to everyone&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/upscale&quot;&gt;UpSCALE&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;The success of open source depends on embracing accessibility as a component.  Accessibility is about you and not just meeting the needs of people with disabilities.   (A quick walk-through of the philosophy of &#039;A11y&#039; and how accessibility has been a key selling point in major adoptions of open source solutions.)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Can&#039;t get too much longer than above as this is an UpSCALE 5-minute presentation  :-)&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/bryen-yunashko&quot;&gt;Bryen Yunashko&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/a11y-its-about-you#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/upscale">UpScale</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2867 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Advocacy for Advocates: Telling others about Free Software</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/advocacy-advocates-telling-others-about-free-software</link>
+ <description>&lt;p&gt;Learn how to share your love for your favorite Free and Open Source software with others.  Get others excited about coding, community, or contributing!&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/upscale&quot;&gt;UpSCALE&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Free Software: exciting, powerful, fun, free.  Communities: vibrant, varied, compassionate.  It can be evaluated and used easily, enhance or bootstrap projects, breathe life into old hardware or unleash new.&lt;/p&gt;
+&lt;p&gt;Projects need programmers, writers, artists, designers, bug triage, advocates, and community helpers.&lt;/p&gt;
+&lt;p&gt;Hard to convince others to try Free Software?  I&#039;ll help make your conversations exciting for your audience.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;We all know how exciting Free Software is.  It&#039;s powerful, it&#039;s fun, and it&#039;s free.  The communities around various projects are vibrant, varied, and compassionate.&lt;/p&gt;
+&lt;p&gt;Free Software can be evaluated and put to use easily and effectively.  It can enhance existing projects or entirely bootstrap new ones.  It can breathe new life into old hardware and unlease the potential of new systems.&lt;/p&gt;
+&lt;p&gt;Opportunities abound in the world of Free Software.  Projects need programmers, they technical writers, they need artists, and they need designers.  They need bug triagers, user advocates, and community helpers.&lt;/p&gt;
+&lt;p&gt;Why is it hard to convince others to give Free Software a try?  In our enthusiasm to persuade others, we focus on the wrong things.  In five minutes, I&#039;ll explain how you can make your next conversation about Free Software as exciting for your audience as it is for you.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/nathan-haines&quot;&gt;Nathan Haines&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/advocacy-advocates-telling-others-about-free-software#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/upscale">UpScale</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2868 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Data Integration Isn&#039;t Just For Massive Companies With Unlimited Time and Money</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/data-integration-isnt-just-massive-companies-unlimited-time-and-money</link>
+ <description>&lt;p&gt;Data integration tools aren&#039;t new, they&#039;re just new to open source.  This quick talk will teach you how they can apply to your project, no matter how large or small.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Ever since the mainframe days, banks, governments, and health care conglomerates with fragmented and messy data often relied on commercial solutions for consolidation and analysis.  Lawyers negotiated contracts, armies of consultants mobilized, and machines were bolted into racks.  Today, there are more accessible tools.&lt;/p&gt;
+&lt;p&gt;I’d like to talk about why the data industry needed an open source solution, and how open source data integration tools can be applied to projects of any size.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Ever since the mainframe days, banks, governments, and health care conglomerates with fragmented and messy data often relied on commercial solutions for consolidation and analysis.  Lawyers negotiated contracts, armies of consultants mobilized, and machines were bolted into racks.  Today, there are more accessible tools.&lt;/p&gt;
+&lt;p&gt;I’d like to talk about why the data industry needed an open source solution, and how open source data integration tools can be applied to projects of any size.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/ross-turk&quot;&gt;Ross Turk&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/data-integration-isnt-just-massive-companies-unlimited-time-and-money#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/upscale">UpScale</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2969 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>UpScale</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/upscale-0</link>
+ <description>&lt;p&gt;SCALE&#039;s take on IgniteNight&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Join us for the second annual  UoSCALE event, SCALE&#039;s own version of &quot;Ignite&quot; talks.  Ignite is a style of presentation where participants are given five minutes to speak on a subject accompanied by 20 slides. Each slide is displayed for 15 seconds, and slides are automatically advanced. The first Ignite talks were held in 2006 in Seattle, Washington, and were sponsored by O&#039;Reilly Media and MAKE magazine.  We have dubbed our version of these talks UpSCALE talks.  The UpSCALE talks will be taking place on Friday the 25th at 8pm.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Join us for the second annual  UpSCALE event, SCALE&#039;s own version of &quot;Ignite&quot; talks.  Ignite is a style of presentation where participants are given five minutes to speak on a subject accompanied by 20 slides. Each slide is displayed for 15 seconds, and slides are automatically advanced. The first Ignite talks were held in 2006 in Seattle, Washington, and were sponsored by O&#039;Reilly Media and MAKE magazine.  We have dubbed our version of these talks UpSCALE talks.  The UpSCALE talks will be taking place on Friday the 25th at 8pm.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/nathan-haines&quot;&gt;Nathan Haines&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/josh-berkus&quot;&gt;Josh Berkus&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/rikki-kite-0&quot;&gt;Rikki Kite&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/tom-king&quot;&gt;Tom King&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/james-mason&quot;&gt;James Mason&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/bryen-yunashko&quot;&gt;Bryen Yunashko&lt;/a&gt;&lt;br /&gt; Speaker: &lt;a href=&quot;/scale9x/speakers/amber-graner-0&quot;&gt;Amber Graner&lt;/a&gt;&lt;br /&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-downloads&quot;&gt;&lt;legend&gt;Downloads&lt;/legend&gt;&lt;div class=&quot;field field-type-link field-field-stream&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;http://www.ustream.tv/recorded/12946739&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://www.ustream.tv/recorded/12946739&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+	
+	
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/upscale-0#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/upscale">UpScale</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2993 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Stress-Testing Linux Hardware</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/stress-testing-linux-hardware</link>
+ <description>&lt;p&gt;Want to know how to seriously test your hardware?&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Come hear the answers to the questions many heavy users have: What&#039;s better, 32-bit or 64-bit? Does hyperthreading increase performance? How do I get maximum battery life? How do I find out exactly what hardware is being used to build my computer? Let&#039;s go beyond the basics to look at the many ways various distros can be optimized to make your hardware better, faster, stronger.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Come hear the answers to the questions many heavy users have: What&#039;s better, 32-bit or 64-bit? Does hyperthreading increase performance? How do I get maximum battery life? How do I find out exactly what hardware is being used to build my computer? Let&#039;s go beyond the basics to look at the many ways various distros can be optimized to make your hardware better, faster, stronger.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/cathy-malmrose&quot;&gt;Cathy Malmrose&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/stress-testing-linux-hardware#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/upscale">UpScale</category>
+ <pubDate>Mon, 14 Mar 2011 11:01:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2999 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Scale Fail</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/scale-fail</link>
+ <description>&lt;p&gt;How to maximize downtime in your web application&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/upscale&quot;&gt;UpSCALE&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Applications which are responsive, low-maintenance and have regular uptime are passe&#039;.  Learn how to build applications which crash, time out, and consume inordinate amounts of hardware and staff -- just like the cool kids do!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;Applications which are responsive, low-maintenance and have regular uptime are passe&#039;.  Learn how to build applications which crash, time out, and consume inordinate amounts of hardware and staff -- just like the cool kids do!&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/josh-berkus&quot;&gt;Josh Berkus&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/scale-fail#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/intermediate">Intermediate</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/upscale">UpScale</category>
+ <pubDate>Thu, 24 Feb 2011 18:33:55 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2654 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+<item>
+ <title>Build a Custom Linux Distro in 5 minutes!</title>
+ <link>https://www.socallinuxexpo.org/scale9x/presentations/build-custom-linux-distro-5-minutes</link>
+ <description>&lt;p&gt;Walk  through susestudio.com , building a custom Linux distro, on the web, in 5 minutes.&lt;/p&gt;
+&lt;div class=&quot;field field-type-text field-field-track&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;a href=&quot;special-events/upscale&quot;&gt;UpSCALE&lt;/a&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-short-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;SUSE Studio ( &lt;a href=&quot;http://susestudio.com&quot; title=&quot;http://susestudio.com&quot;&gt;http://susestudio.com&lt;/a&gt; ) provides a ridiculously simple interface for creating custom Linux distributions based on openSUSE Linux, SUSE Linux Enterprise Server, and SUSE Linux Enterprise Desktop.  Ideal for a wide range of projects, from custom desktop distros, to server appliances, to demonstration systems, SUSE Studio emphasizes clarity and usability, while not sacrificing flexibility and power in the tools it provides.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-long-abs&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                &lt;p&gt;SUSE Studio ( &lt;a href=&quot;http://susestudio.com&quot; title=&quot;http://susestudio.com&quot;&gt;http://susestudio.com&lt;/a&gt; ) provides a ridiculously simple interface for creating custom Linux distributions based on openSUSE Linux, SUSE Linux Enterprise Server, and SUSE Linux Enterprise Desktop.  Ideal for a wide range of projects, from custom desktop distros, to server appliances, to demonstration systems, SUSE Studio emphasizes clarity and usability, while not sacrificing flexibility and power in the tools it provides.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-presentation-speaker-id&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+           Speaker: &lt;a href=&quot;/scale9x/speakers/james-mason&quot;&gt;James Mason&lt;/a&gt;
+
+      &lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset class=&quot;fieldgroup group-presentation-logistics&quot;&gt;&lt;div class=&quot;field field-type-text field-field-presentation-day&quot;&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                      &lt;div class=&quot;field-label-inline-first&quot;&gt;
+              Day:&amp;nbsp;&lt;/div&gt;
+                Friday, February 25th        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/fieldset&gt;
+</description>
+ <comments>https://www.socallinuxexpo.org/scale9x/presentations/build-custom-linux-distro-5-minutes#comments</comments>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/presentationaudience/everyone">Everyone</category>
+ <category domain="https://www.socallinuxexpo.org/scale9x/category/category/upscale">UpScale</category>
+ <pubDate>Mon, 21 Feb 2011 18:10:11 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">2866 at https://www.socallinuxexpo.org/scale9x</guid>
+</item>
+</channel>
+</rss>
