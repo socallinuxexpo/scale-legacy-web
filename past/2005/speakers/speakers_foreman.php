@@ -1,4 +1,4 @@
-<? $name = 'Kevin Foreman';
+<?php $name = 'Kevin Foreman';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Kevin Foreman</h3>
@@ -29,4 +29,4 @@ require("../common/common.inc"); common_header(); ?>
 	        <li><a href="http://www.archive.org/download/SCALE3xKevinFormanHelixProject/KevinIntro.ogg">OGG</a> (63.1MB)</li>
 	</ul>
 	</p>
-	<? common_footer(); ?>
+	<?php common_footer(); ?>

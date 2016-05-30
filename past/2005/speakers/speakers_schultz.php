@@ -1,4 +1,4 @@
-<? $name = 'Jason Schultz';
+<?php $name = 'Jason Schultz';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Jason Schultz</h3>
@@ -24,5 +24,5 @@ require("../common/common.inc"); common_header(); ?>
 	to the law as well as building community defense resources.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

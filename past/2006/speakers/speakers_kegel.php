@@ -1,4 +1,4 @@
-<? $name = 'Dan Kegel';
+<?php $name = 'Dan Kegel';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Dan Kegel</h3>
@@ -12,5 +12,5 @@ require("../common/common.inc"); common_header(); ?>
 	Wine Presentation Slides: <a href="http://kegel.com/wine/scale4.pdf">PDF</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

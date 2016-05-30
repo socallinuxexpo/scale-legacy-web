@@ -1,4 +1,4 @@
-<? $name = 'Glenn Flinchbaugh';
+<?php $name = 'Glenn Flinchbaugh';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Glenn Flinchbaugh</h3>
@@ -27,5 +27,5 @@ require("../common/common.inc"); common_header(); ?>
 	open-source software availability.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

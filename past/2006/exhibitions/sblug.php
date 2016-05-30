@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -18,5 +18,5 @@ require("../common/common.inc"); common_header(); ?>
 	It is designed to share up to two USB HDs or flash drives to a small network using Samba. You can of course flash a replacement firmware on it, and from there, the sky seems to be the limit! 
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

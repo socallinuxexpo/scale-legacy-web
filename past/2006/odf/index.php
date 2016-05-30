@@ -1,4 +1,4 @@
-<? $name = 'OpenDocument Workshop';
+<?php $name = 'OpenDocument Workshop';
 require("../common/common.inc"); common_header(); ?>
 
 <h3>
@@ -25,7 +25,7 @@ Topics to be covered at this workshop include:<br />
 </ul>
 </p>
 
-<? require("schedule.php"); ?>
+<?php require("schedule.php"); ?>
 
 
 <b>About The OpenDocument Format (ODF):</b><br /><br />
@@ -57,4 +57,4 @@ ilan@socallinuxexpo.org<br />
 </p>
 
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

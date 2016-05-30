@@ -1,4 +1,4 @@
-<? $name = 'Ted Gould';
+<?php $name = 'Ted Gould';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Ted Gould</h3>
@@ -27,5 +27,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	creating SVG graphics with Inkscape.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

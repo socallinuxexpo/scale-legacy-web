@@ -1,4 +1,4 @@
-<? $name = 'Press Release - Call For Papers';
+<?php $name = 'Press Release - Call For Papers';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Southern California Linux Expo (SCALE 3X) 2005 - Call For Papers</h3>
@@ -68,5 +68,5 @@ require("../common/common.inc"); common_header(); ?>
 	<a href="../pr.php">Back...</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

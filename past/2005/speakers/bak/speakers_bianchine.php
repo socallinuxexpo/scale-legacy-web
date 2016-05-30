@@ -1,4 +1,4 @@
-<? $name = 'Jeffrey Bianchine';
+<?php $name = 'Jeffrey Bianchine';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Jeffrey Bianchine</h3>
@@ -45,5 +45,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	new tool development discussed.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

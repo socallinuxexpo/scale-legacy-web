@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Digium';
+<?php $name = 'Exhibitions - Digium';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -13,4 +13,4 @@ require("../common/common.inc"); common_header(); ?>
 	Digium provides hardware and software products developed using innovative engineering techniques. A full range of professional services complement these product lines.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

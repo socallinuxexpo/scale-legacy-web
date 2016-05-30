@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<p CLASS="bgblack">Exhibitions</p>
 
@@ -14,5 +14,5 @@ require("../common/common.inc"); common_header(); ?>
 	Terminal Server Project, will be speaking at SCALE 2003.<br><br>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Media';
+<?php $name = 'Media';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Press Releases</p>
@@ -86,5 +86,5 @@ require("common/common.inc"); common_header(); ?>
 	<a HREF="mailto:info=at=socallinuxexpo.com">contact us</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

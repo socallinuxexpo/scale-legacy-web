@@ -1,4 +1,4 @@
-<? $name = '2003 Speaker Videos';
+<?php $name = '2003 Speaker Videos';
 require("common/common.inc"); common_header(); ?>
 
 	<h3>Presentations</h3>
@@ -47,5 +47,5 @@ require("common/common.inc"); common_header(); ?>
 	Seth Nickell</a> - The Unified Linux Desktop</li>
 	</ul>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

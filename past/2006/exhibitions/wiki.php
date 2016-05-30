@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -17,5 +17,5 @@ require("../common/common.inc"); common_header(); ?>
 	For more information on the Wikimedia Foundation, please visit <a href="http://www.wikipedia.org">www.wikipedia.org</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -21,5 +21,5 @@ require("../common/common.inc"); common_header(); ?>
 	To learn more about Emic Networks, please visit <a href="http://www.emicnetworks.com/">www.emicnetworks.com</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

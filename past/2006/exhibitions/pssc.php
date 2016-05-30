@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - PSSC Labs';
+<?php $name = 'Exhibitions - PSSC Labs';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -19,4 +19,4 @@ require("../common/common.inc"); common_header(); ?>
 	level of product knowledge, product quality, service and support.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

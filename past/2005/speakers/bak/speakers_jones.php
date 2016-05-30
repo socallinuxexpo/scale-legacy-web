@@ -1,4 +1,4 @@
-<? $name = 'Tim Jones';
+<?php $name = 'Tim Jones';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Tim Jones</h3>
@@ -45,5 +45,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	<li>Remote Storage - Near Line or Off Line</li>
 	</ul>
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

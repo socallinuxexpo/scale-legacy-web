@@ -1,4 +1,4 @@
-<? $name = 'Sponsors';
+<?php $name = 'Sponsors';
 require("common/common.inc"); common_header(); ?>
 
 	<div id="banner">
@@ -66,5 +66,5 @@ require("common/common.inc"); common_header(); ?>
 	SugarCRM is the premier commercial open source customer relationship management application provider, breaking the rules set by conventional CRM solutions. The limitations of traditional CRM software can be summarized by the lack of flexibility, high costs, and closed-source structure which is embedded into the traditional product offerings. This has led to a failure rate of over 70% with traditional CRM implementations.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

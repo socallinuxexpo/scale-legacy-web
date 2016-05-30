@@ -1,4 +1,4 @@
-<? $name = 'Press Release - SCALE 3x Plans Panel Discussion on the Future of Voice Over IP and Open Source';
+<?php $name = 'Press Release - SCALE 3x Plans Panel Discussion on the Future of Voice Over IP and Open Source';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>SCALE 3x Plans Panel Discussion on the Future of Voice Over IP and Open Source</h3>
@@ -55,6 +55,6 @@ require("../common/common.inc"); common_header(); ?>
 	<a href="../pr.php">Back...</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 
 

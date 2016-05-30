@@ -1,4 +1,4 @@
-<? $name = 'David Uhlman';
+<?php $name = 'David Uhlman';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>David Uhlman</h3>
@@ -26,5 +26,5 @@ require("../common/common.inc"); common_header(); ?>
 	application suites that can be used in your business.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

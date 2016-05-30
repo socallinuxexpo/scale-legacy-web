@@ -1,4 +1,4 @@
-<? $name = 'Adam Leventhal - Performance Tuning Linux Applications With DTrace';
+<?php $name = 'Adam Leventhal - Performance Tuning Linux Applications With DTrace';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Adam Leventhal</h3>
@@ -51,5 +51,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/adam_leventhal_scale4x.pdf">PDF</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

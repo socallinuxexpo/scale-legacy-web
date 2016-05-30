@@ -1,4 +1,4 @@
-<? $name = 'Daryll Strauss';
+<?php $name = 'Daryll Strauss';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Daryll Strauss</h3>
@@ -22,5 +22,5 @@ require("../common/common.inc"); common_header(); ?>
 	<li><a href="http://audio51.archive.org/2/audio/DaryllStrausSCALE3x2005-02-13/SCALE3x-DaryllStraus.mp3">MP3</a> (77.2MB) <br>
 	<li><a href="http://www.archive.org/download/DaryllStrausSCALE3x2005-02-13/SCALE3x-DaryllStraus.ogg">OGG</a> (67.3MB)
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

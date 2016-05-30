@@ -1,4 +1,4 @@
-<? $name = 'Randy Dunlap';
+<?php $name = 'Randy Dunlap';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Randy Dunlap</h3>
@@ -33,5 +33,5 @@ require("../common/common.inc"); common_header(); ?>
 	<li><a href="http://www.archive.org/download/SCALE3X_RandyDunlap/SCALE3X_RandyDunlap.ogg">OGG</a>(32.6MB)</li>
 	<li><a href="http://www.archive.org/download/SCALE3X_RandyDunlap/SCALE3X_RandyDunlap_64kb.mp3">MP3</a>(32.4MB)</li>
 	</ul>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

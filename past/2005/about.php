@@ -1,4 +1,4 @@
-<? $name = 'About The LUGs';
+<?php $name = 'About The LUGs';
 require("common/common.inc"); common_header(); ?>
 
 	<h3>About The Southern California Linux Expo 2005</h3>
@@ -91,4 +91,4 @@ require("common/common.inc"); common_header(); ?>
 
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

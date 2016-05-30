@@ -1,4 +1,4 @@
-<? $name = 'Introduction';
+<?php $name = 'Introduction';
 require("common/common.inc"); common_header(); ?>
 
 	<p class="fantasy">
@@ -57,4 +57,4 @@ require("common/common.inc"); common_header(); ?>
 	We are now officially a non-profit organization.</li>
 	</ul>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

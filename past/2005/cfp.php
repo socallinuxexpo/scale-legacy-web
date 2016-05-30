@@ -1,4 +1,4 @@
-<? $name = 'Call For Papers';
+<?php $name = 'Call For Papers';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Call For Papers</p>
@@ -56,6 +56,6 @@ require("common/common.inc"); common_header(); ?>
 	Please send your paper proposal, preferably in HTML or ASCII format, to
 	<a href="mailto:kapadia=at=socallinuxexpo.com">kapadia=at=socallinuxexpo.com</a>.
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 
 

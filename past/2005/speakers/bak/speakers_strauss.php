@@ -1,4 +1,4 @@
-<? $name = 'Daryll Strauss';
+<?php $name = 'Daryll Strauss';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Daryll Strauss</h3>
@@ -17,5 +17,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	This talk will approach Asterisk and VOIP from the ground up. It starts with an introduction to the technology and terminology used in telephony. It will point out some examples of the technology that can be used. Once the base is established, the talk will move on to describe some typical telephony applications and show how Asterisk and VOIP can be used to solve them. 
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

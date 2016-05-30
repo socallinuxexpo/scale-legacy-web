@@ -1,4 +1,4 @@
-<? $name = 'Jeff Waugh';
+<?php $name = 'Jeff Waugh';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Jeff Waugh</h3>
@@ -12,5 +12,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	<a href="http://www.slug.org.au/">Sydney Linux Users Group</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

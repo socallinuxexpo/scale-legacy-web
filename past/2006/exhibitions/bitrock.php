@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - BitRock';
+<?php $name = 'Exhibitions - BitRock';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -16,4 +16,4 @@ require("../common/common.inc"); common_header(); ?>
         <img src="/images/sponsors/bitrock.jpg" alt="BitRock" class="floatimgleft" /></a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

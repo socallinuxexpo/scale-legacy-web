@@ -1,4 +1,4 @@
-<? $name = 'Press Release - Announcing SCALE 3X';
+<?php $name = 'Press Release - Announcing SCALE 3X';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Announcing SCALE 3X</h3>
@@ -39,5 +39,5 @@ require("../common/common.inc"); common_header(); ?>
 	<a href="../pr.php">Back...</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

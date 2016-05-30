@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -16,5 +16,5 @@ require("../common/common.inc"); common_header(); ?>
 	 For more information visit the Project T.E.C.H web site at: <a href="http://www.fsstech.org">www.fsstech.org</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

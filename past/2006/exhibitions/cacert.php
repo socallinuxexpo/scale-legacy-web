@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -13,5 +13,5 @@ CAcert's goal is to promote awareness and education on computer security through
 	 For more information visit the CACert website at: <a href="http://www.cacert.org">www.cacert.org</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

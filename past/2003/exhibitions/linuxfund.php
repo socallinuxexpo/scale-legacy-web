@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<p CLASS="bgblack">Exhibitions</p>
 
@@ -19,5 +19,5 @@ require("../common/common.inc"); common_header(); ?>
 	</p>
 	<a href=http://www.linuxfund.org><img src=http://www.linuxfund.org/images/linuxfund-helpfeed-new.gif></a>
 	
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

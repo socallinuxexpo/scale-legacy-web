@@ -1,4 +1,4 @@
-<? $name = 'Thomas Lockhart';
+<?php $name = 'Thomas Lockhart';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Thomas Lockhart</p>
@@ -25,5 +25,5 @@ require("../common/common.inc"); common_header(); ?>
 	as a core member of the PostgreSQL group.<br><br>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

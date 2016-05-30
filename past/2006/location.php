@@ -1,4 +1,4 @@
-<? $name = 'Location';
+<?php $name = 'Location';
 require("common/common.inc"); common_header(); ?>
 
 	<h3>Location</h3>
@@ -94,5 +94,5 @@ require("common/common.inc"); common_header(); ?>
 
 	//-->
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

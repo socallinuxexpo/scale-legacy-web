@@ -1,4 +1,4 @@
-<? $name = 'Committees';
+<?php $name = 'Committees';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Committees</p>
@@ -83,5 +83,5 @@ require("common/common.inc"); common_header(); ?>
 	<a HREF="mailto:kilroy=at=usc.edu">USCLUG:</a> Scott Kilroy<br>
 	</p>
 	
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Social Events -- Key Signing Party';
+<?php $name = 'Social Events -- Key Signing Party';
 require("../common/common.inc"); common_header(); ?>
 	<p CLASS="bgblack">Social Events</p>
 
@@ -31,4 +31,4 @@ require("../common/common.inc"); common_header(); ?>
 	 <li><a href="http://www.linuxmafia.com/faq/Security/gnupg.html">GnuPG Overview</a> - http://www.linuxmafia.com/faq/Security/gnupg.html</li>
 	 <li><a href="http://www.cerritoslug.org/keysigning.php">Ceritos LUG Users Group: Keysigning Party Guide</a> - http://www.cerritoslug.org/keysigning.php</li>
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>

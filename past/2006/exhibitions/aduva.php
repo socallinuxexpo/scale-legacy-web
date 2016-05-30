@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Aduva';
+<?php $name = 'Exhibitions - Aduva';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -10,4 +10,4 @@ require("../common/common.inc"); common_header(); ?>
 	The outcome for Aduva customers: successful automated deployments of application installations, configurations, change and updates for complex, large and evolving Linux and Solaris systems, managed in an easy, error ree, time-saving manner.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

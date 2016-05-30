@@ -1,4 +1,4 @@
-<? $name = 'Purchase Tickets';
+<?php $name = 'Purchase Tickets';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Purchase Tickets</p>
@@ -62,5 +62,5 @@ require("common/common.inc"); common_header(); ?>
 	information, <a HREF="mailto:leiz=at=socallinuxexpo.com">contact us</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

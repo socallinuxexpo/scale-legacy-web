@@ -1,4 +1,4 @@
-<? $name = 'Alexander Perry';
+<?php $name = 'Alexander Perry';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Alexander Perry</h3>
@@ -40,5 +40,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	importance of licensing and discuss the General Public License (GPL)
 	and how it assists in the development of new products.
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

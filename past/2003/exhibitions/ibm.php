@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<p CLASS="bgblack">Exhibitions</p>
 	<b>Booth #21</b><br>
@@ -10,5 +10,5 @@ require("../common/common.inc"); common_header(); ?>
 	
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

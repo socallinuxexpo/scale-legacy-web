@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Digilink';
+<?php $name = 'Exhibitions - Digilink';
 require("../common/common.inc"); common_header(); ?>
 	<p CLASS="bgblack">Exhibitions</p>
 
@@ -10,5 +10,5 @@ require("../common/common.inc"); common_header(); ?>
         DigiLink offers DigiDial-VoIP, T1, T3, DSL, Co-Lo, Web Hosting, hardware, Anti-Spam, WAN Management, VPN, Wiring & Cabling and Network Consulting 
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

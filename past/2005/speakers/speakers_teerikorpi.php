@@ -1,4 +1,4 @@
-<? $name = 'Eero Teerikorpi';
+<?php $name = 'Eero Teerikorpi';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Eero Teerikorpi</h3>
@@ -39,5 +39,5 @@ require("../common/common.inc"); common_header(); ?>
 	<li><a href="http://www.archive.org/download/SCALE3xEeroEMIC/SCALE3x-EeroTeerikorpi.ogg">OGG</a> (31MB)</li>
 	</ul>
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

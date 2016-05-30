@@ -1,4 +1,4 @@
-<? $name = 'Press Release - SCALE Bulks Up With More Exhibitors';
+<?php $name = 'Press Release - SCALE Bulks Up With More Exhibitors';
 require("../common/common.inc"); common_header(); ?>
 
 <h3>SCALE Bulks Up With More Exhibitors</h3>
@@ -89,6 +89,6 @@ gareth@socallinuxexpo.org<br />
 <a href="../pr.php">Back...</a>
 </p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 
 

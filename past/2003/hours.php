@@ -1,4 +1,4 @@
-<? $name = 'Expo Hours';
+<?php $name = 'Expo Hours';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Expo Hours</p>
@@ -143,5 +143,5 @@ require("common/common.inc"); common_header(); ?>
 	* The schedule of events is subjected to change without prior notifications.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

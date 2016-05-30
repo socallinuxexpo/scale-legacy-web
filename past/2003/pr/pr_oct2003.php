@@ -1,4 +1,4 @@
-<? $name = 'October Press Release - The So Cal Linux Expo Continues to Grow';
+<?php $name = 'October Press Release - The So Cal Linux Expo Continues to Grow';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">The So Cal Linux Expo Continues to Grow</p>
@@ -37,5 +37,5 @@ other conference does!<br><br>
 	<p>
 	<a HREF="../pr.php">Back...</a>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

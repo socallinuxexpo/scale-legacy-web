@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Day Software';
+<?php $name = 'Exhibitions - Day Software';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -12,5 +12,5 @@ require("../common/common.inc"); common_header(); ?>
 	To learn more about Day Software, please visit <a href="http://www.day.com/">www.day.com</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

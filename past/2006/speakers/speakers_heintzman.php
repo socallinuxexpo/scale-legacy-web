@@ -1,4 +1,4 @@
-<? $name = 'Doug Heintzman';
+<?php $name = 'Doug Heintzman';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Doug Heintzman</h3>
@@ -14,5 +14,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/Eisenberg.zip">ZIP</a>, <a href="http://odf.oldos.org/presentation/scale_presentation/index.html">Browse on-line</a>
 	</p>
 	-->
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

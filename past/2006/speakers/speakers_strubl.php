@@ -1,4 +1,4 @@
-<? $name = 'Susy Struble';
+<?php $name = 'Susy Struble';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Susy Struble</h3>
@@ -11,5 +11,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/Susy-Struble.odp">ODF</a>, <a href="/past/2006/presentations/Susy-Struble.pdf">PDF</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

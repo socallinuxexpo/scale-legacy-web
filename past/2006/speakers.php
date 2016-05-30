@@ -1,4 +1,4 @@
-<? $name = 'Speakers';
+<?php $name = 'Speakers';
 require("common/common.inc"); common_header(); ?>
 
 	<h3>Speakers</h3>
@@ -63,4 +63,4 @@ require("common/common.inc"); common_header(); ?>
 	and more....
 	</ul>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

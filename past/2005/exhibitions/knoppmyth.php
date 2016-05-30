@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -13,5 +13,5 @@ require("../common/common.inc"); common_header(); ?>
 	For more information see the <a href="http://www.mysettopbox.tv/knoppmyth.html">KnoppMyth website</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

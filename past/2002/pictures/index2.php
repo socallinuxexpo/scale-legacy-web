@@ -1,4 +1,4 @@
-<? $name = 'Event Pictures';
+<?php $name = 'Event Pictures';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">
@@ -46,5 +46,5 @@ require("../common/common.inc"); common_header(); ?>
 	</tr>
 	</table>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

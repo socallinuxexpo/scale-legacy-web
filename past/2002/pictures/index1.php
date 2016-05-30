@@ -1,4 +1,4 @@
-<? $name = 'Event Pictures';
+<?php $name = 'Event Pictures';
 require("../common/common.inc"); common_header(); ?>
 
 <script LANGUAGE="JavaScript">
@@ -79,5 +79,5 @@ window.open(strUrl, "New", strNewOptions);
 	</tr>
 	</table>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

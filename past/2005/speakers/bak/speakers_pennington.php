@@ -1,4 +1,4 @@
-<? $name = 'Walt Pennington and Darya Mazandarany';
+<?php $name = 'Walt Pennington and Darya Mazandarany';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Walt Pennington and Darya Mazandarany</h3>
@@ -41,5 +41,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	OSCAR); and Open source CRM applications (XRMS and SugarCRM).
 
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

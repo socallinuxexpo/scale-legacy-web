@@ -1,4 +1,4 @@
-<? $name = 'Social Events -- Speaker Dinner';
+<?php $name = 'Social Events -- Speaker Dinner';
 require("../common/common.inc"); common_header(); ?>
 	<p CLASS="bgblack">Social Events</p>
 
@@ -19,5 +19,5 @@ require("../common/common.inc"); common_header(); ?>
 
 	If you would like to suggest additional categories <a href="mailto:ilan=at=socallinuxexpo.org">contact us</a>.
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Press Release - So Cal Linux Expo Early Registration Ending';
+<?php $name = 'Press Release - So Cal Linux Expo Early Registration Ending';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>So Cal Linux Expo Early Registration Ending</h3>
@@ -65,7 +65,7 @@ require("../common/common.inc"); common_header(); ?>
 	<a href="../pr.php">Back...</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 
 
 

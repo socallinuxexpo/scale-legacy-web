@@ -1,4 +1,4 @@
-<? $name = 'Arif Sayed';
+<?php $name = 'Arif Sayed';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Arif Sayed</h3>
@@ -44,5 +44,5 @@ require("../common/common.inc"); common_header(); ?>
 	certification is beneficial to candidates working in this field.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

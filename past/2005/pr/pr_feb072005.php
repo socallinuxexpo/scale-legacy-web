@@ -1,4 +1,4 @@
-<? $name = 'Press Release -  IBM To Demonstrate New OpenPower Server at SCALE 3x';
+<?php $name = 'Press Release -  IBM To Demonstrate New OpenPower Server at SCALE 3x';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>IBM To Demonstrate New OpenPower Server at SCALE 3x</h3>
@@ -56,6 +56,6 @@ require("../common/common.inc"); common_header(); ?>
 	<a href="../pr.php">Back...</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 
 

@@ -1,4 +1,4 @@
-<?
+<?php
 
 // header("Location: http://www.socallinuxexpo.org/scale5x/past/");
 
@@ -19,5 +19,5 @@ require("../scale5x/common/common.inc"); common_header(); ?>
 	<li><a href="2005/">SCALE 3x: Third Annual Southern California Linux Expo (2005)</a></li>
 	<li><a href="2006/">SCALE 4x: Fourth Annnual Southern California Linux Expo (2006)</a></li>
 	</ul>
-<? common_footer(); */?>
+<?php common_footer(); */?>
 

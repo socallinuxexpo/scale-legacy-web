@@ -1,4 +1,4 @@
-<? $name = 'David Uhlman';
+<?php $name = 'David Uhlman';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>David Uhlman</h3>
@@ -39,5 +39,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/david_uhlman_scale4x.pdf">PDF</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

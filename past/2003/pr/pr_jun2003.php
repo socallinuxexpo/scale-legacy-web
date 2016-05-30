@@ -1,4 +1,4 @@
-<? $name = 'June Press Release - Sponsors and Speakers Join SCALE 2X ';
+<?php $name = 'June Press Release - Sponsors and Speakers Join SCALE 2X ';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">June Press Release - Sponsors and Speakers Join SCALE 2X </p>
@@ -64,5 +64,5 @@ SCALE 2X will be November 22nd, 2003 at the Los Angeles Convention Center. For u
 	<p>
 	<a HREF="../pr.php">Back...</a>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

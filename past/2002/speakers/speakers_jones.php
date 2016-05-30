@@ -1,4 +1,4 @@
-<? $name = 'Tim Jones';
+<?php $name = 'Tim Jones';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Tim Jones</p>
@@ -37,5 +37,5 @@ require("../common/common.inc"); common_header(); ?>
 	recovery plan centered around a Linux environment."
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - TOLIS Group';
+<?php $name = 'Exhibitions - TOLIS Group';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -18,4 +18,4 @@ require("../common/common.inc"); common_header(); ?>
 	To learn more about the BRU technology, please visit <a href="http://www.tolisgroup.com/">www.tolisgroup.com</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

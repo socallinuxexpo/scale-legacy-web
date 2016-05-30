@@ -1,4 +1,4 @@
-<? $name = 'Sponsors';
+<?php $name = 'Sponsors';
 require("../common/common.inc"); common_header(); ?>
 
 	<!--
@@ -344,5 +344,5 @@ require("../common/common.inc"); common_header(); ?>
 	818-442-1865 Voice<br>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

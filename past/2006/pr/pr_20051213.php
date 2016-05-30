@@ -1,4 +1,4 @@
-<? $name = 'Press Release - SCALE Bulks Up With More Exhibitors';
+<?php $name = 'Press Release - SCALE Bulks Up With More Exhibitors';
 require("../common/common.inc"); common_header(); ?>
 
 <h3>SCALE 4x Online Registration Now Open</h3>
@@ -64,4 +64,4 @@ To learn more about sponsoring SCALE, to submit a paper, or to get additional in
 <a href="../pr.php">Back...</a>
 </p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

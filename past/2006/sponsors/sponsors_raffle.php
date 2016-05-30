@@ -1,4 +1,4 @@
-<? $name = 'Raffle Sponsors';
+<?php $name = 'Raffle Sponsors';
 require("../common/common.inc"); common_header(); ?>
 
 	<div id="banner">
@@ -67,5 +67,5 @@ require("../common/common.inc"); common_header(); ?>
 	<img src="http://www.bgcg.net/bawls_banner/bawlsbannerfill.gif">
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

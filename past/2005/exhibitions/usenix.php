@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Linux Terminal Server Project';
+<?php $name = 'Exhibitions - Linux Terminal Server Project';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -14,5 +14,5 @@ require("../common/common.inc"); common_header(); ?>
 
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

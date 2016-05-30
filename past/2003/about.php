@@ -1,4 +1,4 @@
-<? $name = 'About The LUGs';
+<?php $name = 'About The LUGs';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">
@@ -70,4 +70,4 @@ require("common/common.inc"); common_header(); ?>
 
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

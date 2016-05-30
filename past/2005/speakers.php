@@ -1,4 +1,4 @@
-<? $name = 'Speakers';
+<?php $name = 'Speakers';
 require("common/common.inc"); common_header(); ?>
 
 	<h3>Speakers</h3>
@@ -56,5 +56,5 @@ require("common/common.inc"); common_header(); ?>
 	<li><a href="speakers/panel_voip.php">The Future of Voice over IP and Open Source</a>
 	</ul>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

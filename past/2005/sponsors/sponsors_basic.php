@@ -1,4 +1,4 @@
-<? $name = 'Basic Sponsors';
+<?php $name = 'Basic Sponsors';
 require("../common/common.inc"); common_header(); ?>
 
 	<div id="banner">
@@ -88,5 +88,5 @@ require("../common/common.inc"); common_header(); ?>
 	<br /><br />
 	Sophos is a world leader in protecting businesses against viruses and spam. Over 25 million users from organisations of all sizes already benefit from our software and first-class 24/7 support. Our vision, commitment to research and development, and rigorous attention to quality have taken us from strength to strength. 
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

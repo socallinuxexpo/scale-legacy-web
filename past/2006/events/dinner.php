@@ -1,4 +1,4 @@
-<? $name = 'Social Events -- Speaker Dinner';
+<?php $name = 'Social Events -- Speaker Dinner';
 require("../common/common.inc"); common_header(); ?>
 	<p CLASS="bgblack">Social Events</p>
 
@@ -19,5 +19,5 @@ require("../common/common.inc"); common_header(); ?>
 	Phone: 213-385-7141 / 888-385-9889<br />
 	<a href="http://maps.google.com/maps?q=1901%20W%20Olympic%20Blvd%2C%2090015&ll=34.052429%2C-118.276996&spn=0.028442%2C0.029821">Map and Directions</a><br />
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

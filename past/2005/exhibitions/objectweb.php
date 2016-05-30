@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -21,5 +21,5 @@ require("../common/common.inc"); common_header(); ?>
 	Website: <a href="http://www.objectweb.org">www.objectweb.org</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

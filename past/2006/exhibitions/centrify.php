@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Centrify';
+<?php $name = 'Exhibitions - Centrify';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -19,5 +19,5 @@ require("../common/common.inc"); common_header(); ?>
 	regulatory requirements.
 	<br><br>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

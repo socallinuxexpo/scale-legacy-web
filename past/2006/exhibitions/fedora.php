@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -13,5 +13,5 @@ Fedora Core, the central Fedora project, is an operating system and platform, ba
 	 For more information visit the Fedora Project website at: <a href="http://fedora.redhat.com">fedora.redhat.com</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

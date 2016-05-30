@@ -1,4 +1,4 @@
-<? $name = 'August Press Release - Looking For a Few Good ORGs';
+<?php $name = 'August Press Release - Looking For a Few Good ORGs';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Looking For a Few Good ORGs</p>
@@ -23,5 +23,5 @@ November 22nd may sound like a long ways off, but it's not. There's a lot to do 
 	<p>
 	<a HREF="../pr.php">Back...</a>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

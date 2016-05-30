@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - FlightGear';
+<?php $name = 'Exhibitions - FlightGear';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -21,5 +21,5 @@ representing additional aircraft types and models.<br /><br />
 	For more information on FlightGear see: <a href="http://www.flightgear.org">www.flightgear.org</a>. Additional information on the 747 Simulator Project can be found on the FlightGear website under the <a href="http://www.flightgear.org/Projects/">www.flightgear.org/Projects</a> page.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

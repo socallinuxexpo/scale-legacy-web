@@ -1,4 +1,4 @@
-<? $name = 'The Future of VoIP and Open Source';
+<?php $name = 'The Future of VoIP and Open Source';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Panel: The future of VoIP and Open Source</h3>
@@ -31,5 +31,5 @@ require("../common/common.inc"); common_header(); ?>
 	is a pioneer in the Linux community. He started using Unix systems while in college at Carnegie Mellon back in 1984. He has been involved in the Linux and open source community since 1995. His first open source program was a driver to support the original Connectix QuickCam. He is responsible for the first hardware accelerated 3D support for Linux on the 3dfx Voodoo Graphics card and built the Linux cluster used to render images for Titanic.  He is now president of Digital Ordinance, a company that produces hardware and software to support HDTV and film post production.  Mr. Strauss will also be hosting a seminar titled: <a href="/past/2005/speakers/speakers_strauss.php">Open Source Telephony Using Asterisk and VOIP</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

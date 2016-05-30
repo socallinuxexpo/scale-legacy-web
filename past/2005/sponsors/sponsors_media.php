@@ -1,4 +1,4 @@
-<? $name = 'Media Sponsors';
+<?php $name = 'Media Sponsors';
 require("../common/common.inc"); common_header(); ?>
 
 	<div id="banner">
@@ -152,5 +152,5 @@ require("../common/common.inc"); common_header(); ?>
 	proper perspective.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

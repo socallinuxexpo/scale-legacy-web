@@ -1,4 +1,4 @@
-<? $name = 'Charles Wyble -  The Open Source Exchange Replacement Project';
+<?php $name = 'Charles Wyble -  The Open Source Exchange Replacement Project';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Charles Wyble</h3>
@@ -27,5 +27,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/charles_wyble_scale4x.pdf">PDF</a> <a href="/past/2006/presentations/charles_wyble_scale4x.odp">OpenOffice</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

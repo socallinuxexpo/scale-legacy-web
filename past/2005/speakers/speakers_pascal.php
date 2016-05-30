@@ -1,4 +1,4 @@
-<? $name = 'Charles Pascal';
+<?php $name = 'Charles Pascal';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Charles Pascal</h3>
@@ -15,5 +15,5 @@ require("../common/common.inc"); common_header(); ?>
 	certification is beneficial to candidates working in this field.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

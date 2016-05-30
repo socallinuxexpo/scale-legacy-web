@@ -1,4 +1,4 @@
-<? $name = 'Dan Frye';
+<?php $name = 'Dan Frye';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Dan Frye</p>
@@ -20,5 +20,5 @@ require("../common/common.inc"); common_header(); ?>
 	<i>Dr. Frye's talk is titled "The Next step: Linux in an on Demand World"</i><br><br>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

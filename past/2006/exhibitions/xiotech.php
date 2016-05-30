@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Xiotech';
+<?php $name = 'Exhibitions - Xiotech';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -19,4 +19,4 @@ require("../common/common.inc"); common_header(); ?>
 	For more information, visit <a href="http://www.xiotech.com">www.xiotech.com</a>, email info@Xiotech.com, or call toll free 1.866.472.6764.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

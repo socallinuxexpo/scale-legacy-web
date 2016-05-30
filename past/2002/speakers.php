@@ -1,4 +1,4 @@
-<? $name = 'Speakers';
+<?php $name = 'Speakers';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Speakers</p>
@@ -37,5 +37,5 @@ require("common/common.inc"); common_header(); ?>
 	<a HREF="speakers/speakers_steding.php">Ray Steding</a>
 	(LPBN Founder)<br><br>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

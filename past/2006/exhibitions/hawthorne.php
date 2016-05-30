@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -13,5 +13,5 @@ require("../common/common.inc"); common_header(); ?>
 	 For more information visit the Hawthorne Center for Innovation at: <a href="http://www.hawcenter.org">www.hawcenter.org</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'David Mandelstam';
+<?php $name = 'David Mandelstam';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>David Mandelstam</h3>
@@ -35,5 +35,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/david_mandelstam_scale4x.pps">Powerpoint</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

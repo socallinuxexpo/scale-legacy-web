@@ -1,4 +1,4 @@
-<? $name = 'Press Release - Linux and the So Cal Linux Expo to be discussed on Los Angeles Radio Station';
+<?php $name = 'Press Release - Linux and the So Cal Linux Expo to be discussed on Los Angeles Radio Station';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Linux and the So Cal Linux Expo to be discussed on Los Angeles Radio Station</h3>
@@ -19,6 +19,6 @@ require("../common/common.inc"); common_header(); ?>
 	<a href="../pr.php">Back...</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 
 

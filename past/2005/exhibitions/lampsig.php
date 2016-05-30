@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - LAMPSIG';
+<?php $name = 'Exhibitions - LAMPSIG';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -17,5 +17,5 @@ require("../common/common.inc"); common_header(); ?>
 	For more information on LAMPSIG, please vist <a href="http://www.lampsig.org">www.lampsig.org</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

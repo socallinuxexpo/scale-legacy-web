@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -18,5 +18,5 @@ require("../common/common.inc"); common_header(); ?>
 	To learn more about the Debian project see their website at: <a href="http://www.debian.org">www.debian.org</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

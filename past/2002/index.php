@@ -1,4 +1,4 @@
-<? $name = 'Introduction';
+<?php $name = 'Introduction';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="fantasy">
@@ -34,5 +34,5 @@ require("common/common.inc"); common_header(); ?>
 	
 	<a HREF="background.php">More...</a>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

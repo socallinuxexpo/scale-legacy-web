@@ -1,4 +1,4 @@
-<? $name = 'Matt Asay';
+<?php $name = 'Matt Asay';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Matt Asay</h3>
@@ -51,5 +51,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/matt_asay_scale4x.sxd">OpenOffice</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

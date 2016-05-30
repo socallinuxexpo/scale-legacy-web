@@ -1,4 +1,4 @@
-<? $name = 'Presentations';
+<?php $name = 'Presentations';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Presentations</p>
@@ -171,5 +171,5 @@ require("common/common.inc"); common_header(); ?>
 	[Bio - Daniel Morales]</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Press Release -  2006 Southern California Linux Expo Call For Papers';
+<?php $name = 'Press Release -  2006 Southern California Linux Expo Call For Papers';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>2006 Southern California Linux Expo Call For Papers</h3>
@@ -82,6 +82,6 @@ Important Dates:
 	<a href="../pr.php">Back...</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 
 

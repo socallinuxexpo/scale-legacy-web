@@ -1,4 +1,4 @@
-<? $name = 'Events: Conference Raffle';
+<?php $name = 'Events: Conference Raffle';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Events: Conference Raffle</p>
@@ -9,5 +9,5 @@ require("../common/common.inc"); common_header(); ?>
 	raffle please <a href="mailto:ilan=at=socallinuxexpo.org">contact us</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

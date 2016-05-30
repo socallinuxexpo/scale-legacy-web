@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - ABCO';
+<?php $name = 'Exhibitions - ABCO';
 require("../common/common.inc"); common_header(); ?>
 <h3>Exhibitions</h3>
 
@@ -36,5 +36,5 @@ courses and certifications in the following subjects:<br><br>
 
 	</p>
 
-	<? common_footer(); ?>
+	<?php common_footer(); ?>
 

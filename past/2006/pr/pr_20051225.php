@@ -1,4 +1,4 @@
-<? $name = 'OpenDocument Workshop';
+<?php $name = 'OpenDocument Workshop';
 require("../common/common.inc"); common_header(); ?>
 
 <h3>
@@ -67,4 +67,4 @@ ilan@socallinuxexpo.org<br />
 </p>
 
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

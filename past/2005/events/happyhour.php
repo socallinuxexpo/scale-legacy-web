@@ -1,4 +1,4 @@
-<? $name = 'Social Events -- Happy Hour';
+<?php $name = 'Social Events -- Happy Hour';
 require("../common/common.inc"); common_header(); ?>
 	<p CLASS="bgblack">Social Events</p>
 
@@ -21,4 +21,4 @@ require("../common/common.inc"); common_header(); ?>
 	 Tel: (213) 748-1291 <br />
 	
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>

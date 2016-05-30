@@ -1,4 +1,4 @@
-<? $name = 'Aaron Seigo';
+<?php $name = 'Aaron Seigo';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Aaron Seigo</h3>
@@ -21,5 +21,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/aaron_seigo_scale4x.tar.bz2">HTML Tarball</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

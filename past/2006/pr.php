@@ -1,4 +1,4 @@
-<? $name = 'Media';
+<?php $name = 'Media';
 require("common/common.inc"); common_header(); ?>
 
 	<h3>Press Releases</h3>
@@ -295,5 +295,5 @@ require("common/common.inc"); common_header(); ?>
 	<a href="mailto:info=at=socallinuxexpo.com">contact us</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

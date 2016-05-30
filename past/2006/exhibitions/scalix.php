@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Scalix';
+<?php $name = 'Exhibitions - Scalix';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -19,4 +19,4 @@ require("../common/common.inc"); common_header(); ?>
 	licensing lock-in.<br /><br />
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -16,5 +16,5 @@ require("../common/common.inc"); common_header(); ?>
 	 For more information visit the NetBSD website at: <a href="http://www.netbsd.org">www.netbsd.org</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

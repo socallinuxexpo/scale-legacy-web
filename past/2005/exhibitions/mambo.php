@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Mambo Server';
+<?php $name = 'Exhibitions - Mambo Server';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -15,5 +15,5 @@ require("../common/common.inc"); common_header(); ?>
 	Website: <a href="http://www.mamboserver.com">www.mamboserver.com</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

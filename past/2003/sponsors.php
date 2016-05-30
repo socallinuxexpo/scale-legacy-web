@@ -1,4 +1,4 @@
-<? $name = 'Sponsors';
+<?php $name = 'Sponsors';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">A special thanks</p>
@@ -246,5 +246,5 @@ require("common/common.inc"); common_header(); ?>
 	company info and a contact name and email.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

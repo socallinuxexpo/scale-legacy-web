@@ -1,4 +1,4 @@
-<? $name = 'May Press Release - SoCal Linux Expo 2003 Calls For Papers ';
+<?php $name = 'May Press Release - SoCal Linux Expo 2003 Calls For Papers ';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">SoCal Linux Expo 2003 Calls For Papers </p>
@@ -33,5 +33,5 @@ Please send your paper proposal, perferably in HTML or ASCII format, to <a HREF=
 	<p>
 	<a HREF="../pr.php">Back...</a>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

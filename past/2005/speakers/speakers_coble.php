@@ -1,4 +1,4 @@
-<? $name = 'Charles Coble';
+<?php $name = 'Charles Coble';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Charles Coble</h3>
@@ -32,5 +32,5 @@ require("../common/common.inc"); common_header(); ?>
 	criteria. Finally, we will propose some suggestions for solutions to
 	Linux application clustering.
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

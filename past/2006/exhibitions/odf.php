@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -12,5 +12,5 @@ require("../common/common.inc"); common_header(); ?>
 	 For more information visit the Open Document Fellowship web site at: <a href="http://opendocumentfellowship.org/">http://opendocumentfellowship.org/</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

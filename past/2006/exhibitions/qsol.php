@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - QSOL';
+<?php $name = 'Exhibitions - QSOL';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -10,4 +10,4 @@ QSOL.COM, Inc. based in Los Angeles, is a worldwide rackmount server manufacture
 	To learn more about QSOL, please visit <a href="http://www.qsol.com/">www.qsol.com</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

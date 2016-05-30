@@ -1,4 +1,4 @@
-<? $name = 'Directions';
+<?php $name = 'Directions';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Directions to the Davidson Conference Center</p>
@@ -14,5 +14,5 @@ require("common/common.inc"); common_header(); ?>
 	Jefferson/Figueroa Parking Lot just past the Sizzler Restaurant.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

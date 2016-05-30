@@ -1,4 +1,4 @@
-<? $name = 'Kevin Bedell';
+<?php $name = 'Kevin Bedell';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Kevin Bedell</h3>
@@ -12,5 +12,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	<p>
 	Kevin's talk is titled: "The Case for Open Source/Closed Standards"
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Linux Terminal Server Project';
+<?php $name = 'Exhibitions - Linux Terminal Server Project';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -16,5 +16,5 @@ require("../common/common.inc"); common_header(); ?>
 	For more information, please visit <a href="http://www.ltsp.org">www.ltsp.org</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

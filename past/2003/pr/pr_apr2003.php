@@ -1,4 +1,4 @@
-<? $name = 'April Press Release - The 2003 SoCal Linux Expo is November 22nd!';
+<?php $name = 'April Press Release - The 2003 SoCal Linux Expo is November 22nd!';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">The 2003 SoCal Linux Expo is November 22nd!</p>
@@ -29,5 +29,5 @@ Photos and details of SCALE 1x can be found at <a HREF="http://www.socallinuxexp
 	<p>
 	<a HREF="../pr.php">Back...</a>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

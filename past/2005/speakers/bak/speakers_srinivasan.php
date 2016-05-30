@@ -1,4 +1,4 @@
-<? $name = 'Sumitra Srinivasan';
+<?php $name = 'Sumitra Srinivasan';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Sumitra Srinivasan</h3>
@@ -33,5 +33,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	magazine and Linux-Asia conferences hosted in India.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

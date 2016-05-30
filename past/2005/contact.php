@@ -1,4 +1,4 @@
-<? $name = 'Contact Us';
+<?php $name = 'Contact Us';
 require("common/common.inc"); common_header(); ?>
 
 	<h3>Contact Us</h3>
@@ -14,5 +14,5 @@ require("common/common.inc"); common_header(); ?>
 	href="committees.php">The appropriate committee</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

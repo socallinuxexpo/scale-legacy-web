@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -12,5 +12,5 @@ CinePaint is a collection of free open source software tools for deep paint mani
 	 For more information visit the Cinepaint website at: <a href="http://cinepaint.movieeditor.com">cinepaint.movieeditor.com</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Global Education Link';
+<?php $name = 'Exhibitions - Global Education Link';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -19,5 +19,5 @@ require("../common/common.inc"); common_header(); ?>
 	can be found at <a href="http://www.solarlite.org">www.solarlite.org</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

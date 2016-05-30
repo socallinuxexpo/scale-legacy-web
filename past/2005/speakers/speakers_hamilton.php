@@ -1,4 +1,4 @@
-<? $name = 'Marc Hamilton';
+<?php $name = 'Marc Hamilton';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Marc Hamilton</h3>
@@ -44,5 +44,5 @@ require("../common/common.inc"); common_header(); ?>
 	<a href="http://www.archive.org/download/MarcHamiltonSCALE3x2005-02-13/MarcHamilton_64kb.mp3">MP3</a> (64MB)<br>
         <a href="http://www.archive.org/download/MarcHamiltonSCALE3x2005-02-13/MarcHamilton.ogg">OGG</a> (60MB)
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

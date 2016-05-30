@@ -1,4 +1,4 @@
-<? $name = 'Norman McEntire';
+<?php $name = 'Norman McEntire';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Norman McEntire</h3>
@@ -25,5 +25,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	drivers. Don't miss this exciting opportunity to see the internal
 	operation of the Linux Kernel!
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

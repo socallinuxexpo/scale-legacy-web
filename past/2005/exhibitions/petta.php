@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Petta Technology';
+<?php $name = 'Exhibitions - Petta Technology';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -16,5 +16,5 @@ require("../common/common.inc"); common_header(); ?>
 	To learn more about Petta Technology, please visit <a href="http://www.pettatech.com/">www.pettatech.com</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

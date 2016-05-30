@@ -1,4 +1,4 @@
-<? $name = 'Social Events -- Happy Hour';
+<?php $name = 'Social Events -- Happy Hour';
 require("../common/common.inc"); common_header(); ?>
 	<p CLASS="bgblack">Social Events</p>
 
@@ -15,4 +15,4 @@ require("../common/common.inc"); common_header(); ?>
 
 	During this event J. David Eisenberg will be holding a book signing for his newly released book <u>OASIS OpenDocument Essentials</u>
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>

@@ -1,4 +1,4 @@
-<? $name = 'Sumitra Srinivasan';
+<?php $name = 'Sumitra Srinivasan';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Sumitra Srinivasan</h3>
@@ -39,5 +39,5 @@ require("../common/common.inc"); common_header(); ?>
 	        <li><a href="http://www.archive.org/download/Sumitra-SCALE3x/Sumitra_64kb.mp3">MP3</a> (45MB)<br>        
 		<li><a href="http://www.archive.org/download/Sumitra-SCALE3x/Sumitra.ogg">OGG</a> (39MB)
 	</ul>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

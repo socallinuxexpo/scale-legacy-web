@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - iQstor';
+<?php $name = 'Exhibitions - iQstor';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -13,4 +13,4 @@ require("../common/common.inc"); common_header(); ?>
 	based storage provisioning.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

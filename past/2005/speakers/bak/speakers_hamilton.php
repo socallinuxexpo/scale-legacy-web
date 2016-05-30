@@ -1,4 +1,4 @@
-<? $name = 'Marc Hamilton';
+<?php $name = 'Marc Hamilton';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Marc Hamilton</h3>
@@ -38,5 +38,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	Linux. This promises to benefit both communities and lead to even more
 	applications being available on both Solaris and Linux.
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Social Events -- The Weakest Geek';
+<?php $name = 'Social Events -- The Weakest Geek';
 require("../common/common.inc"); common_header(); ?>
 	<p CLASS="bgblack">Social Events</p>
 
@@ -13,4 +13,4 @@ require("../common/common.inc"); common_header(); ?>
 	<br /><br />
 
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>

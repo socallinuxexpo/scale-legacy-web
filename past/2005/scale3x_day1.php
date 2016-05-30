@@ -1,4 +1,4 @@
-<? $name = 'Selected Pictures From SCALE 3X Day 1';
+<?php $name = 'Selected Pictures From SCALE 3X Day 1';
 require("common/common.inc"); common_header(); ?>
 
 	<h3>Selected Pictures From SCALE 3X Day 1</h3>
@@ -15,5 +15,5 @@ require("common/common.inc"); common_header(); ?>
 	<a href="/past/2005/">back...</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

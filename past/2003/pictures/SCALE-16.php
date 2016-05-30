@@ -1,4 +1,4 @@
-<? $name = 'Event Pictures';
+<?php $name = 'Event Pictures';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">
@@ -7,5 +7,5 @@ require("../common/common.inc"); common_header(); ?>
 	<img SRC="../images/pictures/SCALE-16.jpg"><br>
 	<center><a HREF="index2.php">Back</a></center>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

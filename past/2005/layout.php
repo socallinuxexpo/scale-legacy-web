@@ -1,4 +1,4 @@
-<? $name = 'Exhibition Floor Layout';
+<?php $name = 'Exhibition Floor Layout';
 require("common/common.inc"); common_header(); ?>
 	<h3>Exhibition Floor Layout</h3>
 
@@ -51,5 +51,5 @@ require("common/common.inc"); common_header(); ?>
 <area shape="rect" coords="592,311,671,389" alt="SoftMaker" href="exhibitions/softmaker.php" />
 </map>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

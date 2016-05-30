@@ -1,4 +1,4 @@
-<? $name = 'Exhibitors';
+<?php $name = 'Exhibitors';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Exhibitors</p>
@@ -138,5 +138,5 @@ require("common/common.inc"); common_header(); ?>
 	rights of Free Software users.<br><br>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

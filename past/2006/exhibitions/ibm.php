@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - IBM';
+<?php $name = 'Exhibitions - IBM';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -19,5 +19,5 @@ require("../common/common.inc"); common_header(); ?>
 	IBM will also have their eServer i5/520 on hand.  The i5/520 is the perfect consolidation platform as it can run Power Linux, Intel Linux, AIX, i5/OS (OS/400), and Windows all simultaneously.  
 	</p>
 -->
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Introduction';
+<?php $name = 'Introduction';
 require("common/common.inc"); common_header(); ?>
 
 	<p class="fantasy">
@@ -32,5 +32,5 @@ require("common/common.inc"); common_header(); ?>
 	<li>A few <a href="scale3x_day1.php">pictures</a> from day 1!</li>
 	</ul>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

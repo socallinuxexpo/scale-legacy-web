@@ -1,4 +1,4 @@
-<? $name = 'Kim Brand';
+<?php $name = 'Kim Brand';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Kim Brand</h3>
@@ -34,4 +34,4 @@ require("../common/common.inc"); common_header(); ?>
 	This presentation will summarize the value proposition for GNU/Linux and other Open Source Software to small schools.  If you are a potential volunteer, it will give you some advice about what you can do to leverage your time into the most benefits for the school you want to help.  If you are a consultant or IT services company, it will describe our practices and current projects and other resources that can help you successfully develop this market.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

@@ -1,4 +1,4 @@
-<? $name = 'Tim Jones';
+<?php $name = 'Tim Jones';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Tim Jones</h3>
@@ -52,5 +52,5 @@ require("../common/common.inc"); common_header(); ?>
 	<li>Session Audio: <a href="http://www.archive.org/download/TimJonesBackup/TimJones_64kb.mp3">MP3</a> (32MB)</li>
 	<li>Session Audio:<a href="http://www.archive.org/download/TimJonesBackup/TimJones.ogg">OGG</a> (67MB)</li> 
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

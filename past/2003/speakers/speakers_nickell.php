@@ -1,4 +1,4 @@
-<? $name = 'Seth Nickell';
+<?php $name = 'Seth Nickell';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Seth Nickell</p>
@@ -24,5 +24,5 @@ currently a visiting researcher at PARC.</p>
 	desktop
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

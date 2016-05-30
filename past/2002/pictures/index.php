@@ -1,4 +1,4 @@
-<? $name = 'Event Pictures Introduction';
+<?php $name = 'Event Pictures Introduction';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">
@@ -57,5 +57,5 @@ require("../common/common.inc"); common_header(); ?>
 
 	<a HREF="index1.php">On to the pictures...</a>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Free Software Foundation';
+<?php $name = 'Exhibitions - Free Software Foundation';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -15,5 +15,5 @@ require("../common/common.inc"); common_header(); ?>
 	
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

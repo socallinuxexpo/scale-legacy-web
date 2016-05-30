@@ -1,4 +1,4 @@
-<? $name = 'Randy Dunlap';
+<?php $name = 'Randy Dunlap';
 require("/home/webroot/common/common.inc"); common_header(); ?>
 
 	<h3>Randy Dunlap</h3>
@@ -18,5 +18,5 @@ require("/home/webroot/common/common.inc"); common_header(); ?>
 	Randy will speak about the kernel-janitors project and how
 	new people can get involved in kernel development.
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

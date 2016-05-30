@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - SoftMaker';
+<?php $name = 'Exhibitions - SoftMaker';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -16,5 +16,5 @@ require("../common/common.inc"); common_header(); ?>
 	For more information see their website <a href="http://www.softmaker.de/index_en.htm">www.softmaker.de</a> or drop by booth #26.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

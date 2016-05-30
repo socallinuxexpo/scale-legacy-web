@@ -1,4 +1,4 @@
-<? $name = 'Stephen Friedl';
+<?php $name = 'Stephen Friedl';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Stephen Friedl</h3>
@@ -36,5 +36,5 @@ require("../common/common.inc"); common_header(); ?>
 	</p>
 	//-->
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

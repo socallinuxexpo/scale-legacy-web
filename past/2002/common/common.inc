@@ -8,7 +8,7 @@ function common_header() {
 
 <html>
 <head>
-	<title>SCALE: Southern CaliforniA Linux Expo 2002 - <? echo $name ?></title>
+	<title>SCALE: Southern CaliforniA Linux Expo 2002 - <?php echo $name ?></title>
 	<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
 	<meta HTTP-EQUIV="Content-Language" CONTENT="en">
 	<meta NAME="Keywords" CONTENT="scale, linux, expo, southern california, usc,
@@ -50,7 +50,7 @@ function common_header() {
 	<td WIDTH="10">&nbsp;</td>
 	<td WIDTH="600" VALIGN="TOP">
 
-	<?
+	<?php
 }
 
 function common_footer() {
@@ -88,9 +88,7 @@ function common_footer() {
 </body>
 </html>
 
-<?
+<?php
 }
 
 ?>
-
-

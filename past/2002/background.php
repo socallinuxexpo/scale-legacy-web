@@ -1,4 +1,4 @@
-<? $name = 'Introduction';
+<?php $name = 'Introduction';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">
@@ -31,5 +31,5 @@ require("common/common.inc"); common_header(); ?>
 	community.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

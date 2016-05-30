@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - PyX Technologies';
+<?php $name = 'Exhibitions - PyX Technologies';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -18,5 +18,5 @@ require("../common/common.inc"); common_header(); ?>
 	For more information about PyX Technologies, please visit <a href="http://www.pyxtechnologies.com">www.pyxtechnologies.com</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Kevin Bedell';
+<?php $name = 'Kevin Bedell';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Kevin Bedell</h3>
@@ -54,5 +54,5 @@ require("../common/common.inc"); common_header(); ?>
 	<li><a href="http://www.archive.org/download/KevinBedellSCALE3x2005-02-12/KevinBedell_64kb.mp3">MP3</a> (23MB)<br>
 	<li><a href="http://www.archive.org/download/KevinBedellSCALE3x2005-02-12/KevinBedell.ogg">OGG</a> (44MB)
 	</ul>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

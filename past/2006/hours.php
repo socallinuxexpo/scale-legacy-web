@@ -1,6 +1,6 @@
-<? $name = 'Expo Hours';
+<?php $name = 'Expo Hours';
 require("common/common.inc"); common_header(); ?>
-	<? require("odf/schedule.php"); ?>
+	<?php require("odf/schedule.php"); ?>
 
 	<h3>February 11th: Day 1 Schedule</h3>
 	<table border="1">
@@ -271,4 +271,4 @@ require("common/common.inc"); common_header(); ?>
 	* The schedule of events is subjected to change without prior notifications.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

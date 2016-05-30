@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Equal Logic';
+<?php $name = 'Exhibitions - Equal Logic';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -18,5 +18,5 @@ require("../common/common.inc"); common_header(); ?>
 	To learn more about Equal Logic, please visit <a href="http://www.equallogic.com/">www.equallogic.com</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

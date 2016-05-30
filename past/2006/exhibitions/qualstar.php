@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Qualstar';
+<?php $name = 'Exhibitions - Qualstar';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -8,5 +8,5 @@ require("../common/common.inc"); common_header(); ?>
 	Qualstar Corporation of Simi Valley (Nasdaq: QBAK) manufactures over 30 automated tape library models spanning capacities from 1 TB to over 340 TB, for data backup, archiving and disaster protection in rack mount, tabletop and free-standing configurations. These rugged, Simply Reliable libraries support LTO,  AIT, SuperAIT and SDLT tape formats.  All models feature Q-Link™ for web browser-based, worldwide remote management.
 	<br /><br />
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

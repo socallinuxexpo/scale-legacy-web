@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -12,5 +12,5 @@ The X.Org Foundation provides an open source implementation of the X Window Syst
 	 For more information visit the X.org website at: <a href="http://www.x.org">www.x.org</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

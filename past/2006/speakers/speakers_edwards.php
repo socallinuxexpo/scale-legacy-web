@@ -1,4 +1,4 @@
-<? $name = 'Gary Edwards';
+<?php $name = 'Gary Edwards';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Gary Edwards</h3>
@@ -20,5 +20,5 @@ Edwards is an active member and volunteer in OpenOffice.org community with a coo
 	</p>
 	//-->
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

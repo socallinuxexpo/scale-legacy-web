@@ -1,4 +1,4 @@
-<? $name = 'Location';
+<?php $name = 'Location';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Location</p>
@@ -52,5 +52,5 @@ require("common/common.inc"); common_header(); ?>
 	</table>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

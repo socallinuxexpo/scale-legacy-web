@@ -1,4 +1,4 @@
-<? $name = 'Peter Quinn to Keynote OpenDocument Format in Government Workshop  at SCALE 4x';
+<?php $name = 'Peter Quinn to Keynote OpenDocument Format in Government Workshop  at SCALE 4x';
 require("../common/common.inc"); common_header(); ?>
 
 <h3>
@@ -71,4 +71,4 @@ ilan@socallinuxexpo.org<br>
 818-442-1865 Voice<br><br>
 
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

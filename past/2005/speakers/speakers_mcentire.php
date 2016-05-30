@@ -1,4 +1,4 @@
-<? $name = 'Norman McEntire';
+<?php $name = 'Norman McEntire';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Norman McEntire</h3>
@@ -34,5 +34,5 @@ require("../common/common.inc"); common_header(); ?>
 	<li><a href="http://www.archive.org/download/SCALE3X_NormanMcEntire/3-NormanMcEntire.ogg">OGG</a> (26.2MB)</li>
 	</ul>
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

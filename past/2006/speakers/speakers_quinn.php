@@ -1,4 +1,4 @@
-<? $name = 'Peter Quinn - Reasons for the Massachusetts Move into Open Massachusetts Move into Open';
+<?php $name = 'Peter Quinn - Reasons for the Massachusetts Move into Open Massachusetts Move into Open';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Peter Quinn</h3>
@@ -18,5 +18,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/Peter-Quinn.odp">ODF</a>, <a href="/past/2006/presentations/Peter-Quinn.pdf">PDF</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

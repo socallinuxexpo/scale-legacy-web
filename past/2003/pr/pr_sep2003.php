@@ -1,4 +1,4 @@
-<? $name = 'September Press Release - Speakers, Sponsors, and Exhibitors Added to SCALE2X';
+<?php $name = 'September Press Release - Speakers, Sponsors, and Exhibitors Added to SCALE2X';
 require("../common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Speakers, Sponsors, and Exhibitors Added to SCALE2X</p>
@@ -96,5 +96,5 @@ Source Software companies, developers, and users.<br><br>
 	<p>
 	<a HREF="../pr.php">Back...</a>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

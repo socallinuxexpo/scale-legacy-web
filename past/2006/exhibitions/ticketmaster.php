@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Ticketmaster';
+<?php $name = 'Exhibitions - Ticketmaster';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -15,4 +15,4 @@ require("../common/common.inc"); common_header(); ?>
 	business of IAC/InterActiveCorp (NASDAQ: IACI).
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

@@ -1,4 +1,4 @@
-<? $name = 'Exhibitors';
+<?php $name = 'Exhibitors';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Conference Raffle</p>
@@ -49,5 +49,5 @@ require("common/common.inc"); common_header(); ?>
 	<li> more to be announced so check back soon!
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - LinuxChix';
+<?php $name = 'Exhibitions - LinuxChix';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -15,5 +15,5 @@ require("../common/common.inc"); common_header(); ?>
 	<p> The LinuxChix of LA will be showing off the <a href="http://www.livelamp.org/">LiveLamp project.</a>.
 	<p>LiveLAMP is a bootable (i.e Live) CD that turns a spare computer in the classrom into a Linux development server for students to practice and publish programming exercises in over a dozen computer languages.
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

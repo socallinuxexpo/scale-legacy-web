@@ -1,4 +1,4 @@
-<? $name = 'Jono Bacon';
+<?php $name = 'Jono Bacon';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Jono Bacon</h3>
@@ -80,5 +80,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/jono_bacon_scale4x.sxi">OpenOffice</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

@@ -1,4 +1,4 @@
-<? $name = 'Location';
+<?php $name = 'Location';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Location</p>
@@ -38,5 +38,5 @@ require("common/common.inc"); common_header(); ?>
 	<i>Mention you are attending the Southern CaliforniA Linux Expo to receive
 	a discount from the Radisson</i>
 	</p>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

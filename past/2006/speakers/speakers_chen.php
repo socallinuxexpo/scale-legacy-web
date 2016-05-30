@@ -1,4 +1,4 @@
-<? $name = 'Si Chen';
+<?php $name = 'Si Chen';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Si Chen</h3>
@@ -30,5 +30,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/si_chen_scale4x.pdf">PDF</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

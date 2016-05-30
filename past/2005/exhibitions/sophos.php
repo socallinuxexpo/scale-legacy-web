@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions - Sophos';
+<?php $name = 'Exhibitions - Sophos';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -11,5 +11,5 @@ require("../common/common.inc"); common_header(); ?>
 	To learn more about Sophos, please visit <a href="http://www.sophos.com/">www.sophos.com</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

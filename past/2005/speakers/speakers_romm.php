@@ -1,4 +1,4 @@
-<? $name = 'Gideon Romm';
+<?php $name = 'Gideon Romm';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Gideon Romm</h3>
@@ -37,5 +37,5 @@ require("../common/common.inc"); common_header(); ?>
 	<li><A href="http://www.archive.org/download/SCALE3C_GideonRomm/8-GideonRomm.ogg">OGG</a> (37MB)</li>
 	<li><a href="http://www.archive.org/download/SCALE3C_GideonRomm/8-GideonRomm_64kb.mp3">MP3</a> (39MB)</li>
 	</ul>
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

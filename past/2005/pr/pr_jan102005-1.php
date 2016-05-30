@@ -1,4 +1,4 @@
-<? $name = 'Press Release - Sophos to Join SCALE 3x - A Premier Linux and Open Source Conference';
+<?php $name = 'Press Release - Sophos to Join SCALE 3x - A Premier Linux and Open Source Conference';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Sophos to Join SCALE 3x - A Premier Linux and Open Source Conference</h3>
@@ -47,6 +47,6 @@ require("../common/common.inc"); common_header(); ?>
 	<a href="../pr.php">Back...</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 
 

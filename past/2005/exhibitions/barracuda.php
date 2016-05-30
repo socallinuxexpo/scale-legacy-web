@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -24,5 +24,5 @@ require("../common/common.inc"); common_header(); ?>
 	To learn more about Barracuda Networks, please visit <a href="http://www.barracudanetworks.com/">www.barracudanetworks.com</a>.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

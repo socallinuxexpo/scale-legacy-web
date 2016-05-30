@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -13,5 +13,5 @@ require("../common/common.inc"); common_header(); ?>
 	programmers, web developers, system administrators, and technical writers.<br><br>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

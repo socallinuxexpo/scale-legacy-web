@@ -26,7 +26,7 @@ function common_header() {
 	</style>
 	<link rel="stylesheet" type="text/css" href="/past/2006/common/theme.css" />
 	<title>SCALE: Southern California Linux Expo 2006
-	- <? echo $name ?></title>
+	- <?php echo $name ?></title>
 </head>
 <body>
 
@@ -121,7 +121,7 @@ function common_header() {
 
 <div id="contentColumn">
 	<div id="innerContentColumn">
-	<?
+	<?php
 }
 
 function common_footer() {
@@ -145,7 +145,7 @@ function common_footer() {
 </body>
 </html>
 
-<?
+<?php
 }
 
 ?>

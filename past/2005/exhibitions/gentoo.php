@@ -1,4 +1,4 @@
-<? $name = 'Exhibitions';
+<?php $name = 'Exhibitions';
 require("../common/common.inc"); common_header(); ?>
 	<h3>Exhibitions</h3>
 
@@ -27,5 +27,5 @@ require("../common/common.inc"); common_header(); ?>
 	To learn more about Gentoo Linux vist our website at: <a href="http://www.gentoo.org">www.gentoo.org</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

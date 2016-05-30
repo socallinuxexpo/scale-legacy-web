@@ -1,4 +1,4 @@
-<? $name = 'Janinne Brunyee';
+<?php $name = 'Janinne Brunyee';
 require("../common/common.inc"); common_header(); ?>
 
 	<h3>Janinne Brunyee</h3>
@@ -34,5 +34,5 @@ require("../common/common.inc"); common_header(); ?>
 	Presentation Slides: <a href="/past/2006/presentations/janinne_brunyee_scale4x.ppt">Powerpoint</a>
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

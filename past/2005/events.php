@@ -1,4 +1,4 @@
-<? $name = 'Social Events';
+<?php $name = 'Social Events';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack"><b>Social Events at SCALE 3x</b></p>
@@ -12,4 +12,4 @@ require("common/common.inc"); common_header(); ?>
 	<li> <a href="events/dinner.php">Speaker's Dinner</a> - Enjoy a meal with the SCALE speakers, exhibitors and attendees!
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>

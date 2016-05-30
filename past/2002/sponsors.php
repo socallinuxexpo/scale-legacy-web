@@ -1,4 +1,4 @@
-<? $name = 'Sponsors';
+<?php $name = 'Sponsors';
 require("common/common.inc"); common_header(); ?>
 
 	<p CLASS="bgblack">Sponsors</p>
@@ -159,5 +159,5 @@ require("common/common.inc"); common_header(); ?>
 	please contact <a HREF="mailto:sponsorship=at=socallinuxexpo.com">us</a> with your company info and a contact name and email.
 	</p>
 
-<? common_footer(); ?>
+<?php common_footer(); ?>
 

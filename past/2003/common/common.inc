@@ -8,7 +8,7 @@ function common_header() {
 
 <html>
 <head>
-	<title>SCALE: Southern California Linux Expo 2003 - <? echo $name ?></title>
+	<title>SCALE: Southern California Linux Expo 2003 - <?php echo $name ?></title>
 	<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
 	<meta HTTP-EQUIV="Content-Language" CONTENT="en">
 	<meta NAME="Keywords" CONTENT="scale, linux, expo, southern california, usc,
@@ -51,7 +51,7 @@ function common_header() {
 	<td WIDTH="10" ROWSPAN="2">&nbsp;</td>
 	<td WIDTH="600" VALIGN="TOP" ROWSPAN="2">
 
-	<?
+	<?php
 }
 
 function common_footer() {
@@ -100,7 +100,7 @@ Hosted By:<br><br>
 </body>
 </html>
 
-<?
+<?php
 }
 
 ?>
