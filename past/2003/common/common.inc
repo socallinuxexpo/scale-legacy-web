@@ -64,7 +64,7 @@ function common_footer() {
 <td valign="top">
 <p CLASS="bannerl">
 Hosted By:<br><br>
-<a href="http://www.usc.edu"><img src="http://www.usc.edu/usc/img/01/mono-gold-cardinal-big.gif" alt="" width="94" height="75" border="0" /></a><br>
+<a href="http://www.usc.edu"><img src="https://identity.usc.edu/wp-content/uploads/2022/09/PrimaryMonogram_0921-768x237.png" alt="" width="94" border="0" /></a><br>
 <a HREF="http://www.sclug.org/"><img SRC="/past/2003/images/logos/sclug.gif" BORDER="0" ALIGN="top"></a><br>
 <a HREF="http://www.linux.ucla.edu/"><img SRC="/past/2003/images/logos/uclalug.gif" BORDER="0" ALIGN="top"></a>
 </p>
