@@ -35,7 +35,7 @@ function common_header() {
 	<td WIDTH="150" VALIGN="TOP" CLASS="bgcolored">
 		<br>
 		<b>Current Year:</b><br><br>
-		<a HREF="/">Home</a><br><br>
+		<a HREF="/past/2002/">Home</a><br><br>
 		<b>2002 Archive:</b><br><br>
 		<a HREF="/past/2002/index.php">Introduction</a><br><br>
 		<a HREF="/past/2002/location.php">Location</a><br><br>
