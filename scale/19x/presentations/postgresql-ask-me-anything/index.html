@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link href="../../_assets/www.socallinuxexpo.org/misc/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+<meta content="Drupal 7 (https://www.drupal.org)" name="generator">
+<link href="https://www.socallinuxexpo.org/scale/19x/presentations/postgresql-ask-me-anything" rel="canonical"/>
+<link href="https://www.socallinuxexpo.org/node/5569" rel="shortlink"/>
+<title>PostgreSQL Ask Me Anything | 19x</title>
+<style>
+@import url("../../_assets/www.socallinuxexpo.org/modules/system/system.base__q_syhaus=.css");
+</style>
+<style>
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/views_slideshow/views_slideshow__q_syhaus=.css");
+</style>
+<style>
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/calendar/css/calendar_multiday__q_syhaus=.css");
+@import url("../../_assets/www.socallinuxexpo.org/modules/field/theme/field__q_syhaus=.css");
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/logintoboggan/logintoboggan__q_syhaus=.css");
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/views/css/views__q_syhaus=.css");
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/media/modules/media_wysiwyg/css/media_wysiwyg.base__q_syhaus=.css");
+</style>
+<style>
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/ctools/css/ctools__q_syhaus=.css");
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/panels/css/panels__q_syhaus=.css");
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/rate/rate__q_syhaus=.css");
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/panels/plugins/layouts/onecol/onecol__q_syhaus=.css");
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle__q_syhaus=.css");
+</style>
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" media="all" rel="stylesheet" type="text/css"/>
+<style>
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/themes/contrib/bootstrap/css/overrides__q_syhaus=.css");
+@import url("../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/scale19x/css/style__q_syhaus=.css");
+</style>
+<!-- HTML5 element support for IE6-8 -->
+<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<script src="//code.jquery.com/jquery-1.7.2.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
+<script src="../../_assets/www.socallinuxexpo.org/misc/jquery-extend-3.4.0__q_v=1.7.2.js"></script>
+<script src="../../_assets/www.socallinuxexpo.org/misc/jquery-html-prefilter-3.5.0-backport__q_v=1.7.2.js"></script>
+<script src="../../_assets/www.socallinuxexpo.org/misc/jquery.once__q_v=1.2.js"></script>
+<script src="../../_assets/www.socallinuxexpo.org/misc/drupal__q_syhaus=.js"></script>
+<script src="../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/views_slideshow/js/views_slideshow__q_v=1.0.js"></script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js?syhaus"></script>
+<script src="../../_assets/www.socallinuxexpo.org/sites/all/libraries/jquery.cycle/jquery.cycle.all__q_syhaus=.js"></script>
+<script src="../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycle__q_syhaus=.js"></script>
+<script src="../../_assets/www.socallinuxexpo.org/sites/all/modules/contrib/google_analytics/googleanalytics__q_syhaus=.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-26986159-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/scale19x/scripts/schedule__q_syhaus=.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"scale19x","theme_token":"Z1A3uRgZiVe4DRJVVNGwZfY5DjOC5SffmCjn6RXVNlk","js":{"\/\/code.jquery.com\/jquery-1.7.2.min.js":1,"0":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"\/\/netdna.bootstrapcdn.com\/twitter-bootstrap\/2.3.2\/js\/bootstrap.min.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/custom\/scale19x\/scripts\/schedule.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/rate\/rate.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"\/\/netdna.bootstrapcdn.com\/twitter-bootstrap\/2.3.2\/css\/bootstrap-combined.min.css":1,"sites\/all\/themes\/contrib\/bootstrap\/css\/overrides.css":1,"sites\/all\/themes\/custom\/scale19x\/css\/style.css":1}},"viewsSlideshow":{"sponsor_logos-attachment_16_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"sponsor_logos-attachment_15_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_sponsor_logos-attachment_16_1":{"num_divs":36,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"sponsor_logos-attachment_16_1","effect":"scrollUp","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":4,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_sponsor_logos-attachment_15_1":{"num_divs":14,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"sponsor_logos-attachment_15_1","effect":"scrollDown","transition_advanced":1,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":3,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});</script>
+</meta></meta></head>
+<body class="html not-front not-logged-in two-sidebars page-node page-node- page-node-5569 node-type-presentation">
+<div id="skip-link">
+<a class="element-invisible element-focusable" href="index.html#main-content">Skip to main content</a>
+</div>
+<header id="page-header" role="banner">
+<div class="container">
+<div class="row">
+<div class="visible-phone small-site-logo">
+<a href="/"><img alt="SCALE 19x logo&gt;" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/scale19x/img/scale_logo_lg.svg"/></a>
+</div>
+<div class="span6 offset3 hidden-phone" id="site-logo">
+<a href="/"><img alt="SCALE 19x logo" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/scale19x/img/scale_logo_lg.svg"/></a>
+</div>
+</div>
+</div>
+</header>
+<div class="container">
+<header class="navbar" id="navbar">
+<div class="navbar-inner">
+<div class="hidden-phone">
+</div>
+<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+<a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<div class="nav-collapse collapse">
+<nav role="navigation">
+<ul class="menu nav"><li class="first expanded dropdown"><a class="dropdown-toggle" data-target="#" data-toggle="dropdown" href="/scale/18x">Previous SCALEs <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="https://www.socallinuxexpo.org/past/2002/">SCALE 1x</a></li>
+<li class="leaf"><a href="https://www.socallinuxexpo.org/past/2003/">SCALE 2x</a></li>
+<li class="leaf"><a href="https://www.socallinuxexpo.org/past/2005/">SCALE 3x</a></li>
+<li class="leaf"><a href="https://www.socallinuxexpo.org/past/2006/">SCALE 4x</a></li>
+<li class="leaf"><a href="https://www.socallinuxexpo.org/scale5x/">SCALE 5x</a></li>
+<li class="leaf"><a href="https://www.socallinuxexpo.org/scale6x/">SCALE 6x</a></li>
+<li class="leaf"><a href="https://www.socallinuxexpo.org/scale7x/">SCALE 7x</a></li>
+<li class="leaf"><a href="https://www.socallinuxexpo.org/scale8x/">SCALE 8x</a></li>
+<li class="leaf"><a href="https://www.socallinuxexpo.org/scale9x/">SCALE 9x</a></li>
+<li class="leaf"><a href="https://www.socallinuxexpo.org/scale10x/">SCALE 10x</a></li>
+<li class="leaf"><a href="/scale/11x">SCALE 11x</a></li>
+<li class="leaf"><a href="/scale/12x">SCALE 12x</a></li>
+<li class="leaf"><a href="/scale/13x">SCALE 13x</a></li>
+<li class="leaf"><a href="/scale/14x">SCALE 14x</a></li>
+<li class="leaf"><a href="/scale/15x">SCALE 15x</a></li>
+<li class="leaf"><a href="/scale/16x">SCALE 16x</a></li>
+<li class="leaf"><a href="/scale/17x">SCALE 17x</a></li>
+<li class="last leaf"><a href="/scale/18x">SCALE 18x</a></li>
+</ul></li>
+<li class="leaf"><a href="https://register.socallinuxexpo.org/reg6/">Register</a></li>
+<li class="leaf"><a href="../../speakers/index.html">Speakers</a></li>
+<li class="leaf"><a href="../../events/index.html">Co-Located Events</a></li>
+<li class="leaf"><a href="../../exhibitors/index.html">Exhibitors</a></li>
+<li class="leaf"><a href="../../schedule/index.html">Schedule</a></li>
+<li class="leaf"><a href="../../sponsors/index.html">Sponsors</a></li>
+<li class="last leaf"><a href="../../venue/index.html">Venue</a></li>
+</ul> </nav>
+</div>
+</div>
+</header> <!-- /#header -->
+</div>
+<div class="main-container container">
+<div class="row">
+<div class="span12 highlighted"> <div class="region region-highlighted">
+<section class="block block-block clearfix" id="block-block-20">
+<div class="dates-wrapper">
+<div class="dates-left">
+</div>
+<div class="dates-center">
+<div><img alt="SCALE 19x logo" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/scale19x/img/19x_black.svg"/></div>
+</div>
+<div class="dates-right">
+<div>Los Angeles, CA</div>
+<div>July 2022</div>
+</div>
+</div>
+</section> <!-- /.block -->
+</div>
+</div>
+</div>
+<div class="lower-section row-fluid">
+<aside class="span3 hidden-phone" role="complementary">
+<div class="region region-sidebar-first well">
+<section class="block block-block clearfix" id="block-block-8">
+<p><a class="social-media" href="https://www.facebook.com/events/1884184058778505/"><img alt="Facebook" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/facebook.png" title="Facebook"/></a><a class="social-media" href="https://x.com/socallinuxexpo"><img alt="Twitter" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/twitter.png" title="Twitter"/></a><a class="social-media" href="https://www.linkedin.com/events/7250225988524019712/"><img alt="LinkedIn" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/linkedin.png" title="LinkedIn"/></a><a class="social-media" href="https://www.youtube.com/socallinuxexpo?sub_confirmation=1"><img alt="YouTube" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/youtube.png" title="YouTube"/></a><a alt="Nextdoor" href="https://nextdoor.com/p/PrcGZ3PfQjhR"><img alt="Nextdoor" height="32" src="https://play-lh.googleusercontent.com/RamdLkcf8OZ7y2DEpajvoLntyHr0v8hTippsn134VnwZ0IaxEA_drA9dOzof3e9_od8" title="Nextdoor" width="32"/></a><a href="https://social.linux.pizza/@socallinuxexpo" rel="me"><img height="32" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/mastodon.svg" width="32"/></a><a href="https://bsky.app/profile/socallinuxexpo.bsky.social"><img height="32" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/bsky.png" width="32"/></a></p>
+</section> <!-- /.block -->
+<section class="block block-block clearfix" id="block-block-9">
+<h2 class="block-title">Subscribe to announcements</h2>
+<form action="https://listmonk.linuxfests.org/subscription/form" class="listmonk-form" method="post">
+<div>
+<h3>Subscribe</h3>
+<p> <input name="nonce" type="hidden"/></p>
+<p><input name="email" placeholder="E-mail" required="" type="email"/></p>
+<p><input name="name" placeholder="Name (optional)" type="hidden"/></p>
+<p>
+<input checked="checked" id="2bfe1" name="l" type="hidden" value="2bfe14fd-4f1e-44eb-b9f8-46afec10c323"/>
+</p>
+<p> <input type="submit" value="Subscribe "/>
+</p></div>
+</form>
+</section> <!-- /.block -->
+</div>
+</aside> <!-- /#sidebar-first -->
+<section class="main span6">
+<a id="main-content"></a>
+<h1 class="page-header"><span class="page-header-content">PostgreSQL Ask Me Anything</span></h1>
+<div class="panel-display panel-1col clearfix">
+<div class="panel-panel panel-col">
+<div><div class="panel-pane pane-views-panes pane-presentation-single-panel-pane-1">
+<div class="pane-content">
+<div class="view view-presentation-single view-id-presentation_single view-display-id-panel_pane_1 view-dom-id-9f2d9cee94f57ff6d5baa381cd880bd7">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<div class="views-field views-field-view"> <span class="field-content"><div class="view view-presentation-page view-id-presentation_page view-display-id-block_1 multi-speaker view-dom-id-2a1604df882e3439569e9d31d305b7ac">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<span class="views-field views-field-field-speaker-photo"> <span class="field-content"><img alt="" height="180" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/square_thumbnail/public/speakers/mark-sq_1__q_itok=wYR7Vxvx.png" typeof="foaf:Image" width="180"/></span> </span> </div>
+<div class="views-row views-row-2 views-row-even">
+<span class="views-field views-field-field-speaker-photo"> <span class="field-content"><img alt="" height="180" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/square_thumbnail/public/speakers/Michael-Brewer_1__q_itok=y-gYVz7b.png" typeof="foaf:Image" width="180"/></span> </span> </div>
+<div class="views-row views-row-3 views-row-odd">
+<span class="views-field views-field-field-speaker-photo"> <span class="field-content"><img alt="" height="180" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/square_thumbnail/public/speakers/headshot17__q_itok=98HB3jNd.jpg" typeof="foaf:Image" width="180"/></span> </span> </div>
+<div class="views-row views-row-4 views-row-even">
+<span class="views-field views-field-field-speaker-photo"> <span class="field-content"><img alt="" height="180" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/square_thumbnail/public/speakers/buddy_icon__q_itok=LahnNm1e.jpg" typeof="foaf:Image" width="180"/></span> </span> </div>
+<div class="views-row views-row-5 views-row-odd">
+</div>
+<div class="views-row views-row-6 views-row-even">
+<span class="views-field views-field-field-speaker-photo"> <span class="field-content"><img alt="" height="180" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/square_thumbnail/public/speakers/c160__q_itok=DcnQhU9o.jpg" typeof="foaf:Image" width="180"/></span> </span> </div>
+<div class="views-row views-row-7 views-row-odd views-row-last">
+<span class="views-field views-field-field-speaker-photo"> <span class="field-content"><img alt="" height="180" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/square_thumbnail/public/speakers/jcm__q_itok=rSR61Zm6.png" typeof="foaf:Image" width="180"/></span> </span> </div>
+</div>
+</div></span> </div>
+<div class="views-field views-field-field-speaker"> <div class="field-content"><a href="../../speakers/mark-wong/index.html">Mark Wong</a>, <a href="../../speakers/michael-brewer/index.html">Michael Brewer</a>, <a href="../../speakers/jonathan-katz/index.html">Jonathan Katz</a>, <a href="../../speakers/bruce-momjian/index.html">Bruce Momjian</a>, <a href="../../speakers/robert-treat/index.html">Robert Treat</a>, <a href="../../speakers/stephen-frost/index.html">Stephen Frost</a>, <a href="../../speakers/jaime-casanova/index.html">Jaime Casanova</a></div> </div>
+<div class="views-field views-field-field-audience"> <span class="views-label views-label-field-audience terms">Audience: </span> <div class="field-content terms"><a href="../../audience-level/everyone/index.html">Everyone</a></div> </div>
+<div class="views-field views-field-field-topic"> <span class="views-label views-label-field-topic terms">Topic: </span> <div class="field-content terms"><a href="../../track/postgresql/index.html">PostgreSQL</a></div> </div>
+<div class="views-field views-field-field-long-abstract"> <div class="field-content"><p>Various PostgreSQL community members attend SCaLE and are willing to meet with attendees and answer any questions.</p>
+<p> </p>
+<p>Many aspects of the community are covered: User groups, conference organization, core development, exhibitions, advocates and more!</p>
+<p> </p>
+<p>Please come and ask any questions!</p>
+</div> </div>
+<div class="views-field views-field-field-room"> <span class="views-label views-label-field-room">Room: </span> <div class="field-content">Los Angeles A</div> </div>
+<div class="views-field views-field-field-time"> <span class="views-label views-label-field-time">Time: </span> <div class="field-content"><span class="date-display-single">Thursday, July 28, 2022 - <span class="date-display-range"><span class="date-display-start" content="2022-07-28T16:30:00-07:00" datatype="xsd:dateTime" property="dc:date">16:30</span> to <span class="date-display-end" content="2022-07-28T17:30:00-07:00" datatype="xsd:dateTime" property="dc:date">17:30</span></span></span></div> </div> </div>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<aside class="span3 visible-phone" role="complementary">
+<div class="region region-sidebar-first well">
+<section class="block block-block clearfix" id="block-block-8">
+<p><a class="social-media" href="https://www.facebook.com/events/1884184058778505/"><img alt="Facebook" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/facebook.png" title="Facebook"/></a><a class="social-media" href="https://x.com/socallinuxexpo"><img alt="Twitter" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/twitter.png" title="Twitter"/></a><a class="social-media" href="https://www.linkedin.com/events/7250225988524019712/"><img alt="LinkedIn" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/linkedin.png" title="LinkedIn"/></a><a class="social-media" href="https://www.youtube.com/socallinuxexpo?sub_confirmation=1"><img alt="YouTube" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/youtube.png" title="YouTube"/></a><a alt="Nextdoor" href="https://nextdoor.com/p/PrcGZ3PfQjhR"><img alt="Nextdoor" height="32" src="https://play-lh.googleusercontent.com/RamdLkcf8OZ7y2DEpajvoLntyHr0v8hTippsn134VnwZ0IaxEA_drA9dOzof3e9_od8" title="Nextdoor" width="32"/></a><a href="https://social.linux.pizza/@socallinuxexpo" rel="me"><img height="32" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/mastodon.svg" width="32"/></a><a href="https://bsky.app/profile/socallinuxexpo.bsky.social"><img height="32" src="../../_assets/www.socallinuxexpo.org/sites/all/themes/custom/ui_toolkit/img/32/bsky.png" width="32"/></a></p>
+</section> <!-- /.block -->
+<section class="block block-block clearfix" id="block-block-9">
+<h2 class="block-title">Subscribe to announcements</h2>
+<form action="https://listmonk.linuxfests.org/subscription/form" class="listmonk-form" method="post">
+<div>
+<h3>Subscribe</h3>
+<p> <input name="nonce" type="hidden"/></p>
+<p><input name="email" placeholder="E-mail" required="" type="email"/></p>
+<p><input name="name" placeholder="Name (optional)" type="hidden"/></p>
+<p>
+<input checked="checked" id="2bfe1" name="l" type="hidden" value="2bfe14fd-4f1e-44eb-b9f8-46afec10c323"/>
+</p>
+<p> <input type="submit" value="Subscribe "/>
+</p></div>
+</form>
+</section> <!-- /.block -->
+</div>
+</aside> <!-- /#sidebar-first -->
+<aside class="span3" role="complementary">
+<div class="region region-sidebar-second">
+<section class="block block-views clearfix" id="block-views-sponsor-logos-block-2">
+<div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-block_2 view-dom-id-15b37e495e4e371742f40b365c3e60d0">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<div class="views-field views-field-nothing"> <span class="field-content"> </span> </div> </div>
+</div>
+<div class="attachment attachment-after">
+<div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_1">
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_2">
+<div class="view-header">
+<h3>Platinum Sponsors</h3>
+</div>
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/portworx/index.html"><img alt="" height="36" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/portworx-by-ps-logo_full-color__q_itok=LvEpq5mB.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/mattermost/index.html"><img alt="" height="59" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Mattermost_logo_vertical_black%402x%20(2)__q_itok=842mk5i4.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-3 views-row-odd views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/aws/index.html"><img alt="" height="60" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/AWS_logo_RGB_0__q_itok=3L3amymW.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+</div>
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_3">
+<div class="view-header">
+<h3>Gold Sponsors</h3>
+</div>
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/gradle/index.html"><img alt="" height="21" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/gradle-enterprise-dark-green-primary__q_itok=RzBkpIjt.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/site24x7/index.html"><img alt="" height="100" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/site24x7-logo-1-400x400px__q_itok=zA8fzALn.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/ieee-sa-open/index.html"><img alt="" height="34" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/IEEE-SA_OPEN_WhiteBackground%20(1)__q_itok=R1mI0kCf.jpeg" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-4 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/opennms/index.html"><img alt="" height="19" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/opennms__q_itok=FgazIK2I.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-5 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/humio/index.html"><img alt="" height="52" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Humio_CS_Logos_2021_2%20color%20(4)__q_itok=5AAh4gE0.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-6 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/meta/index.html"><img alt="" height="31" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Meta_Lockup_PositivePrimary_RGB__q_itok=VbKWVCcT.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-7 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/gitlab/index.html"><img alt="" height="38" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/gitlab-logo-rgb%20(1)__q_itok=bpCKnaIT.jpg" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-8 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/digital-ocean/index.html"><img alt="" height="100" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/1024px-DigitalOcean_logo.svg___q_itok=qmd4encV.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-9 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/observe/index.html"><img alt="" height="52" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/observe__q_itok=70Qlpz3Q.jpeg" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-10 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/red-hat/index.html"><img alt="" height="24" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Logo-redhat-color-375_0__q_itok=IeH7APbh.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-11 views-row-odd views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/cncf/index.html"><img alt="" height="16" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/cncf__q_itok=wPkC4UMB.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+</div>
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_16">
+<div class="view-header">
+<h3>Silver Sponsors</h3>
+</div>
+<div class="view-content">
+<div class="skin-default">
+<div class="views_slideshow_cycle_main views_slideshow_main" id="views_slideshow_cycle_main_sponsor_logos-attachment_16_1"><div class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section" id="views_slideshow_cycle_teaser_section_sponsor_logos-attachment_16_1">
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-first views-row-odd" id="views_slideshow_cycle_div_sponsor_logos-attachment_16_1_0">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/pogolinux/index.html"><img alt="" height="45" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/pogolinux_logo-purple__q_itok=qSiOJqZi.jpg" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/intellibus/index.html"><img alt="" height="34" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Intellibus__q_itok=cODxvINY.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/western-regional-collegiate-cyber-defense-competition/index.html"><img alt="" height="58" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/wrccdc3_0__q_itok=aPqnO2ap.jpg" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/neuralink/index.html"><img alt="" height="33" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/image%20(24)__q_itok=-a_FXBXK.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_sponsor_logos-attachment_16_1_1">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/deepsource/index.html"><img alt="" height="15" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/logo_1__q_itok=bXBURsPb.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/octopus-deploy/index.html"><img alt="" height="44" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/OctopusDeploy-BOLDlogo-2lines-RGB__q_itok=8BjdJrl3.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/mysql/index.html"><img alt="" height="68" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/logo-mysql-170x115_0_0__q_itok=_2mjnvGZ.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/percona/index.html"><img alt="" height="24" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Percona_Logo_Color_0__q_itok=LyUJaKFK.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd" id="views_slideshow_cycle_div_sponsor_logos-attachment_16_1_2">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/ciq/index.html"><img alt="" height="60" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/CIQ%20Logo%20w_%20Products__q_itok=zU3fBdNj.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/itopia/index.html"><img alt="" height="26" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/itopia__q_itok=6F75mmEt.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/courier/index.html"><img alt="" height="23" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Courier-Logo_Violet%20(1)__q_itok=nynlVGbg.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/allegrograph-franz/index.html"><img alt="" height="75" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/AllegroGraph-Franz%20Logo%20conf--300__q_itok=6oSCoCmF.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_sponsor_logos-attachment_16_1_3">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/chronosphere/index.html"><img alt="" height="17" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Chronosphere__q_itok=WQ_Ml60Z.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/replicated/index.html"><img alt="" height="24" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/replicated-logo-red__q_itok=aab3eUCn.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/harness/index.html"><img alt="" height="22" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/harness_logo_horizontal__q_itok=f755LV4R.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/dynatrace/index.html"><img alt="" height="28" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/dt__q_itok=-8aZdrZo.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-odd" id="views_slideshow_cycle_div_sponsor_logos-attachment_16_1_4">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/linode/index.html"><img alt="" height="49" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/linodeLogo-RGB-FC_0__q_itok=Sz4fS_J5.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/ubuntu/index.html"><img alt="" height="45" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/ubuntu-logo14__q_itok=iW12ufDj.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/cloudbees/index.html"><img alt="" height="59" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/cloudbees__q_itok=CA8BD5IU.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/scout-apm/index.html"><img alt="" height="62" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/scoutapm__q_itok=Bp6kEj5w.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-6 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_sponsor_logos-attachment_16_1_5">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/spacelift/index.html"><img alt="" height="32" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/logo_full_dark%402x__q_itok=nTz6FL5z.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/datadog/index.html"><img alt="" height="23" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/datadog_1_0_0_0_0_0__q_itok=V-I0nDkk.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/suse/index.html"><img alt="" height="33" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/SUSE_Logo-hor_L_Green-pos_sRGB__q_itok=3qs7YUbp.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/postgresql/index.html"><img alt="" height="79" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/postgresql_5_0_0_0_0_0__q_itok=NSSVmeel.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-7 views_slideshow_cycle_hidden views-row-odd" id="views_slideshow_cycle_div_sponsor_logos-attachment_16_1_6">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/camunda/index.html"><img alt="" height="34" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/camunda__q_itok=mPJ7Zm9d.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/gremlin/index.html"><img alt="" height="22" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/gremlin-logo-dark__q_itok=11_T2X2R.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/streamnative/index.html"><img alt="" height="19" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/streamnative__q_itok=VO8Ceb-o.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/spyderbat/index.html"><img alt="" height="19" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/spyderbat__q_itok=mOwPbRF6.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-8 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_sponsor_logos-attachment_16_1_7">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/calyptia/index.html"><img alt="" height="100" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/calyptia__q_itok=9KAyguaZ.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/system76/index.html"><img alt="" height="28" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/system76_logo_0_0_0_0_0__q_itok=p03Nw7bg.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/era/index.html"><img alt="" height="17" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/era__q_itok=FZnPp7Pd.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/veryant/index.html"><img alt="" height="68" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/veryant__q_itok=TxYoplGz.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-9 views_slideshow_cycle_hidden views-row-last views-row-odd" id="views_slideshow_cycle_div_sponsor_logos-attachment_16_1_8">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/mondoo/index.html"><img alt="" height="18" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Mondoo%20logo%20Gradient%20Horizontal%20(1)__q_itok=jfDXrNss.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="/scale/20x/sponsor/circleci"><img alt="" height="100" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/circleci__q_itok=8F6vBErc.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/instaclustr/index.html"><img alt="" height="15" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Instaclustr-C-navy%2Bcyan_0__q_itok=VTIAI9vw.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/ceph-foundation/index.html"><img alt="" height="41" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/ceph-logo__q_itok=nFdL3mPe.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_4">
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_5">
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_6">
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_7">
+<div class="view-header">
+<h3>Registration Sponsors</h3>
+</div>
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="/scale/20x/sponsor/intel"><img alt="" height="80" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/intel__q_itok=kHaGlQQw.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+</div>
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_8">
+<div class="view-header">
+<h3>Reception Sponsors</h3>
+</div>
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/edb/index.html"><img alt="" height="33" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/EDB_Logo-%20primary__q_itok=_KwIxEO4.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/gitlab/index.html"><img alt="" height="38" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/gitlab-logo-rgb%20(1)__q_itok=bpCKnaIT.jpg" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/red-hat/index.html"><img alt="" height="24" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Logo-redhat-color-375_0__q_itok=IeH7APbh.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-4 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/system76/index.html"><img alt="" height="28" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/system76_logo_0_0_0_0_0__q_itok=p03Nw7bg.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-5 views-row-odd views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/aws/index.html"><img alt="" height="60" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/AWS_logo_RGB_0__q_itok=3L3amymW.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+</div>
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_9">
+<div class="view-header">
+<h3>Special Event Sponsors</h3>
+</div>
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/cloudbees/index.html"><img alt="" height="59" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/cloudbees__q_itok=CA8BD5IU.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-2 views-row-even views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/gremlin/index.html"><img alt="" height="22" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/gremlin-logo-dark__q_itok=11_T2X2R.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+</div>
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_10">
+<div class="view-header">
+<h3>Speaker Track Sponsors</h3>
+</div>
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/edb/index.html"><img alt="" height="33" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/EDB_Logo-%20primary__q_itok=_KwIxEO4.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+<div class="views-row views-row-2 views-row-even views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/buildkite/index.html"><img alt="" height="99" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/buildkite__q_itok=FmrQvter.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+</div>
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_11">
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_12">
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_13">
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_14">
+<div class="view-header">
+<h3>Raffle Sponsors</h3>
+</div>
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/no-starch-press/index.html"><img alt="" height="100" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Updated%20No%20Starch%20Logo__q_itok=x8SwOMQP.png" typeof="foaf:Image" width="100"/></a></div> </div> </div>
+</div>
+</div><div class="view view-sponsor-logos view-id-sponsor_logos view-display-id-attachment_15">
+<div class="view-header">
+<h3>Media Sponsors</h3>
+</div>
+<div class="view-content">
+<div class="skin-default">
+<div class="views_slideshow_cycle_main views_slideshow_main" id="views_slideshow_cycle_main_sponsor_logos-attachment_15_1"><div class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section" id="views_slideshow_cycle_teaser_section_sponsor_logos-attachment_15_1">
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-first views-row-odd" id="views_slideshow_cycle_div_sponsor_logos-attachment_15_1_0">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/nixcraft/index.html"><img alt="" height="100" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/nixcraft-logo__q_itok=LX7Q0YD0.jpg" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/vmware/index.html"><img alt="" height="15" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/VMW_09Q3_LOGO_Corp_K_0_0__q_itok=pK3tQl9X.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd views-row-first">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/faun/index.html"><img alt="" height="100" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/faun__q_itok=ZNoaYSIB.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_sponsor_logos-attachment_15_1_1">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/9to5-linux/index.html"><img alt="" height="100" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/9to5linux-logo__q_itok=uf0IyHE9.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/freebsd-foundation/index.html"><img alt="" height="54" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/FREEBSDF_Logo_Pos_RGB_0_0_0__q_itok=F94jsJFP.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/admin-magazine/index.html"><img alt="" height="36" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Admin_logo_Transparent_600x213%20(1)__q_itok=eWIAjH-p.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd" id="views_slideshow_cycle_div_sponsor_logos-attachment_15_1_2">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/fosslife/index.html"><img alt="" height="100" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/FOSSlife_portrait_rgb__q_itok=9LdaphFL.png" typeof="foaf:Image" width="83"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/sourceforge/index.html"><img alt="" height="16" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/sfdc__q_itok=sIYiwJWJ.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd views-row-last">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/kubeevents/index.html"><img alt="" height="45" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/logo-light-bg%402x__q_itok=uzQngz_l.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even" id="views_slideshow_cycle_div_sponsor_logos-attachment_15_1_3">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="/scale/20x/sponsor/opensuse-0"><img alt="" height="63" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/OpenSUSE_Logo.svg__0__q_itok=E5mjXzk2.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/databricks/index.html"><img alt="" height="53" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/databricks__q_itok=OTEw_Wuu.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/arm/index.html"><img alt="" height="31" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/Arm_logo_blue_72LG__q_itok=LUBohxaS.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+<div class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-last views-row-odd" id="views_slideshow_cycle_div_sponsor_logos-attachment_15_1_4">
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/suse/index.html"><img alt="" height="33" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/SUSE_Logo-hor_L_Green-pos_sRGB__q_itok=3qs7YUbp.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+<div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+<div class="views-field views-field-field-logo-website"> <div class="field-content"><a href="../../sponsor/linux-professional-institute/index.html"><img alt="" height="44" src="../../_assets/www.socallinuxexpo.org/sites/default/files/styles/thumbnail/public/logos/LPI_Logo-ColourLarge%20web_1_0_0_0__q_itok=fn0kw700.png" typeof="foaf:Image" width="100"/></a></div> </div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> </div>
+</div>
+</section> <!-- /.block -->
+</div>
+</aside> <!-- /#sidebar-second -->
+</div>
+</div>
+<footer class="footer container">
+<div class="region region-footer">
+<section class="block block-menu clearfix" id="block-menu-menu-19x-footer">
+<ul class="menu nav"><li class="first leaf"><a href="../../about-scale/index.html">About SCALE</a></li>
+<li class="leaf"><a href="../../code-conduct/index.html">Code of Conduct</a></li>
+<li class="leaf"><a href="../../contact-us/index.html">Contact Us</a></li>
+<li class="last leaf"><a href="../../policies/index.html">Policies</a></li>
+</ul>
+</section> <!-- /.block -->
+</div>
+</footer>
+</body>
+</html>
