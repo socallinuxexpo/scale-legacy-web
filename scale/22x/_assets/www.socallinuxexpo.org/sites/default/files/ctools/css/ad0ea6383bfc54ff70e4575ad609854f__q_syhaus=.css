@@ -1,0 +1,103 @@
+.panels-flexible-70 .panels-flexible-region {
+  padding: 0;
+}
+
+.panels-flexible-70 .panels-flexible-region-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-70 .panels-flexible-region-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-70 .panels-flexible-region-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-70 .panels-flexible-column {
+  padding: 0;
+}
+
+.panels-flexible-70 .panels-flexible-column-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-70 .panels-flexible-column-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-70 .panels-flexible-column-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-70 .panels-flexible-row {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.panels-flexible-70 .panels-flexible-row-last {
+  padding-bottom: 0;
+}
+
+.panels-flexible-column-70-main {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-70-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-70 {
+  width: auto;
+}
+
+.panels-flexible-region-70-schedule_top {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-70-2-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-70-time {
+  position: relative;
+  float: left;
+  background-color: transparent;
+  width: 50px;
+}
+
+.panels-flexible-region-70-center {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-70-main-row-inside {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.panels-flexible-row-70-main-row-middle {
+  margin-left: 50px;
+}
+
+* html .panels-flexible-row-70-main-row-left {
+  left: 50px;
+}
+
+.panel-flexible-admin .panels-flexible-row-70-main-row-inside {
+  padding-left: 0px;
+}
+
+.panels-flexible-region-70-notice {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-70-1-inside {
+  padding-right: 0px;
+}
+
